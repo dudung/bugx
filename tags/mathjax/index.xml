@@ -16,7 +16,7 @@
       <guid>https://dudung.github.io/bugx/0003/</guid>
       <description>Salah satu theme Hugo yang disebut Codex telah dapat menampilkan formula matematika dengan MathJax [1]. Implementasi yang dilakukan belum memuncukan nomor persamaan dan masih menggunakan MathJax versi 2.7.2 [2]. Cara Untuk memunculkan penomoran persamaan terdapat cara yang berbeda pada MathJax 3 [3] dibandingkan dengan pada versi sebelumnya.
 mathjax.html Suatu berkas mathjax.html berisikan
-&amp;lt;!-- layouts/partials/mathjax.html --&amp;gt;&amp;lt;script&amp;gt;MathJax = {tex: {inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]],displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]],processEscapes: true,processEnvironments: true,tags: &#39;ams&#39;,},options: {skipHtmlTags: [&#39;script&#39;,&#39;noscript&#39;,&#39;style&#39;,&#39;textarea&#39;,&#39;pre&#39;]}};&amp;lt;/script&amp;gt;&amp;lt;scripttype=&amp;quot;text/javascript&amp;quot;id=&amp;quot;MathJax-script&amp;quot;async src=&amp;quot;https://cdn.</description>
+&amp;lt;!-- layouts/partials/mathjax.html --&amp;gt; &amp;lt;script&amp;gt; MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true, tags: &#39;ams&#39;, }, options: { skipHtmlTags: [ &#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39; ] } }; &amp;lt;/script&amp;gt; &amp;lt;script type=&amp;quot;text/javascript&amp;quot; id=&amp;quot;MathJax-script&amp;quot; async src=&amp;quot;https://cdn.</description>
     </item>
     
   </channel>

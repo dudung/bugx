@@ -16,7 +16,7 @@
       <guid>https://dudung.github.io/bugx/0005/</guid>
       <description>[1].
 
-var xyValues1 = [{x:50, y:7},{x:60, y:8},{x:70, y:8},{x:80, y:9},{x:90, y:9},{x:100, y:9},{x:110, y:10},{x:120, y:11},{x:130, y:14},{x:140, y:14},{x:150, y:15}];var xyValues2 = [{x:50, y:17},{x:60, y:18},{x:70, y:18},{x:80, y:19},{x:90, y:19},{x:100, y:19},{x:110, y:20},{x:120, y:21},{x:130, y:24},{x:140, y:24},{x:150, y:25}];new Chart(&#34;myChart&#34;, {type: &#34;scatter&#34;,data: {datasets: [{pointStyle: &#39;triangle&#39;,pointRadius: 4,pointBackgroundColor: &#34;</description>
+ var xyValues1 = [ {x:50, y:7}, {x:60, y:8}, {x:70, y:8}, {x:80, y:9}, {x:90, y:9}, {x:100, y:9}, {x:110, y:10}, {x:120, y:11}, {x:130, y:14}, {x:140, y:14}, {x:150, y:15} ]; var xyValues2 = [ {x:50, y:17}, {x:60, y:18}, {x:70, y:18}, {x:80, y:19}, {x:90, y:19}, {x:100, y:19}, {x:110, y:20}, {x:120, y:21}, {x:130, y:24}, {x:140, y:24}, {x:150, y:25} ]; new Chart(&#34;myChart&#34;, { type: &#34;scatter&#34;, data: { datasets: [ { pointStyle: &#39;triangle&#39;, pointRadius: 4, pointBackgroundColor: &#34;</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       
       <guid>https://dudung.github.io/bugx/0004/</guid>
       <description>[1].
-flowchart TDA([Mulai])B[/a, b, c/]C[D = bxb - 4ac]D{D = 0}E[x1]F[x2]G[/x1, x2/]H([Selesai])A -- B -- C -- DD -- Ya -- E -- F -- G -- HD -- Tidak -- Hstyle A fill:#f9f,stroke:#333,stroke-width:4pxclassDef decision stroke:#f88class D decisionnotes    </description>
+flowchart TD A([Mulai]) B[/a, b, c/] C[D = bxb - 4ac] D{D = 0} E[x1] F[x2] G[/x1, x2/] H([Selesai]) A -- B -- C -- D D -- Ya -- E -- F -- G -- H D -- Tidak -- H style A fill:#f9f,stroke:#333,stroke-width:4px classDef decision stroke:#f88 class D decision  notes    </description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ flowchart TDA([Mulai])B[/a, b, c/]C[D = bxb - 4ac]D{D = 0}E[x1]F[x2]G[/x1
       <guid>https://dudung.github.io/bugx/0003/</guid>
       <description>Salah satu theme Hugo yang disebut Codex telah dapat menampilkan formula matematika dengan MathJax [1]. Implementasi yang dilakukan belum memuncukan nomor persamaan dan masih menggunakan MathJax versi 2.7.2 [2]. Cara Untuk memunculkan penomoran persamaan terdapat cara yang berbeda pada MathJax 3 [3] dibandingkan dengan pada versi sebelumnya.
 mathjax.html Suatu berkas mathjax.html berisikan
-&amp;lt;!-- layouts/partials/mathjax.html --&amp;gt;&amp;lt;script&amp;gt;MathJax = {tex: {inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]],displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]],processEscapes: true,processEnvironments: true,tags: &#39;ams&#39;,},options: {skipHtmlTags: [&#39;script&#39;,&#39;noscript&#39;,&#39;style&#39;,&#39;textarea&#39;,&#39;pre&#39;]}};&amp;lt;/script&amp;gt;&amp;lt;scripttype=&amp;quot;text/javascript&amp;quot;id=&amp;quot;MathJax-script&amp;quot;async src=&amp;quot;https://cdn.</description>
+&amp;lt;!-- layouts/partials/mathjax.html --&amp;gt; &amp;lt;script&amp;gt; MathJax = { tex: { inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]], displayMath: [[&#39;$$&#39;,&#39;$$&#39;], [&#39;\\[&#39;, &#39;\\]&#39;]], processEscapes: true, processEnvironments: true, tags: &#39;ams&#39;, }, options: { skipHtmlTags: [ &#39;script&#39;, &#39;noscript&#39;, &#39;style&#39;, &#39;textarea&#39;, &#39;pre&#39; ] } }; &amp;lt;/script&amp;gt; &amp;lt;script type=&amp;quot;text/javascript&amp;quot; id=&amp;quot;MathJax-script&amp;quot; async src=&amp;quot;https://cdn.</description>
     </item>
     
     <item>
@@ -57,9 +57,9 @@ mathjax.html Suatu berkas mathjax.html berisikan
       <guid>https://dudung.github.io/bugx/0001/</guid>
       <description>Tulisan ini dibuat setelah instalasi Hugo [1] berhasil dilakukan. Proses membuat situs baru mengikuti informasi yang ada [2].
 version Versi Hugo yang terinstal dapat diperoleh dengan cara berikut ini,
-L:\home&amp;gt;hugo versionhugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio yang memberikan informasi v0.95.0.
+L:\home&amp;gt;hugo version hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio  yang memberikan informasi v0.95.0.
 create a new site Suatu situs baru dibuat dengan cara berikut ini.
-L:\home&amp;gt;hugo new site new-hugo-siteCongratulations! Your new Hugo site is created in L:\home\new-hugo-site.Just a few more steps and you&#39;re ready to go:1.</description>
+L:\home&amp;gt;hugo new site new-hugo-site Congratulations! Your new Hugo site is created in L:\home\new-hugo-site. Just a few more steps and you&#39;re ready to go: 1.</description>
     </item>
     
     <item>
