@@ -7,9 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 20 Mar 2022 14:08:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Mar 2022 17:41:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>add partials chartjs (draft)</title>
+      <title>electromagnetic wave intro</title>
+      <link>https://dudung.github.io/bugx/0008/</link>
+      <pubDate>Sun, 20 Mar 2022 17:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0008/</guid>
+      <description>[1].
+
+ var xyValues1 = [ {x:50, y:7}, {x:60, y:8}, {x:70, y:8}, {x:80, y:9}, {x:90, y:9}, {x:100, y:9}, {x:110, y:10}, {x:120, y:11}, {x:130, y:14}, {x:140, y:14}, {x:150, y:15} ]; var xyValues2 = [ {x:50, y:17}, {x:60, y:18}, {x:70, y:18}, {x:80, y:19}, {x:90, y:19}, {x:100, y:19}, {x:110, y:20}, {x:120, y:21}, {x:130, y:24}, {x:140, y:24}, {x:150, y:25} ]; new Chart(&#34;myChart&#34;, { type: &#34;scatter&#34;, data: { datasets: [ { pointStyle: &#39;triangle&#39;, pointRadius: 4, pointBackgroundColor: &#34;</description>
+    </item>
+    
+    <item>
+      <title>create github action workflow</title>
+      <link>https://dudung.github.io/bugx/0006/</link>
+      <pubDate>Sun, 20 Mar 2022 17:29:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0006/</guid>
+      <description>[1].
+notes    </description>
+    </item>
+    
+    <item>
+      <title>fi1201-02 2021-2</title>
+      <link>https://dudung.github.io/bugx/0007/</link>
+      <pubDate>Sun, 20 Mar 2022 17:01:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0007/</guid>
+      <description>Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022 [1].
+notes    </description>
+    </item>
+    
+    <item>
+      <title>add partials chartjs</title>
       <link>https://dudung.github.io/bugx/0005/</link>
       <pubDate>Sun, 20 Mar 2022 14:08:00 +0700</pubDate>
       
@@ -20,7 +51,7 @@
     </item>
     
     <item>
-      <title>add partials mermaid (draft)</title>
+      <title>add partials mermaid</title>
       <link>https://dudung.github.io/bugx/0004/</link>
       <pubDate>Sun, 20 Mar 2022 13:53:00 +0700</pubDate>
       
@@ -70,6 +101,24 @@ L:\home&amp;gt;hugo new site new-hugo-site Congratulations! Your new Hugo site i
       <guid>https://dudung.github.io/bugx/0000/</guid>
       <description>Tulisan ini dibuat sebelum instalasi Hugo [1] dilakukan, sehingga untuk melihat hasilnya saat disunting menggunakan Notepad++ [2] digunakan Markdown Viewer [3] pada Google Chrome [4]. Proses instalasi Hugo dilakukan mengikuti langkah-langkah yang diberikan untuk sistem operasi Windows [5]. Saat ini digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.
 download Program Hugo yang dapat dijalankan (exe) dan terimpan dalam berkas terkompresi (zip) dapat diperoleh dari halaman Hugo Releases. Versi terakhir adalah v0.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dudung.github.io/bugx/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/about/</guid>
+      <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 •</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dudung.github.io/bugx/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/contact/</guid>
+      <description></description>
     </item>
     
   </channel>
