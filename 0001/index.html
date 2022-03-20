@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>create new site hugo | bugx</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="create new site hugo" />
+  <meta name="twitter:description" content=""/>
+  <meta name="twitter:site" content="https://twitter.com/6unpnp" />
+  <meta name="twitter:creator" content="https://twitter.com/6unpnp" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/bugx/css/post.min.86d1effd4c412b85ac13db53a90c473a0f256f789b821e131125c9aa25cb6a6d.css" integrity="sha256-htHv/UxBK4WsE9tTqQxHOg8lb3ibgh4TESXJqiXLam0="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/bugx/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    { 
+      "@context": "http://schema.org", 
+      "@type": "WebSite", 
+      "url": "https:\/\/dudung.github.io\/bugx\/0001\/",
+      "name": "create new site hugo",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "description": ""
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/bugx/">about</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/bugx/posts">posts</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">create new site hugo</h1>
+            <time datetime="2022-03-19 07:31:00 &#43;0700 &#43;07" class="post__date">Sat, 19 Mar  2022</time> 
+          </header>
+          <article class="post__content">
+              
+<p>Tulisan ini dibuat setelah instalasi Hugo [<a href="#r01" 
+  
+  
+>1</a>] berhasil dilakukan. Proses membuat situs baru mengikuti informasi yang ada [<a href="#r02" 
+  
+  
+>2</a>].</p>
+<h2 id="version">version<a class="anchor" href="#version">#</a></h2>
+<p>Versi Hugo yang terinstal dapat diperoleh dengan cara berikut ini,</p>
+<pre><code class="language-batch">L:\home&gt;hugo version
+hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio
+</code></pre>
+<p>yang memberikan informasi v0.95.0.</p>
+<h2 id="create-a-new-site">create a new site<a class="anchor" href="#create-a-new-site">#</a></h2>
+<p>Suatu situs baru dibuat dengan cara berikut ini.</p>
+<pre><code class="language-batch">L:\home&gt;hugo new site new-hugo-site
+Congratulations! Your new Hugo site is created in L:\home\new-hugo-site.
+
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the &quot;hugo new theme &lt;THEMENAME&gt;&quot; command.
+2. Perhaps you want to add some content. You can add single files
+   with &quot;hugo new &lt;SECTIONNAME&gt;\&lt;FILENAME&gt;.&lt;FORMAT&gt;&quot;.
+3. Start the built-in live server via &quot;hugo server&quot;.
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+</code></pre>
+<p>Sebuah folder bernama <code>new-hugo-site</code> telah dibuat.</p>
+<pre><code class="language-batch">L:\home&gt;tree /f new-hugo-site.
+Folder PATH listing for volume Linux
+Volume serial number is 00000000 XXXX:YYYY
+L:\HOME\NEW-HUGO-SITE
+│   config.toml
+│
+├───archetypes
+│       default.md
+│
+├───content
+├───data
+├───layouts
+├───static
+└───themes
+</code></pre>
+<p>Isi dari folder tersebut adalah seperti di atas, yang diperoleh dengan perintah pada cmd Windows berupa <code>tree /f</code>.</p>
+<h2 id="create-a-github-repository">create a github repository<a class="anchor" href="#create-a-github-repository">#</a></h2>
+<p>Akses akun GitHub dan buatlah repostori dengan nama <code>new-hugo-site</code> tanpa isi apapun.</p>
+<p>Lalu kembali ke CLI untuk melakukan inisialisasi repositori.</p>
+<pre><code class="language-batch">$ git init
+Initialized empty Git repository in L:/home/new-hugo-site/.git/
+
+$ ls
+archetypes/  config.toml  content/  data/  layouts/  static/  themes/
+</code></pre>
+<p>Tambahkan berkas-berkas yang dibuat oleh Hugo.</p>
+<pre><code class="language-batch">$ git add .
+warning: LF will be replaced by CRLF in archetypes/default.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in config.toml.
+The file will have its original line endings in your working directory
+</code></pre>
+<p>Berikan informasi commit yang dilakukan.</p>
+<pre><code class="language-batch">$ git commit -a -m &quot;initial commit&quot;
+[master (root-commit) d8b1738] initial commit
+ 2 files changed, 9 insertions(+)
+ create mode 100644 archetypes/default.md
+ create mode 100644 config.toml
+</code></pre>
+<p>Tambahkan nama repositori remote dan url repositori tersebut. Lalu periksa keberadaannya.</p>
+<pre><code class="language-batch">$ git remote add origin https://github.com/dudung/new-hugo-site
+
+$ git remote -v
+origin  https://github.com/dudung/new-hugo-site (fetch)
+origin  https://github.com/dudung/new-hugo-site (push)
+</code></pre>
+<p>Push berkas-berkas yang baru ditambahkan.</p>
+<pre><code class="language-batch">$ git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 451 bytes | 150.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dudung/new-hugo-site
+ * [new branch]      master -&gt; master
+branch 'master' set up to track 'origin/master'.
+</code></pre>
+<p>Dengan demikian berkas-berkas awal yang dibuat Hugo telah tersimpan pada sebuah repositori GitHub bernama <a href="https://github.com/dudung/new-hugo-site" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>new-hugo-site</a>. Setelah ini semua berkas-berkas dapat diunggah ke repositori tersebut.</p>
+<h2 id="unclear-information">unclear information<a class="anchor" href="#unclear-information">#</a></h2>
+<p>Ketidakpahaman mengenai GitHub membuat proses untuk mengetahui bagaimana agar berkas-berkas yang nantinya akan dibuat dengan bantuan Hugo dapat tersimpan di sana, cukup melelahkan. Proses membuat situs baru tidak menjelaskannya secara eksplisit [<a href="#r02" 
+  
+  
+>2</a>]. Penambahan remote baru ke suatu repo GitHub hanya menjelaskan dengan menggunakan <code>git remote add [&lt;options&gt;] &lt;name&gt; &lt;url&gt;</code> [<a href="#r03" 
+  
+  
+>3</a>], dan perlu dibuat terlebih dahulu reponya di GitHub tanpa isi [<a href="#r04" 
+  
+  
+>4</a>], agar tidak muncul pesan kesalahan [<a href="#r05" 
+  
+  
+>5</a>].</p>
+<h3 id="echo-">echo &raquo;<a class="anchor" href="#echo-">#</a></h3>
+<p>Untuk menambahkan theme ke site configuration digunakan [<a href="#r02" 
+  
+  
+>2</a>]</p>
+<pre><code class="language-batch">echo theme = \&quot;ananke\&quot; &gt;&gt; config.toml
+</code></pre>
+<p>di mana dengan <code>cmd</code> akan menghasilkan dalam <code>config.toml</code> baris</p>
+<pre><code class="language-batch">theme = \&quot;ananke\&quot;
+</code></pre>
+<p>yang kemudian akan menghasilkan pesan kesalahan</p>
+<pre><code class="language-batch">Error: &quot;L:\home\new-hugo-site\config.toml:4:9&quot;: unmarshal failed: toml: incomplete number
+</code></pre>
+<p>di mana hal ini disebabkan kelakuan berbeda pada <code>cmd</code> dan Git Bash, serta mungkin juga PowerShell [<a href="#r06" 
+  
+  
+>6</a>].</p>
+<h2 id="add-a-theme">add a theme<a class="anchor" href="#add-a-theme">#</a></h2>
+<p>Sebuah theme, yang dalam hal ini adalah Ananke, dapat ditambahkan dengan cara</p>
+<pre><code class="language-batch">$ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+Cloning into 'L:/home/new-hugo-site/themes/ananke'...
+remote: Enumerating objects: 2395, done.
+remote: Counting objects: 100% (418/418), done.
+remote: Compressing objects: 100% (224/224), done.
+remote: Total 2395 (delta 200), reused 339 (delta 168), pack-reused 1977
+Receiving objects: 100% (2395/2395), 4.44 MiB | 952.00 KiB/s, done.
+Resolving deltas: 100% (1296/1296), done.
+warning: LF will be replaced by CRLF in .gitmodules.
+The file will have its original line endings in your working directory
+</code></pre>
+<p>dan kemudian dipush ke repo di GitHub</p>
+<pre><code class="language-batch">$ git add .gitmodules config.toml themes/ananke
+warning: LF will be replaced by CRLF in .gitmodules.
+The file will have its original line endings in your working directory
+
+$ git commit -a -m &quot;add ananke theme&quot;
+[master 475ee7e] add ananke theme
+ 2 files changed, 4 insertions(+)
+ create mode 100644 .gitmodules
+ create mode 160000 themes/ananke
+
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 476 bytes | 158.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dudung/new-hugo-site
+   d8b1738..475ee7e  master -&gt; master
+</code></pre>
+<p>Dengan demikian berkas yang ada secara lokal telah sama dengan yang ada di remote.</p>
+<h2 id="add-new-post">add new post<a class="anchor" href="#add-new-post">#</a></h2>
+<p>Tulisan baru atau post dapat ditambahkan dengan</p>
+<pre><code class="language-batch">hugo new post/new-post-name.md
+</code></pre>
+<p>yang akan membuat berkas <code>new-post-name.md</code> dalam folder <code>content/posts</code>. Untuk saat ini dua buah post telah dibuat di tempat lain dan pindahkan dengan Windows Explorer.</p>
+<pre><code class="language-batch">L:\home\new-hugo-site&gt;tree content /f
+Folder PATH listing for volume Linux
+Volume serial number is XXXX-YYYY
+L:\HOME\NEW-HUGO-SITE\CONTENT
+└───posts
+        create-new-site-hugo.md
+        install-hugo-windows-10.md
+</code></pre>
+<p>Di atas adalah informasi mengenai kedua berkas post tersebut.</p>
+<pre><code class="language-batch">$ git add content/posts/
+
+$ git commit -a -m &quot;add two new posts&quot;
+[master 7af1be2] add two new posts
+ 2 files changed, 373 insertions(+)
+ create mode 100644 content/posts/create-new-site-hugo.md
+ create mode 100644 content/posts/install-hugo-windows-10.md
+
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 7.08 KiB | 1.42 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/dudung/new-hugo-site
+   475ee7e..7af1be2  master -&gt; master
+</code></pre>
+<p>Update repo di Github pun telah dilakukan.</p>
+<h2 id="run-the-server">run the server<a class="anchor" href="#run-the-server">#</a></h2>
+<p>Server Hugo dijalankan dengan</p>
+<pre><code class="language-batch">L:\home\new-hugo-site&gt;hugo server -D
+Start building sites …
+hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio
+WARN 2022/03/19 06:10:28 found no layout file for &quot;HTML&quot; for kind &quot;home&quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2022/03/19 06:10:28 found no layout file for &quot;HTML&quot; for kind &quot;section&quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2022/03/19 06:10:28 found no layout file for &quot;HTML&quot; for kind &quot;page&quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2022/03/19 06:10:28 found no layout file for &quot;HTML&quot; for kind &quot;page&quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2022/03/19 06:10:28 found no layout file for &quot;HTML&quot; for kind &quot;taxonomy&quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2022/03/19 06:10:28 found no layout file for &quot;HTML&quot; for kind &quot;taxonomy&quot;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+
+                   | EN
+-------------------+-----
+  Pages            |  4
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  0
+  Processed images |  0
+  Aliases          |  0
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Built in 98 ms
+Watching for changes in L:\home\new-hugo-site\{archetypes,content,data,layouts,static}
+Watching for config changes in L:\home\new-hugo-site\config.toml
+Environment: &quot;development&quot;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre>
+<p>di mana <code>http://localhost:1313/</code> belum menampilkan apapun. Modifikasi <code>config.toml</code> dengan menambahkan baris</p>
+<pre><code class="language-batch">theme = &quot;ananke&quot;
+</code></pre>
+<p>yang pada <code>cmd</code> akan muncul pesan</p>
+<pre><code class="language-batch">Change of config file detected, rebuilding site.
+2022-03-19 06:11:56.968 +0700
+Rebuilt in 209 ms
+</code></pre>
+<p>dan refresh Google Chrome atau web browser lainnya yang digunakan untuk mengakses <a href="http://localhost:1313/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://localhost:1313/</a>.</p>
+<h3 id="edit-something">edit something<a class="anchor" href="#edit-something">#</a></h3>
+<p>Saat mengubah sesuatu pada berkas dalam folder <code>new-hugo-site</code>, dalam hal ini dalam folder <code>content/posts</code> akan muncul pesan seperti</p>
+<pre><code class="language-batch">Change detected, rebuilding site.
+2022-03-19 06:17:25.469 +0700
+Source changed &quot;L:\\home\\new-hugo-site\\content\\posts\\create-new-site-hugo.md&quot;: WRITE
+Total in 63 ms
+</code></pre>
+<p>pada jendela <strong>hugo - hugo server -D</strong> yang menggambarkan seberapa cepat situs dibangun. Dan web browser tidak perlu direfresh karena akan secara otomatis terjadi.</p>
+<h3 id="date-format">date format<a class="anchor" href="#date-format">#</a></h3>
+<p>Pada front matter dapat dituliskan</p>
+<pre><code class="language-markdown">date: &quot;2022-03-18T21:10:00+07:00&quot;
+lastmod: &quot;2022-03-19T06:24:00+0700&quot;
+</code></pre>
+<p>dan pada <code>config.toml</code> dicantumkan</p>
+<pre><code class="language-toml">[params]
+	date_format = &quot;Mon, 02 Jan 2006&quot;
+</code></pre>
+<p>agar dapat mengatur format tanggal pada post [<a href="#r07" 
+  
+  
+>7</a>]. Dengan theme Ananke yang belum dimodifikasi [<a href="#r08" 
+  
+  
+>8</a>] informasi pada <code>lastmod</code> belum dapat dibaca. Untuk itu dapat ditambahkan baris</p>
+<pre><code class="language-toml">[frontmatter]
+date = [&quot;lastmod&quot;, &quot;publishDate&quot;, &quot;date&quot;]
+</code></pre>
+<p>pada berkas <code>config.toml</code> sehingga informasi tanggal diambil dari <code>lastmod</code> [<a href="#r09" 
+  
+  
+>9</a>].</p>
+<h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
+<ol>
+<li><a name='r01'></a>Hugo Authors, &ldquo;The world’s fastest framework for building websites&rdquo;, Hugo, url <a href="https://gohugo.io/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://gohugo.io/</a> [20220318].</li>
+<li><a name='r02'></a>&ldquo;Quick Start&rdquo;, Hugo, url <a href="https://gohugo.io/getting-started/quick-start/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://gohugo.io/getting-started/quick-start/</a> [20220318].</li>
+<li><a name='r03'></a>Erika Kuntar, &ldquo;How to Add a New Remote to your Git Repo&rdquo;, Assembla, 11 Mar 2022, url <a href="https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://articles.assembla.com/en/articles/1136998-how-to-add-a-new-remote-to-your-git-repo</a> [20220318].</li>
+<li><a name='r04'></a>Karl Broman, &ldquo;Start a new git repository&rdquo;, git/github guide, url <a href="https://kbroman.org/github_tutorial/pages/init.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://kbroman.org/github_tutorial/pages/init.html</a> [20220318].</li>
+<li><a name='r05'></a>&ldquo;Adding locally hosted code to GitHub&rdquo;, GitHub Docs, GitHub, Inc., 2022, url <a href="https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-with-github-cli" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-with-github-cli</a> [20220318].</li>
+<li><a name='r06'></a>Chris, &ldquo;Answer to &lsquo;Getting &ldquo;unmarshal failed&rdquo; when trying to create first website post in Hugo after installation&rsquo;&rdquo;, Stack Overflow, 4 Apr 2021, url <a href="https://stackoverflow.com/a/66944649/9475509" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://stackoverflow.com/a/66944649/9475509</a> [20220319].</li>
+<li><a name='r07'></a>dudung, &ldquo;Answer to &lsquo;How to render correct datetime in hugo post?&rsquo;&rdquo;, Stack Overflow, 19 Mar 2022, url <a href="https://stackoverflow.com/a/71534317/9475509" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://stackoverflow.com/a/71534317/9475509</a> [20220319].</li>
+<li><a name='r08'></a>Ananke contributors (88), &ldquo;Ananke, A theme for Hugo, a framework for building websites&rdquo;, Github, v2.8.1, 3 Feb 2022, url <a href="https://github.com/theNewDynamic/gohugo-theme-ananke/releases/tag/v2.8.1" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/theNewDynamic/gohugo-theme-ananke/releases/tag/v2.8.1</a> [20220319].</li>
+<li><a name='r09'></a>Andrew Stevens, &ldquo;Last Modified Date with Hugo&rdquo;, 31 Mar 2021, url <a href="https://www.andrewjstevens.com/posts/2021/03/last-modified-date-with-hugo/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.andrewjstevens.com/posts/2021/03/last-modified-date-with-hugo/</a> [20220319].</li>
+</ol>
+
+
+              
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/hugo/">hugo</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0000/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">install hugo windows 10</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0002/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >host hugo site on github</span>
+    </a>
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="Twitter"
+        href="https://twitter.com/6unpnp"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://dudung.github.io/bugx/svg/twitter.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/dudung"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://dudung.github.io/bugx/svg/github.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>© 2022</p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/bugx/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>
