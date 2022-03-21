@@ -7,28 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 22 Mar 2022 06:03:04 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 06:17:32 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Tue, 22 Mar 2022 06:03:04 +0700</pubDate>
+      <pubDate>Tue, 22 Mar 2022 06:17:32 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 •</description>
     </item>
     
     <item>
+      <title>shortcode citeas</title>
+      <link>https://dudung.github.io/bugx/0010/</link>
+      <pubDate>Tue, 22 Mar 2022 06:17:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0010/</guid>
+      <description>Suatu shortcode bernama citeas telah berhasil dibuat mengikuti petunjuk pembuatan shortcode [1], yang lebih dimengerti setelah menonton videonya [2].
+version 23-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
+ Cite as: viridi, &amp;ldquo;shortcode citeas&amp;rdquo;, bugx, 21 Mar 2022, url http://localhost:1313/bugx/0010 [20220321].
+ yang dilengkapi tautan pada author dan artikelnya.
+&amp;lt;!-- citeas a Hugo shortcode to put how-to-cite at the bottom of a post Sparisoma Viridi https://github.com/dudung 20220321 It can only read one author, link to author nickname and page, border and background.</description>
+    </item>
+    
+    <item>
       <title>runge-kutta method</title>
       <link>https://dudung.github.io/bugx/0012/</link>
-      <pubDate>Tue, 22 Mar 2022 06:02:00 +0700</pubDate>
+      <pubDate>Tue, 22 Mar 2022 06:11:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0012/</guid>
-      <description>[1]
-[2]
-[3]
-[4]
-[5]
-notes  Nikos Drakos, R. Sureshkumar, Michael Zeltkevic (translator), &amp;ldquo;Runge-Kutta Methods&amp;rdquo;, 10.001: Numerical Solution of Ordinary Differential Equations, 15 Apr 1998, url https://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node5.html [20220322]. Eric W. Weisstein, &amp;ldquo;Runge-Kutta Method&amp;rdquo;, from MathWorld&amp;ndash;A Wolfram Web Resource, Wolfram Research, Inc., 2022, url https://mathworld.wolfram.com/Runge-KuttaMethod.html [20220322]. Wikipedia contributors, &amp;ldquo;Runge–Kutta methods&amp;rdquo;, Wikipedia, The Free Encyclopedia, 9 March 2022, 07:21 UTC, url https://en.wikipedia.org/w/index.php?oldid=1076075901 [20220322]. GeeksforGeeks, Sam007, vt_m, divyesh072019, piotrkopec amartyaghoshgfg, &amp;ldquo;Runge-Kutta 4th Order Method to Solve Differential Equation&amp;rdquo;, GeeksforGeeks, 21 Jan 2022, url https://www.</description>
+      <description>Metode Runge-Kutta merupakan kelas metode yang secara bijak memanfaatkan informasi kemiringan kurva pada lebih dari satu titik untuk mengekstrapolasi solusi pada langkah selanjutnya [1]. Metode ini mengintegrasi secara numerik persamaan diferensial biasa menggunakan langkah coba-coba pada titik tengah suatu rentang agar suku kesalahan pada orde lebih rendah saling meniadakan [2]. Anggota keluarga metode Runge-Kutta yang paling dikenal adalah RK4, metode klasik Runge-Kutta atau cukup metode Runge-Kutta [3]. Telah terdapat contoh penerapan metode ini dalam berbagai bahasa pemrograman [4].</description>
     </item>
     
     <item>
@@ -49,19 +57,6 @@ posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Progra
       <guid>https://dudung.github.io/bugx/0009/</guid>
       <description>Fitur yang dapat mengakamodasi penulis lebih dari satu untuk suatu post ingin dibuat. Selain itu juga agar informasi banyak penulis ini dapat muncul di bagian bawah setiap post dalam petunjuk bagaimana merujuk suatu artikel atau post.
 posts  shortcode citeas  notes     Cite as: bugx, &#34;multiple authors&#34;, bugx, 21 Mar 2022, url https://dudung.github.io/bugx/0009 [20220321].  </description>
-    </item>
-    
-    <item>
-      <title>shortcode citeas</title>
-      <link>https://dudung.github.io/bugx/0010/</link>
-      <pubDate>Mon, 21 Mar 2022 21:33:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0010/</guid>
-      <description>Suatu shortcode bernama citeas telah berhasil dibuat mengikuti petunjuk pembuatan shortcode [1], yang lebih dimengerti setelah menonton videonya [2].
-version 23-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
- Cite as: viridi, &amp;ldquo;shortcode citeas&amp;rdquo;, bugx, 21 Mar 2022, url http://localhost:1313/bugx/0010 [20220321].
- yang dilengkapi tautan pada author dan artikelnya.
-&amp;lt;!-- citeas a Hugo shortcode to put how-to-cite at the bottom of a post Sparisoma Viridi https://github.com/dudung 20220321 It can only read one author, link to author nickname and page, border and background.</description>
     </item>
     
     <item>
