@@ -20,6 +20,19 @@ Cite as: bugx, &amp;ldquo;multiple authors&amp;rdquo;, bugx, 21 Mar 2022, url ht
     </item>
     
     <item>
+      <title>shortcode citeas</title>
+      <link>https://dudung.github.io/bugx/0010/</link>
+      <pubDate>Mon, 21 Mar 2022 21:33:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0010/</guid>
+      <description>Suatu shortcode bernama citeas telah berhasil dibuat mengikuti petunjuk pembuatan shortcode [1], yang lebih dimengerti setelah menonton videonya [2].
+version 23-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
+ Cite as: viridi, &amp;ldquo;shortcode citeas&amp;rdquo;, bugx, 21 Mar 2022, url http://localhost:1313/bugx/0010 [20220321].
+ yang dilengkapi tautan pada author dan artikelnya.
+&amp;lt;!-- citeas a Hugo shortcode to put how-to-cite at the bottom of a post Sparisoma Viridi https://github.com/dudung 20220321 It can only read one author, link to author nickname and page, border and background.</description>
+    </item>
+    
+    <item>
       <title>create github action workflow</title>
       <link>https://dudung.github.io/bugx/0006/</link>
       <pubDate>Sun, 20 Mar 2022 17:29:00 +0700</pubDate>
