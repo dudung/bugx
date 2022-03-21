@@ -1,5 +1,8 @@
 a {
-	text-decoration: none;
+  text-decoration: none;
+  line-break: anywhere;
+  break-word: break-all;
+  overflow-wrap: break-word;
 }
 
 /* unvisited link */
@@ -21,4 +24,7 @@ a:hover {
 /* selected link */
 a:active {
   color: #f88;
+}
+
+body {
 }
