@@ -7,14 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 22 Mar 2022 05:34:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 06:02:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>runge-kutta method</title>
       <link>https://dudung.github.io/bugx/0012/</link>
-      <pubDate>Tue, 22 Mar 2022 05:34:00 +0700</pubDate>
+      <pubDate>Tue, 22 Mar 2022 06:02:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0012/</guid>
-      <description>Gelombang elektromagnetik (EM) merupakan salah satu jenis gelombang yang dirambatkan oleh variasi periodik simultan intensitas medan listrik dan magnetik dan yang termasuk dalam jenis gelombang ini adalah gelombang radio, cahaya inframerah, cahaya tampak, cahaya ultraviolet, sinar-x, dan sinar gamma [1]. Gelombang EM membawa energi, momentum, dan momentum angular menjauh dari partikel sumbernya dan dapat memberikan kuantitas-kuantitas tersebut pada bahan yang dilewatinya [2]. Sumber gelombang EM adalah partikel bermuatan yang dipercepat, partikel bermuatan menghasilkan medan listrik dan partikel bermuatan yang bergerak menghasilkan medan magnetik [3].</description>
+      <description>[1]
+[2]
+[3]
+[4]
+[5]
+notes  Nikos Drakos, R. Sureshkumar, Michael Zeltkevic (translator), &amp;ldquo;Runge-Kutta Methods&amp;rdquo;, 10.001: Numerical Solution of Ordinary Differential Equations, 15 Apr 1998, url https://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node5.html [20220322]. Eric W. Weisstein, &amp;ldquo;Runge-Kutta Method&amp;rdquo;, from MathWorld&amp;ndash;A Wolfram Web Resource, Wolfram Research, Inc., 2022, url https://mathworld.wolfram.com/Runge-KuttaMethod.html [20220322]. Wikipedia contributors, &amp;ldquo;Runge–Kutta methods&amp;rdquo;, Wikipedia, The Free Encyclopedia, 9 March 2022, 07:21 UTC, url https://en.wikipedia.org/w/index.php?oldid=1076075901 [20220322]. GeeksforGeeks, Sam007, vt_m, divyesh072019, piotrkopec amartyaghoshgfg, &amp;ldquo;Runge-Kutta 4th Order Method to Solve Differential Equation&amp;rdquo;, GeeksforGeeks, 21 Jan 2022, url https://www.</description>
     </item>
     
     <item>
