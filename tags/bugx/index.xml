@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bugx</title>
+    <link>https://dudung.github.io/bugx/tags/bugx/</link>
+    <description>Recent content on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Mon, 21 Mar 2022 21:33:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>multiple authors</title>
+      <link>https://dudung.github.io/bugx/0009/</link>
+      <pubDate>Mon, 21 Mar 2022 21:33:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0009/</guid>
+      <description>Fitur yang dapat mengakamodasi penulis lebih dari satu untuk suatu post ingin dibuat. Selain itu juga agar informasi banyak penulis ini dapat muncul di bagian bawah setiap post dalam petunjuk bagaimana merujuk suatu artikel atau post.
+citeas  Suatu shortcode bernama citeas telah berhasil dibuat mengikuti petunjuk pembuatan shortcode [1], yang lebih dimengerti setelah menonton videonya [2]. Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
+Cite as: bugx, &amp;ldquo;multiple authors&amp;rdquo;, bugx, 21 Mar 2022, url http://localhost:1313/bugx/0009 [20220321].</description>
+    </item>
+    
+  </channel>
+</rss>
