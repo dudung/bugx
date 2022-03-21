@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-21 04:54:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-21 04:54:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-21 07:14:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-21 07:14:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0008\/",
-      "wordCount" : "808",
+      "wordCount" : "1046",
       "keywords" : ["Blog"]
     }
   
@@ -196,7 +196,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">electromagnetic waves</h1>
-            <time datetime="2022-03-21 04:54:00 &#43;0700 &#43;0700" class="post__date">Mon, 21 Mar  2022</time> 
+            <time datetime="2022-03-21 07:14:00 &#43;0700 &#43;0700" class="post__date">Mon, 21 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -239,20 +239,27 @@ Gambar <a name='fig2'>2</a>. Gelombang EM merambat ke arah $z+$.
 <p>Animasi gelombang EM yang merambat ke arah $z+$ diberikan pada Gambar <a href="#fig1" 
   
   
->1</a>, dengan medan listrik $\vec{E}$ hanya berosilasi pada arah $x$ dan medan magnetik $\vec{B}$ yang berosilasi pada arah $y$. Fungsi waktu dari kedua medan tersebut adalah</p>
+>1</a>, dengan medan listrik $\vec{E}$ hanya berosilasi pada arah $x$ dan medan magnetik $\vec{B}$ yang berosilasi pada arah $y$. Vector $\vec{k}$ untuk muatan yang bergerak dalam medan EM disebut sebagai drift [<a href="#r07" 
+  
+  
+>7</a>], akan tetapi pada Gambar <a href="#fig2" 
+  
+  
+>2</a> hanya menggambarkan arah perambatan gelomban EM dan tidak terkait dengan bilangan gelombang $k$.</p>
+<p>Fungsi waktu dari kedua medan tersebut adalah</p>
 <p>\begin{equation}\label{eqn:em-wave-traveling-to-z-e-field}
-\vec{E} = \hat{x} E_x \sin(k_z z - \omega t + \phi)
+\vec{E} = \hat{x} E_x \sin(kz - \omega t + \phi)
 \end{equation}</p>
 <p>dan</p>
 <p>\begin{equation}\label{eqn:em-wave-traveling-to-z-b-field}
-\vec{B} = \hat{y} B_y \sin(k_z z - \omega t + \phi).
+\vec{B} = \hat{y} B_y \sin(kz - \omega t + \phi).
 \end{equation}</p>
 <p>Bentuk fungsi paling sederhana dari fungsi waktu kedua medan pada Persamaan \eqref{eqn:em-wave-traveling-to-z-e-field} dan \eqref{eqn:em-wave-traveling-to-z-b-field} adalah bentuk $\sin$ atau $\cos$.</p>
 <h2 id="propagation-direction">propagation direction<a class="anchor" href="#propagation-direction">#</a></h2>
-<p>Arah rambat gelombang EM ditentukan dari perkalian silang medan listrik $\vec{E}$ dengan medan magnetiknya $\vec{B}$, yang dapat digunakan lambang $\hat{k}$ sebagai vektor dari bilangan gelombang $k$ [<a href="#r07" 
+<p>Arah rambat gelombang EM ditentukan dari perkalian silang medan listrik $\vec{E}$ dengan medan magnetiknya $\vec{B}$, yang dapat digunakan lambang $\hat{k}$ sebagai vektor yang menunjukkan arah perambatan gelombang EM [<a href="#r08" 
   
   
->7</a>]. Arah $\hat{k}$ dapat diperoleh dengan</p>
+>8</a>]. Arah $\hat{k}$ ini dapat diperoleh dengan</p>
 <p>\begin{equation}\label{eqn:em-wave-traveling-k}
 \hat{k} = \frac{(\vec{E} \times \vec{B})}{|\vec{E} \times \vec{B}|}.
 \end{equation}</p>
@@ -296,8 +303,44 @@ Gambar <a name='fig5'>5</a>. Gelombang EM merambat ke arah $y+$.
 <h2 id="energy">energy<a class="anchor" href="#energy">#</a></h2>
 <p>Gelombang EM membawa energi saat merambat melewati ruang kosong. Laju energi yang dirambatkan per satuan luas dideskripsikan dengan vektor Poynting</p>
 <p>\begin{equation}\label{eqn:poynting-vector}
-\hat{S} = \frac{1}{\mu_0}
+\vec{S} = \frac{1}{\mu_0} \vec{E} \times \vec{B}
 \end{equation}</p>
+<p>dan dikarenakan $\vec{E} \perp \vec{B}$ maka Persamaan \eqref{eqn:poynting-vector} akan menjadi</p>
+<p>\begin{equation}\label{eqn:poynting-vector-magnitude}
+S = \frac{1}{\mu_0} EB.
+\end{equation}</p>
+<p>Rata-rata laju energi per satuan luas yang dirambakan gelombang EM adalah</p>
+<p>\begin{equation}\label{eqn:poynting-vector-magnitude-average}
+S_{\rm avg} = \frac{1}{2\mu_0} EB = \frac{1}{2c\mu_0} E^2,
+\end{equation}</p>
+<p>dengan $c$ adalah laju rambat cahaya dalam vakum. Nilai rata-rata ini diperoleh dengan melakukan substitusi Persamaan \eqref{eqn:em-wave-traveling-to-z-e-field} dan \eqref{eqn:em-wave-traveling-to-z-b-field} ke Persamaan \eqref{eqn:poynting-vector-magnitude} dan dicari rata-ratanya dengan</p>
+<p>\begin{equation}\label{eqn:poynting-vector-magnitude-average-calculation}
+S_{\rm avg} = \frac{1}{T} \int_t^{t + T} S \ dt,
+\end{equation}</p>
+<p>seperti saat mencari daya rata-rata pada rangkaian AC atau nilai RMS untuk arus dan tegangan, akan tetapi sebelum langkah terakhir sehingga tidak perlu dicari nilai akarnya.</p>
+<p>Selain itu terdapat pula besaran yang mengambarkan energi per satuan volume atau rapat energi yang dimiliki oleh suatu medan listrik</p>
+<p>\begin{equation}\label{eqn:energy-density-e-field}
+u_E = \frac12 \epsilon_0 E^2
+\end{equation}</p>
+<p>dan medang magnetik</p>
+<p>\begin{equation}\label{eqn:energy-density-b-field}
+u_B = \frac12 \epsilon_0 \frac{B^2}{\mu_0},
+\end{equation}</p>
+<p>di kedua persamaan terakhir terkait melalui</p>
+<p>\begin{equation}\label{eqn:e=cb}
+E = cB.
+\end{equation}</p>
+<h2 id="electric-field">electric field<a class="anchor" href="#electric-field">#</a></h2>
+<p>Gelombang EM, untuk saat ini, dapat dibahas cukup dengan hanya melihat med</p>
+<p><img src="/bugx/img/efield-t0.png" alt="">
+<img src="/bugx/img/efield-t1.png" alt="">
+<img src="/bugx/img/efield-t2.png" alt="">
+<img src="/bugx/img/efield-t3.png" alt="">
+<img src="/bugx/img/efield-t4.png" alt="">
+<img src="/bugx/img/efield-t5.png" alt="">
+<img src="/bugx/img/efield-t6.png" alt="">
+<img src="/bugx/img/efield-t7.png" alt=""></p>
+<p><img src="/bugx/img/efield-anim.gif" alt=""></p>
 <h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
 <ol>
 <li>Tentukanlah $k_z$ pada pada Gambar <a href="#fig3" 
@@ -312,6 +355,8 @@ Gambar <a name='fig5'>5</a>. Gelombang EM merambat ke arah $y+$.
   
   
 >5</a> menggunakan Persamaan \eqref{eqn:em-wave-traveling-to-y-k}.</li>
+<li>Apakah satuan dari vektor Poynting pada Persamaan \eqref{eqn:poynting-vector}?</li>
+<li>Apakah satuan dari rapat energi pada Persamaan \eqref{eqn:energy-density-e-field} dan \eqref{eqn:energy-density-b-field}?</li>
 </ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
@@ -339,7 +384,11 @@ Gambar <a name='fig5'>5</a>. Gelombang EM merambat ke arah $y+$.
   
    target="_blank" rel="noreferrer noopener" 
 >https://www.topperlearning.com/answer/what-is-the-difference-between-travelling-wave-and-stationary-wave/5evntguu</a> [20220321].</li>
-<li><a name='r07'></a>Di sini vektor satuan pada sistem koordinat digunakan $\hat{x}$, $\hat{y}$, dan $\hat{z}$ sehingga dapat digunakan $\hat{k}$ sebagai vektor satuan pada arah rambat gelombang EM.</li>
+<li><a name='r07'></a>Christian Hill, &ldquo;ExB drift for constant crossed electric and magnetic fields&rdquo;, Learning Scientific Programming with Python, 17 Dec 2018, url <a href="https://scipython.com/blog/exb-drift-for-constant-crossed-electric-and-magnetic-fields/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://scipython.com/blog/exb-drift-for-constant-crossed-electric-and-magnetic-fields/</a> [20220321].</li>
+<li><a name='r08'></a>Di sini vektor satuan pada sistem koordinat digunakan $\hat{x}$, $\hat{y}$, dan $\hat{z}$ sehingga dapat digunakan $\hat{k}$ sebagai vektor satuan pada arah rambat gelombang EM.</li>
 </ol>
 
 
