@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>runge-kutta method | bugx</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="runge-kutta method" />
+  <meta name="twitter:description" content=""/>
+  <meta name="twitter:site" content="https://twitter.com/6unpnp" />
+  <meta name="twitter:creator" content="https://twitter.com/6unpnp" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/bugx/css/post.min.86d1effd4c412b85ac13db53a90c473a0f256f789b821e131125c9aa25cb6a6d.css" integrity="sha256-htHv/UxBK4WsE9tTqQxHOg8lb3ibgh4TESXJqiXLam0="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/bugx/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dudung.github.io\/bugx\/"
+      },
+      "articleSection" : "blog",
+      "name" : "runge-kutta method",
+      "headline" : "runge-kutta method",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2022",
+      "datePublished": "2022-03-22 05:34:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-22 05:34:00 \u002b0700 \u002b0700",
+      "url" : "https:\/\/dudung.github.io\/bugx\/0012\/",
+      "wordCount" : "1433",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+
+	<link rel="stylesheet" href="https://dudung.github.io/bugx/css/bugx.css">
+	
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/bugx/about">about</a>
+      </li>
+    
+      <li>
+        <a  href="/bugx/author">author</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/bugx/blog">blog</a>
+      </li>
+    
+      <li>
+        <a  href="/bugx/">home</a>
+      </li>
+    
+      <li>
+        <a  href="/bugx/work">work</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+	
+		
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+			tags: 'ams',
+    },
+    options: {
+      skipHtmlTags: [
+				'script',
+				'noscript',
+				'style',
+				'textarea',
+				'pre'
+			]
+    }
+  };
+</script>
+
+<script
+	type="text/javascript"
+	id="MathJax-script"
+	async 
+	src="https://cdn.jsdelivr.net/npm/\
+	mathjax@3/es5/tex-mml-chtml.js"
+	>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">runge-kutta method</h1>
+            <time datetime="2022-03-22 05:34:00 &#43;0700 &#43;0700" class="post__date">Tue, 22 Mar  2022</time> 
+          </header>
+          <article class="post__content">
+              
+<p>Gelombang elektromagnetik (EM) merupakan salah satu jenis gelombang yang dirambatkan oleh variasi periodik simultan intensitas medan listrik dan magnetik dan yang termasuk dalam jenis gelombang ini adalah gelombang radio, cahaya inframerah, cahaya tampak, cahaya ultraviolet, sinar-x, dan sinar gamma [<a href="#r01" 
+  
+  
+>1</a>]. Gelombang EM membawa energi, momentum, dan momentum angular menjauh dari partikel sumbernya dan dapat memberikan kuantitas-kuantitas tersebut pada bahan yang dilewatinya [<a href="#r02" 
+  
+  
+>2</a>]. Sumber gelombang EM adalah partikel bermuatan yang dipercepat, partikel bermuatan menghasilkan medan listrik dan partikel bermuatan yang bergerak menghasilkan medan magnetik [<a href="#r03" 
+  
+  
+>3</a>]. Persamaan gelombang yang muncul dari persamaan-persamaan Maxwell mendeskripsikan gelombang EM [<a href="#r04" 
+  
+  
+>4</a>].</p>
+<h2 id="em-spectrum">em spectrum<a class="anchor" href="#em-spectrum">#</a></h2>
+<p>Spektrum gelombang EM diklasifikasikan dengan panjang gelombangnya menjadi gelombang radio, gelombang mikro, cahaya inframerah, cahaya tampak, cahaya ultarungu, sinar-x, dan sinar gamma, dengan ilustrasinya diberikan pada gambar berikut ini.</p>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/3/30/EM_spectrumrevised.png" 
+  
+   target="_blank" rel="noreferrer noopener" 
+><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/EM_spectrumrevised.png/800px-EM_spectrumrevised.png?20130219140058" alt=""></a>
+Gambar <a name='fig1'>1</a>. Spektrum gelombang elektromagnetik [<a href="#r05" 
+  
+  
+>5</a>].</p>
+<p>Mata manusia dapat mencerah gelombang EM dalam rentang cahaya tampak, yang pada Gambar <a href="#fig1" 
+  
+  
+>1</a> berada pada panjang gelombang sekitar 380 nm sampai 750 nm. Cahaya dengan panjang gelombang lebih pendek atau frekuensi lebih tinggi dari cahaya tampak disebut sebagai cahaya ultarungu, sedangkan cahaya dengan panjang gelombang lebih panjang atau frekuensi lebih rendah dari cahaya tampak disebut sebagai cahaya inframerah. Kata ultra (teramat sangat, lebih) dan infra (bawah, di bawah) pada gelombang terkait dengan frekuensi. Cahaya ultraungu berarti cahaya dengan frekuensi lebih tinggi dari cahaya ungu, sedangkan cahaya inframerah berarti cahaya dengan frekuensi lebih rendah dari cahaya merah.</p>
+<h2 id="wave-equation">wave equation<a class="anchor" href="#wave-equation">#</a></h2>
+<p>Terdapat hubungan yang disebut sebagai persamaan gelombang [<a href="#r06" 
+  
+  
+>6</a>, <a href="#r07" 
+  
+  
+>7</a>]</p>
+<p>\begin{equation}\label{eqn:wave-equation}
+v = f \lambda
+\end{equation}</p>
+<p>dengan $v$ laju rambat gelombang, $f$ frekuensi, dan $\lambda$ panjang geombang. Persamaan \eqref{eqn:wave-equation} berbeda dengan persamaan diferensial yang juga disebut sebagai persamaan gelombang [<a href="#r08" 
+  
+  
+>8</a>, <a href="#r09" 
+  
+  
+>9</a>, <a href="#r10" 
+  
+  
+>10</a>, <a href="#r11" 
+  
+  
+>11</a>].</p>
+<h2 id="traveling-wave">traveling wave<a class="anchor" href="#traveling-wave">#</a></h2>
+<p>Gelombang EM merupakan contoh dari gelombang merambat, yang dalam hal ini merambatkan energi dan juga fasanya, sehingga pada setiap titik dalam arah rambat gelombang fasanya selalu selalu berbeda dengan sumbernya, kecuali jaraknya tepat kelipatan bulat dari panjang gelombangnya [<a href="#r12" 
+  
+  
+>12</a>].</p>
+<p>
+<img src="/bugx/img/em-wave-anim.gif" style="width:55%" />
+Gambar <a name='fig2'>2</a>. Gelombang EM merambat ke arah $z+$.
+</p>
+<p>Animasi gelombang EM yang merambat ke arah $z+$ diberikan pada Gambar <a href="#fig1" 
+  
+  
+>1</a>, dengan medan listrik $\vec{E}$ hanya berosilasi pada arah $x$ dan medan magnetik $\vec{B}$ yang berosilasi pada arah $y$. Vector $\vec{k}$ untuk muatan yang bergerak dalam medan EM disebut sebagai drift [<a href="#r13" 
+  
+  
+>13</a>], akan tetapi pada Gambar <a href="#fig2" 
+  
+  
+>2</a> hanya menggambarkan arah perambatan gelombang EM dan tidak terkait dengan bilangan gelombang $k$.</p>
+<p>Fungsi waktu dari kedua medan tersebut adalah</p>
+<p>\begin{equation}\label{eqn:em-wave-traveling-to-z-e-field}
+\vec{E} = \hat{x} E_x \sin(kz - \omega t + \phi)
+\end{equation}</p>
+<p>dan</p>
+<p>\begin{equation}\label{eqn:em-wave-traveling-to-z-b-field}
+\vec{B} = \hat{y} B_y \sin(kz - \omega t + \phi).
+\end{equation}</p>
+<p>Bentuk fungsi paling sederhana dari fungsi waktu kedua medan pada Persamaan \eqref{eqn:em-wave-traveling-to-z-e-field} dan \eqref{eqn:em-wave-traveling-to-z-b-field} adalah bentuk $\sin$ atau $\cos$.</p>
+<h2 id="propagation-direction">propagation direction<a class="anchor" href="#propagation-direction">#</a></h2>
+<p>Arah rambat gelombang EM ditentukan dari perkalian silang medan listrik $\vec{E}$ dengan medan magnetiknya $\vec{B}$, yang dapat digunakan lambang $\hat{k}$ sebagai vektor yang menunjukkan arah perambatan gelombang EM [<a href="#r14" 
+  
+  
+>14</a>]. Arah $\hat{k}$ ini dapat diperoleh dengan</p>
+<p>\begin{equation}\label{eqn:em-wave-traveling-k}
+\hat{k} = \frac{(\vec{E} \times \vec{B})}{|\vec{E} \times \vec{B}|}.
+\end{equation}</p>
+<p>Untuk melihat kaitan antara kedua medan EM dengan arah rambat gelombangnya seperti yang diberikan oleh Persamaan \eqref{eqn:em-wave-traveling-k} diberikan tiga gambar berikut ini.</p>
+<p>
+<img src="/bugx/img/em-wave-ex-by-kz.png" style="width:75%" />
+Gambar <a name='fig3'>3</a>. Gelombang EM merambat ke arah $z+$.
+</p>
+<p>Penerapan Persamaan \eqref{eqn:em-wave-traveling-k} sebagai berikut</p>
+<p>\begin{equation}\label{eqn:em-wave-traveling-to-z-k}
+\hat{k} = \frac{(E_x \ \hat{x} \times \hat{y} \ B_y)}{|E_x \ \hat{x} \times \hat{y} \ B_y|} = \frac{E_x \ B_y}{|E_x \ B_y|} \hat{z}
+\end{equation}</p>
+<p>akan menghasilkan arah rambat seperti pada Gambar <a href="#fig3" 
+  
+  
+>3</a>, yang dapat dipahami cukup dengan melihat pembilang pada ruas tengah Persamaan \eqref{eqn:em-wave-traveling-to-z-k} karena penyebutnya yang merupakan besar suatu vektor merupakan bilangan positif. Hasil akhirnya diperoleh pada ruas kanan.</p>
+<p>
+<img src="/bugx/img/em-wave-ey-bz-kx.png" style="width:75%" />
+Gambar <a name='fig4'>4</a>. Gelombang EM merambat ke arah $x+$.
+</p>
+<p>Selanjutnya adalah penerapan kembali Persamaan \eqref{eqn:em-wave-traveling-k} sebagai berikut</p>
+<p>\begin{equation}\label{eqn:em-wave-traveling-to-x-k}
+\hat{k} = \frac{(E_y \ \hat{y} \times \hat{z} \ B_z)}{|E_y \ \hat{y} \times \hat{z} \ B_z|} = \frac{E_y \ B_z}{|E_y \ B_z|} \hat{x}
+\end{equation}</p>
+<p>akan menghasilkan arah rambat seperti pada Gambar <a href="#fig4" 
+  
+  
+>4</a>, yang dapat dipahami cukup dengan melihat pembilang pada ruas tengah Persamaan \eqref{eqn:em-wave-traveling-to-x-k} karena penyebutnya yang merupakan besar suatu vektor merupakan bilangan positif. Hasil akhirnya diperoleh pada ruas kanan.</p>
+<p>
+<img src="/bugx/img/em-wave-ez-bx-ky.png" style="width:75%" />
+Gambar <a name='fig5'>5</a>. Gelombang EM merambat ke arah $y+$.
+</p>
+<p>Dam penerapan kembali Persamaan \eqref{eqn:em-wave-traveling-k} sebagai berikut</p>
+<p>\begin{equation}\label{eqn:em-wave-traveling-to-y-k}
+\hat{k} = \frac{(E_z \ \hat{z} \times \hat{x} \ B_x)}{|E_z \ \hat{z} \times \hat{x} \ B_x|} = \frac{E_z \ B_x}{|E_z \ B_x|} \hat{y}
+\end{equation}</p>
+<p>akan menghasilkan arah rambat seperti pada Gambar <a href="#fig5" 
+  
+  
+>5</a>, yang dapat dipahami cukup dengan melihat pembilang pada ruas tengah Persamaan \eqref{eqn:em-wave-traveling-to-y-k} karena penyebutnya yang merupakan besar suatu vektor merupakan bilangan positif. Hasil akhirnya diperoleh pada ruas kanan.</p>
+<h2 id="energy">energy<a class="anchor" href="#energy">#</a></h2>
+<p>Gelombang EM membawa energi saat merambat melewati ruang kosong. Laju energi yang dirambatkan per satuan luas dideskripsikan dengan vektor Poynting</p>
+<p>\begin{equation}\label{eqn:poynting-vector}
+\vec{S} = \frac{1}{\mu_0} \vec{E} \times \vec{B}
+\end{equation}</p>
+<p>dan dikarenakan $\vec{E} \perp \vec{B}$ maka Persamaan \eqref{eqn:poynting-vector} akan menjadi</p>
+<p>\begin{equation}\label{eqn:poynting-vector-magnitude}
+S = \frac{1}{\mu_0} EB.
+\end{equation}</p>
+<p>Rata-rata laju energi per satuan luas yang dirambakan gelombang EM adalah</p>
+<p>\begin{equation}\label{eqn:poynting-vector-magnitude-average}
+S_{\rm avg} = \frac{1}{2\mu_0} EB = \frac{1}{2c\mu_0} E^2,
+\end{equation}</p>
+<p>dengan $c$ adalah laju rambat cahaya dalam vakum. Nilai rata-rata ini diperoleh dengan melakukan substitusi Persamaan \eqref{eqn:em-wave-traveling-to-z-e-field} dan \eqref{eqn:em-wave-traveling-to-z-b-field} ke Persamaan \eqref{eqn:poynting-vector-magnitude} dan dicari rata-ratanya dengan</p>
+<p>\begin{equation}\label{eqn:poynting-vector-magnitude-average-calculation}
+S_{\rm avg} = \frac{1}{T} \int_t^{t + T} S \ dt,
+\end{equation}</p>
+<p>seperti saat mencari daya rata-rata pada rangkaian AC atau nilai RMS untuk arus dan tegangan, akan tetapi sebelum langkah terakhir sehingga tidak perlu dicari nilai akarnya.</p>
+<p>Selain itu terdapat pula besaran yang mengambarkan energi per satuan volume atau rapat energi yang dimiliki oleh suatu medan listrik</p>
+<p>\begin{equation}\label{eqn:energy-density-e-field}
+u_E = \frac12 \epsilon_0 E^2
+\end{equation}</p>
+<p>dan medang magnetik</p>
+<p>\begin{equation}\label{eqn:energy-density-b-field}
+u_B = \frac12 \epsilon_0 \frac{B^2}{\mu_0},
+\end{equation}</p>
+<p>di kedua persamaan terakhir terkait melalui</p>
+<p>\begin{equation}\label{eqn:e=cb}
+E = cB.
+\end{equation}</p>
+<h2 id="electric-field-vector">electric field vector<a class="anchor" href="#electric-field-vector">#</a></h2>
+<p>Gelombang EM, untuk saat ini, dapat dibahas cukup dengan hanya melihat medan listriknya, yang dengan ini telah dapat menjelaskan misalnya peristiwa polarisasi [<a href="#r15" 
+  
+  
+>15</a>].</p>
+<p>Beberapa foto suatu besaran fisis, yang dalam hal ini adalah medan listrik, pada delapan waktu berbeda $t$, $t + \frac18T$, $\dots$, $t + \frac12T$ $\dots$, $t + \frac34T$, $t + \frac78T$ diberikan di bawah ini.<br>
+ </p>
+<table>
+<thead>
+<tr>
+<th><img src="/bugx/img/efield-t0.png" alt=""></th>
+<th><img src="/bugx/img/efield-t1.png" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/bugx/img/efield-t2.png" alt=""></td>
+<td><img src="/bugx/img/efield-t3.png" alt=""></td>
+</tr>
+<tr>
+<td><img src="/bugx/img/efield-t4.png" alt=""></td>
+<td><img src="/bugx/img/efield-t5.png" alt=""></td>
+</tr>
+<tr>
+<td><img src="/bugx/img/efield-t6.png" alt=""></td>
+<td><img src="/bugx/img/efield-t7.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>Gambar <a name='fig6'>6</a>. Rekaman medan listrik secara spasial pada waktu $t = 0 \ {\rm s}$, $2.10 \times 10^{-16} \ {\rm s}$, $4.20 \times 10^{-16} \ {\rm s}$, $6.30 \times 10^{-16} \ {\rm s}$,
+$8.30 \times 10^{-16} \ {\rm s}$, $1.04 \times 10^{-15} \ {\rm s}$, $1.25 \times 10^{-15} \ {\rm s}$, dan $1.46 \times 10^{-15} \ {\rm s}$.</p>
+<p>Suatu gelombang EM yang merambat dalam vakum dapat direkam simpangan medan listriknya dalam rentang jarak $1000 \ {\rm nm}$ pada beberapa waktunya
+seperti diberikan pada Gambar <a href="#fig6" 
+  
+  
+>6</a>, sedangkan animasinya diberikan pada gambar berikut ini.</p>
+<p>
+<img src="/bugx/img/efield-anim.gif" style="width:75%" />
+Gambar <a name='fig7'>7</a>. Gelombang EM merambat ke arah $x+$ dan terekam selama $1.67 \times 10^{-15} \ {\rm s}$.
+</p>
+<p>Dari informasi pada Gambar <a href="#fig6" 
+  
+  
+>6</a> dan <a href="#fig7" 
+  
+  
+>7</a> dapat diperoleh panjang gelombang $\lambda$, periode $T$, fekensi $f$, dan amplitudo medan listrik $E_m$ dari gelombang EM tersebut.</p>
+<h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
+<ol>
+<li>Tentukanlah $k_z$ pada pada Gambar <a href="#fig3" 
+  
+  
+>3</a> menggunakan Persamaan \eqref{eqn:em-wave-traveling-to-z-k}.</li>
+<li>Tentukanlah $k_x$ pada pada Gambar <a href="#fig4" 
+  
+  
+>4</a> menggunakan Persamaan \eqref{eqn:em-wave-traveling-to-x-k}.</li>
+<li>Tentukanlah $k_y$ pada pada Gambar <a href="#fig5" 
+  
+  
+>5</a> menggunakan Persamaan \eqref{eqn:em-wave-traveling-to-y-k}.</li>
+<li>Apakah satuan dari vektor Poynting pada Persamaan \eqref{eqn:poynting-vector}?</li>
+<li>Apakah satuan dari rapat energi pada Persamaan \eqref{eqn:energy-density-e-field} dan \eqref{eqn:energy-density-b-field}?</li>
+<li>Tentukanlah panjang gelombang $\lambda$, periode $T$, fekensi $f$, dan amplitudo medan listrik $E_m$ dari gelombang EM pada Gambar <a href="#fig6" 
+  
+  
+>6</a> dan <a href="#fig7" 
+  
+  
+>7</a>.</li>
+</ol>
+<h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
+<ol>
+<li><a name='r01'></a>&ldquo;electromagnetic wave&rdquo;, Merriam-Webster, Inc., 2022, url <a href="https://www.merriam-webster.com/dictionary/electromagnetic%20wave" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.merriam-webster.com/dictionary/electromagnetic%20wave</a> [20220320].</li>
+<li><a name='r02'></a>Wikipedia contributors, &ldquo;Electromagnetic radiation&rdquo;, Wikipedia, The Free Encyclopedia, 9 March 2022, 09:53 UTC, url <a href="https://en.wikipedia.org/w/index.php?oldid=1076096692" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://en.wikipedia.org/w/index.php?oldid=1076096692</a> [20220320].</li>
+<li><a name='r03'></a>Admin, &ldquo;Electromagnetic Waves&rdquo;, BYJU&rsquo;S, 28 Apr 2021, url <a href="https://byjus.com/physics/electromagnetic-waves/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://byjus.com/physics/electromagnetic-waves/</a> [20220320].</li>
+<li><a name='r04'></a>Carl Rod Nave, &ldquo;Electromagnetic Waves&rdquo;, HyperPhysics, 2017, url <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Waves/emwavecon.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://hyperphysics.phy-astr.gsu.edu/hbase/Waves/emwavecon.html</a> [20220320].</li>
+<li><a name='r05'></a>Gringer Philip Ronan, &ldquo;Revised diagram with re-aligned spectrum&rdquo;, Wikimedia Commons, 19 Feb 2013, url <a href="https://commons.wikimedia.org/wiki/File:EM_spectrumrevised.png" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://commons.wikimedia.org/wiki/File:EM_spectrumrevised.png</a> [20220321].</li>
+<li><a name='r06'></a>Tom Henderson, &ldquo;The Wave Equation&rdquo;, The Physics Classroom, 2022, url <a href="https://www.physicsclassroom.com/class/waves/Lesson-2/The-Wave-Equation" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.physicsclassroom.com/class/waves/Lesson-2/The-Wave-Equation</a> [20220321].</li>
+<li><a name='r07'></a>Boundless.com, &ldquo;<a href="https://courses.lumenlearning.com/boundless-physics/chapter/waves/%22" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://courses.lumenlearning.com/boundless-physics/chapter/waves/"</a>, Boundless Physics, Lumen Learning, url <a href="https://courses.lumenlearning.com/boundless-physics/chapter/waves/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://courses.lumenlearning.com/boundless-physics/chapter/waves/</a> [20220321].</li>
+<li><a name='r08'></a>OpenStax, &ldquo;Mathematics of Waves&rdquo;, Physics LibreTexts, OpenStax CNX, 8 Mar 2022, url <a href="https://phys.libretexts.org/@go/page/4070" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://phys.libretexts.org/@go/page/4070</a> [20220321].</li>
+<li><a name='r09'></a>T. R. Akylas, C. C. Mei, &ldquo;One-Dimensional Propagation&rdquo;, I-campus project, School-wide Program on Fluid Mechanics, Modules on Waves in fluids, 9 Jul 2001, url <a href="http://web.mit.edu/fluids-modules/waves/www/material/chap-2.pdf" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://web.mit.edu/fluids-modules/waves/www/material/chap-2.pdf</a> [20220321].</li>
+<li><a name='r10'></a>Jim Wheeler, &ldquo;Solutions to the wave equation&rdquo;, PHYS 3750 - Foundations of Wave Phenomena, Utah State University, 16 Sep 2019, url <a href="http://www.physics.usu.edu/Wheeler/Waves/WaveSolutions.pdf" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://www.physics.usu.edu/Wheeler/Waves/WaveSolutions.pdf</a> [20220321].</li>
+<li><a name='r11'></a>Joel Feldman, &ldquo;Solution of the Wave Equation by Separation of Variables&rdquo;, Mathematics 267, Section 203, Mathematical Methods for Electrical and Computer Engineering, Department of Mathematics, University of British Columbia, 21 Jan 2007, url <a href="https://personal.math.ubc.ca/~feldman/m267/separation.pdf" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://personal.math.ubc.ca/~feldman/m267/separation.pdf</a> [20220321].</li>
+<li><a name='r12'></a>Team, &ldquo;what is the difference between travelling wave and stationary wave?&rdquo; Topper Learning, 19 Mar 2011, url <a href="https://www.topperlearning.com/answer/what-is-the-difference-between-travelling-wave-and-stationary-wave/5evntguu" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.topperlearning.com/answer/what-is-the-difference-between-travelling-wave-and-stationary-wave/5evntguu</a> [20220321].</li>
+<li><a name='r13'></a>Christian Hill, &ldquo;ExB drift for constant crossed electric and magnetic fields&rdquo;, Learning Scientific Programming with Python, 17 Dec 2018, url <a href="https://scipython.com/blog/exb-drift-for-constant-crossed-electric-and-magnetic-fields/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://scipython.com/blog/exb-drift-for-constant-crossed-electric-and-magnetic-fields/</a> [20220321].</li>
+<li><a name='r14'></a>Di sini vektor satuan pada sistem koordinat digunakan $\hat{x}$, $\hat{y}$, dan $\hat{z}$ sehingga dapat digunakan $\hat{k}$ sebagai vektor satuan pada arah rambat gelombang EM.</li>
+<li><a name='r15'></a>Marianne Breinig, &ldquo;Electromagnetic waves&rdquo;, Physics 421, Modern Optics, The University of Tennessee, Department of Physics and Astronomy, Spring 2015, url <a href="http://electron9.phys.utk.edu/optics421/modules/m1/emwaves.htm" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://electron9.phys.utk.edu/optics421/modules/m1/emwaves.htm</a> [20220321].</li>
+</ol>
+
+
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/mathematics/">mathematics</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/computation/">computation</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/numerical/">numerical</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/method/">method</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/draft/">draft</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0010/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">shortcode citeas</span>
+    </a>
+  
+
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="Twitter"
+        href="https://twitter.com/6unpnp"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://dudung.github.io/bugx/svg/twitter.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/dudung"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://dudung.github.io/bugx/svg/github.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>© 2022</p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/bugx/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+
+
+</body>
+
+</html>
