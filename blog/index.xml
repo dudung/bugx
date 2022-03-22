@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 22 Mar 2022 08:57:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 09:02:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>runge-kutta method</title>
       <link>https://dudung.github.io/bugx/0012/</link>
-      <pubDate>Tue, 22 Mar 2022 08:57:00 +0700</pubDate>
+      <pubDate>Tue, 22 Mar 2022 09:02:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0012/</guid>
       <description>Metode Runge-Kutta merupakan kelas metode yang secara bijak memanfaatkan informasi kemiringan kurva pada lebih dari satu titik untuk mengekstrapolasi solusi pada langkah selanjutnya [1]. Metode ini mengintegrasi secara numerik persamaan diferensial biasa menggunakan langkah coba-coba pada titik tengah suatu rentang agar suku kesalahan pada orde lebih rendah saling meniadakan [2]. Anggota keluarga metode Runge-Kutta yang paling dikenal adalah RK4, metode klasik Runge-Kutta atau cukup metode Runge-Kutta [3]. Telah terdapat contoh penerapan metode ini dalam berbagai bahasa pemrograman [4].</description>
