@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-22 07:23:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-22 07:23:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-22 08:57:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-22 08:57:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0012\/",
-      "wordCount" : "487",
+      "wordCount" : "1082",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">runge-kutta method</h1>
-            <time datetime="2022-03-22 07:23:00 &#43;0700 &#43;0700" class="post__date">Tue, 22 Mar  2022</time> 
+            <time datetime="2022-03-22 08:57:00 &#43;0700 &#43;0700" class="post__date">Tue, 22 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -231,7 +231,7 @@
 <h2 id="euler-method">euler method<a class="anchor" href="#euler-method">#</a></h2>
 <p>Dengan metode Euler Persamaan \eqref{eqn:ode-1st-order} memiliki</p>
 <p>\begin{equation}\label{eqn:ode-1st-order-euler-method}
-y_{n+1} = y_n = h \ f(x_n, y_n) + O(h^2),
+y_{n+1} = y_n + h \ f(x_n, y_n) + O(h^2),
 \end{equation}</p>
 <p>sebagai solusi numeriknya [<a href="#r06" 
   
@@ -277,6 +277,123 @@ k_4 = h \ f(x_{n + h}, y_{n + k_3}),
 y_{n + 1} = y_n + \tfrac16 k_1 + \tfrac13 k_2 + \tfrac13 k_3 + \tfrac16 k_4 + O(h^5),
 \end{equation}</p>
 <p>dan perlu ditambahkan pula Persamaan \eqref{eqn:euler-method-step}.</p>
+<h2 id="example-1">example 1<a class="anchor" href="#example-1">#</a></h2>
+<p>Misalkan terdapat suatu PDB orde pertama berbentuk</p>
+<p>\begin{equation}\label{eqn:ode-1st-order-example-1}
+\frac{dy}{dx} = -cy
+\end{equation}</p>
+<p>yang akan digunakan sebagai contoh. Di sini $f(x, y) = f(y)$ dan $c$ suatu koefisien.</p>
+<h3 id="analytical-solution">analytical solution<a class="anchor" href="#analytical-solution">#</a></h3>
+<p>Persamaan \eqref{eqn:ode-1st-order-example-1} memiliki</p>
+<p>\begin{equation}\label{eqn:ode-1st-order-analytical-solution-example-1}
+y = Ae^{-cx}
+\end{equation}</p>
+<p>sebagai solusi analitiknya dengan $A$ suatu koefisien.</p>
+<h3 id="euler-solution">euler solution<a class="anchor" href="#euler-solution">#</a></h3>
+<p>Dengan menerapkan Persaamaan \eqref{eqn:ode-1st-order-euler-method} pada Persamaan \eqref{eqn:ode-1st-order-example-1} akan diperoleh</p>
+<p>\begin{equation}\label{eqn:ode-1st-order-euler-method-example-1}
+\begin{array}{rcl}
+y_{n+1} &amp; = &amp; y_n - hcy_n \newline
+&amp; = &amp; (1 - hc) \ y_n
+\end{array}
+\end{equation}</p>
+<p>sebagai solusinya dan dibutuhkan syarat awal $x_0$ dan $y_0 = y(x_n)$ pada $n = 0$.</p>
+<h3 id="rk2-solution">rk2 solution<a class="anchor" href="#rk2-solution">#</a></h3>
+<p>Dengan menerapkan Persamaan \eqref{eqn:runge-kutta-2-step-1} pada Persamaan \eqref{eqn:ode-1st-order-example-1} akan diperoleh</p>
+<p>\begin{equation}\label{eqn:example-1-rk-2-step-1}
+k_1 = -h \ cy_n.
+\end{equation}</p>
+<p>Penggunaan Persamaan \eqref{eqn:runge-kutta-2-step-2} pada Persamaan \eqref{eqn:ode-1st-order-example-1} menghasilkan</p>
+<p>\begin{equation}\label{eqn:example-1-rk-2-step-2}
+\begin{array}{rcl}
+k_2 &amp; = &amp; -h \ c \ (y_n - \tfrac12 hc \ y_n) \newline
+&amp; = &amp; (-hc + \tfrac1 2h^2c^2) \ y_n.
+\end{array}
+\end{equation}</p>
+<p>Dan substitusi Persamaan \eqref{eqn:example-1-rk-2-step-1} dan \eqref{eqn:example-1-rk-2-step-2} ke Persamaan \eqref{eqn:example-1-rk-2-step-3} akan memberikan</p>
+<p>\begin{equation}\label{eqn:example-1-rk-2-step-3}
+\begin{array}{rcl}
+y_{n+1} &amp; = &amp; y_n + (-hc + \tfrac1 2h^2c^2) \ y_n \newline
+&amp; = &amp; (1 - hc + \tfrac1 2h^2c^2) \ y_n
+\end{array}
+\end{equation}</p>
+<p>sebagai solusinya dan dibutuhkan syarat awal $x_0$ dan $y_0 = y(x_n)$ pada $n = 0$.</p>
+<h3 id="rk4-solution">rk4 solution<a class="anchor" href="#rk4-solution">#</a></h3>
+<p>Dengan menerapkan Persamaan \eqref{eqn:runge-kutta-4-step-1} pada Persamaan \eqref{eqn:ode-1st-order-example-1} akan diperoleh</p>
+<p>\begin{equation}\label{eqn:example-1-rk-4-step-1}
+k_1 = -h \ cy_n.
+\end{equation}</p>
+<p>Penggunaan Persamaan \eqref{eqn:runge-kutta-4-step-2} pada Persamaan \eqref{eqn:ode-1st-order-example-1} menghasilkan</p>
+<p>\begin{equation}\label{eqn:example-1-rk-4-step-2}
+\begin{array}{rcl}
+k_2 &amp; = &amp; -h \ c \ (y_n - \tfrac12 hc \ y_n) \newline
+&amp; = &amp; (-hc + \tfrac1 2h^2c^2) \ y_n.
+\end{array}
+\end{equation}</p>
+<p>Substitusi Penggunaan Persamaan \eqref{eqn:runge-kutta-4-step-3} pada Persamaan \eqref{eqn:ode-1st-order-example-1} memberikan</p>
+<p>\begin{equation}\label{eqn:example-1-rk-4-step-3}
+\begin{array}{rcl}
+k_3 &amp; = &amp; -h \ c \ [ y_n + \tfrac12 (-hc + \tfrac1 2h^2c^2) \ y_n ] \newline
+&amp; = &amp; (-hc + \tfrac12 h^2c^2 - \tfrac18 h^3c^3) \ y_n.
+\end{array}
+\end{equation}</p>
+<p>Selanjutnya penggunaan Penggunaan Persamaan \eqref{eqn:runge-kutta-4-step-3} pada Persamaan \eqref{eqn:ode-1st-order-example-1} akan memperoleh</p>
+<p>\begin{equation}\label{eqn:example-1-rk-4-step-4}
+\begin{array}{rcl}
+k_4 &amp; = &amp; -h \ c \ [ y_n + (-hc + \tfrac12 h^2c^2 - \tfrac18 h^3c^3) \ y_n ] \newline
+&amp; = &amp; (-hc + h^2c^2 - \tfrac12 h^3c^3 + \tfrac18 h^4c^4) \ y_n.
+\end{array}
+\end{equation}</p>
+<p>Dan substitusi Persamaan \eqref{eqn:example-1-rk-4-step-1}, \eqref{eqn:example-1-rk-4-step-2}, \eqref{eqn:example-1-rk-4-step-3}, dan \eqref{eqn:example-1-rk-4-step-4} ke Persamaan \eqref{eqn:runge-kutta-4-step-5} akan menghasilkan</p>
+<p>\begin{equation}\label{eqn:example-1-rk-4-step-5}
+\begin{array}{rcl}
+y_{n+1} &amp; = &amp; y_n + \tfrac16 (-hc) \ y_n + \tfrac13 (-hc + \tfrac1 2h^2c^2) \ y_n \newline
+&amp;&amp; + \tfrac13 (-hc + \tfrac12 h^2c^2 - \tfrac18 h^3c^3) \ y_n \newline
+&amp;&amp; + \tfrac16 (-hc + h^2c^2 - \tfrac12 h^3c^3 + \tfrac18 h^4c^4) \ y_n \newline
+&amp; = &amp; (1 - hc + \tfrac12 h^2c^2 - \tfrac18 h^3 c^3 + \tfrac1{48} h^4 c^4) \ y_n
+\end{array}
+\end{equation}</p>
+<p>sebagai solusinya dan dibutuhkan syarat awal $x_0$ dan $y_0 = y(x_n)$ pada $n = 0$.</p>
+<h3 id="the-solutions">the solutions<a class="anchor" href="#the-solutions">#</a></h3>
+<p>Permasalahan pada Persamaan\eqref{eqn:ode-1st-order-example-1} memiliki solusi analitik yang diberikan oleh Persamaan \eqref{eqn:ode-1st-order-analytical-solution-example-1} dan solusi analitiknya oleh Persamaan \eqref{eqn:ode-1st-order-euler-method-example-1}, \eqref{eqn:example-1-rk-2-step-3}, dan \eqref{eqn:example-1-rk-4-step-5}.</p>
+<p>Tabel <a name='tab1'>1</a>. Beberapa hal terkait dengan contoh pada Persamaan \eqref{eqn:ode-1st-order-example-1}.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Hal</th>
+<th style="text-align:left">Persamaan terkait</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Persamaan Diferensial</td>
+<td style="text-align:left">$\displaystyle \frac{dy}{dx} = -cy$</td>
+</tr>
+<tr>
+<td style="text-align:left">Analitik</td>
+<td style="text-align:left">$y = Ae^{-cx}$</td>
+</tr>
+<tr>
+<td style="text-align:left">Metode Euler</td>
+<td style="text-align:left">$y_{n + 1} = (1 - hc) \ y_n$</td>
+</tr>
+<tr>
+<td style="text-align:left">Metode RK2</td>
+<td style="text-align:left">$\displaystyle y_{n + 1} = (1 - hc + \tfrac1 2h^2c^2) \ y_n$</td>
+</tr>
+<tr>
+<td style="text-align:left">Metode RK4</td>
+<td style="text-align:left">$\displaystyle y_{n + 1} = (1 - hc + \tfrac12 h^2c^2 - \tfrac18 h^3 c^3 + \tfrac1{48} h^4 c^4) \ y_n$</td>
+</tr>
+</tbody>
+</table>
+<p>Solusi-solusi numerik yang diberikan pada Tabel <a href="#tab1" 
+  
+  
+>1</a> tidak selalu perlu untuk dituliskan dalam bentuk eksplisitnya sehingg terlihat jelas $y_{n+1} = y_{n+1}(y_n)$ akan tetapi cukup dengan menerapkan Persamaan-persamaan \eqref{eqn:example-1-rk-2-step-1}, \eqref{eqn:example-1-rk-2-step-2}, \eqref{eqn:example-1-rk-2-step-3}  untuk metode RK2 dan Persamaan-persamaan \eqref{eqn:example-1-rk-4-step-1}, \eqref{eqn:example-1-rk-4-step-2}, \eqref{eqn:example-1-rk-4-step-3}, \eqref{eqn:example-1-rk-4-step-4}, \eqref{eqn:example-1-rk-4-step-5} untuk metode RK4. Contoh formula eksplisit pada Tabel <a href="#tab1" 
+  
+  
+>1</a> diberikan naya sebagai ilustrasi keterkaitan antar metode numerik.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Nikos Drakos, R. Sureshkumar, Michael Zeltkevic (translator), &ldquo;Runge-Kutta Methods&rdquo;, 10.001: Numerical Solution of Ordinary Differential Equations, 15 Apr 1998, url <a href="https://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node5.html" 
