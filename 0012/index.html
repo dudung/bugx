@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-22 09:02:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-22 09:02:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-22 12:20:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-22 12:20:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0012\/",
-      "wordCount" : "1100",
+      "wordCount" : "1606",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">runge-kutta method</h1>
-            <time datetime="2022-03-22 09:02:00 &#43;0700 &#43;0700" class="post__date">Tue, 22 Mar  2022</time> 
+            <time datetime="2022-03-22 12:20:00 &#43;0700 &#43;0700" class="post__date">Tue, 22 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -222,13 +222,6 @@
   
   
 >5</a>].</p>
-<h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
-<ol>
-<li>Tunjukkan bagaimana pengaruh dari nilai $h$ terhadap hasil yang diperoleh dari solusi-solusi yang diberikan pada Tabel <a href="#tab1" 
-  
-  
->1</a>.</li>
-</ol>
 <h2 id="ode-1st-order">ode 1st order<a class="anchor" href="#ode-1st-order">#</a></h2>
 <p>Suatu persamaan diferensial biasa (PDB) orde satu dapat dituliskan dalam bentuk</p>
 <p>\begin{equation}\label{eqn:ode-1st-order}
@@ -401,6 +394,93 @@ y_{n+1} &amp; = &amp; y_n + \tfrac16 (-hc) \ y_n + \tfrac13 (-hc + \tfrac1 2h^2c
   
   
 >1</a> diberikan naya sebagai ilustrasi keterkaitan antar metode numerik.</p>
+<h2 id="example-2">example 2<a class="anchor" href="#example-2">#</a></h2>
+<p>Suatu sistem fisis yang mirip dengan Persamaan\eqref{eqn:ode-1st-order-example-1} adalah benda berbentuk bola yang jatuh dalam fluida karena tarikan gaya gravitasi bumi. Arah positif $y$ diambil ke atas dengan sehingga percepatan gravitasi $\vec{g} = -g_0 \hat{y}$. Terdapat tiga gaya yang bekerja pada bola.</p>
+<ol>
+<li>Gaya gravitasi bumi
+\begin{equation}\label{eqn:example-2-gravitational-force}
+\vec{F}_G = -\frac16 \pi D^3 \rho g_0 \hat{y},
+\end{equation}
+dengan $\rho$ massa jenis bola dan $D$ adalah diameter bola.</li>
+<li>Gaya apung fluida
+\begin{equation}\label{eqn:example-2-buoyant-force}
+\vec{F}_B = \frac16 \pi D^3 \rho_0 g_0 \hat{y},
+\end{equation}
+dengan $\rho_0$ massa jenis fluida.</li>
+<li>Gaya gesek fluida
+\begin{equation}\label{eqn:example-2-drag-force}
+\vec{F}_D = -3 \pi \eta_0 D \vec{v},
+\end{equation}
+dengan $\eta_0$ adalah kekentalan fluida.</li>
+</ol>
+<p>Hukum Newton II memberikan</p>
+<p>\begin{equation}\label{eqn:example-2-newton-law-2-step-1}
+\begin{array}{rcl}
+\sum \vec{F} &amp; = &amp; m \vec{a} \newline
+\vec{F}_G + \vec{F}_B + \vec{F}_D &amp; = &amp; \displaystyle \tfrac16 \pi D^3\rho \frac{d\vec{v}}{dt} \newline
+-\frac16 \pi D^3 \rho g_0 \hat{y}  &amp;&amp; \newline
++\frac16 \pi D^3 \rho_0 g_0 \hat{y} &amp;&amp; \newline
+-3\pi \eta_0 D \vec{v} &amp; = &amp; \newline
+-\frac16 \pi D^3 (\rho - \rho_0) g_0 \hat{y} &amp;&amp; \newline
+-3\pi \eta_0 D \vec{v} &amp; = &amp; \newline
+\displaystyle -\left(\frac{\rho - \rho_0}{\rho}\right) g_0 \hat{y} - \frac{3\pi \eta_0 D}{\frac16 \pi D^3 \rho} \vec{v} &amp; = &amp; \displaystyle \frac{d\vec{v}}{dt} \newline
+\displaystyle -\left(1 - \frac{\rho_0}{\rho} \right) g_0 \hat{y} - \frac{18 \eta_0}{D^2 \rho} \vec{v} &amp; = &amp;
+\end{array}
+\end{equation}</p>
+<p>yang dapat dituliskan tanpa notasi vektornya menjadi</p>
+<p>\begin{equation}\label{eqn:example-2-newton-law-2-step-2}
+\begin{array}{rcl}
+\displaystyle \frac{dv}{dt} &amp; = &amp; \displaystyle -\frac{18 \eta_0}{D^2 \rho} v - \left(1 - \frac{\rho_0}{\rho} \right) g_0 \newline
+&amp; = &amp; \displaystyle -\left( \frac{18 \eta_0}{D^2 \rho} \right) \left[ v + \frac{D^2 \rho}{18 \eta_0} \left(1 - \frac{\rho_0}{\rho} \right) g_0 \right].
+\end{array}
+\end{equation}</p>
+<p>Misalkan suatu konstanta</p>
+<p>\begin{equation}\label{eqn:example-2-newton-law-2-step-3}
+c = \frac{18 \eta_0}{D^2 \rho},
+\end{equation}</p>
+<p>sehingga Persamaan \eqref{eqn:example-2-newton-law-2-step-2} dapat disederhanakan penulisannya menjadi</p>
+<p>\begin{equation}\label{eqn:example-2-newton-law-2-step-4}
+\frac{dv}{dt} = - c \left[ v + \frac{g_0}{c} \left(1 - \frac{\rho_0}{\rho} \right) \right].
+\end{equation}</p>
+<p>Dapat didefinisikan suatu besaran baru</p>
+<p>\begin{equation}\label{eqn:example-2-newton-law-2-step-5}
+u = v + \frac{g_0}{c} \left(1 - \frac{\rho_0}{\rho} \right),
+\end{equation}</p>
+<p>yang akan membuat Persamaan \eqref{eqn:example-2-newton-law-2-step-4} menjadi</p>
+<p>\begin{equation}\label{eqn:example-2-newton-law-2-step-6}
+\frac{du}{dt} = - cu,
+\end{equation}</p>
+<p>yang bentuknya telah serupa dengan Persamaan \eqref{eqn:ode-1st-order-example-1}. Dengan demikian solusi pada Tabel <a href="#tab1" 
+  
+  
+>1</a> dapat diterapkan pada Persamaan \eqref{eqn:example-2-newton-law-2-step-6}.</p>
+<p>Minyak motor SAE 50 memiliki viskositas (dinamis) $0.630 \ {\rm Pa \cdot s}$ pada $20 \ {\rm ^\circ C}$ [<a href="#r09" 
+  
+  
+>9</a>], massa jenis aluminium adalah $2710 \ {\rm kg/m^3}$ [<a href="#r10" 
+  
+  
+>10</a>], dan massa jenis air murni adalah $998.2 \ {\rm kg/m^3}$ pada $20 \ {\rm ^\circ C}$ [<a href="#r11" 
+  
+  
+>11</a>], serta standar gravitasi bernilai $9.80665 \ {\rm m/s^2}$ [<a href="#r12" 
+  
+  
+>12</a>]. Bola-bola aluminum dapat berukuran $0.5$, $1$, $1.25$, $1.5$, $2$, $2.5$, $3$, dan 3.5 $^&quot;$ [<a href="#r13" 
+  
+  
+>13</a>], dengan konversi $1^&quot; = 2.54 \ {\rm cm}$ [<a href="#r14" 
+  
+  
+>14</a>]. Data-data ini dapat digunakan untuk mencari solusi dari sistem fisis pada Persamaan \eqref{eqn:example-2-newton-law-2-step-2}.</p>
+<h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
+<ol>
+<li>Tunjukkan bagaimana pengaruh dari nilai $h$ terhadap hasil yang diperoleh dari solusi-solusi yang diberikan pada Tabel <a href="#tab1" 
+  
+  
+>1</a>.</li>
+<li>Apakah satuan dari $c$ pada Persamaan \eqref{eqn:example-2-newton-law-2-step-3}?</li>
+</ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Nikos Drakos, R. Sureshkumar, Michael Zeltkevic (translator), &ldquo;Runge-Kutta Methods&rdquo;, 10.001: Numerical Solution of Ordinary Differential Equations, 15 Apr 1998, url <a href="https://web.mit.edu/10.001/Web/Course_Notes/Differential_Equations_Notes/node5.html" 
@@ -436,6 +516,30 @@ amartyaghoshgfg, &ldquo;Runge-Kutta 4th Order Method to Solve Differential Equat
   
    target="_blank" rel="noreferrer noopener" 
 >https://mathworld.wolfram.com/LandauSymbols.html</a> [20220322].</li>
+<li><a name='r09'></a>&ldquo;Motor Oils - Dynamic Viscosities&rdquo;, The Engineering ToolBox, 2011, url <a href="https://www.engineeringtoolbox.com/dynamic-viscosity-motor-oils-d_1759.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.engineeringtoolbox.com/dynamic-viscosity-motor-oils-d_1759.html</a> [20220322].</li>
+<li><a name='r10'></a>&ldquo;Density of Aluminium&rdquo;, Thyssenkrupp Materials (UK) Ltd, 2022, url <a href="https://www.thyssenkrupp-materials.co.uk/density-of-aluminium.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.thyssenkrupp-materials.co.uk/density-of-aluminium.html</a> [20220322].</li>
+<li><a name='r11'></a>&ldquo;Pure Water Density Standard&rdquo;, Merck KGaA, Darmstadt, Germany, 2022, url <a href="https://www.sigmaaldrich.com/ID/en/product/sial/denwat" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.sigmaaldrich.com/ID/en/product/sial/denwat</a> [20220322].</li>
+<li><a name='r12'></a>&ldquo;standard acceleration of gravity&rdquo;, The NIST Reference on Constant, Units, and Uncertainty, url <a href="https://physics.nist.gov/cgi-bin/cuu/Value?gn" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://physics.nist.gov/cgi-bin/cuu/Value?gn</a> [20220322].</li>
+<li><a name='r13'></a>&ldquo;Aluminum Solid Ball No Hole&rdquo;, Liberty Brass Turning Company, 2019, url <a href="https://libertybrass.com/products/aluminum-solid-ball-no-hole" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://libertybrass.com/products/aluminum-solid-ball-no-hole</a> [20220322].</li>
+<li><a name='r14'></a>&ldquo;Convert inches to cm&rdquo;, unitconverters.net, 2022, url <a href="https://www.unitconverters.net/length/inches-to-cm.htm" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.unitconverters.net/length/inches-to-cm.htm</a> [20220322].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
