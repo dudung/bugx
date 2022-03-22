@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 22 Mar 2022 06:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/shortcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 15:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/shortcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shortcode svg</title>
+      <link>https://dudung.github.io/bugx/0013/</link>
+      <pubDate>Tue, 22 Mar 2022 15:32:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0013/</guid>
+      <description>Dengan mengikuti bagaimana menyisipkan berkas svg dalam suatu berkas html [1], dicoba untuk membuat shortcode agar berkas svg dapat disisipkan ke dalam post dengan bentuk seperti untuk youtube [2], dengan mengikuti tutoial singkat membuat shortcode [3].
+version 22-mar-2022 Dengan menggunakan
+{{&amp;lt; svg &amp;quot;/static/img/bugx/packed-no-fill-color-grains.svg&amp;quot; &amp;quot;#fig1&amp;quot; &amp;quot;1&amp;quot; &amp;quot;Beberapa butiran berbeda ukuran dan tak berwarna yang saling bersentuhan.&amp;quot; &amp;gt;}}  akan diperoleh hasil berikut ini
+  image/svg+xml       Gambar 1.</description>
+    </item>
+    
     <item>
       <title>shortcode citeas</title>
       <link>https://dudung.github.io/bugx/0010/</link>
@@ -15,7 +27,7 @@
       
       <guid>https://dudung.github.io/bugx/0010/</guid>
       <description>Suatu shortcode bernama citeas telah berhasil dibuat mengikuti petunjuk pembuatan shortcode [1], yang lebih dimengerti setelah menonton videonya [2].
-version 23-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
+version 21-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
  Cite as: viridi, &amp;ldquo;shortcode citeas&amp;rdquo;, bugx, 21 Mar 2022, url http://localhost:1313/bugx/0010 [20220321].
  yang dilengkapi tautan pada author dan artikelnya.
 &amp;lt;!-- citeas a Hugo shortcode to put how-to-cite at the bottom of a post Sparisoma Viridi https://github.com/dudung 20220321 It can only read one author, link to author nickname and page, border and background.</description>
