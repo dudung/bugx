@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <title>divergence theorem | bugx</title>
+  <title>curl theorem | bugx</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
@@ -15,7 +15,7 @@
   
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="divergence theorem" />
+  <meta name="twitter:title" content="curl theorem" />
   <meta name="twitter:description" content=""/>
   <meta name="twitter:site" content="https://twitter.com/6unpnp" />
   <meta name="twitter:creator" content="https://twitter.com/6unpnp" />
@@ -55,8 +55,8 @@
             "@id": "https:\/\/dudung.github.io\/bugx\/"
       },
       "articleSection" : "blog",
-      "name" : "divergence theorem",
-      "headline" : "divergence theorem",
+      "name" : "curl theorem",
+      "headline" : "curl theorem",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-23 05:13:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-23 05:13:00 \u002b0700 \u002b0700",
-      "url" : "https:\/\/dudung.github.io\/bugx\/0015\/",
-      "wordCount" : "590",
+      "datePublished": "2022-03-23 06:41:13 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-23 06:41:13 \u002b0700 \u002b0700",
+      "url" : "https:\/\/dudung.github.io\/bugx\/0016\/",
+      "wordCount" : "857",
       "keywords" : ["Blog"]
     }
   
@@ -201,15 +201,15 @@
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title">divergence theorem</h1>
-            <time datetime="2022-03-23 05:13:00 &#43;0700 &#43;0700" class="post__date">Wed, 23 Mar  2022</time> 
+            <h1 id="post__title">curl theorem</h1>
+            <time datetime="2022-03-23 06:41:13 &#43;0700 &#43;0700" class="post__date">Wed, 23 Mar  2022</time> 
           </header>
           <article class="post__content">
               
-<p>Teorema divergensi merupakan suatu pernyataan matematik mengenai fakta fisis bahwa tanpa adanya penciptaan atau penghancuran materi, kerapatan dalam suatu wilayah ruang hanya dapat berubah dengan adanya aliran masuk ke dalam atau keluar dari wilayah tersebut melalui batasnya [<a href="#r01" 
+<p>Teorema curl merupakan suatu kasus khusus dari teorema Stokes dan suatu generalisasi dari Teorema Green [<a href="#r01" 
   
   
->1</a>]. Teorema ini menghubungkan antara fluks medan vektor yang melewati suatu permukaan tertutup dengan divergensi medan tersebut di dalam volume tertutup [<a href="#r02" 
+>1</a>]. Teorema ini menghubungkan antara integral suatu curl medan vektor pada suatu permukaan dengan integral garis medan vektor mengelilingi batas permukaan tersebut [<a href="#r02" 
   
   
 >2</a>]. Dengan teorema ini dapat diperoleh persamaan-persamaan Maxwell bentuk integral dari bentuk diferensial atau sebaliknya [<a href="#r03" 
@@ -224,50 +224,28 @@
 <p>\begin{equation}\label{eqn:nabla}
 \vec{\nabla} = \hat{x}\frac{\partial}{\partial x} + \hat{y}\frac{\partial}{\partial y} + \hat{z}\frac{\partial}{\partial z}
 \end{equation}</p>
-<p>dan bila diterapkan dan bentuk perkalian titik, misalnya pada suatu vektor $\vec{F}$</p>
+<p>dan bila diterapkan, misalnya pada suatu vektor $\vec{F}$</p>
 <p>\begin{equation}\label{eqn:vector-F}
 \vec{F} = \hat{x} F_x + \hat{y} F_y + \hat{z} F_z
 \end{equation}</p>
-<p>akan memberikan</p>
-<p>\begin{equation}\label{eqn:nabla-divergence}
-\vec{\nabla} \cdot \vec{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z},
-\end{equation}</p>
-<p>yang disebut sebagai divergensi dari $\vec{F}$. Secara umum $F_x = F_x(x, y, z)$, $F_y = F_y(x, y, z)$, dan $F_z = F_z(x, y, z)$. Ruas kiri Persamaan \eqref{eqn:nabla-divergence} sering dibaca dengan &ldquo;del dot F&rdquo;.</p>
-<h2 id="theorem">theorem<a class="anchor" href="#theorem">#</a></h2>
-<p>Teorema divergensi secara sederhana dapat dituliskan sebagai</p>
-<p>\begin{equation}\label{eqn:divergence-theorem}
-\int_V (\vec{\nabla} \cdot \vec{F}) \ dV = \oint_A \vec{F} \cdot d\vec{A}
-\end{equation}</p>
-<p>dengan volume $V$ adalah ruang yang terlingkupi oleh permukaan tertutup $A$.</p>
-<h2 id="charge-density">charge density<a class="anchor" href="#charge-density">#</a></h2>
-<p>Muatan $q$ dapat diperoleh dengan mengintegralkan rapat muatannya untuk seluruh volume</p>
-<p>\begin{equation}\label{eqn:charge-density-integral}
-q = \int \rho \ dV
-\end{equation}</p>
-<p>atau</p>
-<p>\begin{equation}\label{eqn:charge-density-differential}
-\rho = \frac{dq}{dV}
-\end{equation}</p>
-<p>yang merupakan bentuk diferensialnya.</p>
-<h2 id="use">use<a class="anchor" href="#use">#</a></h2>
-<p>Di sini hanya akan disinggung pemanfaatan teorema divergensi yang diberikan oleh Persamaan \eqref{eqn:divergence-theorem} pada hukum Gauss untuk kelistrikan dan hukum Gauss untuk kemagnetan.</p>
-<h3 id="electricity">electricity<a class="anchor" href="#electricity">#</a></h3>
-<p>Hukum Gauss untuk kelistrikan memiliki bentuk</p>
-<p>\begin{equation}\label{eqn:gauss-law-electricity}
-\oint \vec{E} \cdot d\vec{A} = \frac{q}{\varepsilon_0}.
-\end{equation}</p>
-<p>Penerapan Persamaan \eqref{eqn:divergence-theorem} dan \eqref{eqn:charge-density-integral} pada kiri dan kanan Persamaan \eqref{eqn:gauss-law-electricity} akan menghasilkan</p>
-<p>\begin{equation}\label{eqn:gauss-law-electricity-to-divergence}
+<p>dalam bentuk perkalian silang akan memberikan [<a href="#r05" 
+  
+  
+>5</a>]</p>
+<p>\begin{equation}\label{eqn:nabla-curl}
 \begin{array}{rcl}
-\displaystyle \oint \vec{E} \cdot d\vec{A} &amp; = &amp; \displaystyle \frac{q}{\varepsilon_0} \newline
-\displaystyle \int (\vec{\nabla} \cdot \vec{E}) \ dV &amp; = &amp; \displaystyle \int \frac{\rho}{\varepsilon_0} \ dV,
+\vec{\nabla} \times \vec{F} &amp; = &amp; \displaystyle \hat{x} \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z} \right) \newline
+&amp;&amp; \displaystyle + \hat{y} \left( \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x} \right) \newline
+&amp;&amp; \displaystyle + \hat{z} \left( \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y} \right),
 \end{array}
 \end{equation}</p>
-<p>yang selanjutnya dapat memberikan</p>
-<p>\begin{equation}\label{eqn:gauss-law-electricity-differential}
-\vec{\nabla} \cdot \vec{E} = \frac{\rho}{\varepsilon_0}
+<p>yang disebut sebagai curl dari $\vec{F}$. Secara umum $F_x = F_x(x, y, z)$, $F_y = F_y(x, y, z)$, dan $F_z = F_z(x, y, z)$.</p>
+<h2 id="theorem">theorem<a class="anchor" href="#theorem">#</a></h2>
+<p>Teorema curl secara sederhana dapat dituliskan sebagai</p>
+<p>\begin{equation}\label{eqn:curl-theorem}
+\int_A (\vec{\nabla} \times \vec{F}) \cdot d\vec{A} = \oint_l \vec{F} \cdot d\vec{l}
 \end{equation}</p>
-<p>yang merupakan persamaan pertama dari persamaan-persamaan Maxwell.</p>
+<p>dengan $A$ adalah suatu permukaan melengkung dan $l$ adalah lintasan tertutup pada batas permukaan.</p>
 
 
 <div>
@@ -335,22 +313,39 @@ q = \int \rho \ dV
      transform="translate(0,-732.36216)" />
 </svg>
 <br>
-Gambar 1. Beberapa muatan listrik dan beberapa permukaan tertutup Gauss.
+Gambar 1. Suatu permukaan terbuka melengkung dan batasnya berupa lintasan tertutup.
 </div>
-<p>Ilustrasi dari hubungan antara fluks medan listrik yang melewati suatu permukaan tertutup dengan divergensi medan tersebut di dalam volume tertutup untuk muatan dan medan listrik diberikan pada Gambar <a href="#fig1" 
+<p>Hubungan antara lintasan tertutup pada batas permukaan $l$ dan permukaannya $A$ diberikan pada Gambar <a href="#fig1" 
   
   
 >1</a>.</p>
-<h3 id="magnetism">magnetism<a class="anchor" href="#magnetism">#</a></h3>
-<p>Hukum Gauss untuk kemagnetan memiliki bentuk</p>
-<p>\begin{equation}\label{eqn:gauss-law-magnetism}
-\oint \vec{B} \cdot d\vec{A} = 0,
+<h2 id="faradays-law">faraday&rsquo;s law<a class="anchor" href="#faradays-law">#</a></h2>
+<p>Medan listrik $\vec{E}$ terkait dengan potensialnya melalui</p>
+<p>\begin{equation}\label{eqn:electric-field-potential}
+V = \int \vec{E} \cdot d\vec{l}.
 \end{equation}</p>
-<p>yang dengan menggunakan Persamaan \eqref{eqn:divergence-theorem} dan langkah-langkah seperti pada hukum Gauss untuk kelistrikan akan menghasilkan</p>
-<p>\begin{equation}\label{eqn:gauss-law-magnetism-differential}
-\vec{\nabla} \cdot \vec{B} = 0
+<p>Bila integral Pada Persamaan \eqref{eqn:electric-field-potential} dilakukan dari suatu titik dan kembali ke titik tersebut maka akan diperoleh</p>
+<p>\begin{equation}\label{eqn:electric-field-potential-close-loop}
+\oint \vec{E} \cdot d\vec{l} = 0
 \end{equation}</p>
-<p>yang merupakan persamaan kedua dari persamaan-persamaan Maxwell.</p>
+<p>dikarena sifat $\vec{E}$ yang merupakan medan dari gaya elektrostatik yang merupakan gaya konservatif. Salah satu penerapannya adalah hukum II Kirchhoff</p>
+<p>\begin{equation}\label{eqn:kirchhoff-2nd-rule}
+\sum_{\begin{array}{c}a \rightarrow b \newline b \rightarrow a\end{array}} V = 0
+\end{equation}</p>
+<p>yang menggambarkan jumlah perubahan potensial pada suatu loop tertutup adalah nol, yang dapat terlihat dari penerapan Persamaan \eqref{eqn:electric-field-potential-close-loop} pada Persamaan \eqref{eqn:electric-field-potential}.</p>
+<p>Hukum Faraday-Lenz dalam bentuk</p>
+<p>\begin{equation}\label{eqn:faraday-lenz-law}
+\varepsilon = -\frac{d\Phi_B}{dt}
+\end{equation}</p>
+<p>yang menggambarkan munculnya ggl induksi pada suatu loop tertutup yang fluks magnetiknya berubah dengan waktu. Ggl induksi $\varepsilon$ ini tidak lain adalah potensial listrik $V$ pada suatu loop tertutup. Perhatikan bahwa ggl induksi pada Persamaan \eqref{eqn:faraday-lenz-law} ini akan membuat suku di sebelah kanan dari Persamaan \eqref{eqn:electric-field-potential-close-loop} tidak lagi nol yang dituliskan sebagai</p>
+<p>\begin{equation}\label{eqn:faraday-law-of-induction}
+\oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt},
+\end{equation}</p>
+<p>dengan</p>
+<p>\begin{equation}\label{eqn:magnetic-field-flux}
+\Phi_B = \int \vec{B} \cdot d\vec{A}
+\end{equation}</p>
+<p>adalah fluks medan magnetiknya.</p>
 
 
 <div>
@@ -418,46 +413,94 @@ Gambar 1. Beberapa muatan listrik dan beberapa permukaan tertutup Gauss.
      transform="translate(0,-732.36216)" />
 </svg>
 <br>
-Gambar 2. Beberapa sumber medan magnet dan beberapa permukaan tertutup Gauss.
+Gambar 2. Suatu loop tertutup saat tidak ada dan saat ada perubahan fluks magnetik padanya.
 </div>
-<p>Ilustrasi dari hubungan antara fluks medan magnet yang melewati suatu permukaan tertutup dengan divergensi medan tersebut di dalam volume tertutup untuk sumber dan medan magnet diberikan pada Gambar <a href="#fig2" 
+<p>Persamaan \eqref{eqn:electric-field-potential-close-loop} dan \eqref{eqn:kirchhoff-2nd-rule} berlaku pada loop tertutup yang fluks magnetiknya tidak berubah terhadap waktu. Dan saat fluks magnetiknya berubah terhadap waktu akan berlaku Persamaan \eqref{eqn:faraday-law-of-induction}. Kedua peristiwa ini diilustasikan pada Gambar <a href="#fig2" 
   
   
 >2</a>.</p>
-<p>Persamaan \eqref{eqn:gauss-law-electricity-differential} merupakan hukum Gauss untuk kelistrikan dalam bentuk diferensial dan Persamaan \eqref{eqn:gauss-law-magnetism-differential} merupakan hukum Gauss untuk kemagnetan dalam bentuk diferensial. Keduanya merupaka dua persamaan pertama dari empat persamaan Maxwell.</p>
+<h2 id="amperes-law">ampere&rsquo;s law<a class="anchor" href="#amperes-law">#</a></h2>
+<p>Hukum Ampere dengan adanya perubahan medan fluks medan listrik dapat dituliskan sebagai</p>
+<p>\begin{equation}\label{eqn:ampere-law}
+\oint \vec{B} \cdot d\vec{l} = \mu_o I + \frac{1}{c^2} \frac{d\Phi_E}{dt},
+\end{equation}</p>
+<p>dengan</p>
+<p>\begin{equation}\label{eqn:electric-field-flux}
+\Phi_E = \int \vec{E} \cdot d\vec{A}
+\end{equation}</p>
+<p>adalah fluks medan listriknya.</p>
+<h2 id="current-density">current density<a class="anchor" href="#current-density">#</a></h2>
+<p>Terdapat hubungan</p>
+<p>\begin{equation}\label{eqn:current-density}
+I = \int \vec{J} \cdot d\vec{A}
+\end{equation}</p>
+<p>yang mengaitkan antara arus $I$ dengan rapat arus \vec{J} yang melalui suatu elemen permukaan $d\vec{A}$. Dapat pula dituliskan</p>
+<p>\begin{equation}\label{eqn:current-density-differential}
+J = \frac{dI}{dA}
+\end{equation}</p>
+<p>sebagai bentuk diferensialnya, di mana telah diambil bahwa arah $\vec{J}$ sejajar dengan arah $d\vec{A}$.</p>
+<h2 id="use">use<a class="anchor" href="#use">#</a></h2>
+<p>Di sini hanya akan disinggung pemanfaatan teorema curl yang diberikan oleh Persamaan \eqref{eqn:curl-theorem} pada hukum induksi Faraday-Lenz dan hukum Ampere.</p>
+<h3 id="curl-of-e">curl of e<a class="anchor" href="#curl-of-e">#</a></h3>
+<p>Substitusi Persamaan \eqref{eqn:magnetic-field-flux} ke Persamaan \eqref{eqn:faraday-law-of-induction}, serta penerapan Persamaan \eqref{eqn:curl-theorem} akan menghasilkan</p>
+<p>\begin{equation}\label{eqn:faraday-law-of-induction-curl}
+\begin{array}{rcl}
+\displaystyle \oint \vec{E} \cdot d\vec{l} &amp; = &amp; \displaystyle -\frac{d}{dt} \int \vec{B} \cdot d\vec{A} \newline
+&amp; = &amp; \displaystyle - \int \frac{d\vec{B}}{dt} \cdot d\vec{A} \newline
+\displaystyle \int (\vec{\nabla} \times \vec{E}) \cdot d\vec{A} &amp; = &amp;
+\newline
+\end{array}
+\end{equation}</p>
+<p>sehingga dapat diperoleh</p>
+<p>\begin{equation}\label{eqn:faraday-law-differential}
+\vec{\nabla} \times \vec{E} = -\frac{d\vec{B}}{dt}
+\end{equation}</p>
+<p>yang merupakan persamaan ketiga dari persamaan-persamaan Maxwell.</p>
+<h3 id="curl-of-b">curl of b<a class="anchor" href="#curl-of-b">#</a></h3>
+<p>Substitusi Persamaan \eqref{eqn:electric-field-flux} dan \eqref{eqn:current-density} ke Persamaan \eqref{eqn:ampere-law}, serta penerapaan Persamaan \eqref{eqn:curl-theorem}, akan menghasilkan</p>
+<p>\begin{equation}\label{eqn:ampere-law-curl}
+\begin{array}{rcl}
+\displaystyle \oint \vec{B} \cdot d\vec{l} &amp; = &amp; \displaystyle \mu_o \int \vec{J} \cdot d\vec{A} + \frac{1}{c^2} \frac{d}{dt} \int \vec{E} \cdot d\vec{A} \newline
+&amp; = &amp; \displaystyle \int \mu_o \vec{J} \cdot d\vec{A} + \int \frac{1}{c^2} \frac{d\vec{E}}{dt} \cdot d\vec{A} \newline
+&amp; = &amp; \displaystyle \int \left( \mu_o \vec{J} + \frac{1}{c^2} \frac{d\vec{E}}{dt} \right) \cdot d\vec{A} \newline
+\displaystyle \int (\vec{\nabla} \times \vec{B}) \cdot d\vec{A} &amp; = &amp;
+\end{array}
+\end{equation}</p>
+<p>sehingga dapat diperoleh</p>
+<p>\begin{equation}\label{eqn:ampere-law-differential}
+\vec{\nabla} \times \vec{B} = \mu_o \vec{J} + \frac{1}{c^2} \frac{d\vec{E}}{dt},
+\end{equation}</p>
+<p>yang merupakan persamaan keempat dari persaman-persamaan Maxwell.</p>
 <h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
 <ol>
-<li>Terkait dengan keberadaan monopol listrik, apakah makna dari Persamaan \eqref{eqn:gauss-law-electricity-differential} dan Gambaf <a href="#fig1" 
-  
-  
->1</a>?</li>
-<li>Terkait dengan keberadaan monopol magnet apakah makna dari Persamaan \eqref{eqn:gauss-law-magnetism-differential} dan Gambaf <a href="#fig2" 
-  
-  
->2</a>?</li>
+<li>Bagaimana menunjukkan bahwa suku kedua para ruas kanan Persamaan \eqref{eqn:ampere-law} telah sama satuannya dengan ruas kirinya? Gunakan analisis satuan.</li>
 </ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a>Eric W. Weisstein, &ldquo;Divergence Theorem&rdquo;, from MathWorld&ndash;A Wolfram Web Resource, Wolfram Research, Inc., 2022, url <a href="https://mathworld.wolfram.com/DivergenceTheorem.html" 
+<li><a name='r01'></a>Eric W. Weisstein, &ldquo;Curl Theorem&rdquo;, from MathWorld&ndash;A Wolfram Web Resource, Wolfram Research, Inc., 2022, url <a href="https://mathworld.wolfram.com/CurlTheorem.html" 
   
    target="_blank" rel="noreferrer noopener" 
->https://mathworld.wolfram.com/DivergenceTheorem.html</a> [20220322].</li>
-<li><a name='r02'></a>Wikipedia contributors, &ldquo;Divergence theorem&rdquo;, Wikipedia, The Free Encyclopedia, 14 March 2022, 18:11 UTC, url <a href="https://en.wikipedia.org/w/index.php?oldid=1077137550" 
+>https://mathworld.wolfram.com/CurlTheorem.html</a> [20220323].</li>
+<li><a name='r02'></a>Wikipedia contributors, &ldquo;Stokes&rsquo; theorem&rdquo;, Wikipedia, The Free Encyclopedia, 17 March 2022, 13:02 UTC, url <a href="https://en.wikipedia.org/w/index.php?oldid=1077649345" 
   
    target="_blank" rel="noreferrer noopener" 
->https://en.wikipedia.org/w/index.php?oldid=1077137550</a> [20220322].</li>
+>https://en.wikipedia.org/w/index.php?oldid=1077649345</a> [20220323].</li>
 <li><a name='r03'></a>Carl Rod Nave, &ldquo;Maxwell&rsquo;s Equations&rdquo;, HyperPhysics, 2017, url <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/electric/maxeq.html" 
   
    target="_blank" rel="noreferrer noopener" 
->http://hyperphysics.phy-astr.gsu.edu/hbase/electric/maxeq.html</a> [20220322].</li>
+>http://hyperphysics.phy-astr.gsu.edu/hbase/electric/maxeq.html</a> [20220323].</li>
 <li><a name='r04'></a>Wikipedia-Autoren, &ldquo;Nabla-Operator&rdquo;, Wikipedia – Die freie Enzyklopädie, 15. August 2021, 18:44 UTC, url <a href="https://de.wikipedia.org/w/index.php?oldid=214790423" 
   
    target="_blank" rel="noreferrer noopener" 
->https://de.wikipedia.org/w/index.php?oldid=214790423</a> [20220322].</li>
+>https://de.wikipedia.org/w/index.php?oldid=214790423</a> [20220323].</li>
+<li><a name='r05'></a>Eric W. Weisstein, &ldquo;Curl&rdquo;, from MathWorld&ndash;A Wolfram Web Resource, Wolfram Research, Inc., 2022, url <a href="https://mathworld.wolfram.com/Curl.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://mathworld.wolfram.com/Curl.html</a> [20220323].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "divergence theorem", bugx, 23 Mar 2022, url <a href= "https://dudung.github.io/bugx/0015">https://dudung.github.io/bugx/0015</a> [20220322].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "curl theorem", bugx, 23 Mar 2022, url <a href= "https://dudung.github.io/bugx/0016">https://dudung.github.io/bugx/0016</a> [20220322].
 </div>
 
 
@@ -475,7 +518,7 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "div
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/theorem/">theorem</a>
     </li>
     <li class="tag__item">
-        <a class="tag__link" href="https://dudung.github.io/bugx/tags/divergence/">divergence</a>
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/curl/">curl</a>
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/intro/">intro</a>
@@ -486,17 +529,12 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "div
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0013/">
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0014/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">shortcode svg</span>
+        <span class="pagination__title">maxwell&#39;s equation</span>
     </a>
   
 
-  
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0014/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >maxwell&#39;s equation</span>
-    </a>
   
 </div>
 
