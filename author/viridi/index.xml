@@ -11,7 +11,7 @@
     <item>
       <title>runge-kutta method</title>
       <link>https://dudung.github.io/bugx/0012/</link>
-      <pubDate>Tue, 22 Mar 2022 06:32:00 +0700</pubDate>
+      <pubDate>Tue, 22 Mar 2022 07:23:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0012/</guid>
       <description>Metode Runge-Kutta merupakan kelas metode yang secara bijak memanfaatkan informasi kemiringan kurva pada lebih dari satu titik untuk mengekstrapolasi solusi pada langkah selanjutnya [1]. Metode ini mengintegrasi secara numerik persamaan diferensial biasa menggunakan langkah coba-coba pada titik tengah suatu rentang agar suku kesalahan pada orde lebih rendah saling meniadakan [2]. Anggota keluarga metode Runge-Kutta yang paling dikenal adalah RK4, metode klasik Runge-Kutta atau cukup metode Runge-Kutta [3]. Telah terdapat contoh penerapan metode ini dalam berbagai bahasa pemrograman [4].</description>
@@ -37,7 +37,7 @@ version 23-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220321].  </description>
+posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220322].  </description>
     </item>
     
     <item>
@@ -47,7 +47,7 @@ posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Progra
       
       <guid>https://dudung.github.io/bugx/0007/</guid>
       <description>Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Gelombang Elektromagnetik  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220321].  Cite as: viridi, &#34;fi1202-01 2021-2&#34;, bugx, 21 Mar 2022, url https://dudung.github.io/bugx/0007 [20220321].  </description>
+posts  Gelombang Elektromagnetik  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220321].  Cite as: viridi, &#34;fi1202-01 2021-2&#34;, bugx, 21 Mar 2022, url https://dudung.github.io/bugx/0007 [20220322].  </description>
     </item>
     
     <item>
