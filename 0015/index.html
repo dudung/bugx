@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-22 20:05:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-22 20:05:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-22 20:36:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-22 20:36:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0015\/",
-      "wordCount" : "276",
+      "wordCount" : "495",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">divergence theorem intro</h1>
-            <time datetime="2022-03-22 20:05:00 &#43;0700 &#43;0700" class="post__date">Tue, 22 Mar  2022</time> 
+            <time datetime="2022-03-22 20:36:00 &#43;0700 &#43;0700" class="post__date">Tue, 22 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -235,9 +235,52 @@
 <p>\begin{equation}\label{eqn:divergence-theorem}
 \int_V (\vec{\nabla} \cdot \vec{F}) \ dV = \oint_S \vec{F} \cdot d\vec{S}
 \end{equation}</p>
-<p>dengan volume $V$ adalah ruang yang terlingkupi oleh permukaan tertutup $S.</p>
+<p>dengan volume $V$ adalah ruang yang terlingkupi oleh permukaan tertutup $S$.</p>
+<h2 id="charge-density">charge density<a class="anchor" href="#charge-density">#</a></h2>
+<p>Muatan $q$ dapat diperoleh dengan mengintegralkan rapat muatannya untuk seluruh volume</p>
+<p>\begin{equation}\label{eqn:charge-density-integral}
+q = \int \rho \ dV
+\end{equation}</p>
+<p>atau</p>
+<p>\begin{equation}\label{eqn:charge-density-differential}
+\rho = \frac{dq}{dV}
+\end{equation}</p>
+<p>yang merupakan bentuk diferensialnya.</p>
 <h2 id="use">use<a class="anchor" href="#use">#</a></h2>
-<p>Di sini hanya akan disinggung</p>
+<p>Di sini hanya akan disinggung pemanfaatan teorema divergensi yang diberikan oleh Persamaan \eqref{eqn:divergence-theorem} pada hukum Gauss untuk kelistrikan dan hukum Gauss untuk kemagnetan.</p>
+<h3 id="electricity">electricity<a class="anchor" href="#electricity">#</a></h3>
+<p>Hukum Gauss untuk kelistrikan memiliki bentuk</p>
+<p>\begin{equation}\label{eqn:gauss-law-electricity}
+\oint \vec{E} \cdot d\vec{A} = \frac{q}{\varepsilon_0}.
+\end{equation}</p>
+<p>Penerapan Persamaan \eqref{eqn:divergence-theorem} dan \eqref{eqn:charge-density-integral} pada kiri dan kanan Persamaan \qref{eqn:gauss-law-electricity} akan memberikan</p>
+<p>\begin{equation}\label{eqn:gauss-law-electricity-to-divergence}
+\begin{array}{rcl}
+\displaystyle \oint \vec{E} \cdot d\vec{A} &amp; = &amp; \displaystyle \frac{q}{\varepsilon_0} \newline
+\displaystyle \int (\vec{\nabla} \cdot \vec{E}) \ dV &amp; = &amp; \displaystyle \int \frac{\rho}{\varepsilon_0} \ dV
+\end{array}
+\end{equation}</p>
+<p>yang akan memberikan</p>
+<p>\begin{equation}\label{eqn:gauss-law-electricity-differential}
+\vec{\nabla} \cdot \vec{E} = \frac{\rho}{\varepsilon_0}
+\end{equation}</p>
+<p>yang merupakan persamaan pertama dari persamaan-persamaan Maxwell.</p>
+<h3 id="magnetism">magnetism<a class="anchor" href="#magnetism">#</a></h3>
+<p>Hukum Gauss untuk kemagnetan memiliki bentuk</p>
+<p>\begin{equation}\label{eqn:gauss-law-magnetism}
+\oint \vec{B} \cdot d\vec{A} = 0,
+\end{equation}</p>
+<p>yang dengan menggunakan Persamaan \eqref{eqn:divergence-theorem} dan langkah-langkah seperti pada hukum Gauss untuk kelistrikan akan menghasilkan</p>
+<p>\begin{equation}\label{eqn:gauss-law-magnetism-differential}
+\vec{\nabla} \cdot \vec{B} = 0
+\end{equation}</p>
+<p>yang merupakan persamaan kedua dari persamaan-persamaan Maxwell.</p>
+<p>Persamaan \eqref{eqn:gauss-law-electricity-differential} merupakan hukum Gauss untuk kelistrikan dalam bentuk diferensial dan Persamaan \eqref{eqn:gauss-law-magnetism-differential} merupakan hukum Gauss untuk kemagnetan dalam bentuk diferensial. Keduanya merupaka dua persamaan pertama dari empat persamaan Maxwell.</p>
+<h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
+<ol>
+<li>Terkait dengan keberadaan monopol listrik, apakah makna dari Persamaan \eqref{eqn:gauss-law-electricity-differential}?</li>
+<li>Terkait dengan keberadaan monopol magnet apakah makna dari Persamaan \eqref{eqn:gauss-law-magnetism-differential}?</li>
+</ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Eric W. Weisstein, &ldquo;Divergence Theorem&rdquo;, from MathWorld&ndash;A Wolfram Web Resource, Wolfram Research, Inc., 2022, url <a href="https://mathworld.wolfram.com/DivergenceTheorem.html" 
