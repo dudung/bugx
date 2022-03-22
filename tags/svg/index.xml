@@ -17,7 +17,8 @@
       <description>Dengan mengikuti bagaimana menyisipkan berkas svg dalam suatu berkas html [1], dicoba untuk membuat shortcode agar berkas svg dapat disisipkan ke dalam post dengan bentuk seperti untuk youtube [2], dengan mengikuti tutoial singkat membuat shortcode [3].
 version 22-mar-2022 Dengan menggunakan
 {{&amp;lt; svg &amp;quot;/static/img/bugx/packed-no-fill-color-grains.svg&amp;quot; &amp;quot;#fig1&amp;quot; &amp;quot;1&amp;quot; &amp;quot;Beberapa butiran berbeda ukuran dan tak berwarna yang saling bersentuhan.&amp;quot; &amp;gt;}}  akan diperoleh hasil berikut ini
-  image/svg+xml       Gambar 1.</description>
+ &amp;nbsp;
+ image/svg+xml       Gambar 1.</description>
     </item>
     
   </channel>
