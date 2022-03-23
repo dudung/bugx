@@ -7,16 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 23 Mar 2022 06:41:13 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Mar 2022 10:43:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>curl theorem</title>
-      <link>https://dudung.github.io/bugx/0016/</link>
-      <pubDate>Wed, 23 Mar 2022 06:41:13 +0700</pubDate>
+      <title>partial differential equation</title>
+      <link>https://dudung.github.io/bugx/0017/</link>
+      <pubDate>Wed, 23 Mar 2022 10:43:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/0016/</guid>
-      <description>Teorema curl merupakan suatu kasus khusus dari teorema Stokes dan suatu generalisasi dari Teorema Green [1]. Teorema ini menghubungkan antara integral suatu curl medan vektor pada suatu permukaan dengan integral garis medan vektor mengelilingi batas permukaan tersebut [2]. Dengan teorema ini dapat diperoleh persamaan-persamaan Maxwell bentuk integral dari bentuk diferensial atau sebaliknya [3].
-nabla Operator nabla dalam koordinat kartesian memiliki bentuk [4]
-\begin{equation}\label{eqn:nabla} \vec{\nabla} = \hat{x}\frac{\partial}{\partial x} + \hat{y}\frac{\partial}{\partial y} + \hat{z}\frac{\partial}{\partial z} \end{equation}</description>
+      <guid>https://dudung.github.io/bugx/0017/</guid>
+      <description>Persamaan diferensial parsial (PDP) merupakan suatu persamaan yang melibatkan fungsi multivariabel dan turunannya [1]. Fungsi yang dimaksud merupakan sesuatu yang belum diketahui dan akan dipecahkan [2]. Metode separasi variabel merupakan salah satu metode yang sering digunakan dalam penyelesaian secara secara analitik [3] dan untuk numerik dapat digunakan beda hingga [4]. Untuk lebih mendalami PDP dapat digunakan berbagai sumber yang tersedia seperti buku [5] dan catatan kuliah [6].
+wave equation Salah satu PDP yang dikenal luas adalah persamaan gelombang</description>
     </item>
     
     <item>
@@ -32,6 +31,17 @@ integral form Persamaan-persamaan Maxwell dalam bentuk integral adalah
 \begin{equation}\label{eqn:faraday-law-integral} \oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt}, \end{equation}
 \begin{equation}\label{eqn:ampere-law-integral} \oint \vec{B} \cdot d\vec{l} = \mu_o I + \frac{1}{c^2} \frac{d\Phi_E}{dt}. \end{equation}
 Persamaan \eqref{eqn:gauss-law-electricity-integral} merupakan hukum Gauss untuk kelistrikan, Persamaan \eqref{eqn:gauss-law-magnetism-integral} merupakan hukum Gauss untuk kemagnetan, Persamaan \eqref{eqn:faraday-law-integral} merupakan hukum induksi Faraday, dan Persamaan \eqref{eqn:ampere-law-integral} merupakan hukum Ampere.</description>
+    </item>
+    
+    <item>
+      <title>curl theorem</title>
+      <link>https://dudung.github.io/bugx/0016/</link>
+      <pubDate>Wed, 23 Mar 2022 06:15:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0016/</guid>
+      <description>Teorema curl merupakan suatu kasus khusus dari teorema Stokes dan suatu generalisasi dari Teorema Green [1]. Teorema ini menghubungkan antara integral suatu curl medan vektor pada suatu permukaan dengan integral garis medan vektor mengelilingi batas permukaan tersebut [2]. Dengan teorema ini dapat diperoleh persamaan-persamaan Maxwell bentuk integral dari bentuk diferensial atau sebaliknya [3].
+nabla Operator nabla dalam koordinat kartesian memiliki bentuk [4]
+\begin{equation}\label{eqn:nabla} \vec{\nabla} = \hat{x}\frac{\partial}{\partial x} + \hat{y}\frac{\partial}{\partial y} + \hat{z}\frac{\partial}{\partial z} \end{equation}</description>
     </item>
     
     <item>
