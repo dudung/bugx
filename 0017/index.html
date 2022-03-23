@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-23 17:31:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-23 17:31:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-23 17:44:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-23 17:44:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0017\/",
-      "wordCount" : "1257",
+      "wordCount" : "1279",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">partial differential equation</h1>
-            <time datetime="2022-03-23 17:31:00 &#43;0700 &#43;0700" class="post__date">Wed, 23 Mar  2022</time> 
+            <time datetime="2022-03-23 17:44:00 &#43;0700 &#43;0700" class="post__date">Wed, 23 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -380,26 +380,28 @@ u &amp; = &amp; \displaystyle \frac{u_{+-} - u_{-+}}{2_i} \newline
 <p>dapat didefinsikan, sehingga Persamaan \eqref{eqn:finite-difference-temporal} dapat dituliskan kembali menjadi</p>
 <p>\begin{equation}\label{eqn:wave-equation-finite-difference-solution}
 \begin{array}{rcl}
-\gamma^2 \left( u_{i + 1}^j - 2u_i^j + u_{i - 1}^j \right) &amp; = &amp; \displaystyle u^{j + 1}_i - 2u^j_i + u^{j - 1}_i \newline
+\gamma^2 \left( u_{i+1}^j - 2u_i^j + u_{i-1}^j \right) &amp; = &amp; \displaystyle u^{j+1}_i - 2u^j_i + u^{j-1}_i \newline
 -u_i^{j-1} &amp; &amp; \newline
-+\gamma u _{i + 1} ^j + \gamma u _{i - 1} ^j &amp; &amp; \newline
++\gamma^2 u _{i+1} ^j + \gamma^2 u _{i-1} ^j &amp; &amp; \newline
 2(1 - \gamma^2) u_i^j &amp; = &amp; u_i^{j+1}
 \end{array}
 \end{equation}</p>
 <p>yang menggambarkan bagaimana informasi masa depan saat waktu $j + 1$ pada suatu posisi $i$ diperoleh bergantung dengan informasi pada posisi yang sama $i$ serta tetangga kiri $i-1$ dan kanannya $i+1$ pada waktu $j$, dan juga pada posisi yang sama $i$ saat waktu lebih belakang $j - 1$. Persamaan \eqref{eqn:wave-equation-finite-difference-solution} tidak digunakan pada batas kiri dan batas kanan karena ketiadaan informasi tetangga di sebelah kiri setelah lewat batas kiri dan di sebelah kanan setelah lewat batas kanan. Untuk itu Persamaan \eqref{eqn:wave-equation-finite-difference} perlu dimodifikasi dengan memanfaatkan Persamaan \eqref{eqn:fd-2nd-derivative-forward} dan \eqref{eqn:fd-2nd-derivative-backward}. Dengan menggunakan beda hingga maju diperoleh</p>
 <p>\begin{equation}\label{eqn:wave-equation-finite-difference-solution-forward}
 \begin{array}{rcl}
-\displaystyle
-\frac{d^2 u}{dx^2} &amp; = &amp; \displaystyle \frac{\displaystyle \frac{u_{i+1} - u_{i}}{h} - \frac{u_{i} - u_{i-1}}{h}}{h} \newline
-&amp; = &amp; \displaystyle \frac{u_{i+1} - 2u_{i} + u_{i-1}}{u^2}
+\gamma^2 \left( u_{i+2}^j - 2u_{i+1}^j + u_{i}^j \right) &amp; = &amp; \displaystyle u^{j+1}_i - 2u^j_i + u^{j-1}_i \newline
+-u_i^{j-1} &amp; &amp; \newline
++\gamma^2 u _{i+2} ^j - 2\gamma^2 u _{i+1} ^j &amp; &amp; \newline
+(2 + \gamma^2) u_i^j &amp; = &amp; u_i^{j+1}
 \end{array}
 \end{equation}</p>
 <p>dan dengan beda hingga mundur didapatkan</p>
 <p>\begin{equation}\label{eqn:wave-equation-finite-difference-solution-backward}
 \begin{array}{rcl}
-\displaystyle
-\frac{d^2 u}{dx^2} &amp; = &amp; \displaystyle \frac{\displaystyle \frac{u_{i+1} - u_{i}}{h} - \frac{u_{i} - u_{i-1}}{h}}{h} \newline
-&amp; = &amp; \displaystyle \frac{u_{i+1} - 2u_{i} + u_{i-1}}{u^2}
+\gamma^2 \left( u_{i}^j - 2u_{i-1}^j + u_{i-2}^j \right) &amp; = &amp; \displaystyle u^{j+1}_i - 2u^j_i + u^{j-1}_i \newline
+-u_i^{j-1} &amp; &amp; \newline
++\gamma^2 u _{i-2} ^j - 2\gamma^2 u _{i-1} ^j &amp; &amp; \newline
+(2 + \gamma^2) u_i^j &amp; = &amp; u_i^{j+1}
 \end{array}
 \end{equation}</p>
 <p>..</p>

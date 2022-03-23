@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 23 Mar 2022 17:31:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Mar 2022 17:44:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>partial differential equation</title>
       <link>https://dudung.github.io/bugx/0017/</link>
-      <pubDate>Wed, 23 Mar 2022 17:31:00 +0700</pubDate>
+      <pubDate>Wed, 23 Mar 2022 17:44:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0017/</guid>
       <description>Persamaan diferensial parsial (PDP) merupakan suatu persamaan yang melibatkan fungsi multivariabel dan turunannya [1]. Fungsi yang dimaksud merupakan sesuatu yang belum diketahui dan akan dipecahkan [2]. Metode separasi variabel merupakan salah satu metode yang sering digunakan dalam penyelesaian secara secara analitik [3] dan untuk numerik dapat digunakan beda hingga [4]. Untuk lebih mendalami PDP dapat digunakan berbagai sumber yang tersedia seperti buku [5] dan catatan kuliah [6].
