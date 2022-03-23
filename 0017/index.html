@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-23 10:43:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-23 10:43:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-23 11:38:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-23 11:38:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0017\/",
-      "wordCount" : "569",
+      "wordCount" : "800",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">partial differential equation</h1>
-            <time datetime="2022-03-23 10:43:00 &#43;0700 &#43;0700" class="post__date">Wed, 23 Mar  2022</time> 
+            <time datetime="2022-03-23 11:38:00 &#43;0700 &#43;0700" class="post__date">Wed, 23 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -290,11 +290,39 @@ u_{- -} = C e^{i(-kx - \omega t)}.
 <p>Kombinasi linier dari keempat persamaan di atas juga merupkan solusi. Bentuk yang umum digunakan dapat diperoleh dengan</p>
 <p>\begin{equation}\label{eqn:wave-equation-u-XT-solution-psi}
 \begin{array}{rcl}
-\psi(x, t) &amp; = &amp; \displaystyle \frac{u_{+-} - u_{-+}}{2_i} \newline
+u &amp; = &amp; \displaystyle \frac{u_{+-} - u_{-+}}{2_i} \newline
 &amp; = &amp;  C \sin (kx - \omega t)
 \end{array}
 \end{equation}</p>
 <p>yang merupakan gelombang yang merambat pada arah $x+$.</p>
+<h2 id="finite-difference">finite difference<a class="anchor" href="#finite-difference">#</a></h2>
+<p>Dengan menggunakan metode beda hingga dapat dituliskan untuk pada komponen spasial</p>
+<p>\begin{equation}\label{eqn:finite-difference-spatial}
+\frac{d^2 u}{dx^2} = \frac{u_{i + 1} - 2u_i + u_{i - 1}}{h^2}
+\end{equation}</p>
+<p>dan untuk komponen temporal</p>
+<p>\begin{equation}\label{eqn:finite-difference-temporal}
+\frac{d^2 u}{dt^2} = \frac{u^{j + 1} - 2u^j + u^{j - 1}}{l^2}.
+\end{equation}</p>
+<p>Di sini digunakan indeks bawah untuk komponen spasial yang dalam hal ini dengan variabel $i$ dan indeks atas untuk komponen temporal yang dalam hal ini dengan variabel $j$.</p>
+<p>Dengan Persamaan \eqref{eqn:finite-difference-spatial} dan \eqref{eqn:finite-difference-temporal}, Persamaan \eqref{eqn:wave-equation} dapat dituliskan kembali menjadi</p>
+<p>\begin{equation}\label{eqn:wave-equation-finite-difference}
+\frac{u_{i + 1}^j - 2u_i^j + u_{i - 1}^j}{h^2} = \frac{1}{v^2} \left( \frac{u^{j + 1}_i - 2u^j_i + u^{j - 1}_i}{l^2} \right).
+\end{equation}</p>
+<p>Suatu variabel tak berdimensi</p>
+<p>\begin{equation}\label{eqn:wave-eqn-fd-param}
+\gamma = \frac{lv}{h}
+\end{equation}</p>
+<p>dapat didefinsikan, sehingga Persamaan \eqref{eqn:finite-difference-temporal} dapat dituliskan kembali menjadi</p>
+<p>\begin{equation}\label{eqn:wave-equation-finite-difference-solution}
+\begin{array}{rcl}
+\gamma^2 \left( u_{i + 1}^j - 2u_i^j + u_{i - 1}^j \right) &amp; = &amp; \displaystyle u^{j + 1}_i - 2u^j_i + u^{j - 1}_i \newline
+-u_i^{j-1} &amp; &amp; \newline
++\gamma u _{i + 1} ^j + \gamma u _{i - 1} ^j &amp; &amp; \newline
+2(1 - \gamma^2) u_i^j &amp; = &amp; u_i^{j+1}
+\end{array}
+\end{equation}</p>
+<p>yang menggambarkan bagaimana informasi masa depan saat waktu $j + 1$ pada suatu posisi $i$ diperoleh bergantung dengan informasi pada posisi yang sama $i$ serta tetangga kiri $i-1$ dan kanannya $i+1$ pada waktu $j$, dan juga pada posisi yang sama $i$ saat waktu lebih belakang $j - 1$.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Eric W. Weisstein, &ldquo;Partial Differential Equation,&rdquo; from MathWorld&ndash;A Wolfram Web Resource, Wolfram Research, Inc., 21 Mar 2022, url <a href="https://mathworld.wolfram.com/PartialDifferentialEquation.html" 
