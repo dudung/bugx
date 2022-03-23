@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-23 11:38:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-23 11:38:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-23 13:27:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-23 13:27:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0017\/",
-      "wordCount" : "800",
+      "wordCount" : "933",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">partial differential equation</h1>
-            <time datetime="2022-03-23 11:38:00 &#43;0700 &#43;0700" class="post__date">Wed, 23 Mar  2022</time> 
+            <time datetime="2022-03-23 13:27:00 &#43;0700 &#43;0700" class="post__date">Wed, 23 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -225,6 +225,32 @@
   
   
 >6</a>].</p>
+<h2 id="simple-example">simple example<a class="anchor" href="#simple-example">#</a></h2>
+<p>Sebagai contoh sederhana dapat dibuat-buat satu fungsi dua variabel yang telah diketahui terlebih dahulu solusinya. Misalkan terdapat fungsi</p>
+<p>\begin{equation}\label{eqn:simple-example-u-solution}
+u(x, y) = e^{\alpha x} \sin \beta y,
+\end{equation}</p>
+<p>yang turunan-turunannya adalah</p>
+<p>\begin{equation}\label{eqn:simple-example-uxn}
+\frac{\partial^n u}{\partial x^n} = \alpha^n u,
+\end{equation}</p>
+<p>\begin{equation}\label{eqn:simple-example-uy2n-1}
+\frac{\partial^{2n-1} u}{\partial y^{2n-1} } =  (-1)^{n+1} \beta^{2n-1} x \cos \beta y,
+\end{equation}</p>
+<p>\begin{equation}\label{eqn:simple-example-uy2n}
+\frac{\partial^{2n} u}{\partial y^{2n} } =  (-1)^n \beta^{2n} u,
+\end{equation}</p>
+<p>dengan $n = 1, 2, 3, \dots$. Selanjutnya dapat dituliskan</p>
+<p>\begin{equation}\label{eqn:simple-example-pde-1}
+\alpha \beta^2 \frac{\partial u}{\partial x} + \alpha^2 \frac{\partial^2 u}{\partial y^2} = 0
+\end{equation}</p>
+<p>\begin{equation}\label{eqn:simple-example-pde-2}
+\beta^2 \frac{\partial^2 u}{\partial x^2} + \alpha^2 \frac{\partial^2 u}{\partial y^2} = 0
+\end{equation}</p>
+<p>\begin{equation}\label{eqn:simple-example-pde-3}
+\frac{\beta^2}{\alpha} \frac{\partial^3 u}{\partial x^3} + \alpha^2 \frac{\partial^2 u}{\partial y^2} = 0
+\end{equation}</p>
+<p>sebagai beberapa persamaan diferensial parsialnya. Persamaan \eqref{eqn:simple-example-pde-1}, \eqref{eqn:simple-example-pde-2}, dan \eqref{eqn:simple-example-pde-3} akan memiliki solusi yang sama, yaitu Persamaan \eqref{eqn:simple-example-u-solution}.</p>
 <h2 id="wave-equation">wave equation<a class="anchor" href="#wave-equation">#</a></h2>
 <p>Salah satu PDP yang dikenal luas adalah persamaan gelombang</p>
 <p>\begin{equation}\label{eqn:wave-equation}
@@ -295,7 +321,7 @@ u &amp; = &amp; \displaystyle \frac{u_{+-} - u_{-+}}{2_i} \newline
 \end{array}
 \end{equation}</p>
 <p>yang merupakan gelombang yang merambat pada arah $x+$.</p>
-<h2 id="finite-difference">finite difference<a class="anchor" href="#finite-difference">#</a></h2>
+<h3 id="finite-difference-solution">finite difference solution<a class="anchor" href="#finite-difference-solution">#</a></h3>
 <p>Dengan menggunakan metode beda hingga dapat dituliskan untuk pada komponen spasial</p>
 <p>\begin{equation}\label{eqn:finite-difference-spatial}
 \frac{d^2 u}{dx^2} = \frac{u_{i + 1} - 2u_i + u_{i - 1}}{h^2}
