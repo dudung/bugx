@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-24 07:14:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-24 07:14:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-24 10:51:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-24 10:51:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0018\/",
-      "wordCount" : "345",
+      "wordCount" : "840",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">install python windows powershell</h1>
-            <time datetime="2022-03-24 07:14:00 &#43;0700 &#43;0700" class="post__date">Thu, 24 Mar  2022</time> 
+            <time datetime="2022-03-24 10:51:00 &#43;0700 &#43;0700" class="post__date">Thu, 24 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -143,7 +143,7 @@
 >2</a>], instalasi Python pun dapat dilakukan. Sejak Windows 10 version 1607 PowerShell telah terinstal secara default [<a href="#r03" 
   
   
->3</a>].</p>
+>3</a>]. Instalasi Python dengan menggunakan PowerShell akan disinggung di sini dan juga pemanfaatan pip yang telah disertakan.</p>
 <h2 id="install-python">install python<a class="anchor" href="#install-python">#</a></h2>
 <p>Langkah pertama yang perlu dilakukan pada Windows 10 adalah membuka PowerShell (PS) dengan mencarinya pada menu Start &gt; Windows PowerShell &gt; Windows PowerShell atau menggunakan cara lainnya [<a href="#r04" 
   
@@ -179,23 +179,61 @@ PS C:\Users\Sparisoma Viridi&gt;
   
 >5</a>], telah terinstal</p>
 <h2 id="pip">pip<a class="anchor" href="#pip">#</a></h2>
-<p>Setelah Python terinstal, yang dalam hal ini adalah versi 3.10.3, masih pada PS dapat diperiksa</p>
-<p>[<a href="#r04" 
+<p>Sejak Python 3.4 modul <code>ensurepip</code> telah ditambahkan pada pustaka standar Python [<a href="#r06" 
   
   
->4</a>]</p>
-<p>[<a href="#r05" 
+>6</a>]. Nama pip merupakan akronim dan deklarasi dari &lsquo;pip install packages&rsquo;, di mana pip ini adalah manager paket standar untuk Python [<a href="#r07" 
   
   
->5</a>]</p>
-<p>[<a href="#r06" 
+>7</a>]. Setelah Python terinstal, yang dalam hal ini adalah versi 3.10.3, dengan masih berada pada PS, dapat diperiksa versi pip yang disertakan.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip --version
+pip 22.0.4 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1008.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.10)
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Akan diperoleh informasi versi 22.0.4, yang merupakan versi terakhir dan dirilis pada 7 Maret 2022 [<a href="#r08" 
   
   
->6</a>]</p>
-<p>[<a href="#r07" 
+>8</a>]. Dikarenakan sudah merupakan versi terkini pip tidak terlu diupgrade. Bila pip belum terinstal atau belum merupakan versi terakhir dapat diikuti langkah-langkah yang tersedia [<a href="#r09" 
   
   
->7</a>]</p>
+>9</a>].</p>
+<p>Informasi paket yang telah terinstal dapat diperoleh dengan bantuan pip [<a href="#r10" 
+  
+  
+>10</a>].</p>
+<pre><code>PS C:\Users\Your Name&gt; pip list
+PS C:\Users\Your Name&gt; pip list --user
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Opsi <code>--user</code> digunakan bila ingin melihat paket yang diinstal lokal hanya untuk pengguna saat ini, yang dalam hal ini adalah <code>Your Name</code>. Terlihat bahwa belum terinstal paket apapun.</p>
+<p>Informasi terkait cache pip dapat dilihat pula menggunakan pip [<a href="#r11" 
+  
+  
+>11</a>].</p>
+<pre><code>PS C:\Users\Your Name&gt; pip cache info
+Package index page cache location: c:\users\your name\appdata\local\pip\cache\http
+Package index page cache size: 0 bytes
+Number of HTTP files: 0
+Wheels location: c:\users\your name\appdata\local\pip\cache\wheels
+Wheels size: 0 bytes
+Number of wheels: 0
+PS C:\Users\Your Name&gt; pip cache list
+Nothing cached.
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Terdapat pula opsi <code>purge</code> untuk membersihkan cache pip.</p>
+<h2 id="python-wheel">python wheel<a class="anchor" href="#python-wheel">#</a></h2>
+<p>Berkas wheel Python secara esensi merupakan suatu archive zip yang nama berkasnya dibuat sedemikian rupa sehingga installer tahu versi Python dan platform yang didukung oleh wheel tersebut [<a href="#r12" 
+  
+  
+>12</a>]. Wheels merupakan standar baru distribusi Python dan berniat untuk menggantikan eggs, sejak <code>pip &gt;= 1.4</code> dan <code>setuptools &gt;= 0.8</code> telah terdapat dukungan untuk wheels [<a href="#r13" 
+  
+  
+>13</a>]. Menurut otoritas paket Python atau Python Packaging Authority (PyPA), wheels lebih dipilih oleh pip saat menginstal modul Python dari index paket Python atau Python Package Index (PyPI) karena lebih kecil, cepat diinstal, dan lebih efisien dibandingkan dengan membangun paket dari kode sumber yang terdapat pada suatu sdist (Source Distribution), di mana paket sumber terbuka Python secara umum dapat diinstal dari sdist atau wheels [<a href="#r14" 
+  
+  
+>14</a>].</p>
+<p>Instalasi paket</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li>
@@ -229,10 +267,61 @@ PS C:\Users\Sparisoma Viridi&gt;
 >https://www.python.org/downloads/release/python-3103/</a> [20220324].</p>
 </li>
 <li>
-<p><a name='r06'></a></p>
+<p><a name='r06'></a>The pip developers, &ldquo;Installation&rdquo;, pip documentation v22.1.dev0, url <a href="https://pip.pypa.io/en/latest/installation/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pip.pypa.io/en/latest/installation/</a> [20220324].</p>
 </li>
 <li>
-<p><a name='r07'></a></p>
+<p><a name='r07'></a>Philipp Acsany, &ldquo;Using Python&rsquo;s pip to Manage Your Projects&rsquo; Dependencies&rdquo;, Real Python, 2 Feb 2022, url <a href="https://realpython.com/what-is-pip/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://realpython.com/what-is-pip/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r08'></a>Maintainers of pip, &ldquo;pip 22.0.4&rdquo;, PyPI, Python Software Foundation, 7 Mar 2022, url <a href="https://pypi.org/project/pip/22.0.4/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/pip/22.0.4/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r09'></a>Renesh Bedre, &ldquo;Install and upgrade Python packages using pip and virtual environment on Windows, Linux, and Mac&rdquo;, Data science blog, 12 Feb 2022, url <a href="https://www.reneshbedre.com/blog/install-upgrade-pip-windows-mac-linux.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.reneshbedre.com/blog/install-upgrade-pip-windows-mac-linux.html</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r10'></a>Katie Chang, &ldquo;How To List Python Packages – Globally Installed Vs Locally Installed&rdquo;, ActiveState, 19 Jan 2022, url <a href="https://www.activestate.com/resources/quick-reads/how-to-list-python-packages-globally-installed-vs-locally-installed/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.activestate.com/resources/quick-reads/how-to-list-python-packages-globally-installed-vs-locally-installed/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r11'></a>The pip developers, &ldquo;pip cache&rdquo;, pip documentation v22.0.4, url <a href="https://pip.pypa.io/en/stable/cli/pip_cache/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pip.pypa.io/en/stable/cli/pip_cache/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r12'></a>Brad Solomon, &ldquo;What Are Python Wheels and Why Should You Care?&rdquo;, Real Python, 15 May 2021, url <a href="https://realpython.com/python-wheels/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://realpython.com/python-wheels/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r13'></a>Wheels contributors, &ldquo;What are wheels?&rdquo;, Python Wheels, 24 Oct 2021, url <a href="https://pythonwheels.com/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pythonwheels.com/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r14'></a>Suhani S., &ldquo;How To Install, Download And Build Python Wheels&rdquo;, ActiveState, 7 Oct 2021, url <a href="https://www.activestate.com/resources/quick-reads/python-install-wheel/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.activestate.com/resources/quick-reads/python-install-wheel/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r15'></a></p>
 </li>
 </ol>
 
