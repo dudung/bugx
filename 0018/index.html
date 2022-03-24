@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-24 10:51:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-24 10:51:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-24 14:50:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-24 14:50:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0018\/",
-      "wordCount" : "840",
+      "wordCount" : "1521",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">install python windows powershell</h1>
-            <time datetime="2022-03-24 10:51:00 &#43;0700 &#43;0700" class="post__date">Thu, 24 Mar  2022</time> 
+            <time datetime="2022-03-24 14:50:00 &#43;0700 &#43;0700" class="post__date">Thu, 24 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -168,11 +168,11 @@ PS C:\Users\Your Name&gt;
 </code></pre>
 <p>pada jendela semula. Tutup jendela dengan klik ikon × pada sudut kanan atas jendela dan kembali ke PS.</p>
 <p>Periksa hasil instalasi dengan</p>
-<pre><code>PS C:\Users\Sparisoma Viridi&gt; python
+<pre><code>PS C:\Users\Your Name&gt; python
 Python 3.10.3 (tags/v3.10.3:a342a49, Mar 16 2022, 13:07:40) [MSC v.1929 64 bit (AMD64)] on win32
 Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
 &gt;&gt;&gt; exit()
-PS C:\Users\Sparisoma Viridi&gt;
+PS C:\Users\Your Name&gt;
 </code></pre>
 <p>yang menggambarkan bahwa Python 3.10.3, yang dirilis 16 Mar 2022 [<a href="#r05" 
   
@@ -233,7 +233,180 @@ PS C:\Users\Your Name&gt;
   
   
 >14</a>].</p>
-<p>Instalasi paket</p>
+<p>Periksa apakah telah terdapat paket wheel.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip show wheel
+WARNING: Package(s) not found: wheel
+</code></pre>
+<h3 id="install">install<a class="anchor" href="#install">#</a></h3>
+<p>Instal paket wheel.</p>
+<pre><code>Collecting wheel
+  Downloading wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+Installing collected packages: wheel
+  WARNING: The script wheel.exe is installed in 'C:\Users\Your Name\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed wheel-0.37.1
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Periksa kembali paket yang telah terinstal dengan perintah <code>show</code>.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip show wheel
+Name: wheel
+Version: 0.37.1
+Summary: A built-package format for Python
+Home-page: https://github.com/pypa/wheel
+Author: Daniel Holth
+Author-email: dholth@fastmail.fm
+License: MIT
+Location: c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
+Requires:
+Required-by:
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Dapat juga dengan perintah <code>list</code></p>
+<pre><code>PS C:\Users\Your Name&gt; pip list
+Package Version
+------- -------
+wheel   0.37.1
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Lihat caches saat ini.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip cache info
+Package index page cache location: c:\users\your name\appdata\local\pip\cache\http
+Package index page cache size: 47 kB
+Number of HTTP files: 2
+Wheels location: c:\users\your name\appdata\local\pip\cache\wheels
+Wheels size: 0 bytes
+Number of wheels: 0
+PS C:\Users\Your Name&gt;
+</code></pre>
+<h3 id="uninstall">uninstall<a class="anchor" href="#uninstall">#</a></h3>
+<p>Uninstal paket wheel.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip uninstall wheel
+Found existing installation: wheel 0.37.1
+Uninstalling wheel-0.37.1:
+  Would remove:
+    c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\scripts\wheel.exe
+    c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\wheel-0.37.1.dist-info\*
+    c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\wheel\*
+Proceed (Y/n)? y
+  Successfully uninstalled wheel-0.37.1
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Lihat isi cache saat ini.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip cache info
+Package index page cache location: c:\users\your name\appdata\local\pip\cache\http
+Package index page cache size: 47 kB
+Number of HTTP files: 2
+Wheels location: c:\users\your name\appdata\local\pip\cache\wheels
+Wheels size: 0 bytes
+Number of wheels: 0
+PS C:\Users\Your Name&gt; pip cache list
+Nothing cached.
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Bersihkan isi cache.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip cache purge
+Files removed: 2
+PS C:\Users\Your Name&gt;  pip cache info
+Package index page cache location: c:\users\your name\appdata\local\pip\cache\http
+Package index page cache size: 0 bytes
+Number of HTTP files: 0
+Wheels location: c:\users\your name\appdata\local\pip\cache\wheels
+Wheels size: 0 bytes
+Number of wheels: 0
+PS C:\Users\Your Name&gt; pip cache list
+Nothing cached.
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Dengan ini cache telah bersih dari berkas-berkas instalasi paket sebelumnya.</p>
+<h3 id="reinstall">reinstall<a class="anchor" href="#reinstall">#</a></h3>
+<p>Sebelumnya terdapat peringatan</p>
+<pre><code>WARNING: The script wheel.exe is installed in 'C:\Users\Your Name\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts' which is not on PATH.
+</code></pre>
+<p>yang memberitahukan bahwa informasi folder tersebut belum ada pada <code>PATH</code>, yang dapat dilihat dengan cara berikut</p>
+<pre><code>PS C:\Users\Your Name&gt; $env:path
+C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\OpenVPN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Hugo\bin;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\OpenVPN\bin;C:\Users\Your Name\AppData\Local\Microsoft\WindowsApps;C:\Users\Your Name\AppData\Roaming\npm;
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>atau</p>
+<pre><code>PS C:\Users\Your Name&gt; $env:path -split &quot;;&quot;
+C:\WINDOWS\system32
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+C:\WINDOWS\System32\OpenSSH\
+C:\Program Files\OpenVPN\bin
+C:\Program Files\nodejs\
+C:\Program Files\Git\cmd
+C:\Hugo\bin
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+C:\Program Files\Git\cmd
+C:\Program Files\nodejs\
+C:\WINDOWS\System32\OpenSSH\
+C:\Program Files\OpenVPN\bin
+C:\Users\Your Name\AppData\Local\Microsoft\WindowsApps
+C:\Users\Your Name\AppData\Roaming\npm
+
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>di mana kedua cara di atas adalah untuk PS [<a href="#r15" 
+  
+  
+>15</a>] dan berbeda dengan pada cmd Windows [<a href="#r16" 
+  
+  
+>16</a>] ataupun shell Linux [<a href="#r17" 
+  
+  
+>17</a>].</p>
+<p>Informasi <code>C:\Users\Your Name\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts</code> perlu ditambahkan pada <code>PATH</code>. Hal ini dapat dilakukan dengan mengubah variabel lingkungan sistem [<a href="#r17" 
+  
+  
+>17</a>].</p>
+<ol>
+<li>Klik menu Start dan ketikkan <code>env</code> lalu pilih <code>Edit the system environment variables</code> sehingga terbuka jendela System Properties.</li>
+<li>Pilih tombol &lsquo;Environment Variables..&rsquo; baris kedua dari paling bawah sehingga terbuka jendela Environment Variables.</li>
+<li>Sorot baris kedua dengan nama <code>Path</code> dan klik tombol &lsquo;Edit&rsquo; sehingga terbuka jendela &lsquo;Edit environment variable&rsquo;.</li>
+<li>Klik tombol &lsquo;New&rsquo; dan tempel informasi yang diinginkan di atas tadi, lalu tekan tombol &lsquo;OK&rsquo; di bagian bawah sehingga jendela ini tertutup.</li>
+<li>Klik tombol &lsquo;OK&rsquo; kembali untuk menutup jendela berikutnya.</li>
+<li>Kembali klik tomobol &lsquo;OK&rsquo; untuk menutup jendela selanjutnya.</li>
+<li>Tutup jendela Windows PowerShell dan buka kembali.</li>
+</ol>
+<p>Periksa hasilnya</p>
+<pre><code>PS C:\Users\Your Name&gt; $env:path -split &quot;;&quot;
+C:\WINDOWS\system32
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+C:\WINDOWS\System32\OpenSSH\
+C:\Program Files\OpenVPN\bin
+C:\Program Files\nodejs\
+C:\Program Files\Git\cmd
+C:\Hugo\bin
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+C:\Program Files\Git\cmd
+C:\Program Files\nodejs\
+C:\WINDOWS\System32\OpenSSH\
+C:\Program Files\OpenVPN\bin
+C:\Users\Your Name\AppData\Local\Microsoft\WindowsApps
+C:\Users\Your Name\AppData\Roaming\npm
+C:\Users\Your Name\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts
+
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>yang telah terdapat tambahan baris baru di paling bawah.</p>
+<p>Lanjutkan dengan menginstal wheel dengan pip.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip install wheel
+Collecting wheel
+  Downloading wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+Installing collected packages: wheel
+Successfully installed wheel-0.37.1
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Dan perhatikan bagaiman pesan peringatan sebelumnya telah hilang.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li>
@@ -315,13 +488,38 @@ PS C:\Users\Your Name&gt;
 >https://pythonwheels.com/</a> [20220324].</p>
 </li>
 <li>
-<p><a name='r14'></a>Suhani S., &ldquo;How To Install, Download And Build Python Wheels&rdquo;, ActiveState, 7 Oct 2021, url <a href="https://www.activestate.com/resources/quick-reads/python-install-wheel/" 
+<p><a name='r14'></a>Doctor Scripto, &ldquo;PowerTip: Use PowerShell to Display Windows Path&rdquo;, Microsoft Scripting Blog, 7 Jun 2014, url <a href="https://devblogs.microsoft.com/scripting/powertip-use-powershell-to-display-windows-path/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://devblogs.microsoft.com/scripting/powertip-use-powershell-to-display-windows-path/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r15'></a>Suhani S., &ldquo;How To Install, Download And Build Python Wheels&rdquo;, ActiveState, 7 Oct 2021, url <a href="https://www.activestate.com/resources/quick-reads/python-install-wheel/" 
   
    target="_blank" rel="noreferrer noopener" 
 >https://www.activestate.com/resources/quick-reads/python-install-wheel/</a> [20220324].</p>
 </li>
 <li>
-<p><a name='r15'></a></p>
+<p><a name='r16'></a>Vivek Gite, &ldquo;Display or print UNIX / Linux path ~ $PATH variable&rdquo;, 17 Jun 2021, url <a href="https://www.cyberciti.biz/faq/howto-print-path-variable/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.cyberciti.biz/faq/howto-print-path-variable/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r17'></a>Ryan Hoffman, &ldquo;Add to the PATH on Windows 10&rdquo;, Architect Ryan, 17 Mar 2018,
+url <a href="https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/</a> [20220324].</p>
+</li>
+<li>
+<p><a name='r18'></a></p>
+</li>
+<li>
+<p><a name='r19'></a></p>
+</li>
+<li>
+<p><a name='r20'></a></p>
 </li>
 </ol>
 
