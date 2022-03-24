@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>animation on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/animation/</link>
+    <description>Recent content in animation on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 24 Mar 2022 18:16:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/animation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python matplotlib animation</title>
+      <link>https://dudung.github.io/bugx/0019/</link>
+      <pubDate>Thu, 24 Mar 2022 18:16:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0019/</guid>
+      <description>Animasi adalah suatu metode dalam merekam gambar, model, atau bahkan boneka secara berurutan, dalam rangka menciptakan ilusi gerak, di mana hal ini dapat terjadi karena mata manusia hanya dapat mempertahankan suatu citra selama kira-kira 1/10 detik, sehingga ketika sejumlah gambar muncul berurutan secara cepat, otak memadukannya menjadi suatu gambar bergerak tunggal [1].
+[2] [3] [4] [5] [6] [7]
+notes    url https://www.studiobinder.com/blog/what-is-animation-definition/ [20220324]. 2. 
+url https://betterprogramming.pub/python-animations-with-matplotlib-e8e8037f4df7 [20220324]. 3.</description>
+    </item>
+    
+  </channel>
+</rss>

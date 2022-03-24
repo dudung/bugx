@@ -7,20 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 24 Mar 2022 15:15:47 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Mar 2022 18:16:32 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Thu, 24 Mar 2022 15:15:47 +0700</pubDate>
+      <pubDate>Thu, 24 Mar 2022 18:16:32 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
     </item>
     
     <item>
+      <title>python matplotlib animation</title>
+      <link>https://dudung.github.io/bugx/0019/</link>
+      <pubDate>Thu, 24 Mar 2022 18:16:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0019/</guid>
+      <description>Animasi adalah suatu metode dalam merekam gambar, model, atau bahkan boneka secara berurutan, dalam rangka menciptakan ilusi gerak, di mana hal ini dapat terjadi karena mata manusia hanya dapat mempertahankan suatu citra selama kira-kira 1/10 detik, sehingga ketika sejumlah gambar muncul berurutan secara cepat, otak memadukannya menjadi suatu gambar bergerak tunggal [1].
+[2] [3] [4] [5] [6] [7]
+notes    url https://www.studiobinder.com/blog/what-is-animation-definition/ [20220324]. 2. 
+url https://betterprogramming.pub/python-animations-with-matplotlib-e8e8037f4df7 [20220324]. 3.</description>
+    </item>
+    
+    <item>
       <title>install python windows powershell</title>
       <link>https://dudung.github.io/bugx/0018/</link>
-      <pubDate>Thu, 24 Mar 2022 15:14:00 +0700</pubDate>
+      <pubDate>Thu, 24 Mar 2022 17:48:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0018/</guid>
       <description>Dengan menggunakan PowerShell, suatu shell perintah moderen lintas platform yang menyertakan fitur terbaik dari shell populer lainnya [1] yang menambah kekuatan, fungsionalits dan fleksibilitas Windows Command Prompt [2], instalasi Python pun dapat dilakukan. Sejak Windows 10 version 1607 PowerShell telah terinstal secara default [3]. Instalasi Python dengan menggunakan PowerShell akan disinggung di sini dan juga pemanfaatan pip yang telah disertakan.
