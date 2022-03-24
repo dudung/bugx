@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-24 14:50:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-24 14:50:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-24 15:14:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-24 15:14:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0018\/",
-      "wordCount" : "1521",
+      "wordCount" : "1781",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">install python windows powershell</h1>
-            <time datetime="2022-03-24 14:50:00 &#43;0700 &#43;0700" class="post__date">Thu, 24 Mar  2022</time> 
+            <time datetime="2022-03-24 15:14:00 &#43;0700 &#43;0700" class="post__date">Thu, 24 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -407,120 +407,147 @@ Successfully installed wheel-0.37.1
 PS C:\Users\Your Name&gt;
 </code></pre>
 <p>Dan perhatikan bagaiman pesan peringatan sebelumnya telah hilang.</p>
+<h2 id="matplotlib">matplotlib<a class="anchor" href="#matplotlib">#</a></h2>
+<p>Paket matplotlib dinstal dengan menggunakan pip.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip install matplotlib
+Collecting matplotlib
+  Downloading matplotlib-3.5.1-cp310-cp310-win_amd64.whl (7.2 MB)
+     ---------------------------------------- 7.2/7.2 MB 528.6 kB/s eta 0:00:00
+Collecting fonttools&gt;=4.22.0
+  Downloading fonttools-4.31.2-py3-none-any.whl (899 kB)
+     ---------------------------------------- 899.5/899.5 KB 512.8 kB/s eta 0:00:00
+Collecting python-dateutil&gt;=2.7
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ---------------------------------------- 247.7/247.7 KB 345.6 kB/s eta 0:00:00
+Collecting pillow&gt;=6.2.0
+  Downloading Pillow-9.0.1-cp310-cp310-win_amd64.whl (3.2 MB)
+     ---------------------------------------- 3.2/3.2 MB 598.7 kB/s eta 0:00:00
+Collecting kiwisolver&gt;=1.0.1
+  Downloading kiwisolver-1.4.0-cp310-cp310-win_amd64.whl (51 kB)
+     ---------------------------------------- 51.4/51.4 KB 329.2 kB/s eta 0:00:00
+Collecting packaging&gt;=20.0
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+     ---------------------------------------- 40.8/40.8 KB 391.2 kB/s eta 0:00:00
+Collecting pyparsing&gt;=2.2.1
+  Downloading pyparsing-3.0.7-py3-none-any.whl (98 kB)
+     ---------------------------------------- 98.0/98.0 KB 295.7 kB/s eta 0:00:00
+Collecting cycler&gt;=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting numpy&gt;=1.17
+  Downloading numpy-1.22.3-cp310-cp310-win_amd64.whl (14.7 MB)
+     ---------------------------------------- 14.7/14.7 MB 610.8 kB/s eta 0:00:00
+Collecting six&gt;=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, pyparsing, pillow, numpy, kiwisolver, fonttools, cycler, python-dateutil, packaging, matplotlib
+Successfully installed cycler-0.11.0 fonttools-4.31.2 kiwisolver-1.4.0 matplotlib-3.5.1 numpy-1.22.3 packaging-21.3 pillow-9.0.1 pyparsing-3.0.7 python-dateutil-2.8.2 six-1.16.0
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Dan dapat dilihat dengan perintah <code>list</code> dari pip.</p>
+<pre><code>PS C:\Users\Your Name&gt; pip list
+Package         Version
+--------------- -------
+cycler          0.11.0
+fonttools       4.31.2
+kiwisolver      1.4.0
+matplotlib      3.5.1
+numpy           1.22.3
+packaging       21.3
+Pillow          9.0.1
+pyparsing       3.0.7
+python-dateutil 2.8.2
+six             1.16.0
+wheel           0.37.1
+PS C:\Users\Your Name&gt;
+</code></pre>
+<p>Bila diperiksa di <a href="https://pypi.org/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>PyPI</a> akan diperoleh bahwa NumPy vers 1.22.3 rilis 8 Mar 2022 [<a href="#r18" 
+  
+  
+>18</a>] dan Pillow 9.0.1 rilis 3 Feb 2022 [<a href="#r19" 
+  
+  
+>19</a>] telah merupakan versi terkini.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li>
-<p><a name='r01'></a>Sean Wheeler, Hananya Jacobson, Shawn C., &ldquo;What is PowerShell?&rdquo;, Microsoft technical documentation, 16 Feb 2022, url <a href="https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2" 
+<li><a name='r01'></a>Sean Wheeler, Hananya Jacobson, Shawn C., &ldquo;What is PowerShell?&rdquo;, Microsoft technical documentation, 16 Feb 2022, url <a href="https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2" 
   
    target="_blank" rel="noreferrer noopener" 
->https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r02'></a>Alexander Altvater, &ldquo;PowerShell Commands Every Developer Should Know: 50+ Cmdlets for Getting Things Done, Monitoring Performance, Debugging&rdquo;, Stackify, 21 Sep 2017, url <a href="https://stackify.com/powershell-commands-every-developer-should-know/" 
+>https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2</a> [20220324].</li>
+<li><a name='r02'></a>Alexander Altvater, &ldquo;PowerShell Commands Every Developer Should Know: 50+ Cmdlets for Getting Things Done, Monitoring Performance, Debugging&rdquo;, Stackify, 21 Sep 2017, url <a href="https://stackify.com/powershell-commands-every-developer-should-know/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://stackify.com/powershell-commands-every-developer-should-know/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r03'></a>Sean Wheeler, David Coulter, &ldquo;Windows PowerShell System Requirements&rdquo;, Microsoft technical documentation, 3 Nov 2021, url <a href="https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements?view=powershell-7.2" 
+>https://stackify.com/powershell-commands-every-developer-should-know/</a> [20220324].</li>
+<li><a name='r03'></a>Sean Wheeler, David Coulter, &ldquo;Windows PowerShell System Requirements&rdquo;, Microsoft technical documentation, 3 Nov 2021, url <a href="https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements?view=powershell-7.2" 
   
    target="_blank" rel="noreferrer noopener" 
->https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements?view=powershell-7.2</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r04'></a>Brady Gavin, &ldquo;9 Ways to Open PowerShell in Windows 10&rdquo;, How-To Geek, 31 Mar 2020, url <a href="https://www.howtogeek.com/662611/9-ways-to-open-powershell-in-windows-10/" 
+>https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/windows-powershell-system-requirements?view=powershell-7.2</a> [20220324].</li>
+<li><a name='r04'></a>Brady Gavin, &ldquo;9 Ways to Open PowerShell in Windows 10&rdquo;, How-To Geek, 31 Mar 2020, url <a href="https://www.howtogeek.com/662611/9-ways-to-open-powershell-in-windows-10/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://www.howtogeek.com/662611/9-ways-to-open-powershell-in-windows-10/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r05'></a>-, &ldquo;Python 3.10.3&rdquo;, Python Software Foundation, 16 Mar 2022, url <a href="https://www.python.org/downloads/release/python-3103/" 
+>https://www.howtogeek.com/662611/9-ways-to-open-powershell-in-windows-10/</a> [20220324].</li>
+<li><a name='r05'></a>-, &ldquo;Python 3.10.3&rdquo;, Python Software Foundation, 16 Mar 2022, url <a href="https://www.python.org/downloads/release/python-3103/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://www.python.org/downloads/release/python-3103/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r06'></a>The pip developers, &ldquo;Installation&rdquo;, pip documentation v22.1.dev0, url <a href="https://pip.pypa.io/en/latest/installation/" 
+>https://www.python.org/downloads/release/python-3103/</a> [20220324].</li>
+<li><a name='r06'></a>The pip developers, &ldquo;Installation&rdquo;, pip documentation v22.1.dev0, url <a href="https://pip.pypa.io/en/latest/installation/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://pip.pypa.io/en/latest/installation/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r07'></a>Philipp Acsany, &ldquo;Using Python&rsquo;s pip to Manage Your Projects&rsquo; Dependencies&rdquo;, Real Python, 2 Feb 2022, url <a href="https://realpython.com/what-is-pip/" 
+>https://pip.pypa.io/en/latest/installation/</a> [20220324].</li>
+<li><a name='r07'></a>Philipp Acsany, &ldquo;Using Python&rsquo;s pip to Manage Your Projects&rsquo; Dependencies&rdquo;, Real Python, 2 Feb 2022, url <a href="https://realpython.com/what-is-pip/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://realpython.com/what-is-pip/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r08'></a>Maintainers of pip, &ldquo;pip 22.0.4&rdquo;, PyPI, Python Software Foundation, 7 Mar 2022, url <a href="https://pypi.org/project/pip/22.0.4/" 
+>https://realpython.com/what-is-pip/</a> [20220324].</li>
+<li><a name='r08'></a>Maintainers of pip, &ldquo;pip 22.0.4&rdquo;, PyPI, Python Software Foundation, 7 Mar 2022, url <a href="https://pypi.org/project/pip/22.0.4/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://pypi.org/project/pip/22.0.4/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r09'></a>Renesh Bedre, &ldquo;Install and upgrade Python packages using pip and virtual environment on Windows, Linux, and Mac&rdquo;, Data science blog, 12 Feb 2022, url <a href="https://www.reneshbedre.com/blog/install-upgrade-pip-windows-mac-linux.html" 
+>https://pypi.org/project/pip/22.0.4/</a> [20220324].</li>
+<li><a name='r09'></a>Renesh Bedre, &ldquo;Install and upgrade Python packages using pip and virtual environment on Windows, Linux, and Mac&rdquo;, Data science blog, 12 Feb 2022, url <a href="https://www.reneshbedre.com/blog/install-upgrade-pip-windows-mac-linux.html" 
   
    target="_blank" rel="noreferrer noopener" 
->https://www.reneshbedre.com/blog/install-upgrade-pip-windows-mac-linux.html</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r10'></a>Katie Chang, &ldquo;How To List Python Packages – Globally Installed Vs Locally Installed&rdquo;, ActiveState, 19 Jan 2022, url <a href="https://www.activestate.com/resources/quick-reads/how-to-list-python-packages-globally-installed-vs-locally-installed/" 
+>https://www.reneshbedre.com/blog/install-upgrade-pip-windows-mac-linux.html</a> [20220324].</li>
+<li><a name='r10'></a>Katie Chang, &ldquo;How To List Python Packages – Globally Installed Vs Locally Installed&rdquo;, ActiveState, 19 Jan 2022, url <a href="https://www.activestate.com/resources/quick-reads/how-to-list-python-packages-globally-installed-vs-locally-installed/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://www.activestate.com/resources/quick-reads/how-to-list-python-packages-globally-installed-vs-locally-installed/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r11'></a>The pip developers, &ldquo;pip cache&rdquo;, pip documentation v22.0.4, url <a href="https://pip.pypa.io/en/stable/cli/pip_cache/" 
+>https://www.activestate.com/resources/quick-reads/how-to-list-python-packages-globally-installed-vs-locally-installed/</a> [20220324].</li>
+<li><a name='r11'></a>The pip developers, &ldquo;pip cache&rdquo;, pip documentation v22.0.4, url <a href="https://pip.pypa.io/en/stable/cli/pip_cache/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://pip.pypa.io/en/stable/cli/pip_cache/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r12'></a>Brad Solomon, &ldquo;What Are Python Wheels and Why Should You Care?&rdquo;, Real Python, 15 May 2021, url <a href="https://realpython.com/python-wheels/" 
+>https://pip.pypa.io/en/stable/cli/pip_cache/</a> [20220324].</li>
+<li><a name='r12'></a>Brad Solomon, &ldquo;What Are Python Wheels and Why Should You Care?&rdquo;, Real Python, 15 May 2021, url <a href="https://realpython.com/python-wheels/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://realpython.com/python-wheels/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r13'></a>Wheels contributors, &ldquo;What are wheels?&rdquo;, Python Wheels, 24 Oct 2021, url <a href="https://pythonwheels.com/" 
+>https://realpython.com/python-wheels/</a> [20220324].</li>
+<li><a name='r13'></a>Wheels contributors, &ldquo;What are wheels?&rdquo;, Python Wheels, 24 Oct 2021, url <a href="https://pythonwheels.com/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://pythonwheels.com/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r14'></a>Doctor Scripto, &ldquo;PowerTip: Use PowerShell to Display Windows Path&rdquo;, Microsoft Scripting Blog, 7 Jun 2014, url <a href="https://devblogs.microsoft.com/scripting/powertip-use-powershell-to-display-windows-path/" 
+>https://pythonwheels.com/</a> [20220324].</li>
+<li><a name='r14'></a>Doctor Scripto, &ldquo;PowerTip: Use PowerShell to Display Windows Path&rdquo;, Microsoft Scripting Blog, 7 Jun 2014, url <a href="https://devblogs.microsoft.com/scripting/powertip-use-powershell-to-display-windows-path/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://devblogs.microsoft.com/scripting/powertip-use-powershell-to-display-windows-path/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r15'></a>Suhani S., &ldquo;How To Install, Download And Build Python Wheels&rdquo;, ActiveState, 7 Oct 2021, url <a href="https://www.activestate.com/resources/quick-reads/python-install-wheel/" 
+>https://devblogs.microsoft.com/scripting/powertip-use-powershell-to-display-windows-path/</a> [20220324].</li>
+<li><a name='r15'></a>Suhani S., &ldquo;How To Install, Download And Build Python Wheels&rdquo;, ActiveState, 7 Oct 2021, url <a href="https://www.activestate.com/resources/quick-reads/python-install-wheel/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://www.activestate.com/resources/quick-reads/python-install-wheel/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r16'></a>Vivek Gite, &ldquo;Display or print UNIX / Linux path ~ $PATH variable&rdquo;, 17 Jun 2021, url <a href="https://www.cyberciti.biz/faq/howto-print-path-variable/" 
+>https://www.activestate.com/resources/quick-reads/python-install-wheel/</a> [20220324].</li>
+<li><a name='r16'></a>Vivek Gite, &ldquo;Display or print UNIX / Linux path ~ $PATH variable&rdquo;, 17 Jun 2021, url <a href="https://www.cyberciti.biz/faq/howto-print-path-variable/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://www.cyberciti.biz/faq/howto-print-path-variable/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r17'></a>Ryan Hoffman, &ldquo;Add to the PATH on Windows 10&rdquo;, Architect Ryan, 17 Mar 2018,
+>https://www.cyberciti.biz/faq/howto-print-path-variable/</a> [20220324].</li>
+<li><a name='r17'></a>Ryan Hoffman, &ldquo;Add to the PATH on Windows 10&rdquo;, Architect Ryan, 17 Mar 2018,
 url <a href="https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/</a> [20220324].</p>
-</li>
-<li>
-<p><a name='r18'></a></p>
-</li>
-<li>
-<p><a name='r19'></a></p>
-</li>
-<li>
-<p><a name='r20'></a></p>
-</li>
+>https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/</a> [20220324].</li>
+<li><a name='r18'></a>NumPy Developers, &ldquo;numpy 1.22.3&rdquo;, PyPI, Python Software Foundation, 8 Mar 2022, url <a href="https://pypi.org/project/numpy/1.22.3/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/numpy/1.22.3/</a> [20220324].</li>
+<li><a name='r19'></a> Alex Clark (PIL Fork Author) and PIL Maintainers, &ldquo;Pillow 9.0.1&rdquo;, PyPI, Python Software Foundation, 3 Feb 2022, url <a href="https://pypi.org/project/Pillow/9.0.1/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/Pillow/9.0.1/</a> [20220324].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
@@ -546,6 +573,12 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "ins
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/powershell/">powershell</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/pip/">pip</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/wheel/">wheel</a>
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/draft/">draft</a>
