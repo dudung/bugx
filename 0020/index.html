@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-25 22:47:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-25 22:47:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-26 05:47:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-26 05:47:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0020\/",
-      "wordCount" : "852",
+      "wordCount" : "1094",
       "keywords" : ["Blog"]
     }
   
@@ -135,14 +135,20 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">create new github repository</h1>
-            <time datetime="2022-03-25 22:47:00 &#43;0700 &#43;0700" class="post__date">Fri, 25 Mar  2022</time> 
+            <time datetime="2022-03-26 05:47:00 &#43;0700 &#43;0700" class="post__date">Sat, 26 Mar  2022</time> 
           </header>
           <article class="post__content">
               
 <p>Walaupun telah terdapat informasi bagaimana folder lokal dapat disimpan pada suatu repo di GitHub [<a href="#r01" 
   
   
->1</a>], akan tetapi kadang masih membingunkan bila belum terbiasa. Tulisan ini mencoba merekam langkah-langkah yang dilakukan untuk mencapai hal tersebut dengan menggunakan Windows PowerShell (PS) dan Git Bash, serta akses ke situs GitHub.</p>
+>1</a>], akan tetapi kadang masih membingunkan bila belum terbiasa. Tulisan ini mencoba merekam langkah-langkah yang dilakukan untuk mencapai hal tersebut dengan menggunakan Windows PowerShell (PS) dan Git Bash, serta akses ke situs GitHub. Selain itu terdapat pula langkah tambahan untuk menambahkan submodule [<a href="#r02" 
+  
+  
+>2</a>] dan menghapusnya [<a href="#r03" 
+  
+  
+>3</a>], yang belum tentu diperlukan.</p>
 <h2 id="local-folder">local folder<a class="anchor" href="#local-folder">#</a></h2>
 <ol>
 <li>Pada ujung kiri taskbar Windows 10 atau ujung kanan bawah layar, pilihlah ikon Start.</li>
@@ -330,6 +336,57 @@ PS L:\home\cookbook&gt;
   
    target="_blank" rel="noreferrer noopener" 
 >https://github.com/dudung/python</a> yang akan dijadikan submodule dari repositori <code>cookbook</code>. Pada repositori remote <code>python</code> tersebut telah ada berkas <code>README.md</code>, <code>LICENSE</code> dengan MIT License, dan <code>.gitignore</code> dengan templat Python.</p>
+<p>Tambahkan submodule <code>python</code> dengan folder tujuan <code>python</code> yang merupakan opsi paling belakang dan dapat diganti.</p>
+<pre><code>PS L:\home\cookbook&gt; git submodule add https://github.com/dudung/python.git python
+Cloning into 'L:/home/cookbook/python'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), done.
+warning: LF will be replaced by CRLF in .gitmodules.
+The file will have its original line endings in your working directory
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Isi keseluruhan dari folder <code>cookboo</code> telah berubah.</p>
+<pre><code>PS L:\home\cookbook&gt; dir -r
+
+
+    Directory: L:\home\cookbook
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2022-03-26     05:43                python
+-a----        2022-03-26     05:43             80 .gitmodules
+-a----        2022-03-25     21:59             43 README.md
+
+
+    Directory: L:\home\cookbook\python
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2022-03-26     05:43           1928 .gitignore
+-a----        2022-03-26     05:43           1094 LICENSE
+-a----        2022-03-26     05:43             29 README.md
+
+
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Dan telah terdapat perubahan.</p>
+<pre><code>PS L:\home\cookbook&gt; git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
+        new file:   .gitmodules
+        new file:   python
+
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Lakukan kembali commit dan push ke repositori remote.</p>
 <h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
 <ol>
 <li>Bagaimana cara memeriksa apakah repositor lokal telah tertaut dengan suatu repositori remote di GitHub?</li>
@@ -340,10 +397,18 @@ PS L:\home\cookbook&gt;
   
    target="_blank" rel="noreferrer noopener" 
 >https://superuser.com/a/1412081/1005329</a> [20220325].</li>
+<li><a name='r02'></a>Schkn, &ldquo;How To Add and Update Git Submodules&rdquo;, devconnected, 19 Dec 2019, url <a href="https://devconnected.com/how-to-add-and-update-git-submodules/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://devconnected.com/how-to-add-and-update-git-submodules/</a> [20220326].</li>
+<li><a name='r02'></a>CodeWizard, &ldquo;Answer to &lsquo;What is the current way to remove a git submodule?&rsquo;&rdquo;, Stack Overflow, 24 Apr 2015, url <a href="https://stackoverflow.com/a/29850245/9475509" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://stackoverflow.com/a/29850245/9475509</a> [20220326].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "create new github repository", bugx, 25 Mar 2022, url <a href= "https://dudung.github.io/bugx/0020">https://dudung.github.io/bugx/0020</a> [20220325].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "create new github repository", bugx, 26 Mar 2022, url <a href= "https://dudung.github.io/bugx/0020">https://dudung.github.io/bugx/0020</a> [20220325].
 </div>
 
 
