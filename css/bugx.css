@@ -11,7 +11,7 @@ a:link a:not(.tag__link) {
 }
 
 /* visited link */
-a:visited a:not(.tag__link) {
+a:visited, a:not(.tag__link) {
   color: #22f;
 }
 

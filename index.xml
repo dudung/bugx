@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 25 Mar 2022 11:38:17 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Mar 2022 16:35:07 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Fri, 25 Mar 2022 11:38:17 +0700</pubDate>
+      <pubDate>Fri, 25 Mar 2022 16:35:07 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
@@ -20,11 +20,11 @@
     <item>
       <title>create new github repository</title>
       <link>https://dudung.github.io/bugx/0020/</link>
-      <pubDate>Fri, 25 Mar 2022 01:31:00 +0700</pubDate>
+      <pubDate>Fri, 25 Mar 2022 15:39:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0020/</guid>
       <description>[1].
-github  Sign in ke GitHub dengan membuka https://github.com/login. Buat repositori baru dengan memilih ikon &amp;lsquo;+&amp;rsquo; di kanan atas halaman dan pilih &amp;lsquo;New repository&amp;rsquo;, atau langsung ke https://github.com/new. Isikan pada Repository name dengan nama cookbook. Biarkan opsi &amp;lsquo;Public&amp;rsquo;. Tekan tombol berwarna hijau di bagian bawah &amp;lsquo;Create repository&amp;rsquo;. Lihat repositori cookbook di https://github.com/dudung/coobook.  powershell  Pada ujung kiri taskbar Windows 10 atau ujung kanan bawah layar, pilihlah ikon Start. Gulung ke bawah dan pilih &amp;lsquo;Windows PowerShell&amp;rsquo;.</description>
+local folder  Pada ujung kiri taskbar Windows 10 atau ujung kanan bawah layar, pilihlah ikon Start. Gulung ke bawah dan pilih &amp;lsquo;Windows PowerShell&amp;rsquo;. Pilih aplikasi &amp;lsquo;Windows PowerShell&amp;rsquo; sehingga muncul jendela dengan judul Windows PowerShell.  Windows PowerShell Copyright (C) Microsoft Corporation. All rights reserved. Try the new cross-platform PowerShell https://aka.ms/pscore6 PS C:\Users\Your Name&amp;gt;  Ubah drive dan direktori ke tempat terdapat folder GitHub berada, misalnya L:\home.  PS C:\Users\Your Name&amp;gt; L: PS L:\&amp;gt; cd home PS L:\home&amp;gt;  Buat direktori cookbook  PS L:\home&amp;gt; mkdir cookbook Directory: L:\home Mode LastWriteTime Length Name ---- ------------- ------ ---- d----- 2022-03-25 10:45 cookbook PS L:\home&amp;gt;  Masuk ke direktori cookbook.</description>
     </item>
     
     <item>
