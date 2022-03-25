@@ -7,22 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 24 Mar 2022 21:02:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Mar 2022 01:31:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>draft</title>
+      <link>https://dudung.github.io/bugx/tags/draft/</link>
+      <pubDate>Fri, 25 Mar 2022 01:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://dudung.github.io/bugx/tags/github/</link>
+      <pubDate>Fri, 25 Mar 2022 01:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>repository</title>
+      <link>https://dudung.github.io/bugx/tags/repository/</link>
+      <pubDate>Fri, 25 Mar 2022 01:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/repository/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>animation</title>
       <link>https://dudung.github.io/bugx/tags/animation/</link>
       <pubDate>Thu, 24 Mar 2022 21:02:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/animation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>draft</title>
-      <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Thu, 24 Mar 2022 21:02:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
     </item>
     
@@ -293,15 +311,6 @@
       <pubDate>Sun, 20 Mar 2022 17:29:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/actions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://dudung.github.io/bugx/tags/github/</link>
-      <pubDate>Sun, 20 Mar 2022 17:29:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/github/</guid>
       <description></description>
     </item>
     
