@@ -6,23 +6,23 @@ a {
 }
 
 /* unvisited link */
-a:link, a:not(.tag__link) {
+a:link :not(.tag__link) {
   color: #22f;
 }
 
 /* visited link */
-a:visited, a:not(.tag__link) {
+a:visited :not(.tag__link) {
   color: #22f;
 }
 
 /* mouse over link */
-a:hover, a:not(.tag__link) {
+a:hover :not(.tag__link) {
   color: #494;
 	text-decoration: underline;
 }
 
 /* selected link */
-a:active, a:not(.tag__link) {
+a:active :not(.tag__link) {
   color: #f88;
 }
 
