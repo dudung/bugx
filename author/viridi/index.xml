@@ -11,7 +11,7 @@
     <item>
       <title>create new github repository</title>
       <link>https://dudung.github.io/bugx/0020/</link>
-      <pubDate>Fri, 25 Mar 2022 22:22:00 +0700</pubDate>
+      <pubDate>Fri, 25 Mar 2022 22:47:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0020/</guid>
       <description>Walaupun telah terdapat informasi bagaimana folder lokal dapat disimpan pada suatu repo di GitHub [1], akan tetapi kadang masih membingunkan bila belum terbiasa. Tulisan ini mencoba merekam langkah-langkah yang dilakukan untuk mencapai hal tersebut dengan menggunakan Windows PowerShell (PS) dan Git Bash, serta akses ke situs GitHub.
