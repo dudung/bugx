@@ -6,23 +6,35 @@ a {
 }
 
 /* unvisited link */
-a:link :not(.tag__link) {
+a:link {
   color: #22f;
+}
+.post__title > a:link {
+  color: #000;
+}
+.tag__item > a:link {
+  color: #000;
 }
 
 /* visited link */
-a:visited :not(.tag__link) {
+a:visited {
   color: #22f;
+}
+.post__title > a:visited {
+  color: #000;
+}
+.tag__item > a:visited {
+  color: #000;
 }
 
 /* mouse over link */
-a:hover :not(.tag__link) {
+a:hover {
   color: #494;
 	text-decoration: underline;
 }
 
 /* selected link */
-a:active :not(.tag__link) {
+a:active {
   color: #f88;
 }
 
