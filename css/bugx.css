@@ -12,7 +12,7 @@ a:link a:not(.tag__link) {
 
 /* visited link */
 a:visited a:not(.tag__link) {
-  color: #f22;
+  color: #22f;
 }
 
 /* mouse over link */
@@ -22,15 +22,9 @@ a:hover a:not(.tag__link) {
 }
 
 /* selected link */
-a:active {
-  //color: #f88;
+a:active a:not(.tag__link) {
+  color: #f88;
 }
-
-.tag__link {
-	//color: #black;
-}
-
-//a:not(.tag__link) a:not(.post__title)
 
 body {
 }
