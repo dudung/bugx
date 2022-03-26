@@ -11,7 +11,7 @@
     <item>
       <title>create new github repository</title>
       <link>https://dudung.github.io/bugx/0020/</link>
-      <pubDate>Sat, 26 Mar 2022 05:47:00 +0700</pubDate>
+      <pubDate>Sat, 26 Mar 2022 19:19:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0020/</guid>
       <description>Walaupun telah terdapat informasi bagaimana folder lokal dapat disimpan pada suatu repo di GitHub [1], akan tetapi kadang masih membingunkan bila belum terbiasa. Tulisan ini mencoba merekam langkah-langkah yang dilakukan untuk mencapai hal tersebut dengan menggunakan Windows PowerShell (PS) dan Git Bash, serta akses ke situs GitHub. Selain itu terdapat pula langkah tambahan untuk menambahkan submodule [2] dan menghapusnya [3], yang belum tentu diperlukan.
@@ -124,7 +124,7 @@ version 21-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220325].  </description>
+posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220326].  </description>
     </item>
     
     <item>
@@ -134,7 +134,7 @@ posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Progra
       
       <guid>https://dudung.github.io/bugx/0007/</guid>
       <description>Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Gelombang Elektromagnetik  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220321].  Cite as: viridi, &#34;fi1202-01 2021-2&#34;, bugx, 21 Mar 2022, url https://dudung.github.io/bugx/0007 [20220325].  </description>
+posts  Gelombang Elektromagnetik  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220321].  Cite as: viridi, &#34;fi1202-01 2021-2&#34;, bugx, 21 Mar 2022, url https://dudung.github.io/bugx/0007 [20220326].  </description>
     </item>
     
     <item>

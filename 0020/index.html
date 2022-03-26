@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-26 05:47:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-26 05:47:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-26 19:19:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-26 19:19:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0020\/",
-      "wordCount" : "1094",
+      "wordCount" : "2061",
       "keywords" : ["Blog"]
     }
   
@@ -135,7 +135,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">create new github repository</h1>
-            <time datetime="2022-03-26 05:47:00 &#43;0700 &#43;0700" class="post__date">Sat, 26 Mar  2022</time> 
+            <time datetime="2022-03-26 19:19:00 &#43;0700 &#43;0700" class="post__date">Sat, 26 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -336,6 +336,7 @@ PS L:\home\cookbook&gt;
   
    target="_blank" rel="noreferrer noopener" 
 >https://github.com/dudung/python</a> yang akan dijadikan submodule dari repositori <code>cookbook</code>. Pada repositori remote <code>python</code> tersebut telah ada berkas <code>README.md</code>, <code>LICENSE</code> dengan MIT License, dan <code>.gitignore</code> dengan templat Python.</p>
+<h3 id="create-submodule">create submodule<a class="anchor" href="#create-submodule">#</a></h3>
 <p>Tambahkan submodule <code>python</code> dengan folder tujuan <code>python</code> yang merupakan opsi paling belakang dan dapat diganti.</p>
 <pre><code>PS L:\home\cookbook&gt; git submodule add https://github.com/dudung/python.git python
 Cloning into 'L:/home/cookbook/python'...
@@ -346,9 +347,10 @@ remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (5/5), done.
 warning: LF will be replaced by CRLF in .gitmodules.
 The file will have its original line endings in your working directory
+PS L:\home\cookbook&gt; git submodule init
 PS L:\home\cookbook&gt;
 </code></pre>
-<p>Isi keseluruhan dari folder <code>cookboo</code> telah berubah.</p>
+<p>Isi keseluruhan dari folder <code>cookbook</code> telah berubah.</p>
 <pre><code>PS L:\home\cookbook&gt; dir -r
 
 
@@ -387,6 +389,238 @@ Changes to be committed:
 PS L:\home\cookbook&gt;
 </code></pre>
 <p>Lakukan kembali commit dan push ke repositori remote.</p>
+<pre><code>PS L:\home\cookbook&gt; git commit -a -m &quot;Add python submodule&quot;
+[master b13e522] Add python submodule
+ 2 files changed, 4 insertions(+)
+ create mode 100644 .gitmodules
+ create mode 160000 python
+PS L:\home\cookbook&gt; git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 381 bytes | 127.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dudung/cookbook.git
+   be115ad..b13e522  master -&gt; master
+PS L:\home\cookbook&gt;
+</code></pre>
+<h3 id="update-submodule">update submodule<a class="anchor" href="#update-submodule">#</a></h3>
+<p>Pada halaman <a href="https://github.com/dudung/cookbook" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/cookbook</a> telah terdapat folder <a href="https://github.com/dudung/python/tree/e70da50296220f3c117cc0318342a7c58e232a5e" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>python @ e70da50</a> yang merujuk ke suatu perubahan pada <a href="https://github.com/dudung/python" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/python</a>.</p>
+<p>Sekarang repsitori remote <a href="https://github.com/dudung/python" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/python</a> diubah dengan menambahkan folder <code>hello</code> dan di dalamnya terdapat berkas <code>hello_world.py</code>. Sementara pada folder lokal kedua item ini belum terdapat.</p>
+<pre><code>PS L:\home\cookbook&gt; dir python -r
+
+
+    Directory: L:\home\cookbook\python
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2022-03-26     05:43           1928 .gitignore
+-a----        2022-03-26     05:43           1094 LICENSE
+-a----        2022-03-26     05:43             29 README.md
+
+
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Untuk itu submodule <code>python</code> perlu diperbarui.</p>
+<pre><code>PS L:\home&gt; cd cookbook
+PS L:\home\cookbook&gt; cd python
+PS L:\home\cookbook\python&gt; git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 716 bytes | 2.00 KiB/s, done.
+From https://github.com/dudung/python
+   e70da50..1ae3048  main       -&gt; origin/main
+Updating e70da50..1ae3048
+Fast-forward
+ hello/hello_world.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello/hello_world.py
+PS L:\home\cookbook\python&gt; cd ..
+PS L:\home\cookbook\python&gt;
+</code></pre>
+<p>Langkah di atas agak sedikit berbeda seperti yang disarankan [<a href="#r04" 
+  
+  
+>4</a>]. Kemudian lihat kembali hasilnya.</p>
+<pre><code>PS L:\home\cookbook&gt; dir python -r
+
+
+    Directory: L:\home\cookbook\python
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2022-03-26     06:26                hello
+-a----        2022-03-26     05:43           1928 .gitignore
+-a----        2022-03-26     05:43           1094 LICENSE
+-a----        2022-03-26     05:43             29 README.md
+
+
+    Directory: L:\home\cookbook\python\hello
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2022-03-26     06:26             24 hello_world.py
+
+
+PS L:\home\cookbook&gt; tree
+Folder PATH listing for volume Linux
+Volume serial number is DC0D-53EE
+L:.
+└───python
+    └───hello
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Telah terdapat tambahan folder <code>hello</code> dan berkas <code>hello_python</code> di dalamnya, sesuai dengan keadaan terkini. Lakukan commit untuk perbaruan ini.</p>
+<pre><code>PS L:\home\cookbook&gt; git commit -a -m &quot;Fetch upstream of python submodule&quot;
+[master fd49c8b] Fetch upstream of python submodule
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS L:\home\cookbook&gt; git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 253 bytes | 126.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/dudung/cookbook.git
+   34f0fea..fd49c8b  master -&gt; master
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Repositori remote <a href="https://github.com/dudung/cookbook" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/cookbook</a> telah memiliki folder <a href="https://github.com/dudung/python/tree/1ae3048b9ee8ac0b0c0f2f9f39c10102e1d4feb1" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>python @ 1ae3048</a> yang terkini.</p>
+<p>Perbarui lagi repositori remote <a href="https://github.com/dudung/python" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/python</a> dan tanpa masuk ke foder lokal <code>python</code> perintah pull pun dapat dilakukan [<a href="#r04" 
+  
+  
+>4</a>].</p>
+<pre><code>PS L:\home\cookbook&gt; git submodule foreach git pull
+Entering 'python'
+Updating 1ae3048..61731ff
+Fast-forward
+ hello/hello_world.py | 2 ++
+ 1 file changed, 2 insertions(+)
+PS L:\home\cookbook&gt; git commit -a -m &quot;Fetch upstreams for all submodules&quot;
+[master 12a533a] Fetch upstreams for all submodules
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS L:\home\cookbook&gt; git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 250 bytes | 83.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/dudung/cookbook.git
+   fd49c8b..12a533a  master -&gt; master
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Versi terkini folder <a href="https://github.com/dudung/python/tree/61731ff4bf455f5242cb9181582d4c6a46fae232" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>python @ 61731ff</a> telah terdapat di <a href="https://github.com/dudung/cookbook" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/cookbook</a>.</p>
+<h3 id="many-submodules">many submodules<a class="anchor" href="#many-submodules">#</a></h3>
+<p>Pemanfaatan <code>foreach</code> belum terasa pada contoh sebelumnya.</p>
+<pre><code>PS L:\home\cookbook&gt; git submodule foreach git pull
+Entering 'bash'
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 727 bytes | 3.00 KiB/s, done.
+From https://github.com/dudung/bash
+   589f86c..31ffa2a  main       -&gt; origin/main
+Updating 589f86c..31ffa2a
+Fast-forward
+ hello/hello_world.sh | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello/hello_world.sh
+Entering 'basic'
+Already up to date.
+Entering 'cpp'
+Already up to date.
+Entering 'css'
+Already up to date.
+Entering 'fortran'
+Already up to date.
+Entering 'go'
+Already up to date.
+Entering 'java'
+Already up to date.
+Entering 'js'
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 721 bytes | 4.00 KiB/s, done.
+From https://github.com/dudung/js
+   4da88b6..d8d4059  main       -&gt; origin/main
+Updating 4da88b6..d8d4059
+Fast-forward
+ hello/hello_world.js | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello/hello_world.js
+Entering 'json'
+Already up to date.
+Entering 'lisp'
+Already up to date.
+Entering 'node.js'
+Already up to date.
+Entering 'pascal'
+Already up to date.
+Entering 'perl'
+Already up to date.
+Entering 'php'
+Already up to date.
+Entering 'python'
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 707 bytes | 11.00 KiB/s, done.
+From https://github.com/dudung/python
+   61731ff..c50451d  main       -&gt; origin/main
+Updating 61731ff..c50451d
+Fast-forward
+ hello/hello_world.py | 2 --
+ 1 file changed, 2 deletions(-)
+Entering 'r'
+Already up to date.
+Entering 'svg'
+Already up to date.
+Entering 'tex'
+Already up to date.
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Pada contoh di atas ke-18 folder diperiksa repositori remotenya dan dilakukan pull bila terdapat perubahan yang belum ada pada repositori lokal terkait.</p>
+<p>Terdapat temuan yang menarik bahwa <code>git init</code> tidak diperlukan lagi bila telah dilakukan <code>git submodule add</code>. Dari repositori-repositori di atas hanya folder <code>python</code> yang menggunakan <code>git init</code>. Walaupun belum mendapatkan rujukan mengenai hal ini, tetapi diduga saat penambahan submodule, inisialisasi sebagai suatu repositori lokal pun telah dilakukan.</p>
 <h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
 <ol>
 <li>Bagaimana cara memeriksa apakah repositor lokal telah tertaut dengan suatu repositori remote di GitHub?</li>
@@ -401,14 +635,18 @@ PS L:\home\cookbook&gt;
   
    target="_blank" rel="noreferrer noopener" 
 >https://devconnected.com/how-to-add-and-update-git-submodules/</a> [20220326].</li>
-<li><a name='r02'></a>CodeWizard, &ldquo;Answer to &lsquo;What is the current way to remove a git submodule?&rsquo;&rdquo;, Stack Overflow, 24 Apr 2015, url <a href="https://stackoverflow.com/a/29850245/9475509" 
+<li><a name='r03'></a>CodeWizard, &ldquo;Answer to &lsquo;What is the current way to remove a git submodule?&rsquo;&rdquo;, Stack Overflow, 24 Apr 2015, url <a href="https://stackoverflow.com/a/29850245/9475509" 
   
    target="_blank" rel="noreferrer noopener" 
 >https://stackoverflow.com/a/29850245/9475509</a> [20220326].</li>
+<li><a name='r04'></a>Daniel Andrei Mincă, Peter Mortensen, &ldquo;Answer to &lsquo;Update Git submodule to latest commit on origin&rsquo;&rdquo;, Stack Overflow, 17 Aug 2017, 16 Jun 2019, url <a href="https://stackoverflow.com/a/45744725/9475509" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://stackoverflow.com/a/45744725/9475509</a> [20220326].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "create new github repository", bugx, 26 Mar 2022, url <a href= "https://dudung.github.io/bugx/0020">https://dudung.github.io/bugx/0020</a> [20220325].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "create new github repository", bugx, 26 Mar 2022, url <a href= "https://dudung.github.io/bugx/0020">https://dudung.github.io/bugx/0020</a> [20220326].
 </div>
 
 
