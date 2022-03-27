@@ -38,5 +38,9 @@ a:active {
   color: #f88;
 }
 
+h2 {
+	margin-bottom: 0px;
+}
+
 body {
 }
