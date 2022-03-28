@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="320"
+   height="320"
+   viewBox="0 0 320 320.00001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="wave-to-right.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="127.5"
+     inkscape:cy="92"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="false"
+     units="px"
+     showborder="true"
+     inkscape:showpageshadow="true"
+     borderlayer="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-732.36216)">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="rect844"
+       width="319"
+       height="69"
+       x="0.5"
+       y="732.86218" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="rect844-6"
+       width="319"
+       height="69"
+       x="0.5"
+       y="982.86218" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="rect844-6-3"
+       width="319"
+       height="69"
+       x="0.5"
+       y="816.1955" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       id="rect844-6-6"
+       width="319"
+       height="69"
+       x="0.5"
+       y="899.52887" />
+    <text
+       xml:space="preserve"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+       x="256.34494"
+       y="749.32312"
+       id="text11831"><tspan
+         sodipodi:role="line"
+         id="tspan11829"
+         x="256.34494"
+         y="749.32312"
+         style="font-style:italic;font-size:18.6667px">t</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+       x="256.34494"
+       y="832.65643"
+       id="text11831-8"><tspan
+         sodipodi:role="line"
+         id="tspan11829-4"
+         x="256.34494"
+         y="832.65643"
+         style="font-size:18.6667px"><tspan
+   style="font-style:italic"
+   id="tspan16453">t</tspan> + <tspan
+   style="font-style:italic"
+   id="tspan16451">T</tspan>/4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+       x="256.34494"
+       y="915.98981"
+       id="text11831-8-0"><tspan
+         sodipodi:role="line"
+         id="tspan11829-4-2"
+         x="256.34494"
+         y="915.98981"
+         style="font-size:18.6667px"><tspan
+   style="font-style:italic"
+   id="tspan16855">t</tspan> + <tspan
+   style="font-style:italic"
+   id="tspan17329">T</tspan>/2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+       x="256.34494"
+       y="999.32312"
+       id="text11831-8-0-5"><tspan
+         sodipodi:role="line"
+         id="tspan11829-4-2-2"
+         x="256.34494"
+         y="999.32312"
+         style="font-size:18.6667px"><tspan
+   style="font-style:italic"
+   id="tspan17607">t</tspan> + 3<tspan
+   style="font-style:italic"
+   id="tspan17609">T</tspan>/4</tspan></text>
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       d="M 0.5 767.362 C 4.30298 759.756 8.10596 752.176 11.9089 746.172 C 15.7119 740.168 19.5149 735.787 23.3179 733.918 C 27.1209 732.048 30.9238 732.715 34.7268 735.768 C 38.5298 738.821 42.3328 744.254 46.1358 750.942 C 49.9387 757.63 53.7417 765.538 57.5447 773.041 C 61.3477 780.543 65.1507 787.591 68.9537 792.745 C 72.7566 797.898 76.5596 801.114 80.3626 801.744 C 84.1656 802.375 87.9686 800.402 91.7715 796.244 C 95.5745 792.086 99.3775 785.757 103.18 778.564 C 106.983 771.371 110.786 763.355 114.589 756.16 C 118.392 748.965 122.195 742.642 125.998 738.48 C 129.801 734.318 133.604 732.354 137.407 732.98 C 141.21 733.606 145.013 736.83 148.816 741.98 C 152.619 747.129 156.422 754.182 160.225 761.684 C 164.028 769.185 167.831 777.092 171.634 783.782 C 175.437 790.473 179.24 795.899 183.043 798.956 C 186.846 802.014 190.649 802.671 194.452 800.806 C 198.255 798.942 202.058 794.553 205.861 788.553 C 209.664 782.552 213.467 774.968 217.27 767.362"
+       title="t sin(2*t - 0.0 * 2 * pi)"
+       id="path2262" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       d="M 0.5 885.196 C 4.30298 885.193 8.10596 882.591 11.9089 877.921 C 15.7119 873.251 19.5149 866.537 23.3179 859.165 C 27.1209 851.792 30.9238 843.803 34.7268 836.837 C 38.5298 829.871 42.3328 823.976 46.1358 820.354 C 49.9387 816.731 53.7417 815.417 57.5447 816.666 C 61.3477 817.915 65.1507 821.735 68.9537 827.329 C 72.7566 832.923 76.5596 840.267 80.3626 847.847 C 84.1656 855.426 87.9686 863.196 91.7715 869.565 C 95.5745 875.934 99.3775 880.854 103.18 883.326 C 106.983 885.798 110.786 885.793 114.589 883.326 C 118.392 880.859 122.195 875.931 125.998 869.565 C 129.801 863.199 133.604 855.427 137.407 847.847 C 141.21 840.266 145.013 832.927 148.816 827.329 C 152.619 821.732 156.422 817.92 160.225 816.666 C 164.028 815.412 167.831 816.736 171.634 820.354 C 175.437 823.971 179.24 829.873 183.043 836.837 C 186.846 843.801 190.649 851.791 194.452 859.165 C 198.255 866.539 202.058 873.247 205.861 877.921 C 209.664 882.595 213.467 885.193 217.27 885.196"
+       title="t sin(2*t - 0.25 * 2 * pi)"
+       id="path2331" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       d="M 0.5 934.029 C 4.30298 941.635 8.10596 949.215 11.9089 955.219 C 15.7119 961.223 19.5149 965.604 23.3179 967.473 C 27.1209 969.343 30.9238 968.676 34.7268 965.623 C 38.5298 962.57 42.3328 957.137 46.1358 950.449 C 49.9387 943.761 53.7417 935.853 57.5447 928.35 C 61.3477 920.848 65.1507 913.8 68.9537 908.646 C 72.7566 903.493 76.5596 900.277 80.3626 899.647 C 84.1656 899.016 87.9686 900.989 91.7715 905.147 C 95.5745 909.305 99.3775 915.634 103.18 922.827 C 106.983 930.02 110.786 938.036 114.589 945.231 C 118.392 952.426 122.195 958.749 125.998 962.911 C 129.801 967.073 133.604 969.037 137.407 968.411 C 141.21 967.785 145.013 964.561 148.816 959.411 C 152.619 954.262 156.422 947.209 160.225 939.707 C 164.028 932.206 167.831 924.299 171.634 917.609 C 175.437 910.918 179.24 905.492 183.043 902.435 C 186.846 899.377 190.649 898.72 194.452 900.585 C 198.255 902.449 202.058 906.838 205.861 912.839 C 209.664 918.839 213.467 926.423 217.27 934.029"
+       title="t sin(2*t - 0.5 * 2 * pi)"
+       id="path2402" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1"
+       d="M 0.5 982.862 C 4.30298 982.865 8.10596 985.467 11.9089 990.137 C 15.7119 994.807 19.5149 1001.52 23.3179 1008.89 C 27.1209 1016.27 30.9238 1024.25 34.7268 1031.22 C 38.5298 1038.19 42.3328 1044.08 46.1358 1047.7 C 49.9387 1051.33 53.7417 1052.64 57.5447 1051.39 C 61.3477 1050.14 65.1507 1046.32 68.9537 1040.73 C 72.7566 1035.13 76.5596 1027.79 80.3626 1020.21 C 84.1656 1012.63 87.9686 1004.86 91.7715 998.492 C 95.5745 992.124 99.3775 987.204 103.18 984.731 C 106.983 982.259 110.786 982.264 114.589 984.731 C 118.392 987.199 122.195 992.126 125.998 998.492 C 129.801 1004.86 133.604 1012.63 137.407 1020.21 C 141.21 1027.79 145.013 1035.13 148.816 1040.73 C 152.619 1046.33 156.422 1050.14 160.225 1051.39 C 164.028 1052.65 167.831 1051.32 171.634 1047.7 C 175.437 1044.09 179.24 1038.18 183.043 1031.22 C 186.846 1024.26 190.649 1016.27 194.452 1008.89 C 198.255 1001.52 202.058 994.81 205.861 990.137 C 209.664 985.463 213.467 982.865 217.27 982.862"
+       title="t sin(2*t - 0.75 * 2 * pi)"
+       id="path2548" />
+  </g>
+</svg>
