@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1-d on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/1-d/</link>
+    <description>Recent content in 1-d on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Tue, 29 Mar 2022 02:46:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/1-d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wave equation 1-d</title>
+      <link>https://dudung.github.io/bugx/0025/</link>
+      <pubDate>Tue, 29 Mar 2022 02:46:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0025/</guid>
+      <description>Menarik untuk melihat hasil penelusuran bahwa terdapat beberapa konsep berbeda yang berbagi istilah yang sama. Istilah yang dimaksud di sini adalah persamaan gelombang. Istilah ini digunakan untuk persamaan yang menghubungkan laju rambat, frekuensi, dan panjang gelombang suatu gelombang [1, 2, 3],
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+notes   Tom Henderson, &amp;ldquo;The Wave Equation&amp;rdquo;, The Physics Classroom, 2012, url https://www.physicsclassroom.com/class/waves/Lesson-2/The-Wave-Equation [20220329].
+  -, &amp;ldquo;The wave equation&amp;rdquo;, Wave parameters and behaviours, Bitsize, BBC, 2022, url https://www.</description>
+    </item>
+    
+  </channel>
+</rss>
