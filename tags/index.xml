@@ -7,22 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 29 Mar 2022 11:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Mar 2022 05:34:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>draft</title>
+      <link>https://dudung.github.io/bugx/tags/draft/</link>
+      <pubDate>Wed, 30 Mar 2022 05:34:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interference</title>
+      <link>https://dudung.github.io/bugx/tags/interference/</link>
+      <pubDate>Wed, 30 Mar 2022 05:34:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/interference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>light</title>
+      <link>https://dudung.github.io/bugx/tags/light/</link>
+      <pubDate>Wed, 30 Mar 2022 05:34:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/light/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physics</title>
+      <link>https://dudung.github.io/bugx/tags/physics/</link>
+      <pubDate>Wed, 30 Mar 2022 05:34:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>two-slit</title>
+      <link>https://dudung.github.io/bugx/tags/two-slit/</link>
+      <pubDate>Wed, 30 Mar 2022 05:34:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/two-slit/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>animation</title>
       <link>https://dudung.github.io/bugx/tags/animation/</link>
       <pubDate>Tue, 29 Mar 2022 11:17:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/animation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>draft</title>
-      <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Tue, 29 Mar 2022 11:17:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
     </item>
     
@@ -72,15 +108,6 @@
     </item>
     
     <item>
-      <title>physics</title>
-      <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Tue, 29 Mar 2022 06:29:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>wave-equation</title>
       <link>https://dudung.github.io/bugx/tags/wave-equation/</link>
       <pubDate>Tue, 29 Mar 2022 06:29:00 +0700</pubDate>
@@ -90,38 +117,11 @@
     </item>
     
     <item>
-      <title>interference</title>
-      <link>https://dudung.github.io/bugx/tags/interference/</link>
-      <pubDate>Mon, 28 Mar 2022 06:55:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/interference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>light</title>
-      <link>https://dudung.github.io/bugx/tags/light/</link>
-      <pubDate>Mon, 28 Mar 2022 06:55:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/light/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>resultan</title>
       <link>https://dudung.github.io/bugx/tags/resultan/</link>
       <pubDate>Mon, 28 Mar 2022 06:55:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/resultan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>two-slit</title>
-      <link>https://dudung.github.io/bugx/tags/two-slit/</link>
-      <pubDate>Mon, 28 Mar 2022 06:55:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/two-slit/</guid>
       <description></description>
     </item>
     
