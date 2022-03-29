@@ -9,6 +9,15 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>python matplotlib animation</title>
+      <link>https://dudung.github.io/bugx/0019/</link>
+      <pubDate>Tue, 29 Mar 2022 11:17:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0019/</guid>
+      <description>Animasi adalah suatu metode dalam merekam gambar, model, atau bahkan boneka secara berurutan, dalam rangka menciptakan ilusi gerak, di mana hal ini dapat terjadi karena mata manusia hanya dapat mempertahankan suatu citra selama kira-kira 1/10 detik, sehingga ketika sejumlah gambar muncul berurutan secara cepat, otak memadukannya menjadi suatu gambar bergerak tunggal [1]. Grafik telah dapat menjelaskan data, animasi dapat menolong lebih jauh dengan memberikan pehamanan bagaimana keadaan berubah dengan waktu [2].</description>
+    </item>
+    
+    <item>
       <title>basic animation wave</title>
       <link>https://dudung.github.io/bugx/0026/</link>
       <pubDate>Tue, 29 Mar 2022 08:10:51 +0700</pubDate>
@@ -83,15 +92,6 @@ posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-pe
       <guid>https://dudung.github.io/bugx/0020/</guid>
       <description>Walaupun telah terdapat informasi bagaimana folder lokal dapat disimpan pada suatu repo di GitHub [1], akan tetapi kadang masih membingunkan bila belum terbiasa. Tulisan ini mencoba merekam langkah-langkah yang dilakukan untuk mencapai hal tersebut dengan menggunakan Windows PowerShell (PS) dan Git Bash, serta akses ke situs GitHub. Selain itu terdapat pula langkah tambahan untuk menambahkan submodule [2] dan menghapusnya [3], yang belum tentu diperlukan.
 local folder  Pada ujung kiri taskbar Windows 10 atau ujung kanan bawah layar, pilihlah ikon Start.</description>
-    </item>
-    
-    <item>
-      <title>python matplotlib animation</title>
-      <link>https://dudung.github.io/bugx/0019/</link>
-      <pubDate>Thu, 24 Mar 2022 21:02:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0019/</guid>
-      <description>Animasi adalah suatu metode dalam merekam gambar, model, atau bahkan boneka secara berurutan, dalam rangka menciptakan ilusi gerak, di mana hal ini dapat terjadi karena mata manusia hanya dapat mempertahankan suatu citra selama kira-kira 1/10 detik, sehingga ketika sejumlah gambar muncul berurutan secara cepat, otak memadukannya menjadi suatu gambar bergerak tunggal [1]. Grafik telah dapat menjelaskan data, animasi dapat menolong lebih jauh dengan memberikan pehamanan bagaimana keadaan berubah dengan waktu [2].</description>
     </item>
     
     <item>

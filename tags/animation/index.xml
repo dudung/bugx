@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 29 Mar 2022 08:10:51 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/animation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Mar 2022 11:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/animation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python matplotlib animation</title>
+      <link>https://dudung.github.io/bugx/0019/</link>
+      <pubDate>Tue, 29 Mar 2022 11:17:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0019/</guid>
+      <description>Animasi adalah suatu metode dalam merekam gambar, model, atau bahkan boneka secara berurutan, dalam rangka menciptakan ilusi gerak, di mana hal ini dapat terjadi karena mata manusia hanya dapat mempertahankan suatu citra selama kira-kira 1/10 detik, sehingga ketika sejumlah gambar muncul berurutan secara cepat, otak memadukannya menjadi suatu gambar bergerak tunggal [1]. Grafik telah dapat menjelaskan data, animasi dapat menolong lebih jauh dengan memberikan pehamanan bagaimana keadaan berubah dengan waktu [2].</description>
+    </item>
+    
     <item>
       <title>basic animation wave</title>
       <link>https://dudung.github.io/bugx/0026/</link>
@@ -18,15 +27,6 @@
 to the right Gelombang yang merambat ke kanan pada pada sumbu $x$ memiliki fungsi berbentuk
 \begin{equation}\label{eqn:wave-to-right} y(x, t) = A \sin (kx - \omega t + \phi) \end{equation}
 yang implementasinya dapat seperti berikut ini</description>
-    </item>
-    
-    <item>
-      <title>python matplotlib animation</title>
-      <link>https://dudung.github.io/bugx/0019/</link>
-      <pubDate>Thu, 24 Mar 2022 21:02:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0019/</guid>
-      <description>Animasi adalah suatu metode dalam merekam gambar, model, atau bahkan boneka secara berurutan, dalam rangka menciptakan ilusi gerak, di mana hal ini dapat terjadi karena mata manusia hanya dapat mempertahankan suatu citra selama kira-kira 1/10 detik, sehingga ketika sejumlah gambar muncul berurutan secara cepat, otak memadukannya menjadi suatu gambar bergerak tunggal [1]. Grafik telah dapat menjelaskan data, animasi dapat menolong lebih jauh dengan memberikan pehamanan bagaimana keadaan berubah dengan waktu [2].</description>
     </item>
     
   </channel>
