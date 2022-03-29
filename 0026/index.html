@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-29 08:02:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-29 08:02:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-29 08:10:51 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-29 08:10:51 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0026\/",
-      "wordCount" : "421",
+      "wordCount" : "706",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">basic animation wave</h1>
-            <time datetime="2022-03-29 08:02:00 &#43;0700 &#43;0700" class="post__date">Tue, 29 Mar  2022</time> 
+            <time datetime="2022-03-29 08:10:51 &#43;0700 &#43;0700" class="post__date">Tue, 29 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -212,16 +212,58 @@
 >1</a>] dalam bentuk $y(x, t)$ dapat dianimasikan dengan menggunakan Python berbantuan Matplotlib [<a href="#r02" 
   
   
->2</a>].</p>
+>2</a>]. Di sini dibahas gelombang yang berosilasi pada arah tegak lurus sumbu $x$ dan merambat pada sumbu $x$ dengan arah positif adalah ke kanan.</p>
 <h2 id="to-the-right">to the right<a class="anchor" href="#to-the-right">#</a></h2>
+<p>Gelombang yang merambat ke kanan pada pada sumbu $x$ memiliki fungsi berbentuk</p>
+<p>\begin{equation}\label{eqn:wave-to-right}
+y(x, t) = A \sin (kx - \omega t + \phi)
+\end{equation}</p>
+<p>yang implementasinya dapat seperti berikut ini</p>
 <pre><code class="language-python">    y = np.sin(2 * np.pi * (x - 0.01 * i))
 </code></pre>
+<p>dalam Python dengan menggunakan paket Numpy. Di sini dipilih $\phi = 0$.</p>
+<p>
+<img src="/bugx/img/wave/basic-anim-wave-to-right.gif" />
+Gambar <a name='fig1'>1</a>. Gelombang merambant ke kanan.
+</p>
+<p>Hasil potongan kode sebelumnya dapat menghasilkan Gambar <a href="#fig1" 
+  
+  
+>1</a> yang merupakan implementasi Persamaan \eqref{eqn:wave-to-right}.</p>
 <h2 id="to-the-left">to the left<a class="anchor" href="#to-the-left">#</a></h2>
+<p>Gelombang yang merambat ke kanan pada pada sumbu $x$ memiliki fungsi berbentuk</p>
+<p>\begin{equation}\label{eqn:wave-to-left}
+y(x, t) = A \sin (kx + \omega t - \phi)
+\end{equation}</p>
+<p>yang implementasinya dapat seperti berikut ini</p>
 <pre><code class="language-python">    y = np.sin(2 * np.pi * (x + 0.01 * i))
 </code></pre>
+<p>dalam Python dengan menggunakan paket Numpy. Di sini dipilih $\phi = 0$.</p>
+<p>
+<img src="/bugx/img/wave/basic-anim-wave-to-left.gif" />
+Gambar <a name='fig2'>2</a>. Gelombang merambant ke kiri.
+</p>
+<p>Hasil potongan kode sebelumnya dapat menghasilkan Gambar <a href="#fig2" 
+  
+  
+>2</a> yang merupakan implementasi Persamaan \eqref{eqn:wave-to-left}.</p>
 <h2 id="stationary">stationary<a class="anchor" href="#stationary">#</a></h2>
+<p>Gelombang stasioner yang tidak merambat memiliki fungsi berbentuk</p>
+<p>\begin{equation}\label{eqn:wave-stationary}
+y(x, t) = B \sin (kx) \cos (\omega t - \phi)
+\end{equation}</p>
+<p>yang implementasinya dapat seperti berikut ini</p>
 <pre><code class="language-python">    y = np.sin(2 * np.pi * x) * np.cos(2 * np.pi * 0.01 * i)
 </code></pre>
+<p>dalam Python dengan menggunakan paket Numpy. Di sini dipilih $\phi = 0$.</p>
+<p>
+<img src="/bugx/img/wave/basic-anim-wave-stationary.gif" />
+Gambar <a name='fig1'>1</a>. Gelombang stasioner yang tidak merambat.
+</p>
+<p>Hasil potongan kode sebelumnya dapat menghasilkan Gambar <a href="#fig3" 
+  
+  
+>3</a> yang merupakan implementasi Persamaan \eqref{eqn:wave-stationary}.</p>
 <h2 id="code">code<a class="anchor" href="#code">#</a></h2>
 <p>Kode berikut ini bersumber dari Jake VanderPlas [<a href="#r02" 
   
@@ -295,7 +337,31 @@ if option == 0:
 else:
 	plt.show()
 </code></pre>
-<p>Bagian dengan <code># ---- equation of y ----</code> perlu diisi dengan kode setelah persamaan terkaitnya yaitu Persamaan \eqref{eqn:wave-to-right}, \eqref{eqn:wave-to-left}, dan \eqref{eqn:wave-stationary}.</p>
+<p>Bagian dengan <code># ---- equation of y ----</code> pada program lengkap di atas perlu diisi dengan potongan kode setelah persamaan terkaitnya yaitu Persamaan \eqref{eqn:wave-to-right}, \eqref{eqn:wave-to-left}, dan \eqref{eqn:wave-stationary}.</p>
+<h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
+<ol>
+<li>Modifikasi program lengkap yang diberikan sehingga dapat menghasilkan berkas gif seperti pada Gambar <a href="#fig1" 
+  
+  
+>1</a>. Dapat dilihat contoh pertanyaannya di <a href="https://github.com/dudung/fi3201-01-2021-2/tree/main/assignments/04#question-2" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>fi3201-01-2021-2 assignment 04 question 2</a>.</li>
+<li>Modifikasi program lengkap yang diberikan sehingga dapat menghasilkan berkas gif seperti pada Gambar <a href="#fig2" 
+  
+  
+>2</a>. Dapat dilihat contoh pertanyaannya di <a href="https://github.com/dudung/fi3201-01-2021-2/tree/main/assignments/04#question-3" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>fi3201-01-2021-2 assignment 04 question 3</a>.</li>
+<li>Modifikasi program lengkap yang diberikan sehingga dapat menghasilkan berkas gif seperti pada Gambar <a href="#fig3" 
+  
+  
+>3</a>. Dapat dilihat contoh pertanyaannya di <a href="https://github.com/dudung/fi3201-01-2021-2/tree/main/assignments/04#question-4" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>fi3201-01-2021-2 assignment 04 question 4</a>.</li>
+</ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Eric W. Weisstein, &ldquo;Wave Equation&rdquo;, from MathWorld&ndash;A Wolfram Web Resource, Wolfram Research, Inc., Sat Mar 26 2022, url <a href="https://mathworld.wolfram.com/WaveEquation.html" 
