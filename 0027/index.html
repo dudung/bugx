@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-30 06:19:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-30 06:19:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-30 06:46:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-30 06:46:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0027\/",
-      "wordCount" : "736",
+      "wordCount" : "986",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">interference intensity slit 2</h1>
-            <time datetime="2022-03-30 06:19:00 &#43;0700 &#43;0700" class="post__date">Wed, 30 Mar  2022</time> 
+            <time datetime="2022-03-30 06:46:00 &#43;0700 &#43;0700" class="post__date">Wed, 30 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -2033,9 +2033,9 @@ Gambar 4. Sistem dua celah dan layar.
 \begin{array}{rcl}
 E &amp; = &amp; E_1 + E_2 \newline
 &amp; = &amp; E_o \sin(kx_1 - \omega t) + E_o \sin(kx_2 - \omega t) \newline
-&amp; = &amp; 2E_0 \sin [\frac12 k(x_1 + x_2) - \omega t] \cos \frac12(x_1 - x_2) \newline
-&amp; = &amp; 2E_0 \sin [\frac12 k(x_1 + x_2) - \omega t] \cos \frac12(x_2 - x_1) \newline
-&amp; = &amp; 2E_0 \sin [\frac12 k(x_1 + x_2) - \omega t] \cos \frac12 \Delta x
+&amp; = &amp; 2E_0 \sin [\frac12 k(x_1 + x_2) - \omega t] \cos \frac12 k(x_1 - x_2) \newline
+&amp; = &amp; 2E_0 \sin [\frac12 k(x_1 + x_2) - \omega t] \cos \frac12 k(x_2 - x_1) \newline
+&amp; = &amp; 2E_0 \sin [\frac12 k(x_1 + x_2) - \omega t] \cos \frac12 k \Delta x
 \end{array}
 \end{equation}</p>
 <p>dengan</p>
@@ -2047,10 +2047,47 @@ E &amp; = &amp; E_1 + E_2 \newline
 \cos(-x) = \cos x.
 \end{equation}</p>
 <p>Dari Persamaan \eqref{eqn:e-p-total} dapat diperoleh intensitas relatifnya melalui Persamaan \eqref{eqn:intensity-source} dan \eqref{eqn:intensity-source-slit-2} dalam bentuk</p>
-<p>\begin{equation}\label{eqn:i-p-relative}
-I = 4 I_o \sin^2 [\frac12 k(x_1 + x_2) - \omega t] \cos^2 \frac12 \Delta x.
+<p>\begin{equation}\label{eqn:i-p}
+I = 4 I_o \sin^2 [\frac12 k(x_1 + x_2) - \omega t] \cos^2 \frac12 k \Delta x.
 \end{equation}</p>
-<p>Rata-rata intensitas</p>
+<p>Rata-rata intensitas terhadap waktu untuk masing-masing sumber</p>
+<p>\begin{equation}\label{eqn:i-p-source-avg}
+I_{i, \rm avg} = \tfrac12 I_o, \ \ \ \ i = 1, 2,
+\end{equation}</p>
+<p>dan resultannya</p>
+<p>\begin{equation}\label{eqn:i-p-resultan-avg}
+I_{\rm avg} = 2 I_o \cos^2 \frac12 k \Delta x.
+\end{equation}</p>
+<p>pada titik ${\rm P}$ dapat diperoleh. Kedua Persamaan \eqref{eqn:i-p-source-avg} dan \eqref{eqn:i-p-resultan-avg} diperoleh dari</p>
+<p>\begin{equation}\label{eqn:sin2-avg}
+\frac{1}{T} \int_t^{t+T} \sin^2 (\omega t + \gamma) = \tfrac12
+\end{equation}</p>
+<p>dengan $\gamma$ bukan fungsi dari waktu. Untuk Persamaan \eqref{eqn:i-p-source-avg} $\gamma = \pi - kx_i$, $i = 1, 2$ dan untuk Persamaan \eqref{eqn:i-p-resultan-avg} $\gamma = \pi - \frac12(x_1 + x_2)$. Dengan demikian dapat dituliskan</p>
+<p>\begin{equation}\label{eqn:i-p-relative}
+\frac{I}{I_o} = 4 \cos^2 \frac12 k \Delta x.
+\end{equation}</p>
+<p>Baris kedua Persamaan \eqref{eqn:e-p-total} dapat dituliskan kembali menjadi</p>
+<p>\begin{equation}\label{eqn:e-p-total-dx}
+\begin{array}{rcl}
+E &amp; = &amp; E_o \sin(kx_1 - \omega t) + E_o \sin(kx_2 - \omega t + k\Delta x) \newline
+&amp; = &amp; E_o \sin(kx_1 - \omega t) + E_o \sin[k(x_1 + x_2 - x_1) - \omega t] \newline
+&amp; = &amp; E_o \sin(kx_1 - \omega t) + E_o \sin[k(x_1 + \Delta x) - \omega t] \newline
+&amp; = &amp; E_o \sin(kx_1 - \omega t) + E_o \sin(kx_1 - \omega t + k\Delta x) \newline
+&amp; = &amp; E_o \sin(kx_1 - \omega t) + E_o \sin(kx_1 - \omega t + \phi)
+\end{array}
+\end{equation}</p>
+<p>sehingga cocok dengan ilustrasi fasor pada Gambar <a href="#fig1" 
+  
+  
+>1</a>. Dari baris terakhir Persamaan \eqref{eqn:e-p-total-dx} dapat diperoleh bahwa</p>
+<p>\begin{equation}\label{eqn:phi-kdx}
+\phi = k \Delta x,
+\end{equation}</p>
+<p>di mana untuk pendekatan dengan sudut $\theta$ kecil hubungan</p>
+<p>\begin{equation}\label{eqn:phi-kdx-small-theta}
+\Delta x = d \sin \theta
+\end{equation}</p>
+<p>dapat diperoleh.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Carl Rod Nave, &ldquo;Interference&rdquo;, HyperPhysics, 2017, url <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/interfcon.html" 
