@@ -7,7 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 30 Mar 2022 16:25:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Mar 2022 16:36:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fi1202-01 2021-2</title>
+      <link>https://dudung.github.io/bugx/0007/</link>
+      <pubDate>Wed, 30 Mar 2022 16:36:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0007/</guid>
+      <description>Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
+posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-persamaan Maxwell, Inteferensi Dua Celah: Fungsi Resultan Interferensi Dua Celah, Intensitas Inteferensi Dua Celah,  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220321].  Cite as: viridi, &#34;</description>
+    </item>
+    
+    <item>
+      <title>two slit interference function resultan</title>
+      <link>https://dudung.github.io/bugx/0024/</link>
+      <pubDate>Wed, 30 Mar 2022 16:36:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0024/</guid>
+      <description>Interferensi dua celah [1].
+electric field Medan listrik dari masing-masing sumber dapat dinyatakan sebagai
+\begin{equation}\label{eqn:two-slit-interference-electric-field} E_j = E_0 \sin (kx_j - \omega t + \phi), \ \ \ \ j = 1, 2, \end{equation}
+dengan $k$ bilangan gelombang, $x$ posisi suatu titik, $\omega$ frekuensi angular, $t$ waktu, dan $\phi$ adalah fasa.
+ &amp;nbsp;
+                 image/svg+xml    x1   φ ωt E0 E0   E1 E2 E1 E2 E2 E1   Gambar 1.</description>
+    </item>
+    
     <item>
       <title>two slit interference</title>
       <link>https://dudung.github.io/bugx/0023/</link>
@@ -38,30 +62,6 @@ phasor Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya
       
       <guid>https://dudung.github.io/bugx/0025/</guid>
       <description>Menarik untuk melihat hasil penelusuran bahwa terdapat beberapa konsep berbeda yang berbagi istilah yang sama. Istilah yang dimaksud di sini adalah persamaan gelombang. Istilah ini digunakan untuk persamaan yang menghubungkan laju rambat, frekuensi, dan panjang gelombang suatu gelombang [1, 2, 3, 4], fungsi yang menggambarkan bentuk gelombang dan perambatannya sebagai fungsi posisi dan waktu [5, 6, 7], dan suatu persamaan diferensial parsial linier orde kedua [8, 9, 10, 11]. Istilah ini mungkin merupakan suatu polisemi [12].</description>
-    </item>
-    
-    <item>
-      <title>two slit interference function resultan</title>
-      <link>https://dudung.github.io/bugx/0024/</link>
-      <pubDate>Mon, 28 Mar 2022 06:55:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0024/</guid>
-      <description>Interferensi dua celah [1].
-electric field Medan listrik dari masing-masing sumber dapat dinyatakan sebagai
-\begin{equation}\label{eqn:two-slit-interference-electric-field} E_j = E_0 \sin (kx_j - \omega t + \phi), \ \ \ \ j = 1, 2, \end{equation}
-dengan $k$ bilangan gelombang, $x$ posisi suatu titik, $\omega$ frekuensi angular, $t$ waktu, dan $\phi$ adalah fasa.
- &amp;nbsp;
-                 image/svg+xml    x1   φ ωt E0 E0   E1 E2 E1 E2 E2 E1   Gambar 1.</description>
-    </item>
-    
-    <item>
-      <title>fi1202-01 2021-2</title>
-      <link>https://dudung.github.io/bugx/0007/</link>
-      <pubDate>Sun, 27 Mar 2022 09:53:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0007/</guid>
-      <description>Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-persamaan Maxwell, Inteferensi Dua Celah: Fungsi Resultan Interferensi Dua Celah, Intensitas Inteferensi Dua Celah,  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220321].  Cite as: viridi, &#34;</description>
     </item>
     
     <item>
