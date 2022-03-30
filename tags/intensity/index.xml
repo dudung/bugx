@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>intensity on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/intensity/</link>
+    <description>Recent content in intensity on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Wed, 30 Mar 2022 16:25:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/intensity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>two slit interference</title>
+      <link>https://dudung.github.io/bugx/0023/</link>
+      <pubDate>Wed, 30 Mar 2022 16:25:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0023/</guid>
+      <description>Intensitas hasil interferensi dua celah [1] dapat dijelaskan dengan menggunakan penjumlahan trigonometri dan phasor.
+light source Pada interferensi dua celah sumber cahayanya adalah kedua buah celah yang ukurannya dapat diabaikan dibandingkan dengan jarak antar kedua celah $d$. Kedua celah disinari oleh satu sumber cahaya monokromatik yang terletak di tengah-tengah kedua celah sehingga dapat dikatakan bahwa kedua celah merupakan sumber cahaya yang tidak saja monokromatik akan tetapi juga koheren.
+Cahaya monokromatik artinya cahaya dengan satu warna atau hanya memiliki panjang gelombang tunggal.</description>
+    </item>
+    
+  </channel>
+</rss>
