@@ -24,7 +24,7 @@ posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-pe
       <pubDate>Wed, 30 Mar 2022 16:36:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0024/</guid>
-      <description>Interferensi dua celah [1].
+      <description>Interferensi dua celah [1] memerlukan konsep fasor untuk menjelaskan nilai intesitas pola-pola terang gelapnya.
 electric field Medan listrik dari masing-masing sumber dapat dinyatakan sebagai
 \begin{equation}\label{eqn:two-slit-interference-electric-field} E_j = E_0 \sin (kx_j - \omega t + \phi), \ \ \ \ j = 1, 2, \end{equation}
 dengan $k$ bilangan gelombang, $x$ posisi suatu titik, $\omega$ frekuensi angular, $t$ waktu, dan $\phi$ adalah fasa.
