@@ -42,7 +42,7 @@ electric field Medan listrik dari masing-masing sumber dapat dinyatakan sebagai
 \begin{equation}\label{eqn:two-slit-interference-electric-field} E_j = E_0 \sin (kx_j - \omega t + \phi), \ \ \ \ j = 1, 2, \end{equation}
 dengan $k$ bilangan gelombang, $x$ posisi suatu titik, $\omega$ frekuensi angular, $t$ waktu, dan $\phi$ adalah fasa.
  &amp;nbsp;
-                 image/svg+xml    x1   Δφ ωt E0 E0   E1 E2 E1 E2 E2 E1   Gambar 1.</description>
+                 image/svg+xml    x1   φ ωt E0 E0   E1 E2 E1 E2 E2 E1   Gambar 1.</description>
     </item>
     
   </channel>
