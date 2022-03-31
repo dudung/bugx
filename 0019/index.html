@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-03-29 11:17:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-03-29 11:17:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-03-31 19:14:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-03-31 19:14:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0019\/",
-      "wordCount" : "1822",
+      "wordCount" : "370",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">python matplotlib animation</h1>
-            <time datetime="2022-03-29 11:17:00 &#43;0700 &#43;0700" class="post__date">Tue, 29 Mar  2022</time> 
+            <time datetime="2022-03-31 19:14:00 &#43;0700 &#43;0700" class="post__date">Thu, 31 Mar  2022</time> 
           </header>
           <article class="post__content">
               
@@ -156,438 +156,37 @@
   
   
 >7</a>].</p>
-<h2 id="error-message">error message<a class="anchor" href="#error-message">#</a></h2>
-<p>Terdapat pesan kesalahan.</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; python .\basic_animation.py
-MovieWriter ffmpeg unavailable; using Pillow instead.
-Traceback (most recent call last):
-  File &quot;L:\home\cookbook\python\animation\basic_animation.py&quot;, line 64, in &lt;module&gt;
-    anim.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 1051, in save
-    writer = writer_cls(fps, **writer_kwargs)
-TypeError: AbstractMovieWriter.__init__() got an unexpected keyword argument 'extra_args'
-C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py:889: UserWarning: Animation was deleted without rendering anything. This is most likely not intended. To prevent deletion, assign the Animation to a variable, e.g. `anim`, that exists until you have outputted the Animation using `plt.show()` or `anim.save()`.
-</code></pre>
-<h2 id="instal-ffmpeg">instal ffmpeg<a class="anchor" href="#instal-ffmpeg">#</a></h2>
-<p>Instal dengan pip. <a href="https://pypi.org/project/ffmpeg/" 
+<h2 id="information">information<a class="anchor" href="#information">#</a></h2>
+<p>Penelusuran dilakukan untuk mendapatkan informasi menghasilkan berkas mp4 dengan Python. Terdapat pertanyaan mengapa berkas mp4 yang dihasilkan tidak berisi animasi [<a href="#r08" 
   
-   target="_blank" rel="noreferrer noopener" 
->https://pypi.org/project/ffmpeg/</a></p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip install ffmpeg
-Collecting ffmpeg
-  Downloading ffmpeg-1.4.tar.gz (5.1 kB)
-  Preparing metadata (setup.py) ... done
-Building wheels for collected packages: ffmpeg
-  Building wheel for ffmpeg (setup.py) ... done
-  Created wheel for ffmpeg: filename=ffmpeg-1.4-py3-none-any.whl size=6084 sha256=83574b6e73b71da247fc454de97bd2324c975ceea8cc9c58c69d104f21e3fd34
-  Stored in directory: c:\users\sparisoma viridi\appdata\local\pip\cache\wheels\8e\7a\69\cd6aeb83b126a7f04cbe7c9d929028dc52a6e7d525ff56003a
-Successfully built ffmpeg
-Installing collected packages: ffmpeg
-Successfully installed ffmpeg-1.4
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>Periksa instalasi.</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip list
-Package         Version
---------------- -------
-cycler          0.11.0
-ffmpeg          1.4
-fonttools       4.31.2
-kiwisolver      1.4.0
-matplotlib      3.5.1
-numpy           1.22.3
-packaging       21.3
-Pillow          9.0.1
-pyparsing       3.0.7
-python-dateutil 2.8.2
-six             1.16.0
-wheel           0.37.1
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>Jalankan kembali.</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; python .\basic_animation.py
-MovieWriter ffmpeg unavailable; using Pillow instead.
-Traceback (most recent call last):
-  File &quot;L:\home\cookbook\python\animation\basic_animation.py&quot;, line 64, in &lt;module&gt;
-    anim.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 1051, in save
-    writer = writer_cls(fps, **writer_kwargs)
-TypeError: AbstractMovieWriter.__init__() got an unexpected keyword argument 'extra_args'
-C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py:889: UserWarning: Animation was deleted without rendering anything. This is most likely not intended. To prevent deletion, assign the Animation to a variable, e.g. `anim`, that exists until you have outputted the Animation using `plt.show()` or `anim.save()`.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>Terdapat kesalahan yang sama.</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip cache list
-Cache contents:
-
- - ffmpeg-1.4-py3-none-any.whl (6.1 kB)
-PS L:\home\cookbook\python\animation&gt; pip uninstall ffmpeg
-Found existing installation: ffmpeg 1.4
-Uninstalling ffmpeg-1.4:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\ffmpeg-1.4.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\ffmpeg\*
-Proceed (Y/n)? y
-  Successfully uninstalled ffmpeg-1.4
-PS L:\home\cookbook\python\animation&gt; pip cache list
-Cache contents:
-
- - ffmpeg-1.4-py3-none-any.whl (6.1 kB)
-PS L:\home\cookbook\python\animation&gt; pip cache remove ffmpeg
-Files removed: 1
-PS L:\home\cookbook\python\animation&gt; pip cache list
-Nothing cached.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<h2 id="static-ffmpeg">static-ffmpeg<a class="anchor" href="#static-ffmpeg">#</a></h2>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip install static-ffmpeg
-Collecting static-ffmpeg
-  Downloading static_ffmpeg-2.2.0-py2.py3-none-any.whl (6.1 kB)
-Collecting requests
-  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
-     ---------------------------------------- 63.1/63.1 KB 241.5 kB/s eta 0:00:00
-Collecting filelock
-  Downloading filelock-3.6.0-py3-none-any.whl (10.0 kB)
-Collecting urllib3&lt;1.27,&gt;=1.21.1
-  Downloading urllib3-1.26.9-py2.py3-none-any.whl (138 kB)
-     ---------------------------------------- 139.0/139.0 KB 392.5 kB/s eta 0:00:00
-Collecting charset-normalizer~=2.0.0
-  Downloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
-Collecting idna&lt;4,&gt;=2.5
-  Downloading idna-3.3-py3-none-any.whl (61 kB)
-     ---------------------------------------- 61.2/61.2 KB 272.3 kB/s eta 0:00:00
-Collecting certifi&gt;=2017.4.17
-  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
-     ---------------------------------------- 149.2/149.2 KB 403.9 kB/s eta 0:00:00
-Installing collected packages: certifi, urllib3, idna, filelock, charset-normalizer, requests, static-ffmpeg
-Successfully installed certifi-2021.10.8 charset-normalizer-2.0.12 filelock-3.6.0 idna-3.3 requests-2.27.1 static-ffmpeg-2.2.0 urllib3-1.26.9
-PS L:\home\cookbook\python\animation&gt; pip list
-Package            Version
------------------- ---------
-certifi            2021.10.8
-charset-normalizer 2.0.12
-cycler             0.11.0
-filelock           3.6.0
-fonttools          4.31.2
-idna               3.3
-kiwisolver         1.4.0
-matplotlib         3.5.1
-numpy              1.22.3
-packaging          21.3
-Pillow             9.0.1
-pyparsing          3.0.7
-python-dateutil    2.8.2
-requests           2.27.1
-six                1.16.0
-static-ffmpeg      2.2.0
-urllib3            1.26.9
-wheel              0.37.1
-PS L:\home\cookbook\python\animation&gt; pip cache list
-Nothing cached.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>Jalankan lagi.</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; python .\basic_animation.py
-MovieWriter ffmpeg unavailable; using Pillow instead.
-Traceback (most recent call last):
-  File &quot;L:\home\cookbook\python\animation\basic_animation.py&quot;, line 64, in &lt;module&gt;
-    anim.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 1051, in save
-    writer = writer_cls(fps, **writer_kwargs)
-TypeError: AbstractMovieWriter.__init__() got an unexpected keyword argument 'extra_args'
-C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py:889: UserWarning: Animation was deleted without rendering anything. This is most likely not intended. To prevent deletion, assign the Animation to a variable, e.g. `anim`, that exists until you have outputted the Animation using `plt.show()` or `anim.save()`.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>Uninstall</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip uninstall static-ffmpeg
-Found existing installation: static-ffmpeg 2.2.0
-Uninstalling static-ffmpeg-2.2.0:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\scripts\static_ffmpeg.exe
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\scripts\static_ffmpeg_paths.exe
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\scripts\static_ffprobe.exe
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\static_ffmpeg-2.2.0.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\static_ffmpeg\*
-Proceed (Y/n)? y
-  Successfully uninstalled static-ffmpeg-2.2.0
-PS L:\home\cookbook\python\animation&gt; pip list
-Package            Version
------------------- ---------
-certifi            2021.10.8
-charset-normalizer 2.0.12
-cycler             0.11.0
-filelock           3.6.0
-fonttools          4.31.2
-idna               3.3
-kiwisolver         1.4.0
-matplotlib         3.5.1
-numpy              1.22.3
-packaging          21.3
-Pillow             9.0.1
-pyparsing          3.0.7
-python-dateutil    2.8.2
-requests           2.27.1
-six                1.16.0
-urllib3            1.26.9
-wheel              0.37.1
-PS L:\home\cookbook\python\animation&gt; pip cache list
-Nothing cached.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<h2 id="ffmpeg-win64">ffmpeg-win64<a class="anchor" href="#ffmpeg-win64">#</a></h2>
-<p>url <a href="https://pypi.org/project/ffmpeg-win64/" 
   
-   target="_blank" rel="noreferrer noopener" 
->https://pypi.org/project/ffmpeg-win64/</a></p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip install ffmpeg-win64
-Collecting ffmpeg-win64
-  Downloading ffmpeg_win64-0.0.2-py3-none-any.whl (1.4 kB)
-Installing collected packages: ffmpeg-win64
-Successfully installed ffmpeg-win64-0.0.2
-PS L:\home\cookbook\python\animation&gt; pip list
-Package            Version
------------------- ---------
-certifi            2021.10.8
-charset-normalizer 2.0.12
-cycler             0.11.0
-ffmpeg-win64       0.0.2
-filelock           3.6.0
-fonttools          4.31.2
-idna               3.3
-kiwisolver         1.4.0
-matplotlib         3.5.1
-numpy              1.22.3
-packaging          21.3
-Pillow             9.0.1
-pyparsing          3.0.7
-python-dateutil    2.8.2
-requests           2.27.1
-six                1.16.0
-urllib3            1.26.9
-wheel              0.37.1
-PS L:\home\cookbook\python\animation&gt; pip cache list
-Nothing cached.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>Tes lagi</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip cache list
-Nothing cached.
-PS L:\home\cookbook\python\animation&gt; python .\basic_animation.py
-MovieWriter ffmpeg unavailable; using Pillow instead.
-Traceback (most recent call last):
-  File &quot;L:\home\cookbook\python\animation\basic_animation.py&quot;, line 64, in &lt;module&gt;
-    anim.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 1051, in save
-    writer = writer_cls(fps, **writer_kwargs)
-TypeError: AbstractMovieWriter.__init__() got an unexpected keyword argument 'extra_args'
-C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py:889: UserWarning: Animation was deleted without rendering anything. This is most likely not intended. To prevent deletion, assign the Animation to a variable, e.g. `anim`, that exists until you have outputted the Animation using `plt.show()` or `anim.save()`.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>dan masih sama.</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip uninstall ffmpeg-win64
-Found existing installation: ffmpeg-win64 0.0.2
-Uninstalling ffmpeg-win64-0.0.2:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\ffmpeg_win64-0.0.2.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\ffmpeg_win64\*
-Proceed (Y/n)? y
-  Successfully uninstalled ffmpeg-win64-0.0.2
-PS L:\home\cookbook\python\animation&gt; pip list
-Package            Version
------------------- ---------
-certifi            2021.10.8
-charset-normalizer 2.0.12
-cycler             0.11.0
-filelock           3.6.0
-fonttools          4.31.2
-idna               3.3
-kiwisolver         1.4.0
-matplotlib         3.5.1
-numpy              1.22.3
-packaging          21.3
-Pillow             9.0.1
-pyparsing          3.0.7
-python-dateutil    2.8.2
-requests           2.27.1
-six                1.16.0
-urllib3            1.26.9
-wheel              0.37.1
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>pip uninstall certifi
-pip uninstall urllib3
-pip uninstall idna
-pip uninstall filelock
-pip uninstall charset-normalizer
-pip uninstall requests</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip list
-Package            Version
------------------- ---------
-certifi            2021.10.8
-charset-normalizer 2.0.12
-cycler             0.11.0
-filelock           3.6.0
-fonttools          4.31.2
-idna               3.3
-kiwisolver         1.4.0
-matplotlib         3.5.1
-numpy              1.22.3
-packaging          21.3
-Pillow             9.0.1
-pyparsing          3.0.7
-python-dateutil    2.8.2
-requests           2.27.1
-six                1.16.0
-urllib3            1.26.9
-wheel              0.37.1
-PS L:\home\cookbook\python\animation&gt; pip uninstall certifi
-Found existing installation: certifi 2021.10.8
-Uninstalling certifi-2021.10.8:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\certifi-2021.10.8.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\certifi\*
-Proceed (Y/n)? y
-  Successfully uninstalled certifi-2021.10.8
-PS L:\home\cookbook\python\animation&gt; pip uninstall urllib3
-Found existing installation: urllib3 1.26.9
-Uninstalling urllib3-1.26.9:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\urllib3-1.26.9.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\urllib3\*
-Proceed (Y/n)? y
-  Successfully uninstalled urllib3-1.26.9
-PS L:\home\cookbook\python\animation&gt; pip uninstall idna
-Found existing installation: idna 3.3
-Uninstalling idna-3.3:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\idna-3.3.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\idna\*
-Proceed (Y/n)? y
-  Successfully uninstalled idna-3.3
-PS L:\home\cookbook\python\animation&gt; pip uninstall filelock
-Found existing installation: filelock 3.6.0
-Uninstalling filelock-3.6.0:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\filelock-3.6.0.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\filelock\*
-Proceed (Y/n)? y
-  Successfully uninstalled filelock-3.6.0
-PS L:\home\cookbook\python\animation&gt; pip uninstall charset-normalizer
-Found existing installation: charset-normalizer 2.0.12
-Uninstalling charset-normalizer-2.0.12:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\scripts\normalizer.exe
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\charset_normalizer-2.0.12.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\charset_normalizer\*
-Proceed (Y/n)? y
-  Successfully uninstalled charset-normalizer-2.0.12
-PS L:\home\cookbook\python\animation&gt; pip uninstall requests
-Found existing installation: requests 2.27.1
-Uninstalling requests-2.27.1:
-  Would remove:
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\requests-2.27.1.dist-info\*
-    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\requests\*
-Proceed (Y/n)? y
-  Successfully uninstalled requests-2.27.1
-PS L:\home\cookbook\python\animation&gt; pip list
-Package         Version
---------------- -------
-cycler          0.11.0
-fonttools       4.31.2
-kiwisolver      1.4.0
-matplotlib      3.5.1
-numpy           1.22.3
-packaging       21.3
-Pillow          9.0.1
-pyparsing       3.0.7
-python-dateutil 2.8.2
-six             1.16.0
-wheel           0.37.1
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>Sudah kembali ke keadaan instalasi awal.</p>
-<h2 id="cari-calan-lain">cari calan lain<a class="anchor" href="#cari-calan-lain">#</a></h2>
-<pre><code>PS L:\home\cookbook\python\animation&gt; python .\simple_anim.py
-  File &quot;L:\home\cookbook\python\animation\simple_anim.py&quot;, line 32
-    writer = animation.FFMpegWriter(
-IndentationError: unexpected indent
-PS L:\home\cookbook\python\animation&gt; python .\simple_anim.py
-Traceback (most recent call last):
-  File &quot;L:\home\cookbook\python\animation\simple_anim.py&quot;, line 34, in &lt;module&gt;
-    ani.save(&quot;movie.mp4&quot;, writer=writer)
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 1073, in save
-    with mpl.rc_context({'savefig.bbox': None}), \
-  File &quot;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\contextlib.py&quot;, line 135, in __enter__
-    return next(self.gen)
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 234, in saving
-    self.setup(fig, outfile, dpi, *args, **kwargs)
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 323, in setup
-    self._run()
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 333, in _run
-    self._proc = subprocess.Popen(
-  File &quot;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\subprocess.py&quot;, line 966, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File &quot;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\subprocess.py&quot;, line 1435, in _execute_child
-    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
-FileNotFoundError: [WinError 2] The system cannot find the file specified
-C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py:889: UserWarning: Animation was deleted without rendering anything. This is most likely not intended. To prevent deletion, assign the Animation to a variable, e.g. `anim`, that exists until you have outputted the Animation using `plt.show()` or `anim.save()`.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
-<p>dan masih erorr</p>
-<pre><code>PS L:\home\cookbook\python\animation&gt; pip install ffmpeg
-Collecting ffmpeg
-  Using cached ffmpeg-1.4.tar.gz (5.1 kB)
-  Preparing metadata (setup.py) ... done
-Building wheels for collected packages: ffmpeg
-  Building wheel for ffmpeg (setup.py) ... done
-  Created wheel for ffmpeg: filename=ffmpeg-1.4-py3-none-any.whl size=6084 sha256=e24f92e301b102c54dfc8cbfcd2dc254d6233c07521220497cb99799a88669cb
-  Stored in directory: c:\users\sparisoma viridi\appdata\local\pip\cache\wheels\8e\7a\69\cd6aeb83b126a7f04cbe7c9d929028dc52a6e7d525ff56003a
-Successfully built ffmpeg
-Installing collected packages: ffmpeg
-Successfully installed ffmpeg-1.4
-PS L:\home\cookbook\python\animation&gt; pip list
-Package         Version
---------------- -------
-cycler          0.11.0
-ffmpeg          1.4
-fonttools       4.31.2
-kiwisolver      1.4.0
-matplotlib      3.5.1
-numpy           1.22.3
-packaging       21.3
-Pillow          9.0.1
-pyparsing       3.0.7
-python-dateutil 2.8.2
-six             1.16.0
-wheel           0.37.1
-PS L:\home\cookbook\python\animation&gt; python cache list
-C:\Users\Sparisoma Viridi\AppData\Local\Microsoft\WindowsApps\python.exe: can't open file 'L:\\home\\cookbook\\python\\animation\\cache': [Errno 2] No such file or directory
-PS L:\home\cookbook\python\animation&gt; pip cache list
-Cache contents:
-
- - ffmpeg-1.4-py3-none-any.whl (6.1 kB)
-PS L:\home\cookbook\python\animation&gt; python .\simple_anim.py
-Traceback (most recent call last):
-  File &quot;L:\home\cookbook\python\animation\simple_anim.py&quot;, line 34, in &lt;module&gt;
-    ani.save(&quot;movie.mp4&quot;, writer=writer)
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 1073, in save
-    with mpl.rc_context({'savefig.bbox': None}), \
-  File &quot;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\contextlib.py&quot;, line 135, in __enter__
-    return next(self.gen)
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 234, in saving
-    self.setup(fig, outfile, dpi, *args, **kwargs)
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 323, in setup
-    self._run()
-  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py&quot;, line 333, in _run
-    self._proc = subprocess.Popen(
-  File &quot;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\subprocess.py&quot;, line 966, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-  File &quot;C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\subprocess.py&quot;, line 1435, in _execute_child
-    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
-FileNotFoundError: [WinError 2] The system cannot find the file specified
-C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\matplotlib\animation.py:889: UserWarning: Animation was deleted without rendering anything. This is most likely not intended. To prevent deletion, assign the Animation to a variable, e.g. `anim`, that exists until you have outputted the Animation using `plt.show()` or `anim.save()`.
-PS L:\home\cookbook\python\animation&gt;
-</code></pre>
+>8</a>], video berdurasi 0 s [<a href="#r09" 
+  
+  
+>9</a>], sampai ekstensi berkas .mp4 tidak dikenal [<a href="#r10" 
+  
+  
+>10</a>]. Contoh pada Matplotlib mengenai hal ini juga tidak terlalu jelas [<a href="#r10" 
+  
+  
+>10</a>]. Terdapat asumis bahwa terdapat aplikasi FFmpeg yang telah terinstal dengan tepat.</p>
+<p>Instalasi berbagai paket Python seperti ffmpeg 1.4 [<a href="#r11" 
+  
+  
+>11</a>], ffmpeg-win64 0.0.2 [<a href="#r12" 
+  
+  
+>12</a>], dan static-ffmpeg 2.2.0 [<a href="#r13" 
+  
+  
+>13</a>] juga tidak memberikan perubahan pesan kesalahan yang diperoleh.</p>
+<p>Solusi diperoleh dengan menginstal versi terkini FFmpeg 2022-03-28 builds [<a href="#r14" 
+  
+  
+>14</a>] dan menambahkan lokasi instalasi FFmpeg ke path Windows 10 [<a href="#r15" 
+  
+  
+>15</a>].</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Alyssa Maio, &ldquo;What is Animation? Definition and Types of Animation&rdquo;, StudioBinder, Inc., 18 Nov 2020, url <a href="https://www.studiobinder.com/blog/what-is-animation-definition/" 
@@ -621,7 +220,7 @@ PS L:\home\cookbook\python\animation&gt;
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "python matplotlib animation", bugx, 29 Mar 2022, url <a href= "https://dudung.github.io/bugx/0019">https://dudung.github.io/bugx/0019</a> [20220331].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "python matplotlib animation", bugx, 31 Mar 2022, url <a href= "https://dudung.github.io/bugx/0019">https://dudung.github.io/bugx/0019</a> [20220331].
 </div>
 
 
@@ -650,17 +249,12 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pyt
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0026/">
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0024/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">basic animation wave</span>
+        <span class="pagination__title">two slit interference function resultan</span>
     </a>
   
 
-  
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0023/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >two slit interference</span>
-    </a>
   
 </div>
 
