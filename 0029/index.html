@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-01 11:13:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-01 11:13:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-01 19:33:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-01 19:33:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0029\/",
-      "wordCount" : "406",
+      "wordCount" : "916",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">windows security blocked items</h1>
-            <time datetime="2022-04-01 11:13:00 &#43;0700 &#43;0700" class="post__date">Fri, 1 Apr  2022</time> 
+            <time datetime="2022-04-01 19:33:00 &#43;0700 &#43;0700" class="post__date">Fri, 1 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -177,7 +177,8 @@
 <p>Pembuatan Tabel <a href="#tab1" 
   
   
->1</a> terkait dengan notifikasi dari Windows Security. Belum dilakukan pencarian sehingga network belum aktif terlalu banyak saat terdapat koneksi. Git push tidak mengubah network.</p>
+>1</a> terkait dengan notifikasi dari Windows Security. Belum dilakukan pencarian sehingga network belum aktif terlalu banyak saat terdapat koneksi. Git push tidak mengubah network. Demikian juga saat menjelajah internet.</p>
+<p>Secara umum telah cukup lama diamati bahwa akses ke Disk cukup tinggi (sering mendekati 100%), terutama saat menggunakan Google Chrome dan pernah dilakukan aksi terkait dengan Antimalware Service Executable dengan detilnya terlupa sehingga akses ke Disk tidak setinggi sebelumnya tetapi masih kadang dapat mencapai 100%.</p>
 <h2 id="see-the-threats">see the threats<a class="anchor" href="#see-the-threats">#</a></h2>
 <ol>
 <li>Akses ikon Windows Security sehingga terbuka jendela Windows Security.</li>
@@ -220,7 +221,83 @@ Affected items:
   process: pid:7156,ProcessStart:132740757819136161
 </code></pre>
 <h2 id="action">action<a class="anchor" href="#action">#</a></h2>
-<p>Dengan menggunakan tombol Actions lalu Remove hanya item pertama yang berhasil sedangkan kedua dan ketiga belum berhasil.</p>
+<p>Dengan menggunakan tombol Actions lalu Remove hanya item pertama yang berhasil sedangkan kedua dan ketiga belum berhasil. Baik dengan ataupun tanpa koneksi internet aksi Remove belum berhasil dilakukan.</p>
+<p>Penelusuran dengan istilah KuaZip memberikan beberapa hasil yang pada sebagian penjelasannya menyarankan untuk menginstal piranti lunak anti-malware seperti GridinSoft Anti-Malware [<a href="#r01" 
+  
+  
+>1</a>], Malwarebytes [<a href="#r02" 
+  
+  
+>2</a>], FortiGate / FortiClient [<a href="#r03" 
+  
+  
+>3</a>], atau SpyHunters [<a href="#r04" 
+  
+  
+>4</a>]. Pada situs web Microsoft Malware Protection Center, Windows Defender Security Intelligence terdapat entri mengenai PUA:Win32/KuaiZip [<a href="#r05" 
+  
+  
+>5</a>] dan PUA:Win32/KuaiZip [<a href="#r06" 
+  
+  
+>6</a>] tanpa cara menghilangkannya secara mandiri. Sedangkan untuk Adware:Win32/KuaiZip perlu dihilangkan secara manual sesuai dengan versi sistem operasi Windowsnya [<a href="#r07" 
+  
+  
+>7</a>].</p>
+<h3 id="gplyra">gplyra<a class="anchor" href="#gplyra">#</a></h3>
+<p>Hasil penelusuran menyatakan bahwa <code>gplyra.exe</code> yang berada di Task Manager bila &lsquo;Unable to verify&rsquo; maka kemungkinan merupakan virus [<a href="#r08" 
+  
+  
+>8</a>].</p>
+<pre><code>C:\Users\Your Name\AppData\Roaming\gplyra
+
+$ ls -l
+total 2537
+-rw-r--r-- 1 Sparisoma Viridi 197121     229 Aug  8  2016 config.json
+-rwxr-xr-x 1 Sparisoma Viridi 197121   71565 Sep 15  2016 gplyra-uninst.exe*
+-rwxr-xr-x 1 Sparisoma Viridi 197121 1553920 Aug  8  2016 gplyra.exe*
+-rwxr-xr-x 1 Sparisoma Viridi 197121  963232 Oct  5  2013 msvcr120.dll*
+</code></pre>
+<p>Dengan isi berkas json adalah</p>
+<pre><code>{
+	&quot;api-bind&quot; : &quot;0&quot;,
+
+	&quot;url&quot;: &quot;stratum+tcp://pool52.poolminers.net:2856&quot;,
+	&quot;user&quot; : &quot;miner&quot;,
+	&quot;pass&quot; : &quot;X&quot;,
+
+	&quot;on-idle&quot; : 30,
+	&quot;on-idle-low&quot; : 30,
+
+	&quot;algo&quot; : &quot;cryptonight&quot;,
+
+	&quot;background&quot; : true,
+	&quot;quiet&quot; : true
+}
+</code></pre>
+<p>Uninstal dilakkan dengan <code>gplyra-uninst.exe</code> karena tidak tercatat saat mengakses System Settings lalu Add or remove programs pada kotak pencarian. Setelah proses uninstal selesai proses tersebut juga hilang dari Taks Manager dan tetap tidak ada setelah komputer direstart. Akan tetapi tetap belum bisa melakukan Remove pada Windows Security. Folder <code>C:\Users\Your Name\AppData\Roaming\gplyra</code> masih ada akan tetapi isinya telah kosong.</p>
+<h3 id="kuaizip">kuaizip<a class="anchor" href="#kuaizip">#</a></h3>
+<p>Terdapat proses <code>kuazip2updatesvc</code> di Task Manager, lakukan End Task akan tetapi ada lagi setelah komputer direstart</p>
+<pre><code>kuazip2updatesvc
+|
++-- kuaizip Update Checker
+</code></pre>
+<p>Saat dibuka Open File Location merujuk ke svchost.exe di <code>C:\Windows\SysWOW64</code>. Belum dipahami bagaimana menghilangkannya. Jugadi Windows Security tidak bisa dilakukan aksi Remove.</p>
+<h3 id="windows-security">windows security<a class="anchor" href="#windows-security">#</a></h3>
+<p>Dengan mengikuti petunjuk mengenai Windows Security [<a href="#r09" 
+  
+  
+>9</a>] lalu dilanjutkan dengan Microsoft Defender Offile [<a href="#r10" 
+  
+  
+>10</a>] lalu restart komputer, kedua item yang masih tercatat sebagai Blocked items pada App &amp; browser control tetap tidak dapat dilakukan Remove.</p>
+<h3 id="dismiss-option">dismiss option<a class="anchor" href="#dismiss-option">#</a></h3>
+<p>Pada bagian bawah App &amp; browser control terdapat opsi Dismiss dan saat opsi ini dipilih, semua ikon pada Windows Security menjadi hijau. Tidak tahu apakah cara ini benar.</p>
+<p>Saat ini CPU 3-29%, Memory 70-71%, Disk 1-7%, Network 0%, GPU 0-1%. Informasi ini mungkin mengindikasikan telah berhasil menghilangkan gangguan yang sebelumnya ada?</p>
+<p>Terdapat informasi bahwa opsi Dismiss ini akan kembali setiap kali setelah proses reboot komputer [<a href="#r11" 
+  
+  
+>11</a>]. Hal ini belum dikonfirmasi.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Brendan Smith, &ldquo;PUA:Win32/KuaiZip Removal. How to remove KuaiZip Adware?&rdquo;, HowToFix.Guide, 14 Dec 2019, url <a href="https://howtofix.guide/kuaizip-removal/" 
@@ -239,11 +316,7 @@ Affected items:
   
    target="_blank" rel="noreferrer noopener" 
 >https://www.spywareremove.com/removekuaizip.html</a> [20220401].</li>
-<li><a name='r05'></a>Microsoft Corporation, &ldquo;Adware:Win32/KuaiZip&rdquo;, Microsoft Malware Protection Center, Windows Defender Security Intelligence, 20 Oct 2020, url <a href="https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Adware:Win32/KuaiZip&amp;ThreatID=282525" 
-  
-   target="_blank" rel="noreferrer noopener" 
->https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Adware:Win32/KuaiZip&ThreatID=282525</a> [20220401].</li>
-<li><a name='r06'></a>Microsoft Corporation, &ldquo;PUA:Win32/KuaiZip&rdquo;, Microsoft Malware Protection Center, Windows Defender Security Intelligence, 20 Jun 2016, 16 Mar 2018, url <a href="https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=PUA:Win32/KuaiZip&amp;threatid=228919" 
+<li><a name='r05'></a>Microsoft Corporation, &ldquo;PUA:Win32/KuaiZip&rdquo;, Microsoft Malware Protection Center, Windows Defender Security Intelligence, 20 Jun 2016, 16 Mar 2018, url <a href="https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=PUA:Win32/KuaiZip&amp;threatid=228919" 
   
    target="_blank" rel="noreferrer noopener" 
 >https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=PUA:Win32/KuaiZip&threatid=228919</a> [20220401].</li>
@@ -251,6 +324,26 @@ Affected items:
   
    target="_blank" rel="noreferrer noopener" 
 >https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=PUA:Win32/CoinMiner&threatid=227033</a> [20220401].</li>
+<li><a name='r07'></a>Microsoft Corporation, &ldquo;Adware:Win32/KuaiZip&rdquo;, Microsoft Malware Protection Center, Windows Defender Security Intelligence, 20 Oct 2020, url <a href="https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Adware:Win32/KuaiZip&amp;ThreatID=282525" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Adware:Win32/KuaiZip&ThreatID=282525</a> [20220401].</li>
+<li><a name='r08'></a>Gowtham V, &ldquo;What Is gplyra.exe? Is It A Virus Or Malware? Uninstall?&rdquo;, HowToDoNinja, 29 Jul 2021, url <a href="https://howtodoninja.com/files/exe/gplyra-exe/safe-virus-malware-uninstall-fix-gplyra-exe/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://howtodoninja.com/files/exe/gplyra-exe/safe-virus-malware-uninstall-fix-gplyra-exe/</a> [20220401].</li>
+<li><a name='r09'></a>-, &ldquo;Stay protected with Windows Security&rdquo;, Microsoft | Support, 28 Oct 2021, url <a href="https://support.microsoft.com/en-us/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://support.microsoft.com/en-us/windows/stay-protected-with-windows-security-2ae0363d-0ada-c064-8b56-6a39afb6a963</a> [20220401].</li>
+<li><a name='r10'></a>-, &ldquo;Help protect my PC with Microsoft Defender Offline&rdquo;, Microsoft | Support, 1 Mar 2022, url <a href="https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://support.microsoft.com/en-us/windows/help-protect-my-pc-with-microsoft-defender-offline-9306d528-64bf-4668-5b80-ff533f183d6c</a> [20220401].</li>
+<li><a name='r11'></a>Booga Roo, &ldquo;How to permanently dismiss Windows Security PUA notification?&rdquo;, Super User, 23 Jul 2020, url <a href="https://superuser.com/q/1570977/1005329" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://superuser.com/q/1570977/1005329</a> [20220401].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
