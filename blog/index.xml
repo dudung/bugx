@@ -7,7 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 31 Mar 2022 22:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 10:35:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>windows security blocked items</title>
+      <link>https://dudung.github.io/bugx/0029/</link>
+      <pubDate>Fri, 01 Apr 2022 10:35:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0029/</guid>
+      <description>Sabagai salah satu dari ikon-ikon tersembunyi, Windows Security dapat memberikan notifikasi, yang salah satunya mengenai adalah &amp;lsquo;Actions recommended&amp;rsquo;.
+condition Dengan aplikasi Chrome (2 window), Windows Explorer (2 window), PowerShell, Hugo, Git Bash, Task Manager.
+Tabel 1. Penggunaan resource pada keadaan luring dan daring.
+   Hal Luring Daring     CPU 29-60% 35-100%   Memori 70-71% 77-79%   Disk 3-16% 4-100%   Network 0% 0-2%   GPU 0-4% 0-5%    Pembuatan Tabel 1 terkait dengan notifikasi dari Windows Security.</description>
+    </item>
+    
+    <item>
+      <title>gnuplot multi-slit interference</title>
+      <link>https://dudung.github.io/bugx/0028/</link>
+      <pubDate>Fri, 01 Apr 2022 05:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0028/</guid>
+      <description>Gnuplot merupakan suatu piranti lunak yang dapat menggambarkan kurva menggunakan data dan juga fungsi [1], di mana dengan fitur terakhir ini akan digunakan untuk menggambarkan pola intensitas dari interferensi dua, tiga, dan empat celah [2]. Untuk menggambarkan intensitas, umumnya perlu dirumuskan fungsinya terlebih dahulu [3]. Akan tetapi dikarenakan Gnuplot dapat menggunakan fungsi matematika dengan variabel yang dapat diatur, perumusan fungsi untuk intensitas tidak perlu dilakukan, akan tetapi cukup fungsi untuk medan listriknya saja sehingga fungsi untuk intensitas dibentuk dari fungsi untuk medan listriknya.</description>
+    </item>
+    
     <item>
       <title>python matplotlib animation</title>
       <link>https://dudung.github.io/bugx/0019/</link>

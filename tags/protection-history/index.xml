@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>protection-history on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/protection-history/</link>
+    <description>Recent content in protection-history on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Fri, 01 Apr 2022 10:35:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/protection-history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>windows security blocked items</title>
+      <link>https://dudung.github.io/bugx/0029/</link>
+      <pubDate>Fri, 01 Apr 2022 10:35:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0029/</guid>
+      <description>Sabagai salah satu dari ikon-ikon tersembunyi, Windows Security dapat memberikan notifikasi, yang salah satunya mengenai adalah &amp;lsquo;Actions recommended&amp;rsquo;.
+condition Dengan aplikasi Chrome (2 window), Windows Explorer (2 window), PowerShell, Hugo, Git Bash, Task Manager.
+Tabel 1. Penggunaan resource pada keadaan luring dan daring.
+   Hal Luring Daring     CPU 29-60% 35-100%   Memori 70-71% 77-79%   Disk 3-16% 4-100%   Network 0% 0-2%   GPU 0-4% 0-5%    Pembuatan Tabel 1 terkait dengan notifikasi dari Windows Security.</description>
+    </item>
+    
+  </channel>
+</rss>
