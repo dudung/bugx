@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 01 Apr 2022 22:36:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 23:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>too slow for stackoverflow</title>
+      <link>https://dudung.github.io/bugx/0030/</link>
+      <pubDate>Fri, 01 Apr 2022 23:17:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0030/</guid>
+      <description>Stack Overflow (SO) merupakan suatu situs web tanya-jawab untuk programer profesional dan antusias [1], yang sayangnya amat cepat dan dinamis sehingga sebagai pemula akan ketinggalan dalam memberi respons.
+closed and deleted question Terdapat suatu pertanyaan dari A100D dengan judul Execution order of nested loops in javascript yang telah dihapus, bersamaan dengan pengusulan penyuntingannya. Pengusulan ini dilakukan karena saat akan menjawabnya, telah ditutup di tengah-tengah menjawab. Ya, terlalu lambat untuk Stack Overflow.</description>
+    </item>
+    
     <item>
       <title>windows security blocked items</title>
       <link>https://dudung.github.io/bugx/0029/</link>
