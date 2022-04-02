@@ -7,11 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 01 Apr 2022 23:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Apr 2022 11:30:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>be enthusiast at stack overflow</title>
+      <link>https://dudung.github.io/bugx/0031/</link>
+      <pubDate>Sat, 02 Apr 2022 11:30:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0031/</guid>
+      <description>Menjadi pengguna antusias di Stack Overflow (SO) memerlukan konsistensi kunjungan tak terputuskan 30 hari, terlebih bila ingin menjadi pengguna fanatik memerlukan 100 hari [1]. Di sini akan dicoba merekam kunjungan yang dilakukan berikut aktivitas yang dilakukan, setidaknya pertanyaan dan atau jawaban yang dibaca.
+visits Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel di bawah ini. Reputasi sebelumnya adalah 5 dengan 5 badge (Popular Question, Tumbleweed, Announcer, Scholar, Editor).</description>
+    </item>
+    
     <item>
       <title>too slow for stackoverflow</title>
       <link>https://dudung.github.io/bugx/0030/</link>
-      <pubDate>Fri, 01 Apr 2022 23:17:00 +0700</pubDate>
+      <pubDate>Fri, 01 Apr 2022 23:43:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0030/</guid>
       <description>Stack Overflow (SO) merupakan suatu situs web tanya-jawab untuk programer profesional dan antusias [1], yang sayangnya amat cepat dan dinamis sehingga sebagai pemula akan ketinggalan dalam memberi respons.

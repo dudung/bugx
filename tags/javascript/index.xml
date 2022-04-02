@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stackoverflow on bugx</title>
-    <link>https://dudung.github.io/bugx/tags/stackoverflow/</link>
-    <description>Recent content in stackoverflow on bugx</description>
+    <title>javascript on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/javascript/</link>
+    <description>Recent content in javascript on bugx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 01 Apr 2022 23:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/stackoverflow/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 23:43:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>too slow for stackoverflow</title>
       <link>https://dudung.github.io/bugx/0030/</link>
-      <pubDate>Fri, 01 Apr 2022 23:17:00 +0700</pubDate>
+      <pubDate>Fri, 01 Apr 2022 23:43:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0030/</guid>
       <description>Stack Overflow (SO) merupakan suatu situs web tanya-jawab untuk programer profesional dan antusias [1], yang sayangnya amat cepat dan dinamis sehingga sebagai pemula akan ketinggalan dalam memberi respons.
