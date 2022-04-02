@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 02 Apr 2022 12:43:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Apr 2022 12:51:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gnuplot multi-slit interference</title>
+      <link>https://dudung.github.io/bugx/0028/</link>
+      <pubDate>Sat, 02 Apr 2022 12:51:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0028/</guid>
+      <description>Gnuplot merupakan suatu piranti lunak yang dapat menggambarkan kurva menggunakan data dan juga fungsi [1], di mana dengan fitur terakhir ini akan digunakan untuk menggambarkan pola intensitas dari interferensi dua, tiga, dan empat celah [2]. Untuk menggambarkan intensitas, umumnya perlu dirumuskan fungsinya terlebih dahulu [3]. Akan tetapi dikarenakan Gnuplot dapat menggunakan fungsi matematika dengan variabel yang dapat diatur, perumusan fungsi untuk intensitas tidak perlu dilakukan, akan tetapi cukup fungsi untuk medan listriknya saja sehingga fungsi untuk intensitas dibentuk dari fungsi untuk medan listriknya.</description>
+    </item>
+    
     <item>
       <title>be enthusiast at stack overflow</title>
       <link>https://dudung.github.io/bugx/0031/</link>
@@ -38,15 +47,6 @@ closed and deleted question Terdapat suatu pertanyaan dari A100D dengan judul Ex
 condition Dengan aplikasi Chrome (2 window luring, dan 2 window dengan 7 tab saat daring), Windows Explorer (2 window), PowerShell, Hugo, Git Bash, Task Manager.
 Tabel 1. Penggunaan resource pada keadaan luring dan daring.
    Hal Luring Daring     CPU 29-60% 29-100%   Memori 70-71% 77-79%   Disk 3-16% 4-100%   Network 0% 0-2%   GPU 0-4% 0-6%    Pembuatan Tabel 1 terkait dengan notifikasi dari Windows Security.</description>
-    </item>
-    
-    <item>
-      <title>gnuplot multi-slit interference</title>
-      <link>https://dudung.github.io/bugx/0028/</link>
-      <pubDate>Fri, 01 Apr 2022 05:31:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0028/</guid>
-      <description>Gnuplot merupakan suatu piranti lunak yang dapat menggambarkan kurva menggunakan data dan juga fungsi [1], di mana dengan fitur terakhir ini akan digunakan untuk menggambarkan pola intensitas dari interferensi dua, tiga, dan empat celah [2]. Untuk menggambarkan intensitas, umumnya perlu dirumuskan fungsinya terlebih dahulu [3]. Akan tetapi dikarenakan Gnuplot dapat menggunakan fungsi matematika dengan variabel yang dapat diatur, perumusan fungsi untuk intensitas tidak perlu dilakukan, akan tetapi cukup fungsi untuk medan listriknya saja sehingga fungsi untuk intensitas dibentuk dari fungsi untuk medan listriknya.</description>
     </item>
     
     <item>
