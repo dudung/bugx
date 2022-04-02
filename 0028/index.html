@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-02 18:06:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-02 18:06:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-02 21:46:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-02 21:46:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0028\/",
-      "wordCount" : "381",
+      "wordCount" : "618",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">gnuplot multi-slit interference</h1>
-            <time datetime="2022-04-02 18:06:00 &#43;0700 &#43;0700" class="post__date">Sat, 2 Apr  2022</time> 
+            <time datetime="2022-04-02 21:46:00 &#43;0700 &#43;0700" class="post__date">Sat, 2 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -216,6 +216,24 @@
   
   
 >3</a>]. Akan tetapi dikarenakan Gnuplot dapat menggunakan fungsi matematika dengan variabel yang dapat diatur, perumusan fungsi untuk intensitas tidak perlu dilakukan, akan tetapi cukup fungsi untuk medan listriknya saja sehingga fungsi untuk intensitas dibentuk dari fungsi untuk medan listriknya.</p>
+<h2 id="formulation">formulation<a class="anchor" href="#formulation">#</a></h2>
+<p>Medan listrik hasil interferensi oleh $N$ buah celah diberikan oleh</p>
+<p>\begin{equation}\label{eqn:multi-slit-electric-field}
+E = \sum_{j = 1}^ N E_j
+\end{equation}</p>
+<p>dengan medan listrik dari masing-masing celah adalah</p>
+<p>\begin{equation}\label{eqn:multi-slit-electric-field-source}
+E_j = E_o \sin [\omega t + (j - 1)\phi].
+\end{equation}</p>
+<p>Beda fasa $\phi$ diberikan oleh</p>
+<p>\begin{equation}\label{eqn:multi-slit-electric-field-phi}
+\phi = k \Delta x  = k d \sin\theta
+\end{equation}</p>
+<p>dengan $d$ adalah jarak antar celah dan $\theta$ posisi angular titik pada layar tempat pola interferensi diamati. Kemudian intensitas relatif dapat diperoleh dari</p>
+<p>\begin{equation}\label{eqn:multi-slit-electric-relative-intensity}
+\frac{I}{I_o} = |E|^2 = N^2 E_o \cos \tfrac12 \phi.
+\end{equation}</p>
+<p>Persamaan \eqref{eqn:multi-slit-electric-relative-intensity} ini yang akan digunakan untuk menggambarkan intensitas. Cukup digunakan ruas tengahnya yang akan sama hasilnya dengan ruas kanannya.</p>
 <h2 id="script">script<a class="anchor" href="#script">#</a></h2>
 <p>Script Gnuplot <code>interference_intensity_svg_2.gnu</code> berikut digunakan untuk interferensi dua celah.</p>
 <pre><code class="language-bash"># Plot inteference intensity of 2 source
@@ -1153,13 +1171,31 @@ Gambar 1. Intensitas relatif $I/I_o$ interferensi dua celah sebagai fungsi beda 
   
   
 >1</a> yang merupakan citra berformat SVG.</p>
+<h3 id="modification">modification<a class="anchor" href="#modification">#</a></h3>
+<p>Script Gnuplot <code>interference_intensity_svg_2.gnu</code> dapat dimodifikasi untuk menggmbarkan tiga, empat, dan banyak celah. Untuk tiga celah misalnya</p>
+<pre><code class="language-bash"># electric field E1 - E3
+E1(dq) = E0 * sin(wt + 0 * dq)
+E2(dq) = E0 * sin(wt + 1 * dq)
+E3(dq) = E0 * sin(wt + 2 * dq)
+
+# resultants and intensities
+Et(dq) = E1(dq) + E2(dq) + E3(dq)
+I(dq) = Et(dq) * Et(dq)
+</code></pre>
+<p>adalah modifikasi yang perlu dilakukan.</p>
+<h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
+<ol>
+<li>Bagimana modifikasi yang perlu dilakukan bila ingin menggambarkan intensitas relatif hasil interferensi oleh delapan celah?</li>
+<li>Terdapat berapa suku medan listrik yang perlu dijumlahkan bila ingin diperoleh intensitas relatif hasil interferensi oleh sepuluh celah?</li>
+<li>Bila terdapat cukup banyak celah, bagaimana lebar terang utama yang dihasilkan? Apa kaitannya dengan intesitas relatif yang dihasilkan oleh kisi difraksi?</li>
+</ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Thomas Williams, Colin Kelley, Russell Lang, Dave Kotz, John Campbell, Gershon Elber, Alexander Woo and many others, &ldquo;gnuplot homepage&rdquo;, Gnuplot, Feb 2022, url <a href="http://www.gnuplot.info/" 
   
    target="_blank" rel="noreferrer noopener" 
 >http://www.gnuplot.info/</a> [20220402].</li>
-<li><a name='r02'></a>Carl Rod Nave, &ldquo;&rdquo;, HyperPhyics, 2007, url <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/mulslidi.html" 
+<li><a name='r02'></a>Carl Rod Nave, &ldquo;Multiple Slit Interference&rdquo;, HyperPhyics, 2007, url <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/mulslidi.html" 
   
    target="_blank" rel="noreferrer noopener" 
 >http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/mulslidi.html</a> [20230402].</li>
@@ -1192,9 +1228,6 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "gnu
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/multi-slit/">multi-slit</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://dudung.github.io/bugx/tags/draft/">draft</a>
     </li></ul>
 
  <div class="pagination">

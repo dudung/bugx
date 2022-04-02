@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 02 Apr 2022 18:06:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Apr 2022 21:46:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>gnuplot multi-slit interference</title>
       <link>https://dudung.github.io/bugx/0028/</link>
-      <pubDate>Sat, 02 Apr 2022 18:06:00 +0700</pubDate>
+      <pubDate>Sat, 02 Apr 2022 21:46:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0028/</guid>
       <description>Gnuplot merupakan suatu piranti lunak yang dapat menggambarkan kurva menggunakan data dan juga fungsi [1], di mana dengan fitur terakhir ini akan digunakan untuk menggambarkan pola intensitas dari interferensi dua, tiga, dan empat celah [2]. Untuk menggambarkan intensitas, umumnya perlu dirumuskan fungsinya terlebih dahulu [3]. Akan tetapi dikarenakan Gnuplot dapat menggunakan fungsi matematika dengan variabel yang dapat diatur, perumusan fungsi untuk intensitas tidak perlu dilakukan, akan tetapi cukup fungsi untuk medan listriknya saja sehingga fungsi untuk intensitas dibentuk dari fungsi untuk medan listriknya.</description>
