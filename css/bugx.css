@@ -41,3 +41,7 @@ a:active {
 body {
 	text-align: justify;
 }
+
+#post__title {
+	text-align: left;
+}
