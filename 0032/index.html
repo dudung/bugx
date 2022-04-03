@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-03 14:51:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-03 14:51:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-03 16:41:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-03 16:41:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0032\/",
-      "wordCount" : "1270",
+      "wordCount" : "1670",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">install jupyter windows powershell</h1>
-            <time datetime="2022-04-03 14:51:00 &#43;0700 &#43;0700" class="post__date">Sun, 3 Apr  2022</time> 
+            <time datetime="2022-04-03 16:41:00 &#43;0700 &#43;0700" class="post__date">Sun, 3 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -362,62 +362,204 @@ PS L:\home\cookbook&gt;
   
 >7</a>] dan terlihat pada baris akhir proses instalasi.</p>
 <h2 id="run-notebook">run notebook<a class="anchor" href="#run-notebook">#</a></h2>
-<p>..</p>
+<p>Pada PowerShell lakukan</p>
+<pre><code>PS L:\home\cookbook&gt; jupyter notebook
+[I 14:58:26.613 NotebookApp] Serving notebooks from local directory: L:\home\cookbook
+[I 14:58:26.613 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 14:58:26.613 NotebookApp] http://localhost:8888/?token=d2fb6990b783c932f197ba362ef1404c28f978360a825245
+[I 14:58:26.613 NotebookApp]  or http://127.0.0.1:8888/?token=d2fb6990b783c932f197ba362ef1404c28f978360a825245
+[I 14:58:26.628 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 14:58:28.027 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Your%20Name/AppData/Roaming/jupyter/runtime/nbserver-3860-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=d2fb6990b783c932f197ba362ef1404c28f978360a825245
+     or http://127.0.0.1:8888/?token=d2fb6990b783c932f197ba362ef1404c28f978360a825245
+
+</code></pre>
+<p>untuk menjalankan server notebook. Buka browser pada <a href="http://localhost:8888/tree" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://localhost:8888/tree</a> atau akan terbuka sendiri pada penjelajah internet yang sedang aktfi, e.g. Google Chrome. Kemudian dengan Control-C Jupyter Notebook dapat dihentikan.</p>
+<pre><code>[I 15:17:18.041 NotebookApp] Interrupted...
+[I 15:17:18.592 NotebookApp] Shutting down 0 kernels
+[I 15:17:18.592 NotebookApp] Shutting down 0 terminals
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Tampak bahwa kendali telah kembali ke PowerShell.</p>
+<h3 id="example">example<a class="anchor" href="#example">#</a></h3>
+<p>Dengan mengikuti tutorial pemula penggunaan Jupyter Notebook [<a href="#r08" 
+  
+  
+>8</a>] dapat dihasilkan kode berikut.</p>
+<pre><code class="language-json">{
+ &quot;cells&quot;: [
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: 2,
+   &quot;id&quot;: &quot;8e53bc62&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [
+    {
+     &quot;name&quot;: &quot;stdout&quot;,
+     &quot;output_type&quot;: &quot;stream&quot;,
+     &quot;text&quot;: [
+      &quot;Hello, World!\n&quot;
+     ]
+    }
+   ],
+   &quot;source&quot;: [
+    &quot;print(\&quot;Hello, World!\&quot;)&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: 3,
+   &quot;id&quot;: &quot;8089724a&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [],
+   &quot;source&quot;: [
+    &quot;import time\n&quot;,
+    &quot;time.sleep(3)&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: 4,
+   &quot;id&quot;: &quot;fdd054ef&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [
+    {
+     &quot;data&quot;: {
+      &quot;text/plain&quot;: [
+       &quot;'Hello, Bugx!'&quot;
+      ]
+     },
+     &quot;execution_count&quot;: 4,
+     &quot;metadata&quot;: {},
+     &quot;output_type&quot;: &quot;execute_result&quot;
+    }
+   ],
+   &quot;source&quot;: [
+    &quot;def say_hello(recipient):\n&quot;,
+    &quot;    return 'Hello, {}!'.format(recipient)\n&quot;,
+    &quot;\n&quot;,
+    &quot;say_hello('Bugx')&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;markdown&quot;,
+   &quot;id&quot;: &quot;81aa10ed&quot;,
+   &quot;metadata&quot;: {},
+   &quot;source&quot;: [
+    &quot;# Title\n&quot;,
+    &quot;## Section\n&quot;,
+    &quot;### Title&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;markdown&quot;,
+   &quot;id&quot;: &quot;de227e49&quot;,
+   &quot;metadata&quot;: {},
+   &quot;source&quot;: [
+    &quot;\\begin{equation}\n&quot;,
+    &quot;y = ax^2 + bx + c + \\frac{e^x}{\\tan x}\n&quot;,
+    &quot;\\end{equation}&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: null,
+   &quot;id&quot;: &quot;eaf0c33c&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [],
+   &quot;source&quot;: []
+  }
+ ],
+ &quot;metadata&quot;: {
+  &quot;kernelspec&quot;: {
+   &quot;display_name&quot;: &quot;Python 3 (ipykernel)&quot;,
+   &quot;language&quot;: &quot;python&quot;,
+   &quot;name&quot;: &quot;python3&quot;
+  },
+  &quot;language_info&quot;: {
+   &quot;codemirror_mode&quot;: {
+    &quot;name&quot;: &quot;ipython&quot;,
+    &quot;version&quot;: 3
+   },
+   &quot;file_extension&quot;: &quot;.py&quot;,
+   &quot;mimetype&quot;: &quot;text/x-python&quot;,
+   &quot;name&quot;: &quot;python&quot;,
+   &quot;nbconvert_exporter&quot;: &quot;python&quot;,
+   &quot;pygments_lexer&quot;: &quot;ipython3&quot;,
+   &quot;version&quot;: &quot;3.10.4&quot;
+  }
+ },
+ &quot;nbformat&quot;: 4,
+ &quot;nbformat_minor&quot;: 5
+}
+</code></pre>
+<p>Suatu persamaan matematika juga telah disisipkan seperti tujuan awal tulisan ini [<a href="#r01" 
+  
+  
+>1</a>].</p>
+<h2 id="other-notebooks">other notebooks<a class="anchor" href="#other-notebooks">#</a></h2>
+<p>Terdapat notebook lain selain Jupyter Notebook yang dapat digunakan untuk Python untuk pembelajaran mesin [<a href="#r09" 
+  
+  
+>9</a>]. Selain itu terdapat juga beberapa kekuatiran dalam pemanfaatan notebook seperti kurang efisien dalam debugging dan visualisasi data, terutama saat mencari visualisasi dan analisis yang telah dihasilkan pada berkas notebook yang besar [<a href="#r10" 
+  
+  
+>10</a>].</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li>
-<p><a name='r01'></a>Abhay Shukla, &ldquo;Writing Math Equations in Jupyter Notebook: A Naive Introduction&rdquo;, Analytics Vidhya, Medium, 27 Mar 2020, url <a href="https://medium.com/analytics-vidhya/a5ce87b9a214" 
+<li><a name='r01'></a>Abhay Shukla, &ldquo;Writing Math Equations in Jupyter Notebook: A Naive Introduction&rdquo;, Analytics Vidhya, Medium, 27 Mar 2020, url <a href="https://medium.com/analytics-vidhya/a5ce87b9a214" 
   
    target="_blank" rel="noreferrer noopener" 
->https://medium.com/analytics-vidhya/a5ce87b9a214</a> [20220403].</p>
-</li>
-<li>
-<p><a name='r02'></a>Kalhari Walawage, &ldquo;Install Python and Jupyter Notebook to Windows 10 (64 bit)&rdquo;, Medium, 14 Dec 2019, url <a href="https://medium.com/@kswalawage/66db782e1d02" 
+>https://medium.com/analytics-vidhya/a5ce87b9a214</a> [20220403].</li>
+<li><a name='r02'></a>Kalhari Walawage, &ldquo;Install Python and Jupyter Notebook to Windows 10 (64 bit)&rdquo;, Medium, 14 Dec 2019, url <a href="https://medium.com/@kswalawage/66db782e1d02" 
   
    target="_blank" rel="noreferrer noopener" 
->https://medium.com/@kswalawage/66db782e1d02</a> [20220403].</p>
-</li>
-<li>
-<p><a name='r03'></a>-, &ldquo;Installing Jupyter: Get up and running on your compute&rdquo;, Project Jupyter, 2022, url <a href="https://jupyter.org/install" 
+>https://medium.com/@kswalawage/66db782e1d02</a> [20220403].</li>
+<li><a name='r03'></a>-, &ldquo;Installing Jupyter: Get up and running on your compute&rdquo;, Project Jupyter, 2022, url <a href="https://jupyter.org/install" 
   
    target="_blank" rel="noreferrer noopener" 
->https://jupyter.org/install</a> [20220403].</p>
-</li>
-<li>
-<p><a name='r04'></a>The Uptide, &ldquo;How To Upgrade Pip In Windows, MacOS &amp; Linux&rdquo;, The Uptide, 9 Dec 2021, url <a href="https://theuptide.com/upgrade-pip/" 
+>https://jupyter.org/install</a> [20220403].</li>
+<li><a name='r04'></a>The Uptide, &ldquo;How To Upgrade Pip In Windows, MacOS &amp; Linux&rdquo;, The Uptide, 9 Dec 2021, url <a href="https://theuptide.com/upgrade-pip/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://theuptide.com/upgrade-pip/</a> [20220403].</p>
-</li>
-<li>
-<p><a name='r05'></a>The pip developers, &ldquo;pip 22.0.4&rdquo;, PyPI,  Python Software Foundation, 7 Mar 2022, url <a href="https://pypi.org/project/pip/22.0.4/" 
+>https://theuptide.com/upgrade-pip/</a> [20220403].</li>
+<li><a name='r05'></a>The pip developers, &ldquo;pip 22.0.4&rdquo;, PyPI,  Python Software Foundation, 7 Mar 2022, url <a href="https://pypi.org/project/pip/22.0.4/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://pypi.org/project/pip/22.0.4/</a> [20220403].</p>
-</li>
-<li>
-<p><a name='r06'></a>alvinashcraft, bearmannl, TimShererWithAquent, iSatishYadav, drewbatgit, DCtheGeek, andreas-eriksson, GrantMeStrength, &ldquo;Maximum Path Length Limitation&rdquo;, Microsoft technical documentation, 22 Apr 2021, url <a href="https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later" 
+>https://pypi.org/project/pip/22.0.4/</a> [20220403].</li>
+<li><a name='r06'></a>alvinashcraft, bearmannl, TimShererWithAquent, iSatishYadav, drewbatgit, DCtheGeek, andreas-eriksson, GrantMeStrength, &ldquo;Maximum Path Length Limitation&rdquo;, Microsoft technical documentation, 22 Apr 2021, url <a href="https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell" 
   
    target="_blank" rel="noreferrer noopener" 
->https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later</a> [20220403].</p>
-</li>
-<li>
-<p><a name='r07'></a>Jupyter Development Team, &ldquo;notebook 6.4.10&rdquo;, PyPI,  Python Software Foundation, 15 Mar 2022, url <a href="https://pypi.org/project/notebook/6.4.10/" 
+>https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell</a> [20220403].</li>
+<li><a name='r07'></a>Jupyter Development Team, &ldquo;notebook 6.4.10&rdquo;, PyPI,  Python Software Foundation, 15 Mar 2022, url <a href="https://pypi.org/project/notebook/6.4.10/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://pypi.org/project/notebook/6.4.10/</a> [20220403].</p>
-</li>
+>https://pypi.org/project/notebook/6.4.10/</a> [20220403].</li>
+<li><a name='r08'></a>Benjamin Pryke, &ldquo;How to Use Jupyter Notebook in 2020: A Beginner’s Tutorial&rdquo;, Dataquest Labs, Inc., 24 Aug 2020, url <a href="https://www.dataquest.io/blog/jupyter-notebook-tutorial/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.dataquest.io/blog/jupyter-notebook-tutorial/</a> [20220403].</li>
+<li><a name='r09'></a>09amit, &ldquo;Top Python Notebooks for Machine Learning&rdquo;, GeekforGeeks, 22 Jul 2020, url <a href="https://www.geeksforgeeks.org/top-python-notebooks-for-machine-learning/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.geeksforgeeks.org/top-python-notebooks-for-machine-learning/</a> [20220403].</li>
+<li><a name='r10'></a>Chris Moffitt, &ldquo;Exploring an Alternative to Jupyter Notebooks for Python Development&rdquo;, Practical Business Python, 4 May 2020, url <a href="https://pbpython.com/notebook-alternative.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pbpython.com/notebook-alternative.html</a> [20220403].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
 Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "install jupyter windows powershell", bugx, 3 Apr 2022, url <a href= "https://dudung.github.io/bugx/0032">https://dudung.github.io/bugx/0032</a> [20220403].
 </div>
 
-<p>ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: &lsquo;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\jedi\third_party\django-stubs\django-stubs\contrib\contenttypes\management\commands\remove_stale_contenttypes.pyi&rsquo;
-HINT: This error might have occurred since this system does not have Windows Long Path support enabled. You can find information on how to enable this at <a href="https://pip.pypa.io/warnings/enable-long-paths" 
-  
-   target="_blank" rel="noreferrer noopener" 
->https://pip.pypa.io/warnings/enable-long-paths</a></p>
 
 
               
@@ -443,6 +585,9 @@ HINT: This error might have occurred since this system does not have Windows Lon
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/jupyter/">jupyter</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/notebok/">notebok</a>
     </li></ul>
 
  <div class="pagination">

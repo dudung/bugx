@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jupyter on bugx</title>
-    <link>https://dudung.github.io/bugx/tags/jupyter/</link>
-    <description>Recent content in jupyter on bugx</description>
+    <title>notebok on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/notebok/</link>
+    <description>Recent content in notebok on bugx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 03 Apr 2022 16:41:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 16:41:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/notebok/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>install jupyter windows powershell</title>
       <link>https://dudung.github.io/bugx/0032/</link>
