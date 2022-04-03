@@ -42,6 +42,6 @@ body {
 	text-align: justify;
 }
 
-#post__title {
+h1 #post__title {
 	text-align: left;
 }
