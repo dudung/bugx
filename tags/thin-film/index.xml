@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 04 Apr 2022 06:40:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/thin-film/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 06:47:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/thin-film/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>interference intensity thin film 2</title>
-      <link>https://dudung.github.io/bugx/0038/</link>
-      <pubDate>Mon, 04 Apr 2022 06:40:00 +0700</pubDate>
+      <link>https://dudung.github.io/bugx/0039/</link>
+      <pubDate>Mon, 04 Apr 2022 06:47:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/0038/</guid>
+      <guid>https://dudung.github.io/bugx/0039/</guid>
       <description>Syarat interferensi oleh lapisan tipis ditentukan oleh tebal lapisan tipis dan indeks bias medium sebelum dan sesudah lapisan tipis relatif terhadap indeks bias lapisan tipis [1]. Untuk sementara hanya disajikan beda fasa yang terjadi akibat panjang lintasan yang ditembuh kedua berkas cahaya dan pemantulan masing-masing berkas pada batas medium.
 wave Gelombang sinusoidal dapat direprentasikan dalam suatu fungsi matematika berbentuk
 \begin{equation}\label{eqn:wave-equation-solution} \begin{array}{rcl} y(x, t) = A \sin (\omega t - kx + \phi) \end{array} \end{equation}</description>
