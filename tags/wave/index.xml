@@ -7,15 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 04 Apr 2022 03:10:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/wave/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 04:05:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/wave/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>wave phase difference</title>
       <link>https://dudung.github.io/bugx/0033/</link>
-      <pubDate>Mon, 04 Apr 2022 03:10:00 +0700</pubDate>
+      <pubDate>Mon, 04 Apr 2022 04:05:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0033/</guid>
       <description>Perbedaan fasa dua buah gelombang dapat disebabkan oleh perbedaan panjang lintasan yang ditempuh [1] dan sebagai tambahan bila terdapat pemantulan dengan kondisi tertentu [2].
-notes   t.b.a.  t.b.a.  Cite as: viridi, &#34;wave phase difference&#34;, bugx, 4 Apr 2022, url https://dudung.github.io/bugx/0033 [20220403].  </description>
+wave Solusi persamaan gelombang dapat berbentuk
+\begin{equation}\label{eqn:wave-equation-solution} \begin{array}{rcl} y(x, t) &amp;amp; = &amp;amp; A \sin (kx - \omega t + \varphi) \newline &amp;amp; = &amp;amp; A \sin (\omega t - kx + \phi) \end{array} \end{equation}
+yang menggambarkan gelombang secara matematika, dengan $A$ amplitudo, $\omega$ frekuensi sudut, $t$ waktu, $k$ bilangan gelombang, $x$ posisi, dan $var\phi$ fasa serta $\phi$ fasa awal yang dapat dipilih.</description>
     </item>
     
     <item>
