@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quadruple-slit on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/quadruple-slit/</link>
+    <description>Recent content in quadruple-slit on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Mon, 04 Apr 2022 06:03:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/quadruple-slit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>interference intensity slit 4</title>
+      <link>https://dudung.github.io/bugx/0035/</link>
+      <pubDate>Mon, 04 Apr 2022 06:03:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0035/</guid>
+      <description>Distribusi intensitas pada interferensi oleh empat celah dapat diperoleh menggunakan fasor [1] yang lebih mudah dari menjumlahkan empat fungsi trigonomoetrinya, yang perlu bertahap dengan formula Prosthaphaeresis [2] untuk setiap dua buah fungsi. Fungsi trigonometri yang dimaksud adalah fungsi yang merupakan solusi dari persamaan gelombang untuk medan listrik.
+phasor Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya ditentukan oleh sudut fasanya. Empat buah fasor yang berbeda fasa $\phi$ antar dua fasor berurutan dapat digambarkan sebagai berikut.</description>
+    </item>
+    
+  </channel>
+</rss>

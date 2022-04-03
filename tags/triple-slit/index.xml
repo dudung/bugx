@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 04 Apr 2022 05:48:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/triple-slit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 05:54:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/triple-slit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>interference intensity slit 3</title>
       <link>https://dudung.github.io/bugx/0034/</link>
-      <pubDate>Mon, 04 Apr 2022 05:48:00 +0700</pubDate>
+      <pubDate>Mon, 04 Apr 2022 05:54:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0034/</guid>
       <description>Distribusi intensitas pada interferensi oleh tiga celah dapat diperoleh menggunakan fasor [1] yang lebih mudah dari menjumlahkan tiga fungsi trigonomoetrinya, yang perlu bertahap dengan formula Prosthaphaeresis [2] untuk setiap dua buah fungsi. Fungsi trigonometri yang dimaksud adalah fungsi yang merupakan solusi dari persamaan gelombang untuk medan listrik.
-phasor Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya ditentukan oleh sudut fasanya. Dua buah fasor yang berbeda fasa $\phi$ dapat digambarkan sebagai berikut.</description>
+phasor Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya ditentukan oleh sudut fasanya. Tiga buah fasor yang berbeda fasa $\phi$ antar dua fasor berurutan dapat digambarkan sebagai berikut.</description>
     </item>
     
   </channel>
