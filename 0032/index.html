@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-03 13:51:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-03 13:51:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-03 14:51:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-03 14:51:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0032\/",
-      "wordCount" : "120",
+      "wordCount" : "1270",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">install jupyter windows powershell</h1>
-            <time datetime="2022-04-03 13:51:00 &#43;0700 &#43;0700" class="post__date">Sun, 3 Apr  2022</time> 
+            <time datetime="2022-04-03 14:51:00 &#43;0700 &#43;0700" class="post__date">Sun, 3 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -143,28 +143,281 @@
 >2</a>]. Selain Jupyter Notebook klasik, mungkin juga dapat dinstal JupyterLab dan Voilà bila diperlukan [<a href="#r03" 
   
   
->3</a>]. Untuk saat ini hanya akan diinstal Jupyter Notebook.</p>
-<h2 id="install">install<a class="anchor" href="#install">#</a></h2>
+>3</a>]. Untuk saat ini hanya akan diinstal Jupyter Notebook. Proses instalasi dilakukan menggunakan PowerShell pada Windows 10.0.19042.</p>
+<h2 id="pip">pip<a class="anchor" href="#pip">#</a></h2>
+<p>Perlu terlebih dahulu dilihat versi <code>pip</code> dan diperbarui [<a href="#r04" 
+  
+  
+>4</a>].</p>
+<pre><code>PS L:\home\cookbook&gt; pip --version
+pip 22.0.4 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.10)
+PS L:\home\cookbook&gt; pip install --upgrade pip
+Requirement already satisfied: pip in c:\program files\windowsapps\pythonsoftwarefoundation.python.3.10_3.10.1264.0_x64__qbz5n2kfra8p0\lib\site-packages (22.0.4)
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Dan diperoleh bahwa telah merupakan versi terbaru [<a href="#r05" 
+  
+  
+>5</a>].</p>
+<h2 id="maximum-path-length-limitation">maximum path length limitation<a class="anchor" href="#maximum-path-length-limitation">#</a></h2>
+<p>Saat melakukan instalasi Jupyter Notebook klasik diperlukan dukungan pada Windows Long Path yang perlu dienable untuk menghindari pesan kesalahan</p>
+<pre><code>ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: 'C:\\Users\\Sparisoma Viridi\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\jedi\\third_party\\django-stubs\\django-stubs\\contrib\\contenttypes\\management\\commands\\remove_stale_contenttypes.pyi'
+HINT: This error might have occurred since this system does not have Windows Long Path support enabled. You can find information on how to enable this at https://pip.pypa.io/warnings/enable-long-paths
+</code></pre>
+<p>di akhir instalasi. Agar fitur Windows Long Path tersebut menjadi enable, dapat dilakukan dengan menggunakan PowerShell atau cara lainnya [<a href="#r06" 
+  
+  
+>6</a>].</p>
+<h3 id="powershell">powershell<a class="anchor" href="#powershell">#</a></h3>
+<p>Bila dipilih cara pertama, PowerShell perlu djalankan dengan Run as administrator agar tidak mendapatkan pesan berikut</p>
+<pre><code>PS L:\home\cookbook&gt; New-ItemProperty -Path &quot;HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem&quot; `
+&gt;&gt; -Name &quot;LongPathsEnabled&quot; -Value 1 -PropertyType DWORD -Force
+New-ItemProperty : Requested registry access is not allowed.
+At line:1 char:1
++ New-ItemProperty -Path &quot;HKLM:\SYSTEM\CurrentControlSet\Control\FileSy ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...trol\FileSystem:String) [New-ItemProperty], Securit
+   yException
+    + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.NewItemPropertyCommand
+</code></pre>
+<p>saat prosesnya. Klik kanan ikon PowerShell dan pilih Run as administrator sehingga terbuka jendela dengan judul Administrator: powershell. Lakukan langkah berikut.</p>
+<pre><code>PS C:\WINDOWS\system32&gt; New-ItemProperty -Path &quot;HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem&quot; `
+&gt;&gt; -Name &quot;LongPathsEnabled&quot; -Value 1 -PropertyType DWORD -Force
+
+
+LongPathsEnabled : 1
+PSPath           : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+PSParentPath     : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control
+PSChildName      : FileSystem
+PSDrive          : HKLM
+PSProvider       : Microsoft.PowerShell.Core\Registry
+
+
+
+PS C:\WINDOWS\system32&gt;
+</code></pre>
+<p>Terlihat bahwa opsi LongPathsEnabled telah menjadi 1. Tutup jendela Administrator: powershell dan jangan lakukan hal lain sebagai administrator karena cukup berbahaya.</p>
+<h3 id="regedit">regedit<a class="anchor" href="#regedit">#</a></h3>
+<p>Cara lain adalah dengan menggunakan Registry Editor. Tekan tombol Windows + R akan membuka Run dan ketikkan <code>regedit</code> sehingga membuka jendela Registry Editor. Dan ubah <code>Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled (Type: REG_DWORD)</code> yang semula bernilai 0 menjadi 1. Lalu tutup jendela tersebut.</p>
+<h2 id="install-notebook">install notebook<a class="anchor" href="#install-notebook">#</a></h2>
+<p>Selanjutnya adalah melakukan instalasi Jupyter Notebook klasik [<a href="#r03" 
+  
+  
+>3</a>].</p>
+<pre><code>PS L:\home\cookbook&gt; pip install notebook
+Collecting notebook
+  Downloading notebook-6.4.10-py3-none-any.whl (9.9 MB)
+     ---------------------------------------- 9.9/9.9 MB 544.0 kB/s eta 0:00:00
+Collecting pyzmq&gt;=17
+  Downloading pyzmq-22.3.0-cp310-cp310-win_amd64.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 586.9 kB/s eta 0:00:00
+Collecting nest-asyncio&gt;=1.5
+  Downloading nest_asyncio-1.5.5-py3-none-any.whl (5.2 kB)
+Collecting jupyter-core&gt;=4.6.1
+  Downloading jupyter_core-4.9.2-py3-none-any.whl (86 kB)
+     ---------------------------------------- 86.9/86.9 KB 233.8 kB/s eta 0:00:00
+Collecting nbconvert&gt;=5
+  Downloading nbconvert-6.4.5-py3-none-any.whl (561 kB)
+     ---------------------------------------- 561.4/561.4 KB 560.1 kB/s eta 0:00:00
+Collecting jinja2
+  Downloading Jinja2-3.1.1-py3-none-any.whl (132 kB)
+     ---------------------------------------- 132.6/132.6 KB 355.7 kB/s eta 0:00:00
+Collecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting prometheus-client
+  Downloading prometheus_client-0.13.1-py3-none-any.whl (57 kB)
+     ---------------------------------------- 57.1/57.1 KB 187.5 kB/s eta 0:00:00
+Collecting traitlets&gt;=4.2.1
+  Downloading traitlets-5.1.1-py3-none-any.whl (102 kB)
+     ---------------------------------------- 102.0/102.0 KB 294.2 kB/s eta 0:00:00
+Collecting jupyter-client&gt;=5.3.4
+  Downloading jupyter_client-7.2.1-py3-none-any.whl (130 kB)
+     ---------------------------------------- 130.4/130.4 KB 296.1 kB/s eta 0:00:00
+Collecting terminado&gt;=0.8.3
+  Downloading terminado-0.13.3-py3-none-any.whl (14 kB)
+Collecting tornado&gt;=6.1
+  Downloading tornado-6.1.tar.gz (497 kB)
+     ---------------------------------------- 497.4/497.4 KB 439.2 kB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting Send2Trash&gt;=1.8.0
+  Downloading Send2Trash-1.8.0-py3-none-any.whl (18 kB)
+Collecting argon2-cffi
+  Downloading argon2_cffi-21.3.0-py3-none-any.whl (14 kB)
+Collecting ipykernel
+  Downloading ipykernel-6.11.0-py3-none-any.whl (130 kB)
+     ---------------------------------------- 130.8/130.8 KB 386.5 kB/s eta 0:00:00
+Collecting nbformat
+  Downloading nbformat-5.2.0-py3-none-any.whl (74 kB)
+     ---------------------------------------- 74.6/74.6 KB 196.3 kB/s eta 0:00:00
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from jupyter-client&gt;=5.3.4-&gt;notebook) (2.8.2)
+Collecting entrypoints
+  Downloading entrypoints-0.4-py3-none-any.whl (5.3 kB)
+Collecting pywin32&gt;=1.0
+  Downloading pywin32-303-cp310-cp310-win_amd64.whl (9.2 MB)
+     ---------------------------------------- 9.2/9.2 MB 616.2 kB/s eta 0:00:00
+Collecting pygments&gt;=2.4.1
+  Downloading Pygments-2.11.2-py3-none-any.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 680.9 kB/s eta 0:00:00
+Collecting pandocfilters&gt;=1.4.1
+  Downloading pandocfilters-1.5.0-py2.py3-none-any.whl (8.7 kB)
+Collecting MarkupSafe&gt;=2.0
+  Downloading MarkupSafe-2.1.1-cp310-cp310-win_amd64.whl (17 kB)
+Collecting bleach
+  Downloading bleach-4.1.0-py2.py3-none-any.whl (157 kB)
+     ---------------------------------------- 157.9/157.9 KB 471.9 kB/s eta 0:00:00
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.10.0-py3-none-any.whl (97 kB)
+     ---------------------------------------- 97.4/97.4 KB 370.9 kB/s eta 0:00:00
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.1.2-py2.py3-none-any.whl (4.6 kB)
+Collecting nbclient&lt;0.6.0,&gt;=0.5.0
+  Downloading nbclient-0.5.13-py3-none-any.whl (70 kB)
+     ---------------------------------------- 70.6/70.6 KB 297.4 kB/s eta 0:00:00
+Collecting mistune&lt;2,&gt;=0.8.1
+  Downloading mistune-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting testpath
+  Downloading testpath-0.6.0-py3-none-any.whl (83 kB)
+     ---------------------------------------- 83.9/83.9 KB 92.4 kB/s eta 0:00:00
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting jsonschema!=2.5.0,&gt;=2.4
+  Downloading jsonschema-4.4.0-py3-none-any.whl (72 kB)
+     ---------------------------------------- 72.7/72.7 KB 286.5 kB/s eta 0:00:00
+Collecting pywinpty&gt;=1.1.0
+  Downloading pywinpty-2.0.5-cp310-none-win_amd64.whl (1.4 MB)
+     ---------------------------------------- 1.4/1.4 MB 616.8 kB/s eta 0:00:00
+Collecting argon2-cffi-bindings
+  Downloading argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl (30 kB)
+Collecting debugpy&gt;=1.0
+  Downloading debugpy-1.6.0-cp310-cp310-win_amd64.whl (4.3 MB)
+     ---------------------------------------- 4.3/4.3 MB 559.0 kB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-5.9.0-cp310-cp310-win_amd64.whl (245 kB)
+     ---------------------------------------- 245.5/245.5 KB 470.6 kB/s eta 0:00:00
+Collecting ipython&gt;=7.23.1
+  Downloading ipython-8.2.0-py3-none-any.whl (750 kB)
+     ---------------------------------------- 750.7/750.7 KB 473.8 kB/s eta 0:00:00
+Collecting matplotlib-inline&gt;=0.1
+  Downloading matplotlib_inline-0.1.3-py3-none-any.whl (8.2 kB)
+Collecting setuptools&gt;=60
+  Downloading setuptools-61.3.1-py3-none-any.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 510.2 kB/s eta 0:00:00
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0
+  Downloading prompt_toolkit-3.0.28-py3-none-any.whl (380 kB)
+     ---------------------------------------- 380.2/380.2 KB 526.3 kB/s eta 0:00:00
+Collecting decorator
+  Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting stack-data
+  Downloading stack_data-0.2.0-py3-none-any.whl (21 kB)
+Collecting colorama
+  Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+Collecting jedi&gt;=0.16
+  Downloading jedi-0.18.1-py2.py3-none-any.whl (1.6 MB)
+     ---------------------------------------- 1.6/1.6 MB 716.8 kB/s eta 0:00:00
+Collecting attrs&gt;=17.4.0
+  Downloading attrs-21.4.0-py2.py3-none-any.whl (60 kB)
+     ---------------------------------------- 60.6/60.6 KB 267.7 kB/s eta 0:00:00
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,&gt;=0.14.0
+  Downloading pyrsistent-0.18.1-cp310-cp310-win_amd64.whl (61 kB)
+     ---------------------------------------- 61.6/61.6 KB 251.8 kB/s eta 0:00:00
+Requirement already satisfied: six&gt;=1.5 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from python-dateutil&gt;=2.8.2-&gt;jupyter-client&gt;=5.3.4-&gt;notebook) (1.16.0)
+Collecting cffi&gt;=1.0.1
+  Downloading cffi-1.15.0-cp310-cp310-win_amd64.whl (180 kB)
+     ---------------------------------------- 180.3/180.3 KB 434.9 kB/s eta 0:00:00
+Collecting soupsieve&gt;1.2
+  Downloading soupsieve-2.3.1-py3-none-any.whl (37 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Requirement already satisfied: packaging in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from bleach-&gt;nbconvert&gt;=5-&gt;notebook) (21.3)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ---------------------------------------- 118.7/118.7 KB 495.2 kB/s eta 0:00:00
+Collecting parso&lt;0.9.0,&gt;=0.8.0
+  Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+     ---------------------------------------- 100.8/100.8 KB 362.2 kB/s eta 0:00:00
+Collecting wcwidth
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Requirement already satisfied: pyparsing!=3.0.5,&gt;=2.0.2 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from packaging-&gt;bleach-&gt;nbconvert&gt;=5-&gt;notebook) (3.0.7)
+Collecting executing
+  Downloading executing-0.8.3-py2.py3-none-any.whl (16 kB)
+Collecting pure-eval
+  Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+Collecting asttokens
+  Downloading asttokens-2.0.5-py2.py3-none-any.whl (20 kB)
+Building wheels for collected packages: tornado
+  Building wheel for tornado (setup.py) ... done
+  Created wheel for tornado: filename=tornado-6.1-cp310-cp310-win_amd64.whl size=414478 sha256=809300a1799041728e3eed430c85ede744545f02b5f4d4584ecdf6d1f13fa74b
+  Stored in directory: c:\users\sparisoma viridi\appdata\local\pip\cache\wheels\80\32\8d\21cf0fa6ee4e083f6530e5b83dfdfa9489a3890d320803f4c7
+Successfully built tornado
+Installing collected packages: webencodings, wcwidth, Send2Trash, pywin32, pure-eval, pickleshare, mistune, ipython-genutils, executing, backcall, traitlets, tornado, testpath, soupsieve, setuptools, pyzmq, pywinpty, pyrsistent, pygments, pycparser, psutil, prompt-toolkit, prometheus-client, parso, pandocfilters, nest-asyncio, MarkupSafe, entrypoints, defusedxml, decorator, debugpy, colorama, attrs, asttokens, terminado, stack-data, matplotlib-inline, jupyterlab-pygments, jupyter-core, jsonschema, jinja2, jedi, cffi, bleach, beautifulsoup4, nbformat, jupyter-client, ipython, argon2-cffi-bindings, nbclient, ipykernel, argon2-cffi, nbconvert, notebook
+Successfully installed argon2-cffi-21.3.0 argon2-cffi-bindings-21.2.0 beautifulsoup4-4.10.0 bleach-4.1.0 cffi-1.15.0 ipykernel-6.11.0 ipython-8.2.0 jedi-0.18.1 jupyter-client-7.2.1 nbclient-0.5.13 nbconvert-6.4.5 nbformat-5.2.0 notebook-6.4.10
+PS L:\home\cookbook&gt;
+</code></pre>
+<p>Versi terkini notebook adalah 6.4.10 yang dirilis 15 Mar 2022 [<a href="#r07" 
+  
+  
+>7</a>] dan terlihat pada baris akhir proses instalasi.</p>
+<h2 id="run-notebook">run notebook<a class="anchor" href="#run-notebook">#</a></h2>
+<p>..</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a>Abhay Shukla, &ldquo;Writing Math Equations in Jupyter Notebook: A Naive Introduction&rdquo;, Analytics Vidhya, Medium, 27 Mar 2020, url <a href="https://medium.com/analytics-vidhya/a5ce87b9a214" 
+<li>
+<p><a name='r01'></a>Abhay Shukla, &ldquo;Writing Math Equations in Jupyter Notebook: A Naive Introduction&rdquo;, Analytics Vidhya, Medium, 27 Mar 2020, url <a href="https://medium.com/analytics-vidhya/a5ce87b9a214" 
   
    target="_blank" rel="noreferrer noopener" 
->https://medium.com/analytics-vidhya/a5ce87b9a214</a> [20220403].</li>
-<li><a name='r02'></a>Kalhari Walawage, &ldquo;Install Python and Jupyter Notebook to Windows 10 (64 bit)&rdquo;, Medium, 14 Dec 2019, url <a href="https://medium.com/@kswalawage/66db782e1d02" 
+>https://medium.com/analytics-vidhya/a5ce87b9a214</a> [20220403].</p>
+</li>
+<li>
+<p><a name='r02'></a>Kalhari Walawage, &ldquo;Install Python and Jupyter Notebook to Windows 10 (64 bit)&rdquo;, Medium, 14 Dec 2019, url <a href="https://medium.com/@kswalawage/66db782e1d02" 
   
    target="_blank" rel="noreferrer noopener" 
->https://medium.com/@kswalawage/66db782e1d02</a> [20220403].</li>
-<li><a name='r03'></a>-, &ldquo;Installing Jupyter: Get up and running on your compute&rdquo;, Project Jupyter, 2022, url <a href="https://jupyter.org/install" 
+>https://medium.com/@kswalawage/66db782e1d02</a> [20220403].</p>
+</li>
+<li>
+<p><a name='r03'></a>-, &ldquo;Installing Jupyter: Get up and running on your compute&rdquo;, Project Jupyter, 2022, url <a href="https://jupyter.org/install" 
   
    target="_blank" rel="noreferrer noopener" 
->https://jupyter.org/install</a> [20220403].</li>
+>https://jupyter.org/install</a> [20220403].</p>
+</li>
+<li>
+<p><a name='r04'></a>The Uptide, &ldquo;How To Upgrade Pip In Windows, MacOS &amp; Linux&rdquo;, The Uptide, 9 Dec 2021, url <a href="https://theuptide.com/upgrade-pip/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://theuptide.com/upgrade-pip/</a> [20220403].</p>
+</li>
+<li>
+<p><a name='r05'></a>The pip developers, &ldquo;pip 22.0.4&rdquo;, PyPI,  Python Software Foundation, 7 Mar 2022, url <a href="https://pypi.org/project/pip/22.0.4/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/pip/22.0.4/</a> [20220403].</p>
+</li>
+<li>
+<p><a name='r06'></a>alvinashcraft, bearmannl, TimShererWithAquent, iSatishYadav, drewbatgit, DCtheGeek, andreas-eriksson, GrantMeStrength, &ldquo;Maximum Path Length Limitation&rdquo;, Microsoft technical documentation, 22 Apr 2021, url <a href="https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later</a> [20220403].</p>
+</li>
+<li>
+<p><a name='r07'></a>Jupyter Development Team, &ldquo;notebook 6.4.10&rdquo;, PyPI,  Python Software Foundation, 15 Mar 2022, url <a href="https://pypi.org/project/notebook/6.4.10/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/notebook/6.4.10/</a> [20220403].</p>
+</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
 Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "install jupyter windows powershell", bugx, 3 Apr 2022, url <a href= "https://dudung.github.io/bugx/0032">https://dudung.github.io/bugx/0032</a> [20220403].
 </div>
 
+<p>ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: &lsquo;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\jedi\third_party\django-stubs\django-stubs\contrib\contenttypes\management\commands\remove_stale_contenttypes.pyi&rsquo;
+HINT: This error might have occurred since this system does not have Windows Long Path support enabled. You can find information on how to enable this at <a href="https://pip.pypa.io/warnings/enable-long-paths" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pip.pypa.io/warnings/enable-long-paths</a></p>
 
 
               
