@@ -17,7 +17,7 @@
       <description>Perbedaan fasa dua buah gelombang dapat disebabkan oleh perbedaan panjang lintasan yang ditempuh [1] dan sebagai tambahan bila terdapat pemantulan dengan kondisi tertentu [2].
 wave Solusi persamaan gelombang dapat berbentuk
 \begin{equation}\label{eqn:wave-equation-solution} \begin{array}{rcl} y(x, t) &amp;amp; = &amp;amp; A \sin (kx - \omega t + \varphi) \newline &amp;amp; = &amp;amp; A \sin (\omega t - kx + \phi) \end{array} \end{equation}
-yang menggambarkan gelombang secara matematika, dengan $A$ amplitudo, $\omega$ frekuensi sudut, $t$ waktu, $k$ bilangan gelombang, $x$ posisi, dan $var\phi$ fasa serta $\phi$ fasa awal yang dapat dipilih.</description>
+yang menggambarkan gelombang secara matematika, dengan $A$ amplitudo, $\omega$ frekuensi sudut, $t$ waktu, $k$ bilangan gelombang, $x$ posisi, dan $\varphi$ fasa serta $\phi$ fasa awal yang dapat dipilih.</description>
     </item>
     
   </channel>

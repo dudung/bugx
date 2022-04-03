@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 04 Apr 2022 06:04:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/multiple-slit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 06:11:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/multiple-slit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>interference intensity slit 2-8</title>
       <link>https://dudung.github.io/bugx/0036/</link>
-      <pubDate>Mon, 04 Apr 2022 06:04:00 +0700</pubDate>
+      <pubDate>Mon, 04 Apr 2022 06:11:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0036/</guid>
-      <description>Intensitas interferensi oleh dua, tiga, empat, dan banyak celah memiliki keteraturan [1]. Di sini hanya akan disajikan intensitas interferensi sampai delapan celah.
+      <description>Intensitas interferensi oleh dua, tiga, empat, dan banyak celah memiliki keteraturan [1]. Di sini hanya disajikan intensitas interferensi sampai delapan celah tanpa penjelasan bagaimana memperolehnya.
 intensity Intensitas interferensi oleh dua sampai delapan celah diberikan pada gambar-gambar berikut ini.
  &amp;nbsp;
 Gnuplot Produced by GNUPLOT 5.4 patchlevel 1           0       1       2       3       4       -4       -3       -2       -1       0       1       2       3       4     I / Io   f/p    gnuplot_plot_1          Gambar 1.</description>

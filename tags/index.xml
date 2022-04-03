@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 04 Apr 2022 06:04:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 06:37:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Mon, 04 Apr 2022 06:04:00 +0700</pubDate>
+      <pubDate>Mon, 04 Apr 2022 06:37:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>interference</title>
       <link>https://dudung.github.io/bugx/tags/interference/</link>
-      <pubDate>Mon, 04 Apr 2022 06:04:00 +0700</pubDate>
+      <pubDate>Mon, 04 Apr 2022 06:37:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/interference/</guid>
       <description></description>
@@ -29,27 +29,36 @@
     <item>
       <title>light</title>
       <link>https://dudung.github.io/bugx/tags/light/</link>
-      <pubDate>Mon, 04 Apr 2022 06:04:00 +0700</pubDate>
+      <pubDate>Mon, 04 Apr 2022 06:37:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/light/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>multiple-slit</title>
-      <link>https://dudung.github.io/bugx/tags/multiple-slit/</link>
-      <pubDate>Mon, 04 Apr 2022 06:04:00 +0700</pubDate>
+      <title>physics</title>
+      <link>https://dudung.github.io/bugx/tags/physics/</link>
+      <pubDate>Mon, 04 Apr 2022 06:37:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/tags/multiple-slit/</guid>
+      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>physics</title>
-      <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Mon, 04 Apr 2022 06:04:00 +0700</pubDate>
+      <title>thin-film</title>
+      <link>https://dudung.github.io/bugx/tags/thin-film/</link>
+      <pubDate>Mon, 04 Apr 2022 06:37:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
+      <guid>https://dudung.github.io/bugx/tags/thin-film/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multiple-slit</title>
+      <link>https://dudung.github.io/bugx/tags/multiple-slit/</link>
+      <pubDate>Mon, 04 Apr 2022 06:11:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/multiple-slit/</guid>
       <description></description>
     </item>
     
