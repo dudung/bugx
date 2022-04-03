@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 04 Apr 2022 05:26:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Apr 2022 05:48:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>draft</title>
+      <link>https://dudung.github.io/bugx/tags/draft/</link>
+      <pubDate>Mon, 04 Apr 2022 05:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interference</title>
+      <link>https://dudung.github.io/bugx/tags/interference/</link>
+      <pubDate>Mon, 04 Apr 2022 05:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/interference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>light</title>
+      <link>https://dudung.github.io/bugx/tags/light/</link>
+      <pubDate>Mon, 04 Apr 2022 05:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/light/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physics</title>
+      <link>https://dudung.github.io/bugx/tags/physics/</link>
+      <pubDate>Mon, 04 Apr 2022 05:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>triple-slit</title>
+      <link>https://dudung.github.io/bugx/tags/triple-slit/</link>
+      <pubDate>Mon, 04 Apr 2022 05:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/triple-slit/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>distance</title>
       <link>https://dudung.github.io/bugx/tags/distance/</link>
@@ -18,29 +63,11 @@
     </item>
     
     <item>
-      <title>draft</title>
-      <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Mon, 04 Apr 2022 05:26:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>phase-difference</title>
       <link>https://dudung.github.io/bugx/tags/phase-difference/</link>
       <pubDate>Mon, 04 Apr 2022 05:26:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/phase-difference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>physics</title>
-      <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Mon, 04 Apr 2022 05:26:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
     </item>
     
@@ -149,24 +176,6 @@
       <pubDate>Sat, 02 Apr 2022 21:46:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/gnuplot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>interference</title>
-      <link>https://dudung.github.io/bugx/tags/interference/</link>
-      <pubDate>Sat, 02 Apr 2022 21:46:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/interference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>light</title>
-      <link>https://dudung.github.io/bugx/tags/light/</link>
-      <pubDate>Sat, 02 Apr 2022 21:46:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/light/</guid>
       <description></description>
     </item>
     
