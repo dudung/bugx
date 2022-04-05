@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 05 Apr 2022 03:31:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/neural-network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 07:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/neural-network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ann short introduction</title>
       <link>https://dudung.github.io/bugx/0040/</link>
-      <pubDate>Tue, 05 Apr 2022 03:31:00 +0700</pubDate>
+      <pubDate>Tue, 05 Apr 2022 07:32:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0040/</guid>
       <description>Jaringan saraf tiruan (JST) atau artificial neural networks (ANN) merupakan salah satu teknologi yang paling berpengaruh dalam dekade terakhir ini, di mana teknologi ini merupakah bagian fundamental dari algoritma pembelajaran mendalam (deep learning), dan bagian terdepan dari kecerdasan buatan (artificial intelligence, AI) yang pengembangannya masih dapat dikatan berdarah-darah [1]. Teknologi ini terinspirasi oleh cara kerja sistem saraf biologis, seperti pada sel otak manusia [2] atau jaringan saraf yang membentuk otak hewan [3].</description>
