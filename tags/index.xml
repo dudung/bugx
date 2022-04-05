@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 06 Apr 2022 04:12:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Apr 2022 04:19:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>diffraction</title>
+      <link>https://dudung.github.io/bugx/tags/diffraction/</link>
+      <pubDate>Wed, 06 Apr 2022 04:19:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/diffraction/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Wed, 06 Apr 2022 04:12:00 +0700</pubDate>
+      <pubDate>Wed, 06 Apr 2022 04:19:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
@@ -20,7 +29,7 @@
     <item>
       <title>huygens-principle</title>
       <link>https://dudung.github.io/bugx/tags/huygens-principle/</link>
-      <pubDate>Wed, 06 Apr 2022 04:12:00 +0700</pubDate>
+      <pubDate>Wed, 06 Apr 2022 04:19:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/huygens-principle/</guid>
       <description></description>
@@ -29,7 +38,7 @@
     <item>
       <title>physics</title>
       <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Wed, 06 Apr 2022 04:12:00 +0700</pubDate>
+      <pubDate>Wed, 06 Apr 2022 04:19:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
@@ -38,7 +47,7 @@
     <item>
       <title>wave</title>
       <link>https://dudung.github.io/bugx/tags/wave/</link>
-      <pubDate>Wed, 06 Apr 2022 04:12:00 +0700</pubDate>
+      <pubDate>Wed, 06 Apr 2022 04:19:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/wave/</guid>
       <description></description>
