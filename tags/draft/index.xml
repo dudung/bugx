@@ -7,18 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 06 Apr 2022 03:19:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Apr 2022 03:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cylindrical wave cross section</title>
       <link>https://dudung.github.io/bugx/0041/</link>
-      <pubDate>Wed, 06 Apr 2022 03:19:00 +0700</pubDate>
+      <pubDate>Wed, 06 Apr 2022 03:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0041/</guid>
-      <description>Dengan melihat penampang lintang gelombang silinder akan dapat terhubung fenomena riak dengan solusi persamaan gelombang [1].
-ripple ..
+      <description>Dengan melihat penampang lintang gelombang silinder akan dapat terhubung fenomena riak dengan solusi persamaan gelombang. Pada tangki riak fenomena gelombang merambat dapat terlihat dalam bentuk riak-riak yang menyebar dan juga dapat menjelaskan berbagai peristiwa terkait gelombang seperti interferensi dan difraksi [1].
+ripple Sebuah gelombang yang berupa riak yang menyebar diilustrasikan untuk waktu-waktu $0$, $\tfrac14 T$, $\tfrac12 T$, dan $\tfrac34 T$ pada gambar-gambar berikut ini.
  &amp;nbsp;
-          image/svg+xml       x y z z  t = T 0 4                Gambar 1. X.   &amp;nbsp;
-      image/svg+xml       x y z z  t = T 1 4                Gambar 2.</description>
+          image/svg+xml       x y z z  t = T 0 4                Gambar 1.</description>
     </item>
     
     <item>
