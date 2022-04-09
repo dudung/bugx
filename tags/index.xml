@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 07 Apr 2022 10:47:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Apr 2022 09:58:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>clock</title>
+      <link>https://dudung.github.io/bugx/tags/clock/</link>
+      <pubDate>Sat, 09 Apr 2022 09:58:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/clock/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Thu, 07 Apr 2022 10:47:00 +0700</pubDate>
+      <pubDate>Sat, 09 Apr 2022 09:58:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>light</title>
+      <link>https://dudung.github.io/bugx/tags/light/</link>
+      <pubDate>Sat, 09 Apr 2022 09:58:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/light/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physics</title>
+      <link>https://dudung.github.io/bugx/tags/physics/</link>
+      <pubDate>Sat, 09 Apr 2022 09:58:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>relativity</title>
+      <link>https://dudung.github.io/bugx/tags/relativity/</link>
+      <pubDate>Sat, 09 Apr 2022 09:58:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/relativity/</guid>
       <description></description>
     </item>
     
@@ -23,15 +59,6 @@
       <pubDate>Thu, 07 Apr 2022 10:47:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/kinematics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>physics</title>
-      <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Thu, 07 Apr 2022 10:47:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
     </item>
     
@@ -149,15 +176,6 @@
       <pubDate>Mon, 04 Apr 2022 16:18:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/interference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>light</title>
-      <link>https://dudung.github.io/bugx/tags/light/</link>
-      <pubDate>Mon, 04 Apr 2022 16:18:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/light/</guid>
       <description></description>
     </item>
     
