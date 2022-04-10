@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 10 Apr 2022 18:53:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 21:04:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Sun, 10 Apr 2022 18:53:00 +0700</pubDate>
+      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>physics</title>
       <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Sun, 10 Apr 2022 18:53:00 +0700</pubDate>
+      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
@@ -29,16 +29,25 @@
     <item>
       <title>relativistic-mass</title>
       <link>https://dudung.github.io/bugx/tags/relativistic-mass/</link>
-      <pubDate>Sun, 10 Apr 2022 18:53:00 +0700</pubDate>
+      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/relativistic-mass/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>relativistic-momentum</title>
+      <link>https://dudung.github.io/bugx/tags/relativistic-momentum/</link>
+      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/relativistic-momentum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>relativity</title>
       <link>https://dudung.github.io/bugx/tags/relativity/</link>
-      <pubDate>Sun, 10 Apr 2022 18:53:00 +0700</pubDate>
+      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/relativity/</guid>
       <description></description>

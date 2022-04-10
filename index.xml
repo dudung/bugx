@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 10 Apr 2022 18:56:24 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 21:06:40 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Sun, 10 Apr 2022 18:56:24 +0700</pubDate>
+      <pubDate>Sun, 10 Apr 2022 21:06:40 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
@@ -20,11 +20,21 @@
     <item>
       <title>relativistic mass</title>
       <link>https://dudung.github.io/bugx/0049/</link>
-      <pubDate>Sun, 10 Apr 2022 18:53:00 +0700</pubDate>
+      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0049/</guid>
-      <description>[1].
-notes  Don Koks, Philip Gibbs, Jim Carr, &amp;ldquo;What is relativistic mass?&amp;rdquo;, 2012, url https://www.desy.de/user/projects/Physics/Relativity/SR/mass.html [20220410].  Cite as: viridi, &#34;relativistic mass&#34;, bugx, 10 Apr 2022, url https://dudung.github.io/bugx/0049 [20220410].  </description>
+      <description>[1] [2]
+notes  Don Koks, Philip Gibbs, Jim Carr, &amp;ldquo;What is relativistic mass?&amp;rdquo;, 2012, url https://www.desy.de/user/projects/Physics/Relativity/SR/mass.html [20220410]. Carl Rod Nave, &amp;ldquo;Relativistic Mass&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/tdil.html#c3 [20220410].  Cite as: viridi, &#34;relativistic mass&#34;, bugx, 10 Apr 2022, url https://dudung.github.io/bugx/0049 [20220410].  </description>
+    </item>
+    
+    <item>
+      <title>relativistic momentum</title>
+      <link>https://dudung.github.io/bugx/0050/</link>
+      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0050/</guid>
+      <description>[1] [2]
+notes  Carl Rod Nave, &amp;ldquo;Relativistic Momentum&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/relmom.html#c1 [20220410]. Darin Acosta, &amp;ldquo;Relativistic Momentum&amp;rdquo;, PHY2061 Enriched Physics 2 - Electromagnetism Lecture Notes, 11 Oct 2015, url http://www.phys.ufl.edu/~acosta/phy2061/lectures/Relativity4.pdf [20220410].  Cite as: viridi, &#34;relativistic momentum&#34;, bugx, 10 Apr 2022, url https://dudung.github.io/bugx/0050 [20220410].  </description>
     </item>
     
     <item>
