@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 10 Apr 2022 18:39:25 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 18:44:37 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Sun, 10 Apr 2022 18:39:25 +0700</pubDate>
+      <pubDate>Sun, 10 Apr 2022 18:44:37 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
+    </item>
+    
+    <item>
+      <title>fi1202-01 2021-2</title>
+      <link>https://dudung.github.io/bugx/0007/</link>
+      <pubDate>Sun, 10 Apr 2022 18:44:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0007/</guid>
+      <description>Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
+posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-persamaan Maxwell, Inteferensi Dua Celah: Fungsi Resultan Interferensi Dua Celah, Intensitas Inteferensi Dua Celah, Kecepatan Relatif, Jam Cahaya, Dilasi Waktu, Kontraksi Panjang, Massa Relativitas,  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.</description>
     </item>
     
     <item>
@@ -266,16 +276,6 @@ phasor Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya
       <guid>https://dudung.github.io/bugx/0023/</guid>
       <description>Intensitas hasil interferensi dua celah [1] dapat dijelaskan dengan penjumlahan fungsi trigonometri melalui formula Prosthaphaeresis [2] dan fasor [3]. Di sini akan disinggung beberapa pendekatan yang digunakan.
 light source Pada interferensi dua celah sumber cahayanya adalah kedua buah celah yang ukurannya dapat diabaikan dibandingkan dengan jarak antar kedua celah $d$. Kedua celah disinari oleh satu sumber cahaya monokromatik yang terletak di tengah-tengah kedua celah sehingga dapat dikatakan bahwa kedua celah merupakan sumber cahaya yang tidak saja monokromatik akan tetapi juga koheren.</description>
-    </item>
-    
-    <item>
-      <title>fi1202-01 2021-2</title>
-      <link>https://dudung.github.io/bugx/0007/</link>
-      <pubDate>Wed, 30 Mar 2022 16:36:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0007/</guid>
-      <description>Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-persamaan Maxwell, Inteferensi Dua Celah: Fungsi Resultan Interferensi Dua Celah, Intensitas Inteferensi Dua Celah,  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220321].  Cite as: viridi, &#34;</description>
     </item>
     
     <item>
