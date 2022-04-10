@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 10 Apr 2022 21:14:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Apr 2022 21:35:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>length contraction</title>
+      <link>https://dudung.github.io/bugx/0048/</link>
+      <pubDate>Sun, 10 Apr 2022 21:35:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0048/</guid>
+      <description>Apa yang akan terjadi saat sebuah jam cahaya bergerak dengan cepat, mendekati laju cahaya, adalah jam akan melambat detaknya [1].
+[2]
+[3]
+notes  John D. Norton, &amp;ldquo;Special Theory of Relativity: Clocks and Rods&amp;rdquo;, HPS 0410 Einstein for Everyone, 15 Jan 2022, url https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/Special_relativity_clocks_rods/index.html [20220410]. David Appell, &amp;ldquo;The invisibility of length contraction&amp;rdquo;, Physics World, Institute of Physics, IOP Publishing, 13 Aug 2019, url https://physicsworld.com/a/the-invisibility-of-length%E2%80%AFcontraction/ [20220410]. Carl Rod Nave, &amp;ldquo;Muon Experiment&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.</description>
+    </item>
+    
     <item>
       <title>relativistic dispersion relation</title>
       <link>https://dudung.github.io/bugx/0051/</link>
@@ -39,23 +51,13 @@ notes  Carl Rod Nave, &amp;ldquo;Relativistic Momentum&amp;rdquo;, HyperPhysics,
     </item>
     
     <item>
-      <title>length contraction</title>
-      <link>https://dudung.github.io/bugx/0048/</link>
-      <pubDate>Sun, 10 Apr 2022 18:50:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0048/</guid>
-      <description>Apa yang akan terjadi saat sebuah jam cahaya bergerak dengan cepat, mendekati laju cahaya, adalah jam akan melambat detaknya [1].
-notes  John D. Norton, &amp;ldquo;Special Theory of Relativity: Clocks and Rods&amp;rdquo;, HPS 0410 Einstein for Everyone, 15 Jan 2022, url https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/Special_relativity_clocks_rods/index.html [20220410].  Cite as: viridi, &#34;length contraction&#34;, bugx, 10 Apr 2022, url https://dudung.github.io/bugx/0048 [20220410].  </description>
-    </item>
-    
-    <item>
       <title>fi1202-01 2021-2</title>
       <link>https://dudung.github.io/bugx/0007/</link>
       <pubDate>Sun, 10 Apr 2022 18:48:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0007/</guid>
       <description>Kuliah FI1202 Fisika Dasar IIA, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-persamaan Maxwell, Inteferensi Dua Celah: Fungsi Resultan Interferensi Dua Celah, Intensitas Inteferensi Dua Celah, Kecepatan Relatif, Jam Cahaya, Dilasi Waktu, Kontraksi Panjang, Massa Relativitas,  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.</description>
+posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-persamaan Maxwell, Inteferensi Dua Celah: Fungsi Resultan Interferensi Dua Celah, Intensitas Inteferensi Dua Celah, Teori Relativitas Khusus: Kecepatan Relatif, Jam Cahaya, Dilasi Waktu, Kontraksi Panjang, Massa Relativistik, Momentum Relativistik, Hubungan Energi-Momentum,  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.</description>
     </item>
     
     <item>
