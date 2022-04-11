@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-11 07:46:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-11 07:46:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-11 13:12:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-11 13:12:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0051\/",
-      "wordCount" : "157",
+      "wordCount" : "373",
       "keywords" : ["Blog"]
     }
   
@@ -202,11 +202,11 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">relativistic dispersion relation</h1>
-            <time datetime="2022-04-11 07:46:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Apr  2022</time> 
+            <time datetime="2022-04-11 13:12:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Apr  2022</time> 
           </header>
           <article class="post__content">
               
-<p>Konversi mass menjadi energi sebagai suatu mekanisme astofisika memberikan cara interpretasi baru pada hubungan energi-massa [<a href="#r01" 
+<p>Konversi mass menjadi energi sebagai suatu mekanisme astofisika dapat memberikan cara interpretasi baru pada hubungan energi-massa [<a href="#r01" 
   
   
 >1</a>], di mana hubungan ini dikenal pula sebagai hubungan dispersi relativistik yang merupakan suatu persamaan relativistik yang menghubungkan energi total (energi relativistik) dengan massa invarian (massa diam) dan momentum [<a href="#r02" 
@@ -219,7 +219,44 @@
   
   
 >4</a>], yang perlu agak dikoreksi detil prosesnya.</p>
-<h2 id="total-energy">total energy<a class="anchor" href="#total-energy">#</a></h2>
+<h2 id="kinetic-energy">kinetic energy<a class="anchor" href="#kinetic-energy">#</a></h2>
+<p>Energi kinetik berbentuk</p>
+<p>\begin{equation}\label{eqn:kinetic-energy-non-relativistic}
+K = \tfrac12 mv^2
+\end{equation}</p>
+<p>yang telah dikenal sebelumnya, yang merupakan energi kinetik non-relativistik. Sedangkan untuk energi kinetik relativistik akan berbentuk [<a href="#r05" 
+  
+  
+>5</a>]</p>
+<p>\begin{equation}\label{eqn:kinetic-energy-relativistic}
+K = (\gamma - 1) mc^2
+\end{equation}</p>
+<p>dengan</p>
+<p>\begin{equation}\label{eqn:lorentz-factor}
+\gamma = \frac{1}{\displaystyle \sqrt{1 - \frac{v^2}{c^2}}}
+\end{equation}</p>
+<p>adalah faktor Lorentz.</p>
+<h2 id="maclaurin-series">maclaurin series<a class="anchor" href="#maclaurin-series">#</a></h2>
+<p>Sembarang fungsi $f(x)$ dapat dituliskan sebagai deret Maclaurin</p>
+<p>\begin{equation}\label{eqn:maclaurin-series}
+f(x) = \sum_{n = 0}^N  \frac{x^n}{n!} \left. \frac{d^n f(x)}{dx^n} \right|_{x = 0},
+\end{equation}</p>
+<p>dengan jumlah suku yang terlibat ditentukan melalui nilai $N$. Perhatikan bahwa bila diperlukan hanya satu suku maka $N = 0$ mengingat indeks pada bagian penjumlahan di ruas kanan Persamaan \eqref{eqn:maclaurin-series} dimulai dari $n = 0$.</p>
+<p>Bila terdapat fungsi berbentuk</p>
+<p>\begin{equation}\label{eqn:a-function}
+f(x) = \frac{1}{\sqrt{1 - x^2}},
+\end{equation}</p>
+<p>maka dapat dituliskan</p>
+<p>\begin{equation}\label{eqn:a-function-0}
+f(x) = (1 - x^2)^{-1/2}, \ \ \ \ f(0) = 1,
+\end{equation}</p>
+<p>\begin{equation}\label{eqn:a-function-1}
+f^{i}(x) = x(1 - x^2)^{-3/2}, \ \ \ \ f^{i}(0) = 0,
+\end{equation}</p>
+<p>\begin{equation}\label{eqn:a-function-2}
+f^{ii}(x) = (1 - x^2)^{-3/2} + 3x^2(1 - x^2)^{-5/2}, \ \ \ \ f^{ii}(0) = 1,
+\end{equation}</p>
+<p>dan seterusnya. Substitusi Persamaan \eqref{eqn:a-function-0}, \eqref{eqn:a-function-1}, dan \eqref{eqn:a-function-0} ke Persamaan \eqref{eqn:maclaurin-series} akan menghasilkan</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Conrad Ranzan, &ldquo;Mass-to-Energy Conversion, the Astrophysical Mechanism&rdquo;, Journal of High Energy Physics, Gravitation and Cosmology [J High Energy Phys Gravit Cosmol], vol 5, no 2, p, Apr 2019, url <a href="https://doi.org/10.4236/jhepgc.2019.52030" 
@@ -238,6 +275,14 @@
   
    target="_blank" rel="noreferrer noopener" 
 >https://medium.com/physics-scribbles/1d1336740504</a> [20220410].</li>
+<li><a name='r05'></a>Darin Acosta, &ldquo;Relativistic Momentum&rdquo;, PHY2061 Enriched Physics 2 - Electromagnetism Lecture Notes, 11 Oct 2015, url <a href="http://www.phys.ufl.edu/~acosta/phy2061/lectures/Relativity4.pdf" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://www.phys.ufl.edu/~acosta/phy2061/lectures/Relativity4.pdf</a> [20220411].</li>
+<li><a name='r06'></a>Eric W. Weisstein, &ldquo;Maclaurin Series&rdquo;, from MathWorld&ndash;A Wolfram Web Resource, Wolfram Research, Inc., 7 Apr 2022, url <a href="https://mathworld.wolfram.com/MaclaurinSeries.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://mathworld.wolfram.com/MaclaurinSeries.html</a> [20220411].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
@@ -270,17 +315,12 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "rel
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0048/">
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0050/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">length contraction</span>
+        <span class="pagination__title">relativistic momentum</span>
     </a>
   
 
-  
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0049/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >relativistic mass</span>
-    </a>
   
 </div>
 

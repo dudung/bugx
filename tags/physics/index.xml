@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 11 Apr 2022 08:39:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 13:12:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>relativistic dispersion relation</title>
+      <link>https://dudung.github.io/bugx/0051/</link>
+      <pubDate>Mon, 11 Apr 2022 13:12:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0051/</guid>
+      <description>Konversi mass menjadi energi sebagai suatu mekanisme astofisika dapat memberikan cara interpretasi baru pada hubungan energi-massa [1], di mana hubungan ini dikenal pula sebagai hubungan dispersi relativistik yang merupakan suatu persamaan relativistik yang menghubungkan energi total (energi relativistik) dengan massa invarian (massa diam) dan momentum [2]. Terdapat penurunan hubungan ini dengan menggunakan segitiga yang menggambarkan proporsi energi kinetik dan energi diam [3] dan dua cara lain [4], yang perlu agak dikoreksi detil prosesnya.</description>
+    </item>
+    
     <item>
       <title>relativistic momentum</title>
       <link>https://dudung.github.io/bugx/0050/</link>
@@ -27,15 +36,6 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0049/</guid>
       <description>Terdapat istilah mass diam (rest mass) dan massa relativistik (relativistic mass) dalam teori gerak yang diungkapkan oleh Einstein, teori relativitas khusus [1]. Terdapat peningkatan &amp;lsquo;massa efektif&amp;rsquo; saat benda bergerak dengan laju mendekati laju cahaya [2]. Mengapa hal ini dapat terjadi berusaha dijelaskan dengan perubahan konsep mengenai massa dari semula merupakan pengukuran terkait dengan pengaruh gavitasi menjadi terkait dengan fenomena lokal yang disebut sebagai medan Higgs [3]. Dengan demikian saat elektron bergerak dipercepat dalam suatu senapan elektron (electron gun) perlu dilakukan koreksi massanya karena sekitar 10% laju cahaya telah tercapai [4].</description>
-    </item>
-    
-    <item>
-      <title>relativistic dispersion relation</title>
-      <link>https://dudung.github.io/bugx/0051/</link>
-      <pubDate>Mon, 11 Apr 2022 07:46:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0051/</guid>
-      <description>Konversi mass menjadi energi sebagai suatu mekanisme astofisika memberikan cara interpretasi baru pada hubungan energi-massa [1], di mana hubungan ini dikenal pula sebagai hubungan dispersi relativistik yang merupakan suatu persamaan relativistik yang menghubungkan energi total (energi relativistik) dengan massa invarian (massa diam) dan momentum [2]. Terdapat penurunan hubungan ini dengan menggunakan segitiga yang menggambarkan proporsi energi kinetik dan energi diam [3] dan dua cara lain [4], yang perlu agak dikoreksi detil prosesnya.</description>
     </item>
     
     <item>
