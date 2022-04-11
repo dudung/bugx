@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 11 Apr 2022 06:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 07:25:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>relativistic momentum</title>
+      <link>https://dudung.github.io/bugx/0050/</link>
+      <pubDate>Mon, 11 Apr 2022 07:25:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0050/</guid>
+      <description>Akibat transformasi Lorentz hukum II Newton tidak lagi memiliki bentuk yang sama dalam kerangka yang berbeda sehingga rumusan terkait momentum perlu disesuaikan [1]. Atau secara sederhana momentum relativistik tetap menggunakan rumusan momentum akan tetapi massa yang digunakan adalah mass relativistik [2].
+formula Momentum dalam satu dimensi diberikan oleh [3]
+\begin{equation}\label{eqn:momentum-1d} p = mv, \end{equation}
+dengan $m$ adalah massa dan $v$ adalah kecepatan. Dalam relativitas Persamaan \eqref{eqn:momentum-1d} akan menjadi
+\begin{equation}\label{eqn:relativistic-momentum-1d} p = mv, \end{equation}</description>
+    </item>
+    
     <item>
       <title>relativistic mass</title>
       <link>https://dudung.github.io/bugx/0049/</link>
@@ -34,16 +47,6 @@
       <guid>https://dudung.github.io/bugx/0051/</guid>
       <description>[1] [2] [3] [4]
 notes  Conrad Ranzan, &amp;ldquo;Mass-to-Energy Conversion, the Astrophysical Mechanism&amp;rdquo;, Journal of High Energy Physics, Gravitation and Cosmology [J High Energy Phys Gravit Cosmol], vol 5, no 2, p, Apr 2019, url https://doi.org/10.4236/jhepgc.2019.52030. Wikipedia contributors, &amp;ldquo;Energy–momentum relation&amp;rdquo;, Wikipedia, The Free Encyclopedia, 10 March 2022, 15:39 UTC, url https://en.wikipedia.org/w/index.php?oldid=1076332908 [20220410]. Baalateja Kataru, &amp;ldquo;&amp;rdquo;, Physics Scribbles, Medium 1 Sep 2019, url https://medium.com/physics-scribbles/1d1336740504 [20220410]. kamaljeet69420, &amp;ldquo;Energy Momentum Formula&amp;rdquo;, GeeksforGeeks, 9 Mar 2022, url https://www.</description>
-    </item>
-    
-    <item>
-      <title>relativistic momentum</title>
-      <link>https://dudung.github.io/bugx/0050/</link>
-      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0050/</guid>
-      <description>[1] [2]
-notes  Carl Rod Nave, &amp;ldquo;Relativistic Momentum&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/relmom.html#c1 [20220410]. Darin Acosta, &amp;ldquo;Relativistic Momentum&amp;rdquo;, PHY2061 Enriched Physics 2 - Electromagnetism Lecture Notes, 11 Oct 2015, url http://www.phys.ufl.edu/~acosta/phy2061/lectures/Relativity4.pdf [20220410].  Cite as: viridi, &#34;relativistic momentum&#34;, bugx, 10 Apr 2022, url https://dudung.github.io/bugx/0050 [20220411].  </description>
     </item>
     
     <item>
