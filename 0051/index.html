@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-11 13:12:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-11 13:12:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-11 13:38:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-11 13:38:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0051\/",
-      "wordCount" : "373",
+      "wordCount" : "510",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">relativistic dispersion relation</h1>
-            <time datetime="2022-04-11 13:12:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Apr  2022</time> 
+            <time datetime="2022-04-11 13:38:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -256,7 +256,33 @@ f^{i}(x) = x(1 - x^2)^{-3/2}, \ \ \ \ f^{i}(0) = 0,
 <p>\begin{equation}\label{eqn:a-function-2}
 f^{ii}(x) = (1 - x^2)^{-3/2} + 3x^2(1 - x^2)^{-5/2}, \ \ \ \ f^{ii}(0) = 1,
 \end{equation}</p>
-<p>dan seterusnya. Substitusi Persamaan \eqref{eqn:a-function-0}, \eqref{eqn:a-function-1}, dan \eqref{eqn:a-function-0} ke Persamaan \eqref{eqn:maclaurin-series} akan menghasilkan</p>
+<p>dan seterusnya.</p>
+<p>Substitusi Persamaan \eqref{eqn:a-function-0}, \eqref{eqn:a-function-1}, dan \eqref{eqn:a-function-0} ke Persamaan \eqref{eqn:maclaurin-series} akan menghasilkan</p>
+<p>\begin{equation}\label{eqn:maclaurin-series-fx}
+\begin{array}{rcl}
+f(x) &amp; = &amp; 1 + 0 \cdot x + \tfrac12 \cdot 1 \cdot x^2 + \dots \newline
+&amp; = &amp; 1 + \tfrac12 x^2 + \dots \newline
+&amp; \approx &amp; 1 + \tfrac12 x^2
+\end{array}
+\end{equation}</p>
+<p>yang merupakan aproksimasi untuk $x &lt; &lt; 1$.</p>
+<h2 id="low-speed">low speed<a class="anchor" href="#low-speed">#</a></h2>
+<p>Selanjutnya substitusi hasil dari Persamaan \eqref{eqn:maclaurin-series-fx} ke Persamaan \eqref{eqn:kinetic-energy-relativistic}, dengan</p>
+<p>\begin{equation}\label{eqn:low-velocity}
+x \equiv v/c &lt; &lt; 1
+\end{equation}</p>
+<p>untuk laju rendah, akan diperoleh</p>
+<p>\begin{equation}\label{eqn:kinetic-energy-relativistic-to-non}
+\begin{array}{rcl}
+K &amp; \approx &amp; \displaystyle \left[ 1 + \tfrac12 \left( \frac{v}{c} \right)^2 - 1 \right] \ mc^2 \newline
+&amp; \approx &amp; \displaystyle \tfrac12 \left( \frac{v}{c} \right)^2 mc^2 = \tfrac12 mv^2,
+\end{array}
+\end{equation}</p>
+<p>yang akan kembali ke energi kinetik non-relativistik.</p>
+<h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
+<ol>
+<li>Untuk $v / c &lt; 1$ akan tetapi tidak memenuhi $v / c &lt; &lt; 1$ bagaimanakah untuk rumusan energi kinetik yang diperoleh?</li>
+</ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Conrad Ranzan, &ldquo;Mass-to-Energy Conversion, the Astrophysical Mechanism&rdquo;, Journal of High Energy Physics, Gravitation and Cosmology [J High Energy Phys Gravit Cosmol], vol 5, no 2, p, Apr 2019, url <a href="https://doi.org/10.4236/jhepgc.2019.52030" 
