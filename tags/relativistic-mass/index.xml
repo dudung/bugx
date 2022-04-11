@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 10 Apr 2022 21:04:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/relativistic-mass/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 06:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/relativistic-mass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>relativistic mass</title>
       <link>https://dudung.github.io/bugx/0049/</link>
-      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 06:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0049/</guid>
-      <description>[1] [2]
-notes  Don Koks, Philip Gibbs, Jim Carr, &amp;ldquo;What is relativistic mass?&amp;rdquo;, 2012, url https://www.desy.de/user/projects/Physics/Relativity/SR/mass.html [20220410]. Carl Rod Nave, &amp;ldquo;Relativistic Mass&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/tdil.html#c3 [20220410].  Cite as: viridi, &#34;relativistic mass&#34;, bugx, 10 Apr 2022, url https://dudung.github.io/bugx/0049 [20220410].  </description>
+      <description>Terdapat istilah mass diam (rest mass) dan massa relativistik (relativistic mass) dalam teori gerak yang diungkapkan oleh Einstein, teori relativitas khusus [1]. Terdapat peningkatan &amp;lsquo;massa efektif&amp;rsquo; saat benda bergerak dengan laju mendekati laju cahaya [2]. Mengapa hal ini dapat terjadi berusaha dijelaskan dengan perubahan konsep mengenai massa dari semula merupakan pengukuran terkait dengan pengaruh gavitasi menjadi terkait dengan fenomena lokal yang disebut sebagai medan Higgs [3]. Dengan demikian saat elektron bergerak dipercepat dalam suatu senapan elektron (electron gun) perlu dilakukan koreksi massanya karena sekitar 10% laju cahaya telah tercapai [4].</description>
     </item>
     
   </channel>

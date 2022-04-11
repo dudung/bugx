@@ -7,40 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 11 Apr 2022 03:57:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 06:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Mon, 11 Apr 2022 03:57:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 06:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>length-contraction</title>
-      <link>https://dudung.github.io/bugx/tags/length-contraction/</link>
-      <pubDate>Mon, 11 Apr 2022 03:57:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/length-contraction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>physics</title>
       <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Mon, 11 Apr 2022 03:57:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 06:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>relativistic-mass</title>
+      <link>https://dudung.github.io/bugx/tags/relativistic-mass/</link>
+      <pubDate>Mon, 11 Apr 2022 06:59:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/relativistic-mass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>relativity</title>
       <link>https://dudung.github.io/bugx/tags/relativity/</link>
-      <pubDate>Mon, 11 Apr 2022 03:57:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 06:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/relativity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>length-contraction</title>
+      <link>https://dudung.github.io/bugx/tags/length-contraction/</link>
+      <pubDate>Mon, 11 Apr 2022 04:23:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/length-contraction/</guid>
       <description></description>
     </item>
     
@@ -59,15 +68,6 @@
       <pubDate>Sun, 10 Apr 2022 21:14:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/momentum-energy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>relativistic-mass</title>
-      <link>https://dudung.github.io/bugx/tags/relativistic-mass/</link>
-      <pubDate>Sun, 10 Apr 2022 21:04:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/relativistic-mass/</guid>
       <description></description>
     </item>
     

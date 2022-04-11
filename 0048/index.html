@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-11 03:57:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-11 03:57:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-11 04:23:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-11 04:23:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0048\/",
-      "wordCount" : "235",
+      "wordCount" : "394",
       "keywords" : ["Blog"]
     }
   
@@ -202,14 +202,14 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">length contraction</h1>
-            <time datetime="2022-04-11 03:57:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Apr  2022</time> 
+            <time datetime="2022-04-11 04:23:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Apr  2022</time> 
           </header>
           <article class="post__content">
               
 <p>Saat pengukur waktu bergerak mendekati kecepatan cahaya, detaknya akan melambat (atau pengukuran selang waktunya akan membesar) dan sebagai konsekuensinya jarak yang ditempuhnya akan menjadi lebih pendek [<a href="#r01" 
   
   
->1</a>]. Sampai dua tahun yang lalu kontraksi panjang belum pernah diukur secara langsung akan tetapi efeknya dalam bentuk besaran fisis lain dapat teramati [<a href="#r02" 
+>1</a>]. Sampai dua tahun yang lalu kontraksi panjang belum pernah diukur secara langsung akan tetapi efeknya dalam bentuk besaran fisis lain telah dapat teramati [<a href="#r02" 
   
   
 >2</a>]. Apa yang &rsquo;terlihat&rsquo; oleh muon saat begerak menuju bumi juga merupakan eksperimen mendukung adanya kontraksi panjang, yang juga tidak diukur secara langsung [<a href="#r03" 
@@ -226,8 +226,32 @@ L = \frac{L_0}{\gamma},
 \gamma = \frac{1}{\displaystyle \sqrt{1 - \frac{v^2}{c^2}}}
 \end{equation}</p>
 <p>adalah faktor Lorentz yang memiliki nilai lebih besar dari satu.</p>
-<h1 id="example-1">example 1</h1>
-<p>Seorang pengamat bergerak dengan laju $v = 0.6c$ di atas dan sepanjang jalan rel kereta api yang membentang lurus dengan panjang $80 \ {\rm km}$. Berapakah panjang rel kereta menurut pengamat yang bergerak tersebut? Tentukan terlebih dahulu faktor Lorentz pengamat tersebut.</p>
+<h2 id="examples">examples<a class="anchor" href="#examples">#</a></h2>
+<p>Terdapat dua contoh yang memanfaatkan Persamaan \eqref{eqn:length-contraction} dan \eqref{eqn:lorentz-factor}.</p>
+<h3 id="example-1">example 1<a class="anchor" href="#example-1">#</a></h3>
+<p>Seorang pengamat bergerak dengan laju $0.6c$ di atas dan sepanjang jalan rel kereta api yang membentang lurus dengan panjang $80 \ {\rm km}$. Berapakah panjang rel kereta menurut pengamat yang bergerak tersebut?</p>
+<pre><code class="language-js">&gt; 80 / (1 / Math.sqrt(1 - 0.6**2))
+&lt; 64
+</code></pre>
+<p>Akan teramati bahwa panjang rel kereta api adalah $64 \ {\rm km}$. Lebih pendek dari yang teramati oleh pengamat pada kerangka diam.</p>
+<h3 id="example-2">example 2<a class="anchor" href="#example-2">#</a></h3>
+<p>Dalam era perjalanan antar galaksi sebuah pesawat kargo bergerak dengan kecepatan $0.8c$ melewati pos pengawas terdepan. Pengamat pada pos tersebut melihat bahwa panjang pesawat kargo tersebut adalah $66 \ {\rm m}$. Agar pesawat tersebut mendapatkan tempat yang cocok dengan panjangnya di bandar luar angkasa yang dituju, berapakah panjang ruang minimal yang harus dilaporkan oleh pengamat pos terluar ke koordinator landasan pendaratan?</p>
+<pre><code class="language-js">&gt; 66 * (1 / Math.sqrt(1 - 0.8**2))
+&lt; 110.00000000000001
+</code></pre>
+<p>Perlu dilaporkan bahwa diperlukan ruang dengan panjang minimum $110 \ {\rm m}$.</p>
+<p>Perhatikan bahwa pada contoh pertama informasi yang telah ada adalah $L_0$ dan ingin dicari $L$ sedangkan pada contoh kedua teramati lebih dahulu $L$ dan ingin dicari $L_0$.</p>
+<h2 id="exer">exer<a class="anchor" href="#exer">#</a></h2>
+<ol>
+<li>Tentukan faktor Lorentz pada <a href="#example-1" 
+  
+  
+>contoh pertama</a>.</li>
+<li>Tentukan faktor Lorentz pada <a href="#example-2" 
+  
+  
+>contoh kedua</a>.</li>
+</ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>John D. Norton, &ldquo;Special Theory of Relativity: Clocks and Rods&rdquo;, HPS 0410 Einstein for Everyone, 15 Jan 2022, url <a href="https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/Special_relativity_clocks_rods/index.html" 
@@ -245,7 +269,7 @@ L = \frac{L_0}{\gamma},
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "length contraction", bugx, 11 Apr 2022, url <a href= "https://dudung.github.io/bugx/0048">https://dudung.github.io/bugx/0048</a> [20220410].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "length contraction", bugx, 11 Apr 2022, url <a href= "https://dudung.github.io/bugx/0048">https://dudung.github.io/bugx/0048</a> [20220411].
 </div>
 
 
@@ -277,6 +301,11 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "len
     </a>
   
 
+  
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0049/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >relativistic mass</span>
+    </a>
   
 </div>
 
