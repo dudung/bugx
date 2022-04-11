@@ -7,29 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 11 Apr 2022 13:41:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 16:25:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>dispersion</title>
-      <link>https://dudung.github.io/bugx/tags/dispersion/</link>
-      <pubDate>Mon, 11 Apr 2022 13:41:00 +0700</pubDate>
+      <title>computation</title>
+      <link>https://dudung.github.io/bugx/tags/computation/</link>
+      <pubDate>Mon, 11 Apr 2022 16:25:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/tags/dispersion/</guid>
+      <guid>https://dudung.github.io/bugx/tags/computation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Mon, 11 Apr 2022 13:41:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 16:25:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>genetic-algorithm</title>
+      <link>https://dudung.github.io/bugx/tags/genetic-algorithm/</link>
+      <pubDate>Mon, 11 Apr 2022 16:25:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/genetic-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model</title>
+      <link>https://dudung.github.io/bugx/tags/model/</link>
+      <pubDate>Mon, 11 Apr 2022 16:25:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dispersion</title>
+      <link>https://dudung.github.io/bugx/tags/dispersion/</link>
+      <pubDate>Mon, 11 Apr 2022 14:52:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/dispersion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>momentum-energy</title>
       <link>https://dudung.github.io/bugx/tags/momentum-energy/</link>
-      <pubDate>Mon, 11 Apr 2022 13:41:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 14:52:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/momentum-energy/</guid>
       <description></description>
@@ -38,7 +65,7 @@
     <item>
       <title>physics</title>
       <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Mon, 11 Apr 2022 13:41:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 14:52:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
@@ -47,7 +74,7 @@
     <item>
       <title>relativity</title>
       <link>https://dudung.github.io/bugx/tags/relativity/</link>
-      <pubDate>Mon, 11 Apr 2022 13:41:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 14:52:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/relativity/</guid>
       <description></description>
@@ -212,24 +239,6 @@
       <pubDate>Wed, 06 Apr 2022 03:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/cylindrical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computation</title>
-      <link>https://dudung.github.io/bugx/tags/computation/</link>
-      <pubDate>Tue, 05 Apr 2022 11:11:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/computation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>model</title>
-      <link>https://dudung.github.io/bugx/tags/model/</link>
-      <pubDate>Tue, 05 Apr 2022 11:11:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/model/</guid>
       <description></description>
     </item>
     

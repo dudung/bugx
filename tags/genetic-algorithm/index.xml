@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>model on bugx</title>
-    <link>https://dudung.github.io/bugx/tags/model/</link>
-    <description>Recent content in model on bugx</description>
+    <title>genetic-algorithm on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/genetic-algorithm/</link>
+    <description>Recent content in genetic-algorithm on bugx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 11 Apr 2022 16:25:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/model/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 16:25:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/genetic-algorithm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ga short introdcution</title>
       <link>https://dudung.github.io/bugx/0052/</link>
@@ -21,15 +21,6 @@ notes   Arthur Muthee, &amp;ldquo;The Basics of Genetic Algorithms in Machine Le
   -, &amp;ldquo;Genetic Algorithms Tutorial&amp;rdquo;, Tutorials Point, 2022, url https://www.tutorialspoint.com/genetic_algorithms/index.htm [20220411].
   Vijini Mallawaarachchi, &amp;ldquo;Introduction to Genetic Algorithms — Including Example Code&amp;rdquo;, Towards Data Science, 8 Jul 2017, url https://towardsdatascience.com/e396e98d8bf3 [20220411].
   Wikipedia contributors, &amp;ldquo;Genetic algorithm&amp;rdquo;, Wikipedia, The Free Encyclopedia, 9 April 2022, 21:23 UTC, url https://en.</description>
-    </item>
-    
-    <item>
-      <title>ann short introduction</title>
-      <link>https://dudung.github.io/bugx/0040/</link>
-      <pubDate>Tue, 05 Apr 2022 11:11:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0040/</guid>
-      <description>Jaringan saraf tiruan (JST) atau artificial neural networks (ANN) merupakan salah satu teknologi yang paling berpengaruh dalam dekade terakhir ini, di mana teknologi ini merupakah bagian fundamental dari algoritma pembelajaran mendalam (deep learning), dan bagian terdepan dari kecerdasan buatan (artificial intelligence, AI) yang pengembangannya masih dapat dikatan berdarah-darah [1]. Teknologi ini terinspirasi oleh cara kerja sistem saraf biologis, seperti pada sel otak manusia [2] atau jaringan saraf yang membentuk otak hewan [3].</description>
     </item>
     
   </channel>
