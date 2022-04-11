@@ -7,18 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 11 Apr 2022 07:25:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/relativistic-momentum/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Apr 2022 07:33:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/relativistic-momentum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>relativistic momentum</title>
       <link>https://dudung.github.io/bugx/0050/</link>
-      <pubDate>Mon, 11 Apr 2022 07:25:00 +0700</pubDate>
+      <pubDate>Mon, 11 Apr 2022 07:33:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0050/</guid>
       <description>Akibat transformasi Lorentz hukum II Newton tidak lagi memiliki bentuk yang sama dalam kerangka yang berbeda sehingga rumusan terkait momentum perlu disesuaikan [1]. Atau secara sederhana momentum relativistik tetap menggunakan rumusan momentum akan tetapi massa yang digunakan adalah mass relativistik [2].
 formula Momentum dalam satu dimensi diberikan oleh [3]
 \begin{equation}\label{eqn:momentum-1d} p = mv, \end{equation}
-dengan $m$ adalah massa dan $v$ adalah kecepatan. Dalam relativitas Persamaan \eqref{eqn:momentum-1d} akan menjadi
-\begin{equation}\label{eqn:relativistic-momentum-1d} p = mv, \end{equation}</description>
+dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \eqref{eqn:momentum-1d} ini belum menyingung konsep relativitas.</description>
     </item>
     
   </channel>
