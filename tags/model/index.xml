@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 13 Apr 2022 03:52:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/model/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Apr 2022 11:01:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ga short introduction</title>
       <link>https://dudung.github.io/bugx/0052/</link>
-      <pubDate>Wed, 13 Apr 2022 03:52:00 +0700</pubDate>
+      <pubDate>Wed, 13 Apr 2022 11:01:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0052/</guid>
       <description>Algoritma genetik atau genetic algorithm (GA) merupakan algoritma berdasarkan pencarian yang digunakan untuk menyelesaikan permasalahan optimasi di dalam pembelajaran mesin [1]. Dalam suatu GA solusi dinyatakan dalam bentuk individu yang memiliki sifat-sifat yang tercerminkan dalam kromosomnya [2]. Salah satu kelebihan GA adalah dapat mencegah terjadinya konvergensi terlalu dini yang mengarah pada titik optimum lokal alih-alih titik optimum global yang diinginkan dan hal ini dilakukan dengan mempertahankan keberagaman kromosom melalui operasi persilangan (crossover) dan mutasi (mutation) gen-gen pada kromosom [3].</description>
