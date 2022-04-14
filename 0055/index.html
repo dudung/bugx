@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-14 11:05:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-14 11:05:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-14 11:35:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-14 11:35:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0055\/",
-      "wordCount" : "180",
+      "wordCount" : "379",
       "keywords" : ["Blog"]
     }
   
@@ -130,14 +130,14 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">pip uninstall package</h1>
-            <time datetime="2022-04-14 11:05:00 &#43;0700 &#43;0700" class="post__date">Thu, 14 Apr  2022</time> 
+            <time datetime="2022-04-14 11:35:00 &#43;0700 &#43;0700" class="post__date">Thu, 14 Apr  2022</time> 
           </header>
           <article class="post__content">
               
 <p>Setelah beberapa saat dan belum mendapatkan solusi bagaimana dapat menginstal <code>nb-mermaid-0.1.0</code> dan <code>ipykernel-6.11.0</code> bersama-sama yang masing-masing membutuhkan versi <code>ipython</code> berbeda dan tanpa ada irisannya [<a href="#r01" 
   
   
->1</a>], dilakukan proses instalasi paket-paket terkait <code>nb-mermaid</code>.</p>
+>1</a>], dilakukan proses uninstalasi paket-paket terkait <code>nb-mermaid</code>.</p>
 <h2 id="dependency">dependency<a class="anchor" href="#dependency">#</a></h2>
 <p>Sebelum melakukan uninstal, diperiksa dulu paket-paket yang terinstal bersama-sama dengan <code>nb-mermaid</code> atau diperlukan olehnya</p>
 <pre><code>PS L:\home\cookbook\notebook&gt; pip show nb-mermaid
@@ -161,18 +161,70 @@ Home-page: https://github.com/jdfreder/jupyter-pip
 Author: Jonathan Frederic
 Author-email: jon.freder@gmail.com
 License: New BSD License
-Location: c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
+Location: c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
 Requires:
 Required-by: nb-mermaid
 </code></pre>
 <p>hanya diperlukan oleh <code>nb-mermaid</code> sehingga keduanya dapat diuninstal tanpa mengganggu paket-paket yang lain. Akan tetapi untuk <code>ipython</code> diperoleh</p>
-<pre><code></code></pre>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip show ipython
+Name: ipython
+Version: 8.2.0
+Summary: IPython: Productive Interactive Computing
+Home-page: https://ipython.org
+Author: The IPython Development Team
+Author-email: ipython-dev@python.org
+License: BSD
+Location: c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
+Requires: backcall, colorama, decorator, jedi, matplotlib-inline, pickleshare, prompt-toolkit, pygments, setuptools, stack-data, traitlets
+Required-by: ipykernel, nb-mermaid
+</code></pre>
+<p>terdapat banyak paket yang memerlukannya sehingga tidak dapat diuninstal.</p>
+<h2 id="uninstall">uninstall<a class="anchor" href="#uninstall">#</a></h2>
+<p>Untuk paket <code>jupyter-pip</code> akan diuninstal</p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip uninstall jupyter-pip
+Found existing installation: jupyter-pip 0.3.1
+Uninstalling jupyter-pip-0.3.1:
+  Would remove:
+    c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\jupyter_pip-0.3.1.dist-info\*
+    c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\jupyterpip\*
+  Would not remove (might be manually added):
+    c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\jupyter_pip-0.3.1.dist-info\REQUESTED
+Proceed (Y/n)? y
+  Successfully uninstalled jupyter-pip-0.3.1
+</code></pre>
+<p>lanjutkan dengan menghapus folder <code>c:\users\your name\appdata\local\ packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\ local-packages\python310\site-packages\jupyter_pip-0.3.1.dist-info</code> serta isinya secara manual, dan lanjutkan dengan memeriksa kebergantungan padanya [<a href="#r02" 
+  
+  
+>2</a>]</p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip check
+nb-mermaid 0.1.0 requires jupyter-pip, which is not installed.
+nb-mermaid 0.1.0 has requirement IPython&lt;4.0,&gt;3.0, but you have ipython 8.2.0.
+</code></pre>
+<p>dan hanya <code>nb-mermaid 0.1.0</code>. Selanjutnya adalah uninstal <code>nb-mermaid</code></p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip uninstall nb-mermaid
+Found existing installation: nb-mermaid 0.1.0
+Uninstalling nb-mermaid-0.1.0:
+  Would remove:
+    c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\mermaid\*
+    c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\nb_mermaid-0.1.0.dist-info\*
+Proceed (Y/n)? y
+  Successfully uninstalled nb-mermaid-0.1.0
+</code></pre>
+<p>dan tidak ada paket yang bergantung padanya</p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip check
+No broken requirements found.
+</code></pre>
+<p>sehingga proses uninstalasi telah selesai.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>dudung, &ldquo;ipython version conflict while installing mermaid and ipykernel using pip&rdquo;, Stack Overflow, 14 Apr 2022, url <a href="https://stackoverflow.com/q/71865814/9475509" 
   
    target="_blank" rel="noreferrer noopener" 
 >https://stackoverflow.com/q/71865814/9475509</a> [20220414].</li>
+<li><a name='r02'></a>Katie Chang, &ldquo;How To List Installed Python Packages&rdquo;, ActiveState, 21 Sep 2021, url <a href="https://www.activestate.com/resources/quick-reads/how-to-list-installed-python-packages/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.activestate.com/resources/quick-reads/how-to-list-installed-python-packages/</a> [20220414].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
