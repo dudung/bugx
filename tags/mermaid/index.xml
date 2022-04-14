@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 14 Apr 2022 11:35:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 13:46:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fail use mermaid notebook</title>
+      <link>https://dudung.github.io/bugx/0056/</link>
+      <pubDate>Thu, 14 Apr 2022 13:46:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0056/</guid>
+      <description>Ketertarikan untuk menggunakan fitur diagram Mermaid dalam IPython Notebook telah membawa pada paket nb-mermaid dengan satu-satunya versi 0.1.0 dirilis pada 28 Juli 2015 [1] dan paket yang mendukung diagram Mermaid dalam Jupyter Notebook ini ternyata telah deprecated [2]. Upaya instalasi telah dilakukan dan menemui masalah tanpa jawaban [3].
+Terdapat alternatif lain untuk menggunakan Mermaid dalam Python, seperti melaui penyisipan kode HTML dan memanggil CDN JavaScript Mermaid dan melakukan inisialisasinya dengan memanfaatkan suatu fungsi JavaScript, setTimeout() [4] atau tanpanya [5].</description>
+    </item>
+    
     <item>
       <title>pip uninstall package</title>
       <link>https://dudung.github.io/bugx/0055/</link>

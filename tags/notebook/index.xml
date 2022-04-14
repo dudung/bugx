@@ -7,7 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 03 Apr 2022 16:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/notebook/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 13:46:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/notebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fail use mermaid notebook</title>
+      <link>https://dudung.github.io/bugx/0056/</link>
+      <pubDate>Thu, 14 Apr 2022 13:46:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0056/</guid>
+      <description>Ketertarikan untuk menggunakan fitur diagram Mermaid dalam IPython Notebook telah membawa pada paket nb-mermaid dengan satu-satunya versi 0.1.0 dirilis pada 28 Juli 2015 [1] dan paket yang mendukung diagram Mermaid dalam Jupyter Notebook ini ternyata telah deprecated [2]. Upaya instalasi telah dilakukan dan menemui masalah tanpa jawaban [3].
+Terdapat alternatif lain untuk menggunakan Mermaid dalam Python, seperti melaui penyisipan kode HTML dan memanggil CDN JavaScript Mermaid dan melakukan inisialisasinya dengan memanfaatkan suatu fungsi JavaScript, setTimeout() [4] atau tanpanya [5].</description>
+    </item>
+    
+    <item>
+      <title>install notebook mermaid</title>
+      <link>https://dudung.github.io/bugx/0054/</link>
+      <pubDate>Thu, 14 Apr 2022 09:35:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0054/</guid>
+      <description>Untuk dapat menggambarkan diagram alir pada bagian Markdown dalam suatu IPython Motebook diperlukan instalasi diagram Mermaid [1].
+installing problem Melakukan instalasi nb-mermaid dengan pip.
+PS L:\home\cookbook\notebook&amp;gt; pip show nb-mermaid WARNING: Package(s) not found: nb-mermaid PS L:\home\cookbook\notebook&amp;gt; pip install nb-mermaid Collecting nb-mermaid Downloading nb-mermaid-0.1.0.tar.gz (161 kB) ---------------------------------------- 161.2/161.2 KB 508.4 kB/s eta 0:00:00 Preparing metadata (setup.py) ... done Collecting IPython&amp;lt;4.0,&amp;gt;3.0 Using cached ipython-3.2.3-py3-none-any.whl (3.4 MB) Collecting jupyter-pip Using cached jupyter_pip-0.3.1-py3-none-any.whl Building wheels for collected packages: nb-mermaid Building wheel for nb-mermaid (setup.</description>
+    </item>
+    
     <item>
       <title>install jupyter notebook windows powershell</title>
       <link>https://dudung.github.io/bugx/0032/</link>
