@@ -7,7 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 03 Apr 2022 16:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 08:41:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>install notebook mermaid</title>
+      <link>https://dudung.github.io/bugx/0054/</link>
+      <pubDate>Thu, 14 Apr 2022 08:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0054/</guid>
+      <description>[1].
+installing problem Melakukan instalasi nb-mermaid dengan pip.
+PS L:\home\cookbook\notebook&amp;gt; pip show nb-mermaid WARNING: Package(s) not found: nb-mermaid PS L:\home\cookbook\notebook&amp;gt; pip install nb-mermaid Collecting nb-mermaid Downloading nb-mermaid-0.1.0.tar.gz (161 kB) ---------------------------------------- 161.2/161.2 KB 508.4 kB/s eta 0:00:00 Preparing metadata (setup.py) ... done Collecting IPython&amp;lt;4.0,&amp;gt;3.0 Using cached ipython-3.2.3-py3-none-any.whl (3.4 MB) Collecting jupyter-pip Using cached jupyter_pip-0.3.1-py3-none-any.whl Building wheels for collected packages: nb-mermaid Building wheel for nb-mermaid (setup.py) ... done Created wheel for nb-mermaid: filename=nb_mermaid-0.</description>
+    </item>
+    
+    <item>
+      <title>python int to binary string</title>
+      <link>https://dudung.github.io/bugx/0053/</link>
+      <pubDate>Wed, 13 Apr 2022 20:57:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0053/</guid>
+      <description>Terdapat pertanyaan yang menggelitik mengenai bagaimana melakukan konversi suatu bilangan bulat (int) menjadi biner (string) dengan fungsi built-in dalam bahasa pemrograman Python [1]. Di sini hanya akan disajikan beberapa contoh dan hasilnya, tanpa penjelasan mendetil.
+output Beberapa keluaran dan informasinya bagaimana memperolehnya adalah sebagai berikut ini.
+PS L:\home\cookbook\python\num2str&amp;gt; python int_to_binary.py num = 11 digit = 6 f&#39;0b{num:08b}&#39; 0b00001011 f&#39;{num:010b}&#39; 0000001011 f&#39;{num:b}&#39; 1011 bin(num) 0b1011 bin(num)[2:] 1011 format(num, &#39;06b&#39;) 001011 format(num, &#39;0{}b&#39;.</description>
+    </item>
+    
     <item>
       <title>install jupyter notebook windows powershell</title>
       <link>https://dudung.github.io/bugx/0032/</link>

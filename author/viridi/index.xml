@@ -9,6 +9,28 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>install notebook mermaid</title>
+      <link>https://dudung.github.io/bugx/0054/</link>
+      <pubDate>Thu, 14 Apr 2022 08:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0054/</guid>
+      <description>[1].
+installing problem Melakukan instalasi nb-mermaid dengan pip.
+PS L:\home\cookbook\notebook&amp;gt; pip show nb-mermaid WARNING: Package(s) not found: nb-mermaid PS L:\home\cookbook\notebook&amp;gt; pip install nb-mermaid Collecting nb-mermaid Downloading nb-mermaid-0.1.0.tar.gz (161 kB) ---------------------------------------- 161.2/161.2 KB 508.4 kB/s eta 0:00:00 Preparing metadata (setup.py) ... done Collecting IPython&amp;lt;4.0,&amp;gt;3.0 Using cached ipython-3.2.3-py3-none-any.whl (3.4 MB) Collecting jupyter-pip Using cached jupyter_pip-0.3.1-py3-none-any.whl Building wheels for collected packages: nb-mermaid Building wheel for nb-mermaid (setup.py) ... done Created wheel for nb-mermaid: filename=nb_mermaid-0.</description>
+    </item>
+    
+    <item>
+      <title>python int to binary string</title>
+      <link>https://dudung.github.io/bugx/0053/</link>
+      <pubDate>Wed, 13 Apr 2022 20:57:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0053/</guid>
+      <description>Terdapat pertanyaan yang menggelitik mengenai bagaimana melakukan konversi suatu bilangan bulat (int) menjadi biner (string) dengan fungsi built-in dalam bahasa pemrograman Python [1]. Di sini hanya akan disajikan beberapa contoh dan hasilnya, tanpa penjelasan mendetil.
+output Beberapa keluaran dan informasinya bagaimana memperolehnya adalah sebagai berikut ini.
+PS L:\home\cookbook\python\num2str&amp;gt; python int_to_binary.py num = 11 digit = 6 f&#39;0b{num:08b}&#39; 0b00001011 f&#39;{num:010b}&#39; 0000001011 f&#39;{num:b}&#39; 1011 bin(num) 0b1011 bin(num)[2:] 1011 format(num, &#39;06b&#39;) 001011 format(num, &#39;0{}b&#39;.</description>
+    </item>
+    
+    <item>
       <title>ga short introduction</title>
       <link>https://dudung.github.io/bugx/0052/</link>
       <pubDate>Wed, 13 Apr 2022 11:01:00 +0700</pubDate>
@@ -111,7 +133,7 @@ concepts Beberapa konsep berikut perlu disinggung dalam membahas RBL induktor so
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220413].  </description>
+notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220414].  </description>
     </item>
     
     <item>
@@ -456,7 +478,7 @@ version 21-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220413].  </description>
+posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220414].  </description>
     </item>
     
     <item>

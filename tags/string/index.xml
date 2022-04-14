@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>string on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/string/</link>
+    <description>Recent content in string on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Wed, 13 Apr 2022 20:57:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python int to binary string</title>
+      <link>https://dudung.github.io/bugx/0053/</link>
+      <pubDate>Wed, 13 Apr 2022 20:57:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0053/</guid>
+      <description>Terdapat pertanyaan yang menggelitik mengenai bagaimana melakukan konversi suatu bilangan bulat (int) menjadi biner (string) dengan fungsi built-in dalam bahasa pemrograman Python [1]. Di sini hanya akan disajikan beberapa contoh dan hasilnya, tanpa penjelasan mendetil.
+output Beberapa keluaran dan informasinya bagaimana memperolehnya adalah sebagai berikut ini.
+PS L:\home\cookbook\python\num2str&amp;gt; python int_to_binary.py num = 11 digit = 6 f&#39;0b{num:08b}&#39; 0b00001011 f&#39;{num:010b}&#39; 0000001011 f&#39;{num:b}&#39; 1011 bin(num) 0b1011 bin(num)[2:] 1011 format(num, &#39;06b&#39;) 001011 format(num, &#39;0{}b&#39;.</description>
+    </item>
+    
+  </channel>
+</rss>
