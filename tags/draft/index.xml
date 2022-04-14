@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 13 Apr 2022 11:01:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 09:41:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>be enthusiast at stack overflow</title>
+      <link>https://dudung.github.io/bugx/0031/</link>
+      <pubDate>Thu, 14 Apr 2022 09:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0031/</guid>
+      <description>Menjadi pengguna antusias di Stack Overflow (SO) memerlukan konsistensi kunjungan tak terputuskan 30 hari, terlebih bila ingin menjadi pengguna fanatik memerlukan 100 hari [1]. Di sini akan dicoba merekam kunjungan yang dilakukan berikut aktivitas yang dilakukan, setidaknya pertanyaan dan atau jawaban yang dibaca.
+visits Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel di bawah ini. Reputasi sebelumnya adalah 5 dengan 5 badge (Popular Question, Tumbleweed, Announcer, Scholar, Editor).</description>
+    </item>
+    
     <item>
       <title>ga short introduction</title>
       <link>https://dudung.github.io/bugx/0052/</link>
@@ -205,16 +215,6 @@ phasor Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya
 wave Solusi persamaan gelombang dapat berbentuk
 \begin{equation}\label{eqn:wave-equation-solution} \begin{array}{rcl} y(x, t) &amp;amp; = &amp;amp; A \sin (kx - \omega t + \varphi) \newline &amp;amp; = &amp;amp; A \sin (\omega t - kx + \phi) \end{array} \end{equation}
 yang menggambarkan gelombang secara matematika, dengan $A$ amplitudo, $\omega$ frekuensi sudut, $t$ waktu, $k$ bilangan gelombang, $x$ posisi, dan $\varphi$ fasa serta $\phi$ fasa awal yang dapat dipilih.</description>
-    </item>
-    
-    <item>
-      <title>be enthusiast at stack overflow</title>
-      <link>https://dudung.github.io/bugx/0031/</link>
-      <pubDate>Sun, 03 Apr 2022 13:13:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0031/</guid>
-      <description>Menjadi pengguna antusias di Stack Overflow (SO) memerlukan konsistensi kunjungan tak terputuskan 30 hari, terlebih bila ingin menjadi pengguna fanatik memerlukan 100 hari [1]. Di sini akan dicoba merekam kunjungan yang dilakukan berikut aktivitas yang dilakukan, setidaknya pertanyaan dan atau jawaban yang dibaca.
-visits Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel di bawah ini. Reputasi sebelumnya adalah 5 dengan 5 badge (Popular Question, Tumbleweed, Announcer, Scholar, Editor).</description>
     </item>
     
     <item>

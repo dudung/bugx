@@ -9,6 +9,16 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>be enthusiast at stack overflow</title>
+      <link>https://dudung.github.io/bugx/0031/</link>
+      <pubDate>Thu, 14 Apr 2022 09:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0031/</guid>
+      <description>Menjadi pengguna antusias di Stack Overflow (SO) memerlukan konsistensi kunjungan tak terputuskan 30 hari, terlebih bila ingin menjadi pengguna fanatik memerlukan 100 hari [1]. Di sini akan dicoba merekam kunjungan yang dilakukan berikut aktivitas yang dilakukan, setidaknya pertanyaan dan atau jawaban yang dibaca.
+visits Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel di bawah ini. Reputasi sebelumnya adalah 5 dengan 5 badge (Popular Question, Tumbleweed, Announcer, Scholar, Editor).</description>
+    </item>
+    
+    <item>
       <title>install notebook mermaid</title>
       <link>https://dudung.github.io/bugx/0054/</link>
       <pubDate>Thu, 14 Apr 2022 09:35:00 +0700</pubDate>
@@ -256,16 +266,6 @@ yang menggambarkan gelombang secara matematika, dengan $A$ amplitudo, $\omega$ f
       <description>Terdapat informasi bahwa persamaan matematika dapat dituliskan dalam Jupyter Notebook [1] perlu terlebih dahulu menginstalnya bila belum. Perlu versi Python tertentu bila ingin menginstalnya menggunakan pip [2]. Selain Jupyter Notebook klasik, mungkin juga dapat dinstal JupyterLab dan Voilà bila diperlukan [3]. Untuk saat ini hanya akan diinstal Jupyter Notebook. Proses instalasi dilakukan menggunakan PowerShell 5.1.19041.1320 pada Windows 10.0.19042.
 pip Perlu terlebih dahulu dilihat versi pip dan diperbarui [4].
 PS L:\home\cookbook&amp;gt; pip --version pip 22.</description>
-    </item>
-    
-    <item>
-      <title>be enthusiast at stack overflow</title>
-      <link>https://dudung.github.io/bugx/0031/</link>
-      <pubDate>Sun, 03 Apr 2022 13:13:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0031/</guid>
-      <description>Menjadi pengguna antusias di Stack Overflow (SO) memerlukan konsistensi kunjungan tak terputuskan 30 hari, terlebih bila ingin menjadi pengguna fanatik memerlukan 100 hari [1]. Di sini akan dicoba merekam kunjungan yang dilakukan berikut aktivitas yang dilakukan, setidaknya pertanyaan dan atau jawaban yang dibaca.
-visits Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel di bawah ini. Reputasi sebelumnya adalah 5 dengan 5 badge (Popular Question, Tumbleweed, Announcer, Scholar, Editor).</description>
     </item>
     
     <item>

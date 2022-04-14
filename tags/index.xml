@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 14 Apr 2022 09:35:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 09:41:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>draft</title>
+      <link>https://dudung.github.io/bugx/tags/draft/</link>
+      <pubDate>Thu, 14 Apr 2022 09:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enthusiast</title>
+      <link>https://dudung.github.io/bugx/tags/enthusiast/</link>
+      <pubDate>Thu, 14 Apr 2022 09:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/enthusiast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stack-overflow</title>
+      <link>https://dudung.github.io/bugx/tags/stack-overflow/</link>
+      <pubDate>Thu, 14 Apr 2022 09:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/stack-overflow/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>install</title>
       <link>https://dudung.github.io/bugx/tags/install/</link>
@@ -104,15 +131,6 @@
       <pubDate>Wed, 13 Apr 2022 11:01:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/computation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>draft</title>
-      <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Wed, 13 Apr 2022 11:01:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
     </item>
     
@@ -446,24 +464,6 @@
       <pubDate>Sun, 03 Apr 2022 16:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>enthusiast</title>
-      <link>https://dudung.github.io/bugx/tags/enthusiast/</link>
-      <pubDate>Sun, 03 Apr 2022 13:13:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/enthusiast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stack-overflow</title>
-      <link>https://dudung.github.io/bugx/tags/stack-overflow/</link>
-      <pubDate>Sun, 03 Apr 2022 13:13:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/stack-overflow/</guid>
       <description></description>
     </item>
     
