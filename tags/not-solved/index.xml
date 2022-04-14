@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mermaid on bugx</title>
-    <link>https://dudung.github.io/bugx/tags/mermaid/</link>
-    <description>Recent content in mermaid on bugx</description>
+    <title>not-solved on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/not-solved/</link>
+    <description>Recent content in not-solved on bugx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 14 Apr 2022 08:56:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 08:56:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/not-solved/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>install notebook mermaid</title>
       <link>https://dudung.github.io/bugx/0054/</link>
@@ -17,16 +17,6 @@
       <description>Untuk dapat menggambarkan diagram alir pada bagian Markdown dalam suatu IPython Motebook diperlukan instalasi diagram Mermaid [1].
 installing problem Melakukan instalasi nb-mermaid dengan pip.
 PS L:\home\cookbook\notebook&amp;gt; pip show nb-mermaid WARNING: Package(s) not found: nb-mermaid PS L:\home\cookbook\notebook&amp;gt; pip install nb-mermaid Collecting nb-mermaid Downloading nb-mermaid-0.1.0.tar.gz (161 kB) ---------------------------------------- 161.2/161.2 KB 508.4 kB/s eta 0:00:00 Preparing metadata (setup.py) ... done Collecting IPython&amp;lt;4.0,&amp;gt;3.0 Using cached ipython-3.2.3-py3-none-any.whl (3.4 MB) Collecting jupyter-pip Using cached jupyter_pip-0.3.1-py3-none-any.whl Building wheels for collected packages: nb-mermaid Building wheel for nb-mermaid (setup.</description>
-    </item>
-    
-    <item>
-      <title>add partials mermaid</title>
-      <link>https://dudung.github.io/bugx/0004/</link>
-      <pubDate>Sun, 20 Mar 2022 13:53:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0004/</guid>
-      <description>[1].
-flowchart TD A([Mulai]) B[/a, b, c/] C[D = bxb - 4ac] D{D = 0} E[x1] F[x2] G[/x1, x2/] H([Selesai]) A -- B -- C -- D D -- Ya -- E -- F -- G -- H D -- Tidak -- H style A fill:#f9f,stroke:#333,stroke-width:4px classDef decision stroke:#f88 class D decision  notes    </description>
     </item>
     
   </channel>
