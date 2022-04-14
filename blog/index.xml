@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 14 Apr 2022 14:30:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 22:00:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pip install music</title>
+      <link>https://dudung.github.io/bugx/0058/</link>
+      <pubDate>Thu, 14 Apr 2022 22:00:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0058/</guid>
+      <description>[1].
+PS L:\home\cookbook\notebook&amp;gt; pip install music Collecting music Downloading music-0.7b2-py3-none-any.whl (15 kB) Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (3.5.1) Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.22.3) Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (0.4.4) Collecting termcolor Downloading termcolor-1.1.0.tar.gz (3.9 kB) Preparing metadata (setup.py) ... done Collecting sympy Downloading sympy-1.10.1-py3-none-any.whl (6.4 MB) ---------------------------------------- 6.4/6.4 MB 278.7 kB/s eta 0:00:00 Collecting scipy Downloading scipy-1.8.0-cp310-cp310-win_amd64.whl (37.</description>
+    </item>
+    
     <item>
       <title>notebook diagram</title>
       <link>https://dudung.github.io/bugx/0057/</link>
-      <pubDate>Thu, 14 Apr 2022 14:30:00 +0700</pubDate>
+      <pubDate>Thu, 14 Apr 2022 15:31:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0057/</guid>
-      <description>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [1]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python nb_js_diagrammers yang rilis terbarunya bertanggal 9 Mar 2022 [2].
+      <description>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [1]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python nb-js-diagrammers yang rilis terbarunya bertanggal 9 Mar 2022 untuk versi 0.0.7 [2].
 installation Proses instalasi dilakukan menggunakan PowerShell 5.</description>
     </item>
     

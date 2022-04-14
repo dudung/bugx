@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-14 14:30:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-14 14:30:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-14 15:31:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-14 15:31:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0057\/",
-      "wordCount" : "149",
+      "wordCount" : "349",
       "keywords" : ["Blog"]
     }
   
@@ -130,24 +130,61 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">notebook diagram</h1>
-            <time datetime="2022-04-14 14:30:00 &#43;0700 &#43;0700" class="post__date">Thu, 14 Apr  2022</time> 
+            <time datetime="2022-04-14 15:31:00 &#43;0700 &#43;0700" class="post__date">Thu, 14 Apr  2022</time> 
           </header>
           <article class="post__content">
               
 <p>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [<a href="#r01" 
   
   
->1</a>]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python <code>nb_js_diagrammers</code> yang rilis terbarunya bertanggal 9 Mar 2022 [<a href="#r02" 
+>1</a>]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python <code>nb-js-diagrammers</code> yang rilis terbarunya bertanggal 9 Mar 2022 untuk versi 0.0.7 [<a href="#r02" 
   
   
 >2</a>].</p>
 <h2 id="installation">installation<a class="anchor" href="#installation">#</a></h2>
 <p>Proses instalasi dilakukan menggunakan PowerShell 5.1.19041.1320 pada Windows 10 Home 19042.1586 dengan Python 3.10.4. dan PIP 22.0.4.</p>
-<p>Instalasi diawali dengan memeriksa keberadaan paket <code>nb_js_diagrammers</code></p>
+<p>Langkah pertama adalah memeriksa keberadaan paket <code>nb_js_diagrammers</code></p>
 <pre><code>PS L:\home\cookbook\notebook&gt; pip show nb-js-diagrammers
 WARNING: Package(s) not found: nb-js-diagrammers
 </code></pre>
-<p>yang memang tidak dapat ditemukan karena belum terinstal.</p>
+<p>yang memang tidak dapat ditemukan karena belum terinstal. Selanjuntnya adalah menggunakan <code>pip</code> untuk menginstal <code>nb-js-diagrammers</code></p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip install nb-js-diagrammers
+Collecting nb-js-diagrammers
+  Downloading nb_js_diagrammers-0.0.7-py3-none-any.whl (8.8 kB)
+Collecting pyflowchart
+  Downloading pyflowchart-0.2.3-py3-none-any.whl (18 kB)
+Collecting chardet
+  Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+     ---------------------------------------- 178.7/178.7 KB 308.0 kB/s eta 0:00:00
+Collecting astunparse
+  Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Requirement already satisfied: wheel&lt;1.0,&gt;=0.23.0 in c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from astunparse-&gt;pyflowchart-&gt;nb-js-diagrammers) (0.37.1)
+Requirement already satisfied: six&lt;2.0,&gt;=1.6.1 in c:\users\your name\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from astunparse-&gt;pyflowchart-&gt;nb-js-diagrammers) (1.16.0)
+Installing collected packages: chardet, astunparse, pyflowchart, nb-js-diagrammers
+Successfully installed astunparse-1.6.3 chardet-4.0.0 nb-js-diagrammers-0.0.7 pyflowchart-0.2.3
+</code></pre>
+<p>yang meliputi koleksi paket <code>chardet</code>, <code>astunparse</code>, <code>pyflowchart</code>, dan <code>nb-js-diagrammers</code>. Dan</p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip check
+No broken requirements found.
+</code></pre>
+<p>tidak terdapat kebergantungan paket yang belum diinstal.</p>
+<h2 id="use">use<a class="anchor" href="#use">#</a></h2>
+<p>Jupyter Notebook dapat dijalankan pada suatu penjelajah web dengan terlebih dahulu menjalankan servernya</p>
+<pre><code>PS L:\home\cookbook\notebook&gt; jupyter notebook
+[I 15:41:27.407 NotebookApp] Serving notebooks from local directory: L:\home\cookbook\notebook
+[I 15:41:27.407 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 15:41:27.408 NotebookApp] http://localhost:8888/?token=b87e20da29d1723983e9046618a74a045324fcf43b536df1
+[I 15:41:27.408 NotebookApp]  or http://127.0.0.1:8888/?token=b87e20da29d1723983e9046618a74a045324fcf43b536df1
+[I 15:41:27.408 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:41:29.419 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Your%20Name/AppData/Roaming/jupyter/runtime/nbserver-8596-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=b87e20da29d1723983e9046618a74a045324fcf43b536df1
+     or http://127.0.0.1:8888/?token=b87e20da29d1723983e9046618a74a045324fcf43b536df1
+</code></pre>
+<p>di mana token akan berbeda setiap kali dijalankan.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Tony Hirst, &ldquo;Subject Matter Authoring Using Jupyter Notebooks&rdquo;, OpenComputingLab, 2021, url <a href="https://opencomputinglab.github.io/SubjectMatterNotebooks" 
@@ -193,6 +230,11 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "not
     </a>
   
 
+  
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0058/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >pip install music</span>
+    </a>
   
 </div>
 

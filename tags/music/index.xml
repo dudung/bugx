@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/music/</link>
+    <description>Recent content in music on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 14 Apr 2022 22:00:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pip install music</title>
+      <link>https://dudung.github.io/bugx/0058/</link>
+      <pubDate>Thu, 14 Apr 2022 22:00:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0058/</guid>
+      <description>[1].
+PS L:\home\cookbook\notebook&amp;gt; pip install music Collecting music Downloading music-0.7b2-py3-none-any.whl (15 kB) Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (3.5.1) Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.22.3) Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (0.4.4) Collecting termcolor Downloading termcolor-1.1.0.tar.gz (3.9 kB) Preparing metadata (setup.py) ... done Collecting sympy Downloading sympy-1.10.1-py3-none-any.whl (6.4 MB) ---------------------------------------- 6.4/6.4 MB 278.7 kB/s eta 0:00:00 Collecting scipy Downloading scipy-1.8.0-cp310-cp310-win_amd64.whl (37.</description>
+    </item>
+    
+  </channel>
+</rss>
