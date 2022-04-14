@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 14 Apr 2022 14:21:15 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2022 14:30:20 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Thu, 14 Apr 2022 14:21:15 +0700</pubDate>
+      <pubDate>Thu, 14 Apr 2022 14:30:20 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
@@ -20,11 +20,11 @@
     <item>
       <title>notebook diagram</title>
       <link>https://dudung.github.io/bugx/0057/</link>
-      <pubDate>Thu, 14 Apr 2022 14:05:00 +0700</pubDate>
+      <pubDate>Thu, 14 Apr 2022 14:30:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0057/</guid>
       <description>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [1]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python nb_js_diagrammers yang rilis terbarunya bertanggal 9 Mar 2022 [2].
-notes  Tony Hirst, &amp;ldquo;Subject Matter Authoring Using Jupyter Notebooks&amp;rdquo;, OpenComputingLab, 2021, url https://opencomputinglab.</description>
+installation Proses instalasi dilakukan menggunakan PowerShell 5.</description>
     </item>
     
     <item>
