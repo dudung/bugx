@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-14 08:41:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-14 08:41:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-14 08:45:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-14 08:45:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0054\/",
-      "wordCount" : "505",
+      "wordCount" : "775",
       "keywords" : ["Blog"]
     }
   
@@ -130,11 +130,11 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">install notebook mermaid</h1>
-            <time datetime="2022-04-14 08:41:00 &#43;0700 &#43;0700" class="post__date">Thu, 14 Apr  2022</time> 
+            <time datetime="2022-04-14 08:45:00 &#43;0700 &#43;0700" class="post__date">Thu, 14 Apr  2022</time> 
           </header>
           <article class="post__content">
               
-<p>[<a href="#r01" 
+<p>Untuk dapat menggambarkan diagram alir pada bagian Markdown dalam suatu IPython Motebook diperlukan instalasi diagram Mermaid [<a href="#r01" 
   
   
 >1</a>].</p>
@@ -269,12 +269,69 @@ Successfully installed nb-mermaid-0.1.0
 PS L:\home\cookbook\notebook&gt;
 </code></pre>
 <p>Hal ini tercermin dari instalasi ulang <code>nb-mermaid</code> yang tidak melakukan uninstalasi bila telah terdapat <code>ipython-3.2.3</code>.</p>
+<p>Saat dicoba upgrade <code>ipython</code></p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip install ipython --upgrade
+</code></pre>
+<p>dan dilanjutkan dengan instalasi ulang <code>nb-mermaid</code></p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip install nb-mermaid
+</code></pre>
+<p>kembali diperoleh pesan kesalahan yang sama</p>
+<pre><code>Installing collected packages: IPython, nb-mermaid
+  Attempting uninstall: IPython
+    Found existing installation: ipython 8.2.0
+    Uninstalling ipython-8.2.0:
+      Successfully uninstalled ipython-8.2.0
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+ipykernel 6.11.0 requires ipython&gt;=7.23.1, but you have ipython 3.2.3 which is incompatible.
+Successfully installed IPython-3.2.3 nb-mermaid-0.1.0
+</code></pre>
+<p>dan dengan ini telah dapat ditunjukkan bahwa pesan kesalahan ini dapat diperoleh kembali. Kesalahan ini telah terdeteksi dan menjadi suatu issue #7 berjudul Destructive installation [<a href="#r02" 
+  
+  
+>2</a>].</p>
+<h2 id="dependencies-check">dependencies check<a class="anchor" href="#dependencies-check">#</a></h2>
+<p>Untuk menindaklanjuti pesan kesalahan sebelumnya</p>
+<pre><code>ipykernel 6.11.0 requires ipython&gt;=7.23.1, but you have ipython 3.2.3 which is incompatible.
+</code></pre>
+<p>dilakukan pemeriksaan kebergantungan suatu package Python terhadap package lainnya. Untuk <code>pip</code> dapat digunakan [<a href="#r03" 
+  
+  
+>3</a>]</p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip check
+ipykernel 6.11.0 has requirement ipython&gt;=7.23.1, but you have ipython 3.2.3.
+</code></pre>
+<p>yang menginformasikan hal yang sama.</p>
+<h2 id="ipython-upgrade">ipython upgrade<a class="anchor" href="#ipython-upgrade">#</a></h2>
+<p>Agar <code>ipykernel-6.11.0</code> dapat bekerja dengan baik, dilakukan upgrade ke versi terkini [<a href="#r04" 
+  
+  
+>4</a>]</p>
+<p>yang menginstal versi 8.2.0 dengan tanggal rilis 27 Maret 2022 [<a href="#r05" 
+  
+  
+>5</a>].</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a>Nate, dreftymac, &ldquo;Python int to binary string?&rdquo;, Stack Overflow, 31 May 2009, 13 Feb 2021, url <a href="https://stackoverflow.com/q/699866/9475509" 
+<li><a name='r01'></a>Nicholas Bollweg, &ldquo;nb-mermaid 0.1.0&rdquo;, PyPI, Python Software Foundation, 28 Jul 2015, url <a href="https://pypi.org/project/nb-mermaid/0.1.0/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://stackoverflow.com/q/699866/9475509</a> [20220413].</li>
+>https://pypi.org/project/nb-mermaid/0.1.0/</a> [20220414].</li>
+<li><a name='r02'></a>Masacroso, gramster, LoganWeir, &ldquo;Destructive installation #7&rdquo;, GitHub, 15 Oct 2018, 13 Mar 2018, 17 Mar 2018, url <a href="https://github.com/bollwyvl/nb-mermaid/issues/7" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/bollwyvl/nb-mermaid/issues/7</a> [20220414].</li>
+<li><a name='r03'></a>Katie Chang, &ldquo;How To List Installed Python Packages&rdquo;, ActiveState, 21 Sep 2021, url <a href="https://www.activestate.com/resources/quick-reads/how-to-list-installed-python-packages/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.activestate.com/resources/quick-reads/how-to-list-installed-python-packages/</a> [20220414].</li>
+<li><a name='r04'></a>borgr, &ldquo;Answer to &lsquo;How to update/upgrade a package using pip?&rsquo;&rdquo;, Stack Overflow, 6 Jun 2021, url <a href="https://stackoverflow.com/a/47071257/9475509" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://stackoverflow.com/a/47071257/9475509</a> [20220414].</li>
+<li><a name='r05'></a>The IPython Development Team, &ldquo;ipython 8.2.0&rdquo;, PyPI, Python Software Foundation, 27 Mar 2022, url <a href="https://pypi.org/project/ipython/8.2.0/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/ipython/8.2.0/</a> [20220414].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
