@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <title>pip install music | bugx</title>
+  <title>pip install music fail | bugx</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
@@ -15,7 +15,7 @@
   
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="pip install music" />
+  <meta name="twitter:title" content="pip install music fail" />
   <meta name="twitter:description" content=""/>
   <meta name="twitter:site" content="https://twitter.com/6unpnp" />
   <meta name="twitter:creator" content="https://twitter.com/6unpnp" />
@@ -55,8 +55,8 @@
             "@id": "https:\/\/dudung.github.io\/bugx\/"
       },
       "articleSection" : "blog",
-      "name" : "pip install music",
-      "headline" : "pip install music",
+      "name" : "pip install music fail",
+      "headline" : "pip install music fail",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-15 12:48:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-15 12:48:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-15 13:59:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-15 13:59:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0058\/",
-      "wordCount" : "1263",
+      "wordCount" : "2469",
       "keywords" : ["Blog"]
     }
   
@@ -123,22 +123,33 @@
 
 	
 	
+		
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.14.0/mermaid.min.js" integrity="sha512-vLumCjg7NKEQKGM+xAgBYTvQ90DVu6Eo7vS1T/iPf2feNLcrpGxvumuUUmE3CPiCUPgviyKbtpWGDbhnVnmJxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+	
 	
 
     <div class="flex-wrapper">
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title">pip install music</h1>
-            <time datetime="2022-04-15 12:48:00 &#43;0700 &#43;0700" class="post__date">Fri, 15 Apr  2022</time> 
+            <h1 id="post__title">pip install music fail</h1>
+            <time datetime="2022-04-15 13:59:00 &#43;0700 &#43;0700" class="post__date">Fri, 15 Apr  2022</time> 
           </header>
           <article class="post__content">
               
-<p>Paket Python dengan nama &lsquo;music&rsquo; [<a href="#r01" 
+<p>Paket Python dengan nama <code>music</code> [<a href="#r01" 
   
   
 >1</a>] coba diinstal dan ditemui banyak masalah.</p>
 <h2 id="install-07b2">install 0.7b2<a class="anchor" href="#install-07b2">#</a></h2>
+<p>Lakukan instalasi versi terkini [<a href="#r01" 
+  
+  
+>1</a>].</p>
 <pre><code>PS L:\home\cookbook\notebook&gt; pip install music
 Collecting music
   Downloading music-0.7b2-py3-none-any.whl (15 kB)
@@ -200,7 +211,10 @@ Proceed (Y/n)? y
 No broken requirements found.
 </code></pre>
 <h2 id="install-music-07b1">install music 0.7b1<a class="anchor" href="#install-music-07b1">#</a></h2>
-<p>Lakukan downgrade</p>
+<p>Lakukan downgrade ke versi sebelumnya [<a href="#r02" 
+  
+  
+>2</a>].</p>
 <pre><code>PS L:\home\cookbook\notebook&gt; pip install music==0.7b1
 Collecting music==0.7b1
   Downloading music-0.7b1-py3-none-any.whl (15 kB)
@@ -254,7 +268,10 @@ Files removed: 178
 No broken requirements found.
 </code></pre>
 <h2 id="install-music-06b0">install music 0.6b0<a class="anchor" href="#install-music-06b0">#</a></h2>
-<p>Lakukan downgrade</p>
+<p>Lakukan downgrade ke versi sebelumnya lagi [<a href="#r03" 
+  
+  
+>3</a>], tidak berurutan dengan waktu rilis.</p>
 <pre><code>PS L:\home\cookbook\python\hello&gt; pip install music==0.6b0
 Collecting music==0.6b0
   Downloading music-0.6b0.tar.gz (47 kB)
@@ -359,16 +376,324 @@ Traceback (most recent call last):
     num = operator.index(num)
 TypeError: 'float' object cannot be interpreted as an integer
 </code></pre>
+<p>Diperoleh pesan kesalahan yang berbeda.</p>
+<h2 id="install-music-07b0">install music 0.7b.0<a class="anchor" href="#install-music-07b0">#</a></h2>
+<p>Instal ke versi yang lebih baru dari sebelumnya [<a href="#r04" 
+  
+  
+>4</a>] dengan cara menyertakan versinya [<a href="#r05" 
+  
+  
+>5</a>].</p>
+<pre><code>PS L:\home\cookbook&gt; pip install music==0.7b.0
+Collecting music==0.7b.0
+  Downloading music-0.7b0.tar.gz (47 kB)
+     ---------------------------------------- 47.4/47.4 KB 139.6 kB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: sympy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b.0) (1.10.1)
+Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b.0) (1.22.3)
+Requirement already satisfied: scipy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b.0) (1.8.0)
+Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b.0) (0.4.4)
+Requirement already satisfied: termcolor in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b.0) (1.1.0)
+Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b.0) (3.5.1)
+Requirement already satisfied: pyparsing&gt;=2.2.1 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b.0) (3.0.7)
+Requirement already satisfied: pillow&gt;=6.2.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b.0) (9.0.1)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b.0) (2.8.2)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b.0) (4.31.2)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b.0) (1.4.0)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b.0) (0.11.0)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b.0) (21.3)
+Requirement already satisfied: mpmath&gt;=0.19 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from sympy-&gt;music==0.7b.0) (1.2.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib-&gt;music==0.7b.0) (1.16.0)
+Building wheels for collected packages: music
+  Building wheel for music (setup.py) ... done
+  Created wheel for music: filename=music-0.7b0-py3-none-any.whl size=45328 sha256=ca1163d54e5ef03283e0c906890e25ecbc054c9fb29eaca4e9b7e323b5810dcb
+  Stored in directory: c:\users\sparisoma viridi\appdata\local\pip\cache\wheels\77\9a\ea\4c46afaa466ac2232ec598670a599d2b2e120321369e46fcc5
+Successfully built music
+Installing collected packages: music
+  Attempting uninstall: music
+    Found existing installation: music 0.6b0
+    Uninstalling music-0.6b0:
+      Successfully uninstalled music-0.6b0
+Successfully installed music-0.7b0
+</code></pre>
+<p>Terlihat instalasi berjalan dengan baik dan</p>
+<pre><code>PS L:\home\cookbook&gt; pip check
+No broken requirements found.
+</code></pre>
+<p>tidak ada kebergantungan yang putus. Akan tetapi</p>
+<pre><code>PS L:\home\cookbook\python\hello&gt; python hello_music.py
+Traceback (most recent call last):
+  File &quot;L:\home\cookbook\python\hello\hello_music.py&quot;, line 2, in &lt;module&gt;
+    import music as M, numpy as n
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\__init__.py&quot;, line 1, in &lt;module&gt;
+    from .utils import H
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\utils.py&quot;, line 5, in &lt;module&gt;
+    from . import core
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\core\__init__.py&quot;, line 1, in &lt;module&gt;
+    from .functions import *
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\core\functions.py&quot;, line 275, in &lt;module&gt;
+    foo = n.linspace(-1, 1, Lt/2, endpoint=False)
+  File &quot;&lt;__array_function__ internals&gt;&quot;, line 180, in linspace
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\core\function_base.py&quot;, line 120, in linspace
+    num = operator.index(num)
+TypeError: 'float' object cannot be interpreted as an integer
+</code></pre>
+<p>masih diperoleh pesan kesalahan yang sama dengan sebelumnya.</p>
+<h2 id="upgrade">upgrade<a class="anchor" href="#upgrade">#</a></h2>
+<p>Dicoba untuk upgrade.</p>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip install music --upgrade
+Requirement already satisfied: music in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (0.7b0)
+Collecting music
+  Downloading music-0.7b2-py3-none-any.whl (15 kB)
+Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (0.4.4)
+Requirement already satisfied: sympy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.10.1)
+Requirement already satisfied: termcolor in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.1.0)
+Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (3.5.1)
+Requirement already satisfied: scipy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.8.0)
+Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.22.3)
+Requirement already satisfied: pillow&gt;=6.2.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music) (9.0.1)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music) (1.4.0)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music) (0.11.0)
+Requirement already satisfied: pyparsing&gt;=2.2.1 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music) (3.0.7)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music) (2.8.2)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music) (4.31.2)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music) (21.3)
+Requirement already satisfied: mpmath&gt;=0.19 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from sympy-&gt;music) (1.2.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib-&gt;music) (1.16.0)
+Installing collected packages: music
+  Attempting uninstall: music
+    Found existing installation: music 0.7b0
+    Uninstalling music-0.7b0:
+      Successfully uninstalled music-0.7b0
+Successfully installed music-0.7b2
+</code></pre>
+<p>Dan setelah dicoba</p>
+<pre><code>PS L:\home\cookbook\python\hello&gt; python hello_music.py
+Traceback (most recent call last):
+  File &quot;L:\home\cookbook\python\hello\hello_music.py&quot;, line 2, in &lt;module&gt;
+    import music as M, numpy as n
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\__init__.py&quot;, line 1, in &lt;module&gt;
+    from . import utils, tables, synths, effects, structures, singing, core
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\utils.py&quot;, line 5, in &lt;module&gt;
+    from . import core
+ImportError: cannot import name 'core' from partially initialized module 'music' (most likely due to a circular import) (C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\__init__.py)
+</code></pre>
+<p>diperoleh bahwa kembali pada pesan kesalahan awal yang diperoleh.</p>
+<h2 id="uninstall">uninstall<a class="anchor" href="#uninstall">#</a></h2>
+<p>Periksaa kebergantungan paket.</p>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip show music
+Name: music
+Version: 0.7b2
+Summary: music is a python package for making music and sounds, based on the MASS framework
+Home-page: https://github.com/ttm/music
+Author: Renato Fabbri
+Author-email: renato.fabbri@gmail.com
+License: MIT
+Location: ..
+Requires: colorama, matplotlib, numpy, scipy, sympy, termcolor
+Required-by:
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip show colorama
+Name: colorama
+Version: 0.4.4
+Summary: Cross-platform colored terminal text.
+Home-page: https://github.com/tartley/colorama
+Author: Jonathan Hartley
+Author-email: tartley@tartley.com
+License: BSD
+Location: ..
+Requires:
+Required-by: ipython, music
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip show sympy
+Name: sympy
+Version: 1.10.1
+Summary: Computer algebra system (CAS) in Python
+Home-page: https://sympy.org
+Author: SymPy development team
+Author-email: sympy@googlegroups.com
+License: BSD
+Location: ..
+Requires: mpmath
+Required-by: music
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip show mpmath
+Name: mpmath
+Version: 1.2.1
+Summary: Python library for arbitrary-precision floating-point arithmetic
+Home-page: http://mpmath.org/
+Author: Fredrik Johansson
+Author-email: fredrik.johansson@gmail.com
+License: BSD
+Location: ..
+Requires:
+Required-by: sympy
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip show scipy
+Name: scipy
+Version: 1.8.0
+Summary: SciPy: Scientific Library for Python
+Home-page: https://www.scipy.org
+Author:
+Author-email:
+License: BSD
+Location: ..
+Requires: numpy
+Required-by: music
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip show termcolor
+Name: termcolor
+Version: 1.1.0
+Summary: ANSII Color formatting for output in terminal.
+Home-page: http://pypi.python.org/pypi/termcolor
+Author: Konstantin Lepa
+Author-email: konstantin.lepa@gmail.com
+License: MIT
+Location: c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
+Requires:
+Required-by: music
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip show numpy
+Name: numpy
+Version: 1.22.3
+Summary: NumPy is the fundamental package for array computing with Python.
+Home-page: https://www.numpy.org
+Author: Travis E. Oliphant et al.
+Author-email:
+License: BSD
+Location: c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages
+Requires:
+Required-by: matplotlib, music, scipy
+</code></pre>
+<p>Informasi kebergantungan yang telah diperoleh dapat disarikan sebagai berikut.</p>
+<div class="mermaid">
+graph LR;
+  A(colorama)
+  B(matplotlib)
+  C(numpy)
+  D(scipy)
+  E(sympy)
+  F(termcolor)
+  G(music)
+  I(ipython)
+  J(mpmath)
+  L(cycler)
+  M(fonttools)
+  N(kiwisolver)
+  O(packaging)
+  P(pillow)
+  Q(pyparsing)
+  R(python-dateutil)
+  P-->B;
+  Q-->B;
+  R-->B;
+  A-->G;
+  A-->I;
+  B-->G;
+  C-->G;
+  D-->G;
+  E-->G;
+  F-->G;
+  J-->E;
+  C-->D;
+  C-->B;
+  L-->B;
+  M-->B;
+  N-->B;
+  O-->B;
+</div>
+Gambar <a name='fig1'>1</a>. Kebergantungan antar paket terkait dengan paket `music`.
+<p>Dengan melihat Gambar <a href="#fig1" 
+  
+  
+>1</a> maka dapat diuninstal <code>mpmath</code>, <code>sympy</code>, <code>scipy</code>, <code>termcolor</code>.</p>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip uninstall mpmath
+Found existing installation: mpmath 1.2.1
+Uninstalling mpmath-1.2.1:
+  Would remove:
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\mpmath-1.2.1.dist-info\*
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\mpmath\*
+Proceed (Y/n)? y
+  Successfully uninstalled mpmath-1.2.1
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip uninstall sympy
+Found existing installation: sympy 1.10.1
+Uninstalling sympy-1.10.1:
+  Would remove:
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\scripts\isympy.exe
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\isympy.py
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\sympy-1.10.1.dist-info\*
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\sympy\*
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\share\man\man1\isympy.1
+Proceed (Y/n)? y
+  Successfully uninstalled sympy-1.10.1
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip uninstall scipy
+Found existing installation: scipy 1.8.0
+Uninstalling scipy-1.8.0:
+  Would remove:
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\scipy-1.8.0.dist-info\*
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\scipy\*
+Proceed (Y/n)? y
+  Successfully uninstalled scipy-1.8.0
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip uninstall termcolor
+Found existing installation: termcolor 1.1.0
+Uninstalling termcolor-1.1.0:
+  Would remove:
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\termcolor-1.1.0.dist-info\*
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\termcolor.py
+Proceed (Y/n)? y
+  Successfully uninstalled termcolor-1.1.0
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip check
+music 0.7b2 requires scipy, which is not installed.
+music 0.7b2 requires sympy, which is not installed.
+music 0.7b2 requires termcolor, which is not installed.
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip uninstall music
+Found existing installation: music 0.7b2
+Uninstalling music-0.7b2:
+  Would remove:
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\music-0.7b2.dist-info\*
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\music\*
+Proceed (Y/n)? y
+  Successfully uninstalled music-0.7b2
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip cache purge
+Files removed: 6
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip check
+No broken requirements found.
+</code></pre>
+<p>Dan selesai. Sebagai penutup paket <code>music-0.7b2</code> belum berhasil diinstal dengan <code>pip</code>.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Renato Fabbri, &ldquo;music 0.7b2&rdquo;, PiPY, Python Software Foundation, 5 Apr 2022, url <a href="https://pypi.org/project/music/0.7b2/" 
   
    target="_blank" rel="noreferrer noopener" 
 >https://pypi.org/project/music/0.7b2/</a> [20220414].</li>
+<li><a name='r02'></a>Renato Fabbri, &ldquo;music 0.7b1&rdquo;, PiPY, Python Software Foundation, 10 Jan 2022, url <a href="https://pypi.org/project/music/0.7b1/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/music/0.7b1/</a> [20220414].</li>
+<li><a name='r03'></a>Renato Fabbri, &ldquo;music 0.6b0&rdquo;, PiPY, Python Software Foundation, 1 May 2019, url <a href="https://pypi.org/project/music/0.6b0/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/music/0.6b0/</a> [20220414].</li>
+<li><a name='r04'></a>Renato Fabbri, &ldquo;music 0.7b0&rdquo;, PiPY, Python Software Foundation, 12 May 2019, url <a href="https://pypi.org/project/music/0.7b0/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://pypi.org/project/music/0.7b0/</a> [20220414].</li>
+<li><a name='r05'></a>SkelliBoi, &ldquo;&lsquo;how to upgrade a package using pip to a specific version&rsquo; Code Answer&rdquo;, Grepper, 16 Mar 2020, url <a href="https://www.codegrepper.com/code-examples/python/how&#43;to&#43;upgrade&#43;a&#43;package&#43;using&#43;pip&#43;to&#43;a&#43;specific&#43;version" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.codegrepper.com/code-examples/python/how+to+upgrade+a+package+using+pip+to+a+specific+version</a> [20220415].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pip install music", bugx, 15 Apr 2022, url <a href= "https://dudung.github.io/bugx/0058">https://dudung.github.io/bugx/0058</a> [20220415].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pip install music fail", bugx, 15 Apr 2022, url <a href= "https://dudung.github.io/bugx/0058">https://dudung.github.io/bugx/0058</a> [20220415].
 </div>
 
 
@@ -390,6 +715,9 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pip
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/music/">music</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/not-solved/">not-solved</a>
     </li></ul>
 
  <div class="pagination">
@@ -400,6 +728,11 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pip
     </a>
   
 
+  
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0059/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >start to learn tone.js</span>
+    </a>
   
 </div>
 

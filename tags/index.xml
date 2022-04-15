@@ -7,29 +7,74 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 12:48:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 17:45:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>install</title>
-      <link>https://dudung.github.io/bugx/tags/install/</link>
-      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      <title>draft</title>
+      <link>https://dudung.github.io/bugx/tags/draft/</link>
+      <pubDate>Fri, 15 Apr 2022 17:45:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/tags/install/</guid>
+      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://dudung.github.io/bugx/tags/javascript/</link>
+      <pubDate>Fri, 15 Apr 2022 17:45:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learn</title>
+      <link>https://dudung.github.io/bugx/tags/learn/</link>
+      <pubDate>Fri, 15 Apr 2022 17:45:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/learn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>music</title>
       <link>https://dudung.github.io/bugx/tags/music/</link>
-      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 17:45:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/music/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>tone.js</title>
+      <link>https://dudung.github.io/bugx/tags/tone.js/</link>
+      <pubDate>Fri, 15 Apr 2022 17:45:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/tone.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>install</title>
+      <link>https://dudung.github.io/bugx/tags/install/</link>
+      <pubDate>Fri, 15 Apr 2022 13:59:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>not-solved</title>
+      <link>https://dudung.github.io/bugx/tags/not-solved/</link>
+      <pubDate>Fri, 15 Apr 2022 13:59:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/not-solved/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>pip</title>
       <link>https://dudung.github.io/bugx/tags/pip/</link>
-      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 13:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/pip/</guid>
       <description></description>
@@ -38,7 +83,7 @@
     <item>
       <title>python</title>
       <link>https://dudung.github.io/bugx/tags/python/</link>
-      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 13:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/python/</guid>
       <description></description>
@@ -50,15 +95,6 @@
       <pubDate>Fri, 15 Apr 2022 11:07:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/diagram/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>draft</title>
-      <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Fri, 15 Apr 2022 11:07:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
     </item>
     
@@ -113,15 +149,6 @@
       <pubDate>Thu, 14 Apr 2022 09:41:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/stack-overflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>not-solved</title>
-      <link>https://dudung.github.io/bugx/tags/not-solved/</link>
-      <pubDate>Thu, 14 Apr 2022 09:35:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/not-solved/</guid>
       <description></description>
     </item>
     
@@ -518,15 +545,6 @@
       <pubDate>Sat, 02 Apr 2022 21:46:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/multi-slit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://dudung.github.io/bugx/tags/javascript/</link>
-      <pubDate>Fri, 01 Apr 2022 23:43:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/javascript/</guid>
       <description></description>
     </item>
     

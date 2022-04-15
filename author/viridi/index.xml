@@ -9,13 +9,24 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>pip install music</title>
+      <title>start to learn tone.js</title>
+      <link>https://dudung.github.io/bugx/0059/</link>
+      <pubDate>Fri, 15 Apr 2022 17:45:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0059/</guid>
+      <description>[1] [2] [3] [4] [5] [6] [7] [8]
+notes  Dylan Schiemann, &amp;ldquo;Tone.js Interactive Music Web Framework&amp;rdquo;, InfoQ, 6 Mar 2020, url https://www.infoq.com/news/2020/03/tonejs-music-web-framework/ [20220415]. Jim Bennett, &amp;ldquo;Tutorial: Let’s Make Music with JavaScript and Tone.js&amp;rdquo;, dev@red, Medium, 24 Oct 2018, url https://medium.com/dev-red/tutorial-lets-make-music-with-javascript-and-tone-js-f6ac39d95b8c [20220415]. Ash Freels, &amp;ldquo;Creating a remix using Tone.js&amp;rdquo;, DEV Community, 3 Jun 2021, url https://dev.to/codefatale/creating-a-remix-using-tone-js-1kdg [20220415]. Mike Sult, &amp;ldquo;Tone.js&amp;rdquo;, GuitraLand, 28 Jun 2019, url https://www.guitarland.com/MusicTheoryWithToneJS/TonejsSetup.html [20220415]. Yotam Mann, &amp;ldquo;Tone.js&amp;rdquo;, GitHub, 1 Mar 2022, url https://tonejs.</description>
+    </item>
+    
+    <item>
+      <title>pip install music fail</title>
       <link>https://dudung.github.io/bugx/0058/</link>
-      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 13:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0058/</guid>
-      <description>Paket Python dengan nama &amp;lsquo;music&amp;rsquo; [1] coba diinstal dan ditemui banyak masalah.
-install 0.7b2 PS L:\home\cookbook\notebook&amp;gt; pip install music Collecting music Downloading music-0.7b2-py3-none-any.whl (15 kB) Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (3.5.1) Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.22.3) Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (0.4.4) Collecting termcolor Downloading termcolor-1.1.0.tar.gz (3.9 kB) Preparing metadata (setup.py) ... done Collecting sympy Downloading sympy-1.10.1-py3-none-any.whl (6.</description>
+      <description>Paket Python dengan nama music [1] coba diinstal dan ditemui banyak masalah.
+install 0.7b2 Lakukan instalasi versi terkini [1].
+PS L:\home\cookbook\notebook&amp;gt; pip install music Collecting music Downloading music-0.7b2-py3-none-any.whl (15 kB) Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (3.5.1) Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.22.3) Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (0.4.4) Collecting termcolor Downloading termcolor-1.1.0.tar.gz (3.9 kB) Preparing metadata (setup.py) ... done Collecting sympy Downloading sympy-1.</description>
     </item>
     
     <item>
