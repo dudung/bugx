@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 12:44:57 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 12:48:28 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Fri, 15 Apr 2022 12:44:57 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 12:48:28 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
+    </item>
+    
+    <item>
+      <title>pip install music</title>
+      <link>https://dudung.github.io/bugx/0058/</link>
+      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0058/</guid>
+      <description>Paket Python dengan nama &amp;lsquo;music&amp;rsquo; [1] coba diinstal dan ditemui banyak masalah.
+install 0.7b2 PS L:\home\cookbook\notebook&amp;gt; pip install music Collecting music Downloading music-0.7b2-py3-none-any.whl (15 kB) Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (3.5.1) Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.22.3) Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (0.4.4) Collecting termcolor Downloading termcolor-1.1.0.tar.gz (3.9 kB) Preparing metadata (setup.py) ... done Collecting sympy Downloading sympy-1.10.1-py3-none-any.whl (6.</description>
     </item>
     
     <item>
@@ -24,16 +34,6 @@
       
       <guid>https://dudung.github.io/bugx/0057/</guid>
       <description>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [1]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python nb-js-diagrammers yang rilis terbarunya bertanggal 9 Maret 2022 untuk versi 0.0.7 [2]. Dengan paket ini empat macam diagram JavaScript, meliputi Mermaid.</description>
-    </item>
-    
-    <item>
-      <title>pip install music</title>
-      <link>https://dudung.github.io/bugx/0058/</link>
-      <pubDate>Thu, 14 Apr 2022 22:00:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0058/</guid>
-      <description>[1].
-install 0.7b2 PS L:\home\cookbook\notebook&amp;gt; pip install music Collecting music Downloading music-0.7b2-py3-none-any.whl (15 kB) Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (3.5.1) Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (1.22.3) Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music) (0.4.4) Collecting termcolor Downloading termcolor-1.1.0.tar.gz (3.9 kB) Preparing metadata (setup.py) ... done Collecting sympy Downloading sympy-1.10.1-py3-none-any.whl (6.4 MB) ---------------------------------------- 6.4/6.4 MB 278.7 kB/s eta 0:00:00 Collecting scipy Downloading scipy-1.</description>
     </item>
     
     <item>

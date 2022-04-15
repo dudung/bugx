@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 11:07:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 12:48:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>install</title>
+      <link>https://dudung.github.io/bugx/tags/install/</link>
+      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://dudung.github.io/bugx/tags/music/</link>
+      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pip</title>
+      <link>https://dudung.github.io/bugx/tags/pip/</link>
+      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/pip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://dudung.github.io/bugx/tags/python/</link>
+      <pubDate>Fri, 15 Apr 2022 12:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/python/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>diagram</title>
       <link>https://dudung.github.io/bugx/tags/diagram/</link>
@@ -32,42 +68,6 @@
       <pubDate>Fri, 15 Apr 2022 11:07:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/notebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://dudung.github.io/bugx/tags/python/</link>
-      <pubDate>Fri, 15 Apr 2022 11:07:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>install</title>
-      <link>https://dudung.github.io/bugx/tags/install/</link>
-      <pubDate>Thu, 14 Apr 2022 22:00:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/install/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>https://dudung.github.io/bugx/tags/music/</link>
-      <pubDate>Thu, 14 Apr 2022 22:00:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pip</title>
-      <link>https://dudung.github.io/bugx/tags/pip/</link>
-      <pubDate>Thu, 14 Apr 2022 22:00:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/pip/</guid>
       <description></description>
     </item>
     
