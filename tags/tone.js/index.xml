@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 17:53:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/tone.js/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 20:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/tone.js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>start to learn tone.js</title>
       <link>https://dudung.github.io/bugx/0059/</link>
-      <pubDate>Fri, 15 Apr 2022 17:53:00 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 20:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0059/</guid>
-      <description>Web Audio API merupakan rekomendasi W3C yang menjanjikan untuk menciptakan musik pada web, yang bukannya tanpa tantangan dan batasan, untuk itu Tone.js berupaya menyediakan kerangka kerja yang akrab bagi musisi dan programer audio untuk membuat aplikasi audio berbasis web [1]. Tone.js membuat bekerja dengan We Audio API menjadi lebih mudah karena ia mengambil alih banyak pekerjaan membosankan [2] sehingga dapat lebih fokus ke hal yang lebih penting. Terutama bila telah tidak lagi memubat</description>
+      <description>Web Audio API merupakan rekomendasi W3C yang menjanjikan untuk menciptakan musik pada web, yang bukannya tanpa tantangan dan batasan, untuk itu Tone.js berupaya menyediakan kerangka kerja yang akrab bagi musisi dan programer audio untuk membuat aplikasi audio berbasis web [1]. Tone.js membuat bekerja dengan We Audio API menjadi lebih mudah karena ia mengambil alih banyak pekerjaan membosankan [2] sehingga dapat lebih fokus ke hal yang lebih penting. Terutama bila telah lama tidak membuat lagu dan ingin kembali membuat suatu komposisi, dalam rangka mengikuti hasrat setelah suatu jeda yang panjang, membuat musik dengan kode membawa pada keputusan mepelajari Tone.</description>
     </item>
     
   </channel>
