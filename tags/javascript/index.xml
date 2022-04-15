@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 17:45:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 17:53:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>start to learn tone.js</title>
       <link>https://dudung.github.io/bugx/0059/</link>
-      <pubDate>Fri, 15 Apr 2022 17:45:00 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 17:53:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0059/</guid>
-      <description>[1] [2] [3] [4] [5] [6] [7] [8]
-notes  Dylan Schiemann, &amp;ldquo;Tone.js Interactive Music Web Framework&amp;rdquo;, InfoQ, 6 Mar 2020, url https://www.infoq.com/news/2020/03/tonejs-music-web-framework/ [20220415]. Jim Bennett, &amp;ldquo;Tutorial: Let’s Make Music with JavaScript and Tone.js&amp;rdquo;, dev@red, Medium, 24 Oct 2018, url https://medium.com/dev-red/tutorial-lets-make-music-with-javascript-and-tone-js-f6ac39d95b8c [20220415]. Ash Freels, &amp;ldquo;Creating a remix using Tone.js&amp;rdquo;, DEV Community, 3 Jun 2021, url https://dev.to/codefatale/creating-a-remix-using-tone-js-1kdg [20220415]. Mike Sult, &amp;ldquo;Tone.js&amp;rdquo;, GuitraLand, 28 Jun 2019, url https://www.guitarland.com/MusicTheoryWithToneJS/TonejsSetup.html [20220415]. Yotam Mann, &amp;ldquo;Tone.js&amp;rdquo;, GitHub, 1 Mar 2022, url https://tonejs.</description>
+      <description>Web Audio API merupakan rekomendasi W3C yang menjanjikan untuk menciptakan musik pada web, yang bukannya tanpa tantangan dan batasan, untuk itu Tone.js berupaya menyediakan kerangka kerja yang akrab bagi musisi dan programer audio untuk membuat aplikasi audio berbasis web [1]. Tone.js membuat bekerja dengan We Audio API menjadi lebih mudah karena ia mengambil alih banyak pekerjaan membosankan [2] sehingga dapat lebih fokus ke hal yang lebih penting. Terutama bila telah tidak lagi memubat</description>
     </item>
     
     <item>
