@@ -68,7 +68,7 @@
       "datePublished": "2022-04-14 22:00:00 \u002b0700 \u002b0700",
       "dateModified" : "2022-04-14 22:00:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0058\/",
-      "wordCount" : "247",
+      "wordCount" : "1252",
       "keywords" : ["Blog"]
     }
   
@@ -138,6 +138,7 @@
   
   
 >1</a>].</p>
+<h2 id="install-07b2">install 0.7b2<a class="anchor" href="#install-07b2">#</a></h2>
 <pre><code>PS L:\home\cookbook\notebook&gt; pip install music
 Collecting music
   Downloading music-0.7b2-py3-none-any.whl (15 kB)
@@ -170,10 +171,193 @@ Building wheels for collected packages: termcolor
   Stored in directory: c:\users\sparisoma viridi\appdata\local\pip\cache\wheels\a1\49\46\1b13a65d8da11238af9616b00fdde6d45b0f95d9291bac8452
 Successfully built termcolor
 Installing collected packages: termcolor, mpmath, sympy, scipy, music
-Successfully installed music-0.7b2
+Installing collected packages: termcolor, mpmath, sympy, scipy, music
+Successfully installed mpmath-1.2.1 music-0.7b2 scipy-1.8.0 sympy-1.10.1 termcolor-1.1.0
 </code></pre>
 <pre><code>PS L:\home\cookbook\notebook&gt; pip check
 No broken requirements found.
+</code></pre>
+<pre><code>PS L:\home\cookbook\notebook&gt; python ..\python\hello\hello_music.py
+Traceback (most recent call last):
+  File &quot;L:\home\cookbook\python\hello\hello_music.py&quot;, line 2, in &lt;module&gt;
+    import music as M, numpy as n
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\__init__.py&quot;, line 1, in &lt;module&gt;
+    from . import core, utils, tables, synths, effects, structures, singing
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\utils.py&quot;, line 5, in &lt;module&gt;
+    from . import core
+ImportError: cannot import name 'core' from partially initialized module 'music' (most likely due to a circular import) (C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\__init__.py)
+</code></pre>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip uninstall music
+Found existing installation: music 0.7b2
+Uninstalling music-0.7b2:
+  Would remove:
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\music-0.7b2.dist-info\*
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\music\*
+Proceed (Y/n)? y
+  Successfully uninstalled music-0.7b2
+</code></pre>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip check
+No broken requirements found.
+</code></pre>
+<h2 id="install-music-07b1">install music 0.7b1<a class="anchor" href="#install-music-07b1">#</a></h2>
+<p>Lakukan downgrade</p>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip install music==0.7b1
+Collecting music==0.7b1
+  Downloading music-0.7b1-py3-none-any.whl (15 kB)
+Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b1) (0.4.4)
+Requirement already satisfied: scipy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b1) (1.8.0)
+Requirement already satisfied: sympy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b1) (1.10.1)
+Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b1) (1.22.3)
+Requirement already satisfied: termcolor in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b1) (1.1.0)
+Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.7b1) (3.5.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b1) (4.31.2)
+Requirement already satisfied: pyparsing&gt;=2.2.1 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b1) (3.0.7)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b1) (0.11.0)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b1) (2.8.2)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b1) (1.4.0)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b1) (21.3)
+Requirement already satisfied: pillow&gt;=6.2.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.7b1) (9.0.1)
+Requirement already satisfied: mpmath&gt;=0.19 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from sympy-&gt;music==0.7b1) (1.2.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib-&gt;music==0.7b1) (1.16.0)
+Installing collected packages: music
+Successfully installed music-0.7b1
+</code></pre>
+<pre><code>PS L:\home\cookbook\notebook&gt; pip check
+No broken requirements found.
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; python hello_music.py
+Traceback (most recent call last):
+  File &quot;L:\home\cookbook\python\hello\hello_music.py&quot;, line 2, in &lt;module&gt;
+    import music as M, numpy as n
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\__init__.py&quot;, line 1, in &lt;module&gt;
+    from .utils import H
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\utils.py&quot;, line 5, in &lt;module&gt;
+    from . import core
+ImportError: cannot import name 'core' from partially initialized module 'music' (most likely due to a circular import) (C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\__init__.py)
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip uninstall music==0.7b1
+Found existing installation: music 0.7b1
+Uninstalling music-0.7b1:
+  Would remove:
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\music-0.7b1.dist-info\*
+    c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages\music\*
+Proceed (Y/n)? y
+  Successfully uninstalled music-0.7b1
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip check
+No broken requirements found.
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip cache purge
+Files removed: 178
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip check
+No broken requirements found.
+</code></pre>
+<h2 id="install-music-06b0">install music 0.6b0<a class="anchor" href="#install-music-06b0">#</a></h2>
+<p>Lakukan downgrade</p>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip install music==0.6b0
+Collecting music==0.6b0
+  Downloading music-0.6b0.tar.gz (47 kB)
+     ---------------------------------------- 47.5/47.5 KB 125.7 kB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: sympy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.6b0) (1.10.1)
+Requirement already satisfied: numpy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.6b0) (1.22.3)
+Requirement already satisfied: scipy in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.6b0) (1.8.0)
+Requirement already satisfied: colorama in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.6b0) (0.4.4)
+Requirement already satisfied: termcolor in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.6b0) (1.1.0)
+Requirement already satisfied: matplotlib in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from music==0.6b0) (3.5.1)
+Requirement already satisfied: pyparsing&gt;=2.2.1 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.6b0) (3.0.7)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.6b0) (4.31.2)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.6b0) (1.4.0)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.6b0) (2.8.2)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.6b0) (21.3)
+Requirement already satisfied: pillow&gt;=6.2.0 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.6b0) (9.0.1)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from matplotlib-&gt;music==0.6b0) (0.11.0)
+Requirement already satisfied: mpmath&gt;=0.19 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from sympy-&gt;music==0.6b0) (1.2.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\sparisoma viridi\appdata\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib-&gt;music==0.6b0) (1.16.0)
+Building wheels for collected packages: music
+  Building wheel for music (setup.py) ... done
+  Created wheel for music: filename=music-0.6b0-py3-none-any.whl size=46041 sha256=e830f6d7755c349d0cf89c9f5dd79e7d11b22b44f2294255eeb295c6d35f7e91
+  Stored in directory: c:\users\sparisoma viridi\appdata\local\pip\cache\wheels\57\38\50\c46fd474a1fe70de85378f93f73c26a16c53f65b1824df7fb5
+Successfully built music
+Installing collected packages: music
+Successfully installed music-0.6b0
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; pip check
+No broken requirements found.
+</code></pre>
+<pre><code>PS L:\home\cookbook\python\hello&gt; python hello_music.py
+fatal: Too many arguments.
+
+usage: git clone [&lt;options&gt;] [--] &lt;repo&gt; [&lt;dir&gt;]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --reject-shallow      don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=&lt;pathspec&gt;]
+                          initialize submodules in the clone
+    --recursive ...       alias of --recurse-submodules
+    -j, --jobs &lt;n&gt;        number of submodules cloned in parallel
+    --template &lt;template-directory&gt;
+                          directory from which templates will be used
+    --reference &lt;repo&gt;    reference repository
+    --reference-if-able &lt;repo&gt;
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin &lt;name&gt;   use &lt;name&gt; instead of 'origin' to track upstream
+    -b, --branch &lt;branch&gt;
+                          checkout &lt;branch&gt; instead of the remote's HEAD
+    -u, --upload-pack &lt;path&gt;
+                          path to git-upload-pack on the remote
+    --depth &lt;depth&gt;       create a shallow clone of that depth
+    --shallow-since &lt;time&gt;
+                          create a shallow clone since a specific time
+    --shallow-exclude &lt;revision&gt;
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir &lt;gitdir&gt;
+                          separate git dir from working tree
+    -c, --config &lt;key=value&gt;
+                          set config inside the new repository
+    --server-option &lt;server-specific&gt;
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter &lt;args&gt;       object filtering
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+
+install git if you want singing facilities
+Traceback (most recent call last):
+  File &quot;L:\home\cookbook\python\hello\hello_music.py&quot;, line 2, in &lt;module&gt;
+    import music as M, numpy as n
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\__init__.py&quot;, line 3, in &lt;module&gt;
+    from . import legacy
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\legacy\__init__.py&quot;, line 1, in &lt;module&gt;
+    from . import pieces
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\legacy\pieces\__init__.py&quot;, line 1, in &lt;module&gt;
+    from .testSong2 import TestSong2
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\legacy\pieces\testSong2.py&quot;, line 3, in &lt;module&gt;
+    synth=M.synths.CanonicalSynth()
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\synths.py&quot;, line 36, in __init__
+    s.tables = M.tables.Basic()
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\tables.py&quot;, line 10, in __init__
+    self.makeTables(size)
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\music\tables.py&quot;, line 15, in makeTables
+    foo=n.linspace(-1,1,size/2,endpoint=False)
+  File &quot;&lt;__array_function__ internals&gt;&quot;, line 180, in linspace
+  File &quot;C:\Users\Sparisoma Viridi\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\core\function_base.py&quot;, line 120, in linspace
+    num = operator.index(num)
+TypeError: 'float' object cannot be interpreted as an integer
 </code></pre>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
@@ -184,7 +368,7 @@ No broken requirements found.
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pip install music", bugx, 14 Apr 2022, url <a href= "https://dudung.github.io/bugx/0058">https://dudung.github.io/bugx/0058</a> [20220414].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pip install music", bugx, 14 Apr 2022, url <a href= "https://dudung.github.io/bugx/0058">https://dudung.github.io/bugx/0058</a> [20220415].
 </div>
 
 
@@ -210,12 +394,17 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pip
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0057/">
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0056/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">notebook diagram</span>
+        <span class="pagination__title">fail use mermaid notebook</span>
     </a>
   
 
+  
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0057/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >notebook diagram</span>
+    </a>
   
 </div>
 

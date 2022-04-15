@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-14 15:31:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-14 15:31:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-15 09:03:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-15 09:03:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0057\/",
-      "wordCount" : "349",
+      "wordCount" : "1171",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">notebook diagram</h1>
-            <time datetime="2022-04-14 15:31:00 &#43;0700 &#43;0700" class="post__date">Thu, 14 Apr  2022</time> 
+            <time datetime="2022-04-15 09:03:00 &#43;0700 &#43;0700" class="post__date">Fri, 15 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -184,7 +184,346 @@ No broken requirements found.
         http://localhost:8888/?token=b87e20da29d1723983e9046618a74a045324fcf43b536df1
      or http://127.0.0.1:8888/?token=b87e20da29d1723983e9046618a74a045324fcf43b536df1
 </code></pre>
-<p>di mana token akan berbeda setiap kali dijalankan.</p>
+<p>di mana token akan berbeda setiap kali dijalankan. Keseluruhan is berkas <a href="https://github.com/dudung/cookbook/blob/main/notebook/hello/notebook_diagram.ipynb" 
+  
+   target="_blank" rel="noreferrer noopener" 
+><code>notebook_diagram.ipynb</code></a> adalah</p>
+<pre><code class="language-json">{
+ &quot;cells&quot;: [
+  {
+   &quot;cell_type&quot;: &quot;markdown&quot;,
+   &quot;id&quot;: &quot;0edd2e19&quot;,
+   &quot;metadata&quot;: {},
+   &quot;source&quot;: [
+    &quot;Examples are from https://pypi.org/project/nb-js-diagrammer/&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: 1,
+   &quot;id&quot;: &quot;b2fe8948&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [],
+   &quot;source&quot;: [
+    &quot;%load_ext nb_js_diagrammers&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: 2,
+   &quot;id&quot;: &quot;68bb3c93&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [
+    {
+     &quot;data&quot;: {
+      &quot;text/html&quot;: [
+       &quot;&lt;iframe srcdoc=\&quot;&amp;lt;!DOCTYPE html&amp;gt;\n&quot;,
+       &quot;&amp;lt;html&amp;gt;\n&quot;,
+       &quot;    &amp;lt;head&amp;gt;\n&quot;,
+       &quot;        &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;\n&quot;,
+       &quot;        &amp;lt;title&amp;gt;Flowchart.js&amp;lt;/title&amp;gt;\n&quot;,
+       &quot;        &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\n&quot;,
+       &quot;        &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.14.1/flowchart.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\n&quot;,
+       &quot;        &amp;lt;/head&amp;gt;\n&quot;,
+       &quot;        &amp;lt;body&amp;gt;\n&quot;,
+       &quot;         \n&quot;,
+       &quot;        &amp;lt;div id=&amp;quot;diagram&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;\n&quot;,
+       &quot;&amp;lt;script&amp;gt;\n&quot;,
+       &quot;  var diagram = flowchart.parse(`\n&quot;,
+       &quot;st=&amp;gt;start: Start\n&quot;,
+       &quot;e=&amp;gt;end: End\n&quot;,
+       &quot;op1=&amp;gt;operation: Generate\n&quot;,
+       &quot;op2=&amp;gt;parallel: Evaluate\n&quot;,
+       &quot;st(right)-&amp;gt;op1(right)-&amp;gt;op2\n&quot;,
+       &quot;op2(path1, top)-&amp;gt;op1\n&quot;,
+       &quot;op2(path2, right)-&amp;gt;e\n&quot;,
+       &quot;`);\n&quot;,
+       &quot;  diagram.drawSVG(&amp;#x27;diagram&amp;#x27;);\n&quot;,
+       &quot;&amp;lt;/script&amp;gt;\n&quot;,
+       &quot; \n&quot;,
+       &quot;        &amp;lt;/body&amp;gt;\n&quot;,
+       &quot;&amp;lt;/html&amp;gt;\n&quot;,
+       &quot;\&quot; width=\&quot;100%\&quot; height=\&quot;100\&quot;style=\&quot;border:none !important;\&quot; \&quot;allowfullscreen\&quot; \&quot;webkitallowfullscreen\&quot; \&quot;mozallowfullscreen\&quot;&gt;&lt;/iframe&gt;&quot;
+      ],
+      &quot;text/plain&quot;: [
+       &quot;&lt;nb_js_diagrammers.magics.JSDiagram at 0x22689ec37f0&gt;&quot;
+      ]
+     },
+     &quot;execution_count&quot;: 2,
+     &quot;metadata&quot;: {},
+     &quot;output_type&quot;: &quot;execute_result&quot;
+    }
+   ],
+   &quot;source&quot;: [
+    &quot;%%flowchart_magic -h 100\n&quot;,
+    &quot;\n&quot;,
+    &quot;st=&gt;start: Start\n&quot;,
+    &quot;e=&gt;end: End\n&quot;,
+    &quot;op1=&gt;operation: Generate\n&quot;,
+    &quot;op2=&gt;parallel: Evaluate\n&quot;,
+    &quot;st(right)-&gt;op1(right)-&gt;op2\n&quot;,
+    &quot;op2(path1, top)-&gt;op1\n&quot;,
+    &quot;op2(path2, right)-&gt;e&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: 3,
+   &quot;id&quot;: &quot;ca08363b&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [
+    {
+     &quot;data&quot;: {
+      &quot;text/html&quot;: [
+       &quot;&lt;iframe srcdoc=\&quot;&amp;lt;!DOCTYPE html&amp;gt;\n&quot;,
+       &quot;&amp;lt;html&amp;gt;\n&quot;,
+       &quot;    &amp;lt;head&amp;gt;\n&quot;,
+       &quot;        &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;\n&quot;,
+       &quot;        &amp;lt;title&amp;gt;wavedrom.js&amp;lt;/title&amp;gt;\n&quot;,
+       &quot;&amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/wavedrom/2.6.8/skins/default.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\n&quot;,
+       &quot;&amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/wavedrom/2.6.8/wavedrom.min.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\n&quot;,
+       &quot;&amp;lt;/head&amp;gt;\n&quot;,
+       &quot;        &amp;lt;body onload=&amp;quot;WaveDrom.ProcessAll()&amp;quot;&amp;gt;\n&quot;,
+       &quot;&amp;lt;script type=&amp;quot;WaveDrom&amp;quot;&amp;gt;\n&quot;,
+       &quot;\n&quot;,
+       &quot;{ signal : [\n&quot;,
+       &quot;  { name: &amp;quot;clk&amp;quot;,  wave: &amp;quot;p......&amp;quot; },\n&quot;,
+       &quot;  { name: &amp;quot;bus&amp;quot;,  wave: &amp;quot;x.34.5x&amp;quot;,   data: &amp;quot;head body tail&amp;quot; },\n&quot;,
+       &quot;  { name: &amp;quot;wire&amp;quot;, wave: &amp;quot;0.1..0.&amp;quot; },\n&quot;,
+       &quot;]}\n&quot;,
+       &quot;\n&quot;,
+       &quot;&amp;lt;/script&amp;gt;\n&quot;,
+       &quot;        &amp;lt;/body&amp;gt;\n&quot;,
+       &quot;&amp;lt;/html&amp;gt;\n&quot;,
+       &quot;\&quot; width=\&quot;100%\&quot; height=\&quot;100\&quot;style=\&quot;border:none !important;\&quot; \&quot;allowfullscreen\&quot; \&quot;webkitallowfullscreen\&quot; \&quot;mozallowfullscreen\&quot;&gt;&lt;/iframe&gt;&quot;
+      ],
+      &quot;text/plain&quot;: [
+       &quot;&lt;nb_js_diagrammers.magics.JSDiagram at 0x22689ec2ef0&gt;&quot;
+      ]
+     },
+     &quot;execution_count&quot;: 3,
+     &quot;metadata&quot;: {},
+     &quot;output_type&quot;: &quot;execute_result&quot;
+    }
+   ],
+   &quot;source&quot;: [
+    &quot;%%wavedrom_magic -h 100\n&quot;,
+    &quot;\n&quot;,
+    &quot;{ signal : [\n&quot;,
+    &quot;  { name: \&quot;clk\&quot;,  wave: \&quot;p......\&quot; },\n&quot;,
+    &quot;  { name: \&quot;bus\&quot;,  wave: \&quot;x.34.5x\&quot;,   data: \&quot;head body tail\&quot; },\n&quot;,
+    &quot;  { name: \&quot;wire\&quot;, wave: \&quot;0.1..0.\&quot; },\n&quot;,
+    &quot;]}&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: 4,
+   &quot;id&quot;: &quot;e774623b&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [
+    {
+     &quot;data&quot;: {
+      &quot;text/html&quot;: [
+       &quot;&lt;iframe srcdoc=\&quot;&amp;lt;html&amp;gt;\n&quot;,
+       &quot;    &amp;lt;body&amp;gt;\n&quot;,
+       &quot;        &amp;lt;script src=&amp;quot;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\n&quot;,
+       &quot;        &amp;lt;script&amp;gt;\n&quot;,
+       &quot;            mermaid.initialize({ startOnLoad: true });\n&quot;,
+       &quot;        &amp;lt;/script&amp;gt;\n&quot;,
+       &quot; \n&quot;,
+       &quot;        &amp;lt;div class=&amp;quot;mermaid&amp;quot;&amp;gt;\n&quot;,
+       &quot;            \n&quot;,
+       &quot;flowchart TD\n&quot;,
+       &quot;    A[Start] --&amp;gt; B{Is it?};\n&quot;,
+       &quot;    B --&amp;gt;|Yes| C[OK];\n&quot;,
+       &quot;    C --&amp;gt; D[Rethink];\n&quot;,
+       &quot;    D --&amp;gt; B;\n&quot;,
+       &quot;    B ----&amp;gt;|No| E[End];\n&quot;,
+       &quot;\n&quot;,
+       &quot;        &amp;lt;/div&amp;gt;\n&quot;,
+       &quot; \n&quot;,
+       &quot;    &amp;lt;/body&amp;gt;\n&quot;,
+       &quot;&amp;lt;/html&amp;gt;\n&quot;,
+       &quot;\&quot; width=\&quot;100%\&quot; height=\&quot;400\&quot;style=\&quot;border:none !important;\&quot; \&quot;allowfullscreen\&quot; \&quot;webkitallowfullscreen\&quot; \&quot;mozallowfullscreen\&quot;&gt;&lt;/iframe&gt;&quot;
+      ],
+      &quot;text/plain&quot;: [
+       &quot;&lt;nb_js_diagrammers.magics.JSDiagram at 0x22689ec2560&gt;&quot;
+      ]
+     },
+     &quot;execution_count&quot;: 4,
+     &quot;metadata&quot;: {},
+     &quot;output_type&quot;: &quot;execute_result&quot;
+    }
+   ],
+   &quot;source&quot;: [
+    &quot;%%mermaid_magic -h 400\n&quot;,
+    &quot;\n&quot;,
+    &quot;flowchart TD\n&quot;,
+    &quot;    A[Start] --&gt; B{Is it?};\n&quot;,
+    &quot;    B --&gt;|Yes| C[OK];\n&quot;,
+    &quot;    C --&gt; D[Rethink];\n&quot;,
+    &quot;    D --&gt; B;\n&quot;,
+    &quot;    B ----&gt;|No| E[End];&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: 5,
+   &quot;id&quot;: &quot;cd0797ad&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [
+    {
+     &quot;data&quot;: {
+      &quot;text/html&quot;: [
+       &quot;&lt;iframe srcdoc=\&quot;&amp;lt;html&amp;gt;\n&quot;,
+       &quot;    &amp;lt;body&amp;gt;\n&quot;,
+       &quot;        &amp;lt;script src=&amp;quot;https://unpkg.com/wavesurfer.js/dist/wavesurfer.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;\n&quot;,
+       &quot;        &amp;lt;div id=&amp;quot;wavesurfer&amp;quot;&amp;gt;\n&quot;,
+       &quot;            &amp;lt;div id=&amp;quot;waveform&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;\n&quot;,
+       &quot;            &amp;lt;div class=&amp;quot;controls&amp;quot;&amp;gt;\n&quot;,
+       &quot;                &amp;lt;button class=&amp;quot;btn btn-primary&amp;quot; data-action=&amp;quot;play&amp;quot;&amp;gt;\n&quot;,
+       &quot;                    &amp;lt;i class=&amp;quot;glyphicon glyphicon-play&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;\n&quot;,
+       &quot;                    Play\n&quot;,
+       &quot;                    /\n&quot;,
+       &quot;                    &amp;lt;i class=&amp;quot;glyphicon glyphicon-pause&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;\n&quot;,
+       &quot;                    Pause\n&quot;,
+       &quot;                &amp;lt;/button&amp;gt;\n&quot;,
+       &quot;            &amp;lt;/div&amp;gt;\n&quot;,
+       &quot;        &amp;lt;/div&amp;gt;\n&quot;,
+       &quot;        &amp;lt;script&amp;gt;\n&quot;,
+       &quot;            var GLOBAL_ACTIONS = { // eslint-disable-line\n&quot;,
+       &quot;                play: function() {\n&quot;,
+       &quot;                    window.wavesurfer.playPause();\n&quot;,
+       &quot;                },\n&quot;,
+       &quot; \n&quot;,
+       &quot;                back: function() {\n&quot;,
+       &quot;                    window.wavesurfer.skipBackward();\n&quot;,
+       &quot;                },\n&quot;,
+       &quot; \n&quot;,
+       &quot;                forth: function() {\n&quot;,
+       &quot;                    window.wavesurfer.skipForward();\n&quot;,
+       &quot;                },\n&quot;,
+       &quot; \n&quot;,
+       &quot;                &amp;#x27;toggle-mute&amp;#x27;: function() {\n&quot;,
+       &quot;                    window.wavesurfer.toggleMute();\n&quot;,
+       &quot;                }\n&quot;,
+       &quot;            };\n&quot;,
+       &quot; \n&quot;,
+       &quot;            // Bind actions to buttons and keypresses\n&quot;,
+       &quot;            document.addEventListener(&amp;#x27;DOMContentLoaded&amp;#x27;, function() {\n&quot;,
+       &quot;                document.addEventListener(&amp;#x27;keydown&amp;#x27;, function(e) {\n&quot;,
+       &quot;                    let map = {\n&quot;,
+       &quot;                        32: &amp;#x27;play&amp;#x27;, // space\n&quot;,
+       &quot;                        37: &amp;#x27;back&amp;#x27;, // left\n&quot;,
+       &quot;                        39: &amp;#x27;forth&amp;#x27; // right\n&quot;,
+       &quot;                    };\n&quot;,
+       &quot;                    let action = map[e.keyCode];\n&quot;,
+       &quot;                    if (action in GLOBAL_ACTIONS) {\n&quot;,
+       &quot;                        if (document == e.target || document.body == e.target || e.target.attributes[&amp;quot;data-action&amp;quot;]) {\n&quot;,
+       &quot;                            e.preventDefault();\n&quot;,
+       &quot;                        }\n&quot;,
+       &quot;                        GLOBAL_ACTIONS[action](e);\n&quot;,
+       &quot;                    }\n&quot;,
+       &quot;                });\n&quot;,
+       &quot; \n&quot;,
+       &quot;                [].forEach.call(document.querySelectorAll(&amp;#x27;[data-action]&amp;#x27;), function(el) {\n&quot;,
+       &quot;                    el.addEventListener(&amp;#x27;click&amp;#x27;, function(e) {\n&quot;,
+       &quot;                        let action = e.currentTarget.dataset.action;\n&quot;,
+       &quot;                        if (action in GLOBAL_ACTIONS) {\n&quot;,
+       &quot;                            e.preventDefault();\n&quot;,
+       &quot;                            GLOBAL_ACTIONS[action](e);\n&quot;,
+       &quot;                        }\n&quot;,
+       &quot;                    });\n&quot;,
+       &quot;                });\n&quot;,
+       &quot;            });\n&quot;,
+       &quot;        &amp;lt;/script&amp;gt;\n&quot;,
+       &quot; \n&quot;,
+       &quot;        &amp;lt;script&amp;gt;\n&quot;,
+       &quot;            var wavesurfer = WaveSurfer.create({\n&quot;,
+       &quot;                container: &amp;#x27;#waveform&amp;#x27;,\n&quot;,
+       &quot;                waveColor: &amp;#x27;violet&amp;#x27;,\n&quot;,
+       &quot;                backend: &amp;#x27;MediaElement&amp;#x27;,\n&quot;,
+       &quot;                progressColor: &amp;#x27;purple&amp;#x27;\n&quot;,
+       &quot;            });\n&quot;,
+       &quot;        &amp;lt;/script&amp;gt;\n&quot;,
+       &quot;        &amp;lt;script&amp;gt;\n&quot;,
+       &quot;            wavesurfer.load(&amp;quot;https://ia802606.us.archive.org/35/items/shortpoetry_047_librivox/abou_ben_adhem_hunt_mlb.mp3&amp;quot;);\n&quot;,
+       &quot;        &amp;lt;/script&amp;gt;\n&quot;,
+       &quot;    &amp;lt;/body&amp;gt;\n&quot;,
+       &quot;&amp;lt;/html&amp;gt;\n&quot;,
+       &quot;\&quot; width=\&quot;100%\&quot; height=\&quot;200\&quot;style=\&quot;border:none !important;\&quot; \&quot;allowfullscreen\&quot; \&quot;webkitallowfullscreen\&quot; \&quot;mozallowfullscreen\&quot;&gt;&lt;/iframe&gt;&quot;
+      ],
+      &quot;text/plain&quot;: [
+       &quot;&lt;nb_js_diagrammers.magics.JSDiagram at 0x22689ec2f50&gt;&quot;
+      ]
+     },
+     &quot;execution_count&quot;: 5,
+     &quot;metadata&quot;: {},
+     &quot;output_type&quot;: &quot;execute_result&quot;
+    }
+   ],
+   &quot;source&quot;: [
+    &quot;%wavesurfer_magic -f https://ia802606.us.archive.org/35/items/shortpoetry_047_librivox/abou_ben_adhem_hunt_mlb.mp3&quot;
+   ]
+  },
+  {
+   &quot;cell_type&quot;: &quot;code&quot;,
+   &quot;execution_count&quot;: null,
+   &quot;id&quot;: &quot;1198c3a2&quot;,
+   &quot;metadata&quot;: {},
+   &quot;outputs&quot;: [],
+   &quot;source&quot;: []
+  }
+ ],
+ &quot;metadata&quot;: {
+  &quot;kernelspec&quot;: {
+   &quot;display_name&quot;: &quot;Python 3 (ipykernel)&quot;,
+   &quot;language&quot;: &quot;python&quot;,
+   &quot;name&quot;: &quot;python3&quot;
+  },
+  &quot;language_info&quot;: {
+   &quot;codemirror_mode&quot;: {
+    &quot;name&quot;: &quot;ipython&quot;,
+    &quot;version&quot;: 3
+   },
+   &quot;file_extension&quot;: &quot;.py&quot;,
+   &quot;mimetype&quot;: &quot;text/x-python&quot;,
+   &quot;name&quot;: &quot;python&quot;,
+   &quot;nbconvert_exporter&quot;: &quot;python&quot;,
+   &quot;pygments_lexer&quot;: &quot;ipython3&quot;,
+   &quot;version&quot;: &quot;3.10.4&quot;
+  }
+ },
+ &quot;nbformat&quot;: 4,
+ &quot;nbformat_minor&quot;: 5
+}}
+</code></pre>
+<p>yang hasilnya tidak dapat dirender di GitHub akan tetapi dapat secara lokal pada (ini bergantung di mana berkas tersebut disimpan). Perbandingan tampilan keduanya diberikan pada Gambar <a href="#fig1" 
+  
+  
+>1</a> dan <a href="#fig2" 
+  
+  
+>2</a>.</p>
+<p><img src="/bugx/img/notebook/notebook_diagram_not_rendered_github.png" alt=""> <br>
+Gambar <a name='fig1'>1</a>. Isi berkas Jupyter Notebook yang tidak dirender di GitHub.</p>
+<p>Untuk Gambar <a href="#fig1" 
+  
+  
+>1</a> berkas dapat diakses di <a href="https://github.com/dudung/cookbook/blob/main/notebook/hello/notebook_diagram.ipynb" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/cookbook/blob/main/notebook/hello/notebook_diagram.ipynb</a>.</p>
+<p><img src="/bugx/img/notebook/notebook_diagram_rendered_locally.png" alt=""> <br>
+Gambar <a name='fig2'>2</a>. Isi berkas Jupyter Notebook yang terender secara lokal.</p>
+<p>Untuk Gambar <a href="#fig1" 
+  
+  
+>2</a> berkas dapat diakses di <a href="http://localhost:8888/notebooks/notebook_diagram.ipynb" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://localhost:8888/notebooks/notebook_diagram.ipynb</a>, yang bergantung lokasi penyimpanan berkas tersebut.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Tony Hirst, &ldquo;Subject Matter Authoring Using Jupyter Notebooks&rdquo;, OpenComputingLab, 2021, url <a href="https://opencomputinglab.github.io/SubjectMatterNotebooks" 
@@ -194,11 +533,11 @@ No broken requirements found.
 <li><a name='r02'></a>Tony Hirst, &ldquo;nb-js-diagrammers 0.0.7&rdquo;, PyPI, Python Software Foundation, 9 Mar 2022, url <a href="https://pypi.org/project/nb-js-diagrammers/0.0.7/" 
   
    target="_blank" rel="noreferrer noopener" 
->https://pypi.org/project/nb-js-diagrammers/0.0.7/</a> [20220414].</li>
+>https://pypi.org/project/nb-js-diagrammers/0.0.7/</a> [2022<wbr>04<wbr>14].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "notebook diagram", bugx, 14 Apr 2022, url <a href= "https://dudung.github.io/bugx/0057">https://dudung.github.io/bugx/0057</a> [20220414].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "notebook diagram", bugx, 15 Apr 2022, url <a href= "https://dudung.github.io/bugx/0057">https://dudung.github.io/bugx/0057</a> [20220415].
 </div>
 
 
@@ -224,17 +563,12 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "not
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0056/">
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0058/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">fail use mermaid notebook</span>
+        <span class="pagination__title">pip install music</span>
     </a>
   
 
-  
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0058/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >pip install music</span>
-    </a>
   
 </div>
 
