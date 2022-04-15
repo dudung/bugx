@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 09:03:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 11:07:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>notebook diagram</title>
       <link>https://dudung.github.io/bugx/0057/</link>
-      <pubDate>Fri, 15 Apr 2022 09:03:00 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 11:07:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0057/</guid>
-      <description>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [1]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python nb-js-diagrammers yang rilis terbarunya bertanggal 9 Mar 2022 untuk versi 0.0.7 [2].
+      <description>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [1]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python nb-js-diagrammers yang rilis terbarunya bertanggal 9 Maret 2022 untuk versi 0.0.7 [2].
 installation Proses instalasi dilakukan menggunakan PowerShell 5.</description>
     </item>
     
