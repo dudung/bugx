@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 11:08:14 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 12:44:57 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Fri, 15 Apr 2022 11:08:14 +0700</pubDate>
+      <pubDate>Fri, 15 Apr 2022 12:44:57 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
@@ -23,8 +23,7 @@
       <pubDate>Fri, 15 Apr 2022 11:07:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0057/</guid>
-      <description>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [1]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python nb-js-diagrammers yang rilis terbarunya bertanggal 9 Maret 2022 untuk versi 0.0.7 [2].
-installation Proses instalasi dilakukan menggunakan PowerShell 5.</description>
+      <description>Menarik untuk membaca ulasan mengenai sebagian paket Python dan R yang dapat digunakan untuk membuat keluaran berupa media kaya fitur dan interaktif sebagai bagian dari sepotong dokumen sistem publishing Jupyter, dan yang lebih menariknya adalah bahwa ulasan tersebut dibuat dengan sistem tersebut [1]. Sebagai langkah awal untuk mempelajari fitur-fitur Jupyter Notebooks tersebut akan disinggung mengenai paket Python nb-js-diagrammers yang rilis terbarunya bertanggal 9 Maret 2022 untuk versi 0.0.7 [2]. Dengan paket ini empat macam diagram JavaScript, meliputi Mermaid.</description>
     </item>
     
     <item>
