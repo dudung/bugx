@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-16 10:21:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-16 10:21:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-16 13:37:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-16 13:37:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0059\/",
-      "wordCount" : "748",
+      "wordCount" : "1131",
       "keywords" : ["Blog"]
     }
   
@@ -137,7 +137,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">start to learn tone.js</h1>
-            <time datetime="2022-04-16 10:21:00 &#43;0700 &#43;0700" class="post__date">Sat, 16 Apr  2022</time> 
+            <time datetime="2022-04-16 13:37:00 &#43;0700 &#43;0700" class="post__date">Sat, 16 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -230,7 +230,7 @@ DevTools failed to load source map: Could not load content for
   action to start the audio.
 </code></pre>
 <p>Perlu dilakukan perbaikan.</p>
-<h2 id="1st-modification">1st modification<a class="anchor" href="#1st-modification">#</a></h2>
+<h2 id="1st-modif">1st-modif<a class="anchor" href="#1st-modif">#</a></h2>
 <p>Dilakukan modifikasi pada berkas HTML</p>
 <pre><code class="language-html">&lt;script src=&quot;https://unpkg.com/tone&quot;&gt;&lt;/script&gt;
 &lt;button id=&quot;play-button&quot;&gt;Play&lt;/button&gt;
@@ -274,6 +274,131 @@ DevTools failed to load source map: Could not load content for
 <pre><code>toMaster() has been renamed toDestination()
 </code></pre>
 <p>yang merupakan tambahan warning. Setelah petunjuk pada warning terakhir diikuti, warning ini pun tidak lagi muncul.</p>
+<h2 id="2nd-modif">2nd-modif<a class="anchor" href="#2nd-modif">#</a></h2>
+<p>Modifikasi lebih lanjut dilakukan dengan mengubah CDN untuk Tone.js pada berkas HTML</p>
+<pre><code class="language-html">&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.38/Tone.js&quot; integrity=&quot;sha512-06fghCFOHDF8cucqI4jKWIO0pCo+5F9upQbLxCEzAHruVuQ9rHQaKK4V9k0sZg6ghi0PqRTA81/jJDzFcKwBfw==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+&lt;button id=&quot;play-button&quot;&gt;Play&lt;/button&gt;
+&lt;script src=&quot;hello_tone.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>dan tidak ada pengubahan berkas &lsquo;hello_tone.js&rsquo;. Hanya tiga warning yang kemudian diperoleh.</p>
+<pre><code>                                     audio-context-constructor.js:11
+The AudioContext was not allowed to start. It must be resumed (or
+  created) after a user gesture on the page. https://goo.gl/7K7WLu
+                              test-audio-scheduled-source-node-start
+                            -method-negative-parameters-support.js:4
+The AudioContext was not allowed to start. It must be resumed (or
+  created) after a user gesture on the page. https://goo.gl/7K7WLu
+                              constant-source-node-constructor.js:42
+The AudioContext was not allowed to start. It must be resumed (or
+  created) after a user gesture on the page. https://goo.gl/7K7WLu
+</code></pre>
+<p>Untuk CDN yang digunakan pada modifikasi ini [<a href="#r08" 
+  
+  
+>8</a>] terdapat pula informasi berkas JS yang menyebabkan warning tersebut. Pesan kesalahan di atas telah disalin, dimodifikasi, lalu ditempel untuk memudahkan membacanya.</p>
+<p>Sampai saat ini ketiga pesan peringatan atau warning belum dapat dihilangkan.</p>
+<h2 id="one-octave">one octave<a class="anchor" href="#one-octave">#</a></h2>
+<p>Dengan menggunakan delapan buat tombol dan pustaka untuk keyboard shortcut [<a href="#r10" 
+  
+  
+>10</a>] dapat dibuat alat musik sederhana. Isi berkas HTML adalah</p>
+<pre><code class="language-html">&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.38/Tone.js&quot; integrity=&quot;sha512-06fghCFOHDF8cucqI4jKWIO0pCo+5F9upQbLxCEzAHruVuQ9rHQaKK4V9k0sZg6ghi0PqRTA81/jJDzFcKwBfw==&quot; crossorigin=&quot;anonymous&quot; referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://craig.global.ssl.fastly.net/js/mousetrap/mousetrap.min.js?a4098&quot;&gt;&lt;/script&gt;
+
+&lt;button id=&quot;C4&quot;&gt;C&lt;/button&gt;
+&lt;button id=&quot;D4&quot;&gt;D&lt;/button&gt;
+&lt;button id=&quot;E4&quot;&gt;E&lt;/button&gt;
+&lt;button id=&quot;F4&quot;&gt;F&lt;/button&gt;
+&lt;button id=&quot;G4&quot;&gt;G&lt;/button&gt;
+&lt;button id=&quot;A4&quot;&gt;A&lt;/button&gt;
+&lt;button id=&quot;B4&quot;&gt;G&lt;/button&gt;
+&lt;button id=&quot;C5&quot;&gt;C&lt;/button&gt;
+
+&lt;script src=&quot;hello_tone_one_octave.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>dan <code>hello_tone_one_octave.js</code> adalah</p>
+<pre><code class="language-js">var notes = ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'B4', 'C5']
+
+for(var i = 0; i &lt; notes.length; i++) {
+  document.getElementById(notes[i])
+  .addEventListener(&quot;click&quot;, click);
+}
+
+function click() {
+  const synth = new Tone.Synth().toDestination()
+  synth.triggerAttackRelease(event.target.id, '32n')
+  
+  Tone.Transport.start();
+  Tone.Transport.stop();
+}
+
+
+function sound(note) {
+  const synth = new Tone.Synth().toDestination()
+  synth.triggerAttackRelease(note, '32n')
+  
+  Tone.Transport.start();
+  Tone.Transport.stop();
+}
+
+Mousetrap.bind('a', function() {sound('C4')});
+Mousetrap.bind('s', function() {sound('D4')});
+Mousetrap.bind('d', function() {sound('E4')});
+Mousetrap.bind('f', function() {sound('F4')});
+Mousetrap.bind('g', function() {sound('G4')});
+Mousetrap.bind('h', function() {sound('A4')});
+Mousetrap.bind('j', function() {sound('B4')});
+Mousetrap.bind('k', function() {sound('C5')});
+</code></pre>
+<p>yang akan memberikan hasil seperti pada gambar berikut.</p>
+<div style="text-align: center;">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.38/Tone.js" integrity="sha512-06fghCFOHDF8cucqI4jKWIO0pCo+5F9upQbLxCEzAHruVuQ9rHQaKK4V9k0sZg6ghi0PqRTA81/jJDzFcKwBfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://craig.global.ssl.fastly.net/js/mousetrap/mousetrap.min.js?a4098"></script>
+<p><button id="C4">C</button>
+<button id="D4">D</button>
+<button id="E4">E</button>
+<button id="F4">F</button>
+<button id="G4">G</button>
+<button id="A4">A</button>
+<button id="B4">G</button>
+<button id="C5">C</button></p>
+<script>
+var notes = ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'B4', 'C5']
+
+for(var i = 0; i < notes.length; i++) {
+  document.getElementById(notes[i])
+  .addEventListener("click", click);
+}
+
+function click() {
+  const synth = new Tone.Synth().toDestination()
+  synth.triggerAttackRelease(event.target.id, '32n')
+  
+  Tone.Transport.start();
+  Tone.Transport.stop();
+}
+
+
+function sound(note) {
+  const synth = new Tone.Synth().toDestination()
+  synth.triggerAttackRelease(note, '32n')
+  
+  Tone.Transport.start();
+  Tone.Transport.stop();
+}
+
+Mousetrap.bind('a', function() {sound('C4')});
+Mousetrap.bind('s', function() {sound('D4')});
+Mousetrap.bind('d', function() {sound('E4')});
+Mousetrap.bind('f', function() {sound('F4')});
+Mousetrap.bind('g', function() {sound('G4')});
+Mousetrap.bind('h', function() {sound('A4')});
+Mousetrap.bind('j', function() {sound('B4')});
+Mousetrap.bind('k', function() {sound('C5')});
+</script>
+</div>
+<p>Gambar <a name='fig1'>1</a>. Tombol-tombol dalam satu oktaf yang dapat diklik dengan tetikus atau menggunakan tombol keyboard <code>a</code>, <code>s</code>, <code>d</code>, <code>f</code>, <code>g</code>, <code>h</code>, <code>j</code>, dan <code>k</code>.</p>
+<p>Program yang dibuat sangat kasar dan mungkin akan memakan banyak memori karena terus menerus membuat <code>Tone.Synth().toDestination()</code> sehingga tidak ditujukan untuk pemanfaatan lebih lanjut, melainkan hanya untuk ilustrasi pembelajaran. Bila terdapat sejumlah tombol ditekan pada saat bersamaan, akan dibangkitkan sejumlah nada sesuai dengan peran masing-masing tombol.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Dylan Schiemann, &ldquo;Tone.js Interactive Music Web Framework&rdquo;, InfoQ, 6 Mar 2020, url <a href="https://www.infoq.com/news/2020/03/tonejs-music-web-framework/" 
@@ -308,6 +433,14 @@ DevTools failed to load source map: Could not load content for
   
    target="_blank" rel="noreferrer noopener" 
 >https://cdnjs.com/libraries/tone/14.8.38</a> [202204<wbr>15].</li>
+<li><a name='r09'></a>-, &ldquo;HTML <!DOCTYPE> Declaration&rdquo;, W3Schools, Refsnes Data, 2022, url <a href="https://www.w3schools.com/tags/tag_doctype.asp" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.w3schools.com/tags/tag_doctype.asp</a> [20220416].</li>
+<li><a name='r10'></a>Craig Campbell, &ldquo;mousetrap v1.6.5&rdquo;, 2017, url <a href="https://craig.is/killing/mice" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://craig.is/killing/mice</a> [20220416].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">

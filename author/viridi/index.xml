@@ -11,7 +11,7 @@
     <item>
       <title>start to learn tone.js</title>
       <link>https://dudung.github.io/bugx/0059/</link>
-      <pubDate>Sat, 16 Apr 2022 10:21:00 +0700</pubDate>
+      <pubDate>Sat, 16 Apr 2022 13:37:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0059/</guid>
       <description>Web Audio API merupakan rekomendasi W3C yang menjanjikan untuk menciptakan musik pada web, yang bukannya tanpa tantangan dan batasan, untuk itu Tone.js berupaya menyediakan kerangka kerja yang akrab bagi musisi dan programer audio untuk membuat aplikasi audio berbasis web [1]. Tone.js membuat bekerja dengan We Audio API menjadi lebih mudah karena ia mengambil alih banyak pekerjaan membosankan [2] sehingga dapat lebih fokus ke hal yang lebih penting. Terutama bila telah lama tidak membuat lagu dan ingin kembali membuat suatu komposisi, dalam rangka mengikuti hasrat setelah suatu jeda yang panjang, membuat musik dengan kode membawa pada keputusan mepelajari Tone.</description>
