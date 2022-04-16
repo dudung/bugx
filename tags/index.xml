@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 21:36:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Apr 2022 10:21:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Fri, 15 Apr 2022 21:36:00 +0700</pubDate>
+      <pubDate>Sat, 16 Apr 2022 10:21:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://dudung.github.io/bugx/tags/javascript/</link>
+      <pubDate>Sat, 16 Apr 2022 10:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learn</title>
+      <link>https://dudung.github.io/bugx/tags/learn/</link>
+      <pubDate>Sat, 16 Apr 2022 10:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://dudung.github.io/bugx/tags/music/</link>
+      <pubDate>Sat, 16 Apr 2022 10:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tone.js</title>
+      <link>https://dudung.github.io/bugx/tags/tone.js/</link>
+      <pubDate>Sat, 16 Apr 2022 10:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/tone.js/</guid>
       <description></description>
     </item>
     
@@ -32,42 +68,6 @@
       <pubDate>Fri, 15 Apr 2022 21:36:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/stack-overflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://dudung.github.io/bugx/tags/javascript/</link>
-      <pubDate>Fri, 15 Apr 2022 20:59:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learn</title>
-      <link>https://dudung.github.io/bugx/tags/learn/</link>
-      <pubDate>Fri, 15 Apr 2022 20:59:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>https://dudung.github.io/bugx/tags/music/</link>
-      <pubDate>Fri, 15 Apr 2022 20:59:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tone.js</title>
-      <link>https://dudung.github.io/bugx/tags/tone.js/</link>
-      <pubDate>Fri, 15 Apr 2022 20:59:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/tone.js/</guid>
       <description></description>
     </item>
     

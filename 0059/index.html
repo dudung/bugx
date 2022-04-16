@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-15 20:59:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-15 20:59:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-16 10:21:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-16 10:21:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0059\/",
-      "wordCount" : "307",
+      "wordCount" : "748",
       "keywords" : ["Blog"]
     }
   
@@ -137,7 +137,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">start to learn tone.js</h1>
-            <time datetime="2022-04-15 20:59:00 &#43;0700 &#43;0700" class="post__date">Fri, 15 Apr  2022</time> 
+            <time datetime="2022-04-16 10:21:00 &#43;0700 &#43;0700" class="post__date">Sat, 16 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -169,6 +169,111 @@
   
   
 >6</a>].</p>
+<h2 id="html">html<a class="anchor" href="#html">#</a></h2>
+<p>Struktur berkas HTML yang digunakan adalah sebagai berikut [<a href="#r09" 
+  
+  
+>9</a>]</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;hello&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!-- beg ---&gt;
+
+
+
+&lt;!-- end  ---&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>dengan bagian JavaScript akan diletakkan antara <code>&lt;!-- beg ---&gt;</code> dan <code>&lt;!-- end ---&gt;</code>. Kedua baris tersebut hanya merupakan komentar dan keduanya dapat tidak digunakan. Selanjutnya hanya akan disajikan contoh penerapan di antara kedua baris tersebut dan tidak mengulang meenyampaikan struktur berkas HTML-nya, serta berkas eksternal JavaScript yang digunakan.</p>
+<h2 id="example">example<a class="anchor" href="#example">#</a></h2>
+<p>Mengikuti suatu panduan [<a href="#r06" 
+  
+  
+>6</a>] digunakan</p>
+<pre><code class="language-html">&lt;script src=&quot;https://unpkg.com/tone&quot;&gt;&lt;/script&gt;
+&lt;button id=&quot;play-button&quot;&gt;Play/Pause&lt;/button&gt;
+&lt;script src=&quot;hello_tone.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>pada berkas HTML dan isi berkas <code>hello_tone.js</code> adalah</p>
+<pre><code class="language-js">const synth = new Tone.Synth().toMaster()
+synth.triggerAttackRelease('C4', '8n')
+
+document.getElementById(&quot;play-button&quot;).addEventListener(&quot;click&quot;, function() {
+  if (Tone.Transport.state !== 'started') {
+    Tone.Transport.start();
+  } else {
+    Tone.Transport.stop();
+  }
+});
+</code></pre>
+<p>yang tidak bekerja dan menghasilkan pesan kesalahan dan peringatan pada JS console (Ctrl Shift J pada Google Chrome) sebagai berikut</p>
+<pre><code>* Tone.js v14.7.77
+The AudioContext was not allowed to start. It must be resumed
+  (or created) after a user gesture on the page. &lt;URL&gt;
+[Deprecation] The ScriptProcessorNode is deprecated. Use
+  AudioWorkletNode instead. (https://bit.ly/audio-worklet)
+toMaster() has been renamed toDestination()
+The AudioContext is &quot;suspended&quot;. Invoke Tone.start() from a user
+  action to start the audio.
+The AudioContext is &quot;suspended&quot;. Invoke Tone.start() from a user
+  action to start the audio.
+DevTools failed to load source map: Could not load content for
+  https://unpkg.com/Tone.js.map: HTTP error: status code 404,
+  net::ERR_HTTP_RESPONSE_CODE_FAILURE
+</code></pre>
+<p>Baris kedua merupakan error sedangkan lainnya adalah warning. Kemudian penekanan tomobol &lsquo;Play/Pause&rsquo; hanya menambah satu pesan baru</p>
+<pre><code>The AudioContext is &quot;suspended&quot;. Invoke Tone.start() from a user
+  action to start the audio.
+</code></pre>
+<p>Perlu dilakukan perbaikan.</p>
+<h2 id="1st-modification">1st modification<a class="anchor" href="#1st-modification">#</a></h2>
+<p>Dilakukan modifikasi pada berkas HTML</p>
+<pre><code class="language-html">&lt;script src=&quot;https://unpkg.com/tone&quot;&gt;&lt;/script&gt;
+&lt;button id=&quot;play-button&quot;&gt;Play&lt;/button&gt;
+&lt;script src=&quot;hello_tone.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>dan berkas <code>hello_tone.js</code> menjadi</p>
+<pre><code class="language-js">document.getElementById(&quot;play-button&quot;)
+  .addEventListener(&quot;click&quot;, click);
+
+function click() {
+  if(event.target.innerHTML == &quot;Play&quot;) {
+    event.target.innerHTML = &quot;Stop&quot;
+    
+    const synth = new Tone.Synth().toMaster()
+    synth.triggerAttackRelease('C4', '8n')
+    
+    Tone.Transport.start();
+  } else {
+    event.target.innerHTML = &quot;Play&quot;;
+    
+    Tone.Transport.stop();
+  }
+}
+</code></pre>
+<p>yang menghasilkan hanya warning</p>
+<pre><code>The AudioContext was not allowed to start. It must be resumed (or
+  created) after a user gesture on the page. https://goo.gl/7K7WLu
+[Deprecation] The ScriptProcessorNode is deprecated. Use
+  AudioWorkletNode instead. (https://bit.ly/audio-worklet)
+The AudioContext was not allowed to start. It must be resumed (or
+  created) after a user gesture on the page. https://goo.gl/7K7WLu
+The AudioContext was not allowed to start. It must be resumed (or
+  created) after a user gesture on the page. https://goo.gl/7K7WLu
+The AudioContext was not allowed to start. It must be resumed (or
+  created) after a user gesture on the page. https://goo.gl/7K7WLu
+DevTools failed to load source map: Could not load content for
+  https://unpkg.com/Tone.js.map: HTTP error: status code 404,
+  net::ERR_HTTP_RESPONSE_CODE_FAILURE
+</code></pre>
+<p>dan setelah tombok ditekan dihasilkan</p>
+<pre><code>toMaster() has been renamed toDestination()
+</code></pre>
+<p>yang merupakan tambahan warning. Setelah petunjuk pada warning terakhir diikuti, warning ini pun tidak lagi muncul.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Dylan Schiemann, &ldquo;Tone.js Interactive Music Web Framework&rdquo;, InfoQ, 6 Mar 2020, url <a href="https://www.infoq.com/news/2020/03/tonejs-music-web-framework/" 
@@ -206,7 +311,7 @@
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "start to learn tone.js", bugx, 15 Apr 2022, url <a href= "https://dudung.github.io/bugx/0059">https://dudung.github.io/bugx/0059</a> [20220415].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "start to learn tone.js", bugx, 16 Apr 2022, url <a href= "https://dudung.github.io/bugx/0059">https://dudung.github.io/bugx/0059</a> [20220416].
 </div>
 
 
@@ -235,17 +340,12 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "sta
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0058/">
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0031/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">pip install music fail</span>
+        <span class="pagination__title">be enthusiast at stack overflow</span>
     </a>
   
 
-  
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0031/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >be enthusiast at stack overflow</span>
-    </a>
   
 </div>
 
