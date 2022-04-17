@@ -7,13 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 17 Apr 2022 22:04:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 05:08:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Sun, 17 Apr 2022 22:04:00 +0700</pubDate>
+      <pubDate>Mon, 18 Apr 2022 05:08:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exercise</title>
+      <link>https://dudung.github.io/bugx/tags/exercise/</link>
+      <pubDate>Mon, 18 Apr 2022 05:08:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/exercise/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intro</title>
+      <link>https://dudung.github.io/bugx/tags/intro/</link>
+      <pubDate>Mon, 18 Apr 2022 05:08:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photon</title>
+      <link>https://dudung.github.io/bugx/tags/photon/</link>
+      <pubDate>Mon, 18 Apr 2022 05:08:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/photon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physics</title>
+      <link>https://dudung.github.io/bugx/tags/physics/</link>
+      <pubDate>Mon, 18 Apr 2022 05:08:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
     </item>
     
@@ -257,15 +293,6 @@
       <pubDate>Mon, 11 Apr 2022 14:52:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/momentum-energy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>physics</title>
-      <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Mon, 11 Apr 2022 14:52:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
     </item>
     
@@ -779,15 +806,6 @@
       <pubDate>Wed, 23 Mar 2022 19:36:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/curl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>intro</title>
-      <link>https://dudung.github.io/bugx/tags/intro/</link>
-      <pubDate>Wed, 23 Mar 2022 19:36:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/intro/</guid>
       <description></description>
     </item>
     
