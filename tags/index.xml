@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 17 Apr 2022 10:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Apr 2022 22:04:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>draft</title>
+      <link>https://dudung.github.io/bugx/tags/draft/</link>
+      <pubDate>Sun, 17 Apr 2022 22:04:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enthusiast</title>
+      <link>https://dudung.github.io/bugx/tags/enthusiast/</link>
+      <pubDate>Sun, 17 Apr 2022 22:04:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/enthusiast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stack-overflow</title>
+      <link>https://dudung.github.io/bugx/tags/stack-overflow/</link>
+      <pubDate>Sun, 17 Apr 2022 22:04:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/stack-overflow/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>home</title>
       <link>https://dudung.github.io/bugx/tags/home/</link>
@@ -23,15 +50,6 @@
       <pubDate>Sun, 17 Apr 2022 10:32:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/reparation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>draft</title>
-      <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Sat, 16 Apr 2022 13:37:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
     </item>
     
@@ -68,24 +86,6 @@
       <pubDate>Sat, 16 Apr 2022 13:37:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/tone.js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>enthusiast</title>
-      <link>https://dudung.github.io/bugx/tags/enthusiast/</link>
-      <pubDate>Fri, 15 Apr 2022 21:36:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/enthusiast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stack-overflow</title>
-      <link>https://dudung.github.io/bugx/tags/stack-overflow/</link>
-      <pubDate>Fri, 15 Apr 2022 21:36:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/stack-overflow/</guid>
       <description></description>
     </item>
     
