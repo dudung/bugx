@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 11 Apr 2022 14:52:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/relativity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 12:49:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/relativity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lorentz transformation</title>
+      <link>https://dudung.github.io/bugx/0062/</link>
+      <pubDate>Mon, 18 Apr 2022 12:49:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0062/</guid>
+      <description>Persamaan-persamaan yang memungkinkan untuk mengubah koordinat spasial dan temporal dari satu sistem inersial ke sistem inersial lain yang bergerak dengan kecepatan berapapun disebut sebagai transformasi Lorentz [1]. Rentang waktu antara dua kejadian akan berubah dalam suatu transformasi Lorentz, yang berbeda dengan dalam transformasi Galilean, di mana bila laju kerangka bergerak jauh lebih kecil dari laju cahaya dalam vakum, transformasi Lorentz dapat didekati dengan transformasi Galilean dan rentang waktu antara dua kejadian menjadi sama pada kedua kerangka [2].</description>
+    </item>
+    
     <item>
       <title>relativistic kinetic energy</title>
       <link>https://dudung.github.io/bugx/0051/</link>
