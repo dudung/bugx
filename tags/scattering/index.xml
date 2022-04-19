@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>photon on bugx</title>
-    <link>https://dudung.github.io/bugx/tags/photon/</link>
-    <description>Recent content in photon on bugx</description>
+    <title>scattering on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/scattering/</link>
+    <description>Recent content in scattering on bugx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 20 Apr 2022 05:43:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/photon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 05:43:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/scattering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>compton scattering</title>
       <link>https://dudung.github.io/bugx/0064/</link>
@@ -17,15 +17,6 @@
       <description>Hamburan Compton terjadi saat sinar-x terdefleksi dari jalurnya semula akibat interaksi dengan sebuah elektron [1] dalam target karbon. Untuk menjelaskan pengamatannya ini Compton berasumsi bahwa cahaya bersifat sebagai partikel atau foton [2].
 probability of compton effect Saat foton masuk ke dalam bahan tidak selalu dapat terjadi efek Compton. Probabilitas terjadinya efek ini [3]
  berbanding lurus dengan jumlah elektron pada kulit terluar, i.e. kerapatan elektron dan rapat fisis bahan, bergantung lemah pada energi foton (secara relatif tetap untuk rentang energi $10 - 600 \ {\rm keV}$), tidak bergantung pada nomor atom (tidak seperti efek fotolistrik dn produksi pasangan).</description>
-    </item>
-    
-    <item>
-      <title>photon short intro</title>
-      <link>https://dudung.github.io/bugx/0061/</link>
-      <pubDate>Mon, 18 Apr 2022 09:41:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0061/</guid>
-      <description>Hipotesis Plank memberikan konsep yang berbeda dengan sebelumnya mengenai cahaya [1]. Pada efek fotolistrik energi foton yang diberikan pada elektron dalam bahan digunakan untuk melawan fungsi kerja bahan [2] dan di sini berlaku juga hukum kekekalan energi [3]. Dalam fisika moderen terdapat dualitas gelombang-partikel [4]. Pada hamburan Compton cahaya bersifat sebagai partikel karena memiliki momentum, dan terapat visualisasinya [5]. Pada eksperimen Davisson-Germer elektron memiliki sifat sebagai gelombang, yang dapat memberikan pola-pola difraksi saat dihamburkan pada bahan [6].</description>
     </item>
     
   </channel>
