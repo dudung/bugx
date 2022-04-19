@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 18 Apr 2022 18:48:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Apr 2022 20:28:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1-d collision illustration</title>
+      <link>https://dudung.github.io/bugx/0063/</link>
+      <pubDate>Tue, 19 Apr 2022 20:28:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0063/</guid>
+      <description>Tumbukan (en: collision) merupakan peristiwa datangnya bertenmy
+[1]
+[2]
+[3]
+notes  The Editors of Encyclopaedia Britannica, Thinley Kalsang Bhutia, William L. Hosch, &amp;ldquo;collision&amp;rdquo;, Encyclopaedia Britannica, 8 May 2015, url https://www.britannica.com/science/collision [20220419]. Wikipedia contributors, &amp;ldquo;Collision&amp;rdquo;, Wikipedia, The Free Encyclopedia, 21 March 2022, 21:35 UTC, url https://en.wikipedia.org/w/index.php?oldid=1078496222 [20220419]. Carl Rod Nave, &amp;ldquo;Head-on Elastic Collisions&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/colsta.html [20220419]  Cite as: viridi, &#34;1-d collision illustration&#34;, bugx, 19 Apr 2022, url https://dudung.</description>
+    </item>
+    
     <item>
       <title>lorentz transformation</title>
       <link>https://dudung.github.io/bugx/0062/</link>
@@ -120,7 +133,7 @@ concepts Beberapa konsep berikut perlu disinggung dalam membahas RBL induktor so
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220418].  </description>
+notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220419].  </description>
     </item>
     
     <item>
@@ -287,7 +300,7 @@ Persamaan \eqref{eqn:gauss-law-electricity-integral} merupakan hukum Gauss untuk
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220418].  </description>
+posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220419].  </description>
     </item>
     
     <item>
