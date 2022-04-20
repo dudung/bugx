@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-20 05:43:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-20 05:43:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-20 11:00:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-20 11:00:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0064\/",
-      "wordCount" : "276",
+      "wordCount" : "837",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">compton scattering</h1>
-            <time datetime="2022-04-20 05:43:00 &#43;0700 &#43;0700" class="post__date">Wed, 20 Apr  2022</time> 
+            <time datetime="2022-04-20 11:00:00 &#43;0700 &#43;0700" class="post__date">Wed, 20 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -228,7 +228,7 @@
   
 >4</a>].</p>
 <h2 id="formula">formula<a class="anchor" href="#formula">#</a></h2>
-<p>Formula standar Compton berbentuk</p>
+<p>Formula Compton berbentuk</p>
 <p>\begin{equation}\label{eqn:compton-scattering}
 \lambda_f - \lambda_i = \Delta \lambda = \frac{h}{m_0 c} (1 - \cos \theta)
 \end{equation}</p>
@@ -236,6 +236,118 @@
   
   
 >5</a>].</p>
+<p>Foton bergerak dari kiri ke kanan searah dengan sumbu $x$ dan menumbuk elektron yang &ldquo;diam&rdquo; dan kemudian foton terhambur ke arah kanan atas, sementara elektron ke arah kanan bawah. Setelah tumbukan baik elektron maupun foton memiliki momentum pada arah $y$.</p>
+<h2 id="conservation-law">conservation law<a class="anchor" href="#conservation-law">#</a></h2>
+<p>Pada hamburan Compton untuk foton dan elektron yang ditumbuknya berlaku hukum kekekalan momentum</p>
+<p>\begin{equation}\label{eqn:conservation-of-momentum}
+\vec{p} _{\lambda i} + \vec{p} _{ei} = \vec{p} _{\lambda f} + \vec{p} _{ef}
+\end{equation}</p>
+<p>dan hukum kekekalan energi</p>
+<p>\begin{equation}\label{eqn:conservation-of-energy}
+E_{\lambda i} + E_{ei} = E_{\lambda f} + E_{ef}
+\end{equation}</p>
+<p>dengan indeks $\lambda$ untuk foton, $e$ untuk elektron, $i$ untuk keadaan awal (inisial), dan $f$ untuk keadaan akhir (final).</p>
+<h3 id="momentum">momentum<a class="anchor" href="#momentum">#</a></h3>
+<p>Momentum foton sebelum dan sesudah tumbukan adalah</p>
+<p>\begin{equation}\label{eqn:photon-initial-momentum}
+\vec{p} _{\lambda i} = p_i \ \hat{x}
+\end{equation}</p>
+<p>dan</p>
+<p>\begin{equation}\label{eqn:photon-final-momentum}
+\vec{p} _{\lambda f} = p_f \cos\theta \ \hat{x} + p_f \sin\theta \ \hat{y}.
+\end{equation}</p>
+<p>Sedangkan momentum elektron sebelum dan sesudah tumbukan adalah</p>
+<p>\begin{equation}\label{eqn:electron-initial-momentum}
+\vec{p} _{e i} = 0
+\end{equation}</p>
+<p>dan</p>
+<p>\begin{equation}\label{eqn:electron-final-momentum}
+\vec{p} _{e f} = p_e \cos\phi \ \hat{x} - p_e \sin\phi \ \hat{y}.
+\end{equation}</p>
+<p>Substitusi Persamaan \eqref{eqn:photon-initial-momentum}, \eqref{eqn:photon-final-momentum}, \eqref{eqn:electron-initial-momentum}, \eqref{eqn:electron-final-momentum} ke Persamaan \eqref{eqn:conservation-of-momentum} akan memberikan hubungan</p>
+<p>\begin{equation}\label{eqn:conservation-of-momentum-x}
+p_i = p_f \cos\theta + p_e \cos\phi
+\end{equation}</p>
+<p>pada arah $x$ dan hubungan</p>
+<p>\begin{equation}\label{eqn:conservation-of-momentum-y}
+0 = p_f \sin\theta - p_e \sin\phi
+\end{equation}</p>
+<p>pada arah $y$. Dari Persamaan \eqref{eqn:conservation-of-momentum-x} dapat diperoleh</p>
+<p>\begin{equation}\label{eqn:conservation-of-momentum-x-pe}
+\begin{array}{rcl}
+p_e \cos\phi &amp; = &amp; p_i - p_f \cos\theta \newline
+p_e^2 \cos^2 \phi &amp; = &amp; p_i^2 - 2p_i p_f \cos\theta + p_f^2 \cos^2 \theta
+\end{array}
+\end{equation}</p>
+<p>dan dari \eqref{eqn:conservation-of-momentum-y} dapat diperoleh</p>
+<p>\begin{equation}\label{eqn:conservation-of-momentum-y-pe}
+\begin{array}{rcl}
+p_e \sin\phi &amp; = &amp; p_f \sin\theta \newline
+p_e^2 \sin^2 \phi &amp; = &amp; p_f^2 \sin^2 \theta.
+\end{array}
+\end{equation}</p>
+<p>Dengan menjumlahkan baris terakhir dari kedua Persamaan \eqref{eqn:conservation-of-momentum-x-pe} dan \eqref{eqn:conservation-of-momentum-y-pe} hubungan</p>
+<p>\begin{equation}\label{eqn:conservation-of-momentum-pe}
+\begin{array}{rcl}
+p_e^2 \cos^2 \phi + p_e^2 \sin^2 \phi &amp; = &amp; p_i^2 - 2p_i p_f \cos\theta + p_f^2 \cos^2 \theta \newline
+&amp; &amp; + \ p_f^2 \sin^2 \theta \newline
+p_e^2 &amp; = &amp; p_i^2 - 2p_i p_f \cos\theta + p_f^2
+\end{array}
+\end{equation}</p>
+<p>dapat diperoleh.</p>
+<h3 id="energy">energy<a class="anchor" href="#energy">#</a></h3>
+<p>Energi foton sebelum dan sesudan tumbukan adalah</p>
+<p>\begin{equation}\label{eqn:photon-initial-energy}
+E _{\lambda i} = p_i c
+\end{equation}</p>
+<p>dan</p>
+<p>\begin{equation}\label{eqn:photon-final-energy}
+E _{\lambda i} = p_f c.
+\end{equation}</p>
+<p>Sedangkan energi elektron sebelum dan sesudah tumbukan adalah</p>
+<p>\begin{equation}\label{eqn:electron-initial-energy}
+E_{e i} = mc^2
+\end{equation}</p>
+<p>dan</p>
+<p>\begin{equation}\label{eqn:electron-final-energy}
+E_{e f} = \sqrt{m^2 c^4 + p_e^2 c^2}.
+\end{equation}</p>
+<p>Substitusi Persamaan \eqref{eqn:photon-initial-energy}, \eqref{eqn:photon-final-energy}, \eqref{eqn:electron-initial-energy}, \eqref{eqn:electron-final-energy} ke Persamaan \eqref{eqn:conservation-of-energy} akan dapat menghasilkan</p>
+<p>\begin{equation}\label{eqn:conservation-of-energy-pe}
+\begin{array}{rcl}
+p_i c + mc^2 &amp; = &amp; p_f c \newline
+&amp;&amp; + \sqrt{m^2 c^4 + p_e^2 c^2} \newline \newline
+(p_i - p_f) c + mc^2 &amp; = &amp; \sqrt{m^2 c^4 + p_e^2 c^2} \newline \newline
+(p_i - p_f)^2 c^2 &amp;&amp; \newline
++2 (p_i - p_f) mc^3 &amp;&amp; \newline
++m^2c^4 &amp; = &amp; m^2 c^4 + p_e^2 c^2 \newline \newline
+(p_i - p_f)^2 c^2 &amp;&amp; \newline
++2 (p_i - p_f) mc^3 &amp; = &amp; p_e^2 c^2 \newline \newline
+(p_i - p_f)^2 &amp;&amp; \newline
++2 (p_i - p_f) mc &amp; = &amp; p_e^2 \newline \newline
+p_i^2 -2p_i p_f + p_f^2 &amp;&amp; \newline
++2 (p_i - p_f) mc &amp; = &amp; p_e^2.
+\end{array}
+\end{equation}</p>
+<h2 id="equating">equating<a class="anchor" href="#equating">#</a></h2>
+<p>Menyamakan Persamaan \eqref{eqn:conservation-of-momentum-pe} dengan Persamaan \eqref{eqn:conservation-of-energy-pe} akan memberikan</p>
+<p>\begin{equation}\label{eqn:compton-derivation-1}
+\begin{array}{rcl}
+p_i^2 -2p_i p_f + p_f^2 + 2 (p_i - p_f) mc &amp;&amp; \newline
+= p_i^2 - 2p_i p_f \cos\theta + p_f^2.
+\end{array}
+\end{equation}</p>
+<p>Selanjutnya dengan menggunakan momentum foton</p>
+<p>\begin{equation}\label{eqn:photon-momentum}
+p = \frac{h}{\lambda}
+\end{equation}</p>
+<p>Persamaan \eqref{eqn:compton-derivation-1} akan menjadi
+\begin{equation}\label{eqn:compton-derivation-2}
+\begin{array}{rcl}
+&amp; = &amp;
+\end{array}
+\end{equation}</p>
+<p>yang tidak lain adalah formula hamburan Compton pada Persamaan \eqref{eqn:compton-scattering}.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Jean Dubberke (coord.), &ldquo;Compton Scattering&rdquo;, Nondestructive Testing and Nondestructive Evaluation, Center for Nondestructive Evaluation, Iowa State University, 2021, url <a href="https://www.nde-ed.org/Physics/X-Ray/comptonscattering.xhtml" 
@@ -261,7 +373,7 @@
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "compton scattering", bugx, 20 Apr 2022, url <a href= "https://dudung.github.io/bugx/0064">https://dudung.github.io/bugx/0064</a> [20220419].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "compton scattering", bugx, 20 Apr 2022, url <a href= "https://dudung.github.io/bugx/0064">https://dudung.github.io/bugx/0064</a> [20220420].
 </div>
 
 
