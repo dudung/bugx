@@ -10,17 +10,12 @@
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>svm wta co meteorology params</title>
-      <link>https://dudung.github.io/bugx/0064/</link>
-      <pubDate>Fri, 22 Apr 2022 17:18:00 +0700</pubDate>
+      <link>https://dudung.github.io/bugx/0065/</link>
+      <pubDate>Fri, 22 Apr 2022 17:49:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/0064/</guid>
-      <description>[1] [2]
-notes   
-  
-  
-  
-  
-  Cite as: viridi, &#34;svm wta co meteorology params&#34;, bugx, 22 Apr 2022, url https://dudung.github.io/bugx/0064 [20220422].  </description>
+      <guid>https://dudung.github.io/bugx/0065/</guid>
+      <description>Menarik untuk menyinggung penerapan support vector machine [1] dan wavelet transform analysis [2] untuk penafsiran data konsentrasi CO dan parameter meteorologi di beberapa daerah [3], sebagaimana ditugaskan untuk mengulasnya oleh suatu tim [4].
+notes  Rohith Gandhi, &amp;ldquo;Support Vector Machine — Introduction to Machine Learning Algorithms&amp;rdquo;, Towards Data Science, 7 Jun 2018, url https://towardsdatascience.com/934a444fca47 [20220422]. Christopher Torrence, Gilbert P. Compo, &amp;ldquo;A Practical Guide to Wavelet Analysis&amp;rdquo;, Bulletin of the American Meteorological Society [Bull Am Meteorol Soc], vol 79, no 1, p 61-78, Jan 1998, url https://doi.</description>
     </item>
     
     <item>
