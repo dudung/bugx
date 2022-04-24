@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-24 22:27:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-24 22:27:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-24 22:59:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-24 22:59:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0044\/",
-      "wordCount" : "809",
+      "wordCount" : "946",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">rbl 2021-2 fi1201-01</h1>
-            <time datetime="2022-04-24 22:27:00 &#43;0700 &#43;0700" class="post__date">Sun, 24 Apr  2022</time> 
+            <time datetime="2022-04-24 22:59:00 &#43;0700 &#43;0700" class="post__date">Sun, 24 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -359,32 +359,71 @@
   
 >25</a>]</td>
 </tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:left">Kesalahan Eksperimen - Teori</td>
+<td style="text-align:center">[<a href="#r26" 
+  
+  
+>26</a>]</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:left">Kesimpulan</td>
+<td style="text-align:center">[<a href="#r27" 
+  
+  
+>27</a>, <a href="#r28" 
+  
+  
+>28</a>]</td>
+</tr>
 </tbody>
 </table>
 <p>*Hanya merupakan contoh dan dapat menggunakan rujukan lainnya, serta tidak semua konsep yang disajikan harus digunakan.</p>
-<p>Disarankan agar terdapat rujukan untuk setiap konsep yang digunakan untuk menunjukkan terdapatnya penelusuran bahan bacaan.</p>
+<p>Disarankan agar terdapat rujukan untuk setiap konsep yang digunakan untuk menunjukkan terdapatnya penelusuran bahan bacaan dan terdapat dasar penulisan mengenai sesuatu.</p>
 <h2 id="experiment-vs-theory">experiment vs theory<a class="anchor" href="#experiment-vs-theory">#</a></h2>
 <p>Terdapat beberapa hal yang perlu diperhatikan saat akan membandingkan hasil eksperimen dengan teori.</p>
 <ul>
-<li>Eksperimen sebaiknya dilakukan berulang kali untuk nilai-nilai variabel yang sama sehingga diperoleh standar deviasinya.</li>
-<li>Variabel yang diubah-ubah nilainya hanya satu buah sehingga dapat diperoleh fungsi dari variabel tersebut, misalnya $L = L(N)$ atau induktansi sebagai fungsi dari jumlah lilitan menurut eksperimen.</li>
+<li>Eksperimen sebaiknya dilakukan berulang kali untuk nilai-nilai variabel yang sama sehingga diperoleh standar deviasinya [<a href="#r20" 
+  
+  
+>20</a>].</li>
+<li>Variabel yang diubah-ubah nilainya hanya satu buah sehingga dapat diperoleh fungsi dari variabel tersebut, misalnya $L = L(N)$
+\begin{equation}\label{eqn:solenoid-inductance}
+L = \frac{\mu N^2 A}{l} = c N^2
+\end{equation}
+atau induktansi $L$ sebagai fungsi dari jumlah lilitan $N$ menurut eksperimen.</li>
 <li>Data eksperimen disandingkan dengan prediksi menurut teori dalam satu grafik, di mana data eksperimen berupa titik sedangkan prediksi teori berupa kurva kontinu, seperti diberikan pada Gambar <a href="#fig1" 
   
   
 >1</a>.
 <img src="/bugx/img/data/exp-theory-comparison.png" alt="">
-Gambar <a name='fig1'>1</a> Pembandingan data eksperimen dan prediksi teori untuk kasus plasmonik [<a href="#r23" 
+Gambar <a name='fig1'>1</a>. Pembandingan data eksperimen dan prediksi teori untuk kasus plasmonik [<a href="#r23" 
   
   
->23</a>] dan karakteristik I-V grafena <a href="#r24" 
+>23</a>] dan karakteristik I-V grafena [<a href="#r24" 
   
   
 >24</a>].</li>
-<li>Kesalahan diperoleh dari perbedaan titik-titik data eksperimen terhadap kurva teori.</li>
 <li>Pengujian yang akurat dan berarti dari suatu hipotesis dan teori tidak mungkin tanpa koreksi atas distorsi yang terdapat pada data akibat kesalahan pengukuran yang tidak dapat dihindari <a href="#r25" 
   
   
 >25</a>]</li>
+<li>Kesalahan diperoleh dari perbedaan titik-titik data observasi (eksperimen) terhadap kurva model (teori) sebagaimana diilustrasikan pada Gambar <a href="#fig2" 
+  
+  
+>2</a>.
+<img src="/bugx/img/data/model-data-error.png" alt="">
+Gambar <a name='fig2'>2</a>. Kesalahan antara model dan data observasi [<a href="#r26" 
+  
+  
+>26</a>].<br>
+Dari sini model dapat diubah dan diperkenalkan parameter model, misalnya untuk contoh sebelumnya menjadi $L = \beta L(N)$ atau secara eksplisit
+\begin{equation}\label{eqn:solenoid-inductance-model}
+L = \beta c N^2
+\end{equation}
+di mana $\beta \ne 1$. Kemudian dilakukan penjelasan perihal nilai $\beta$ ini mengapa Persamaan \eqref{eqn:solenoid-inductance} menjadi Persamaan \eqref{eqn:solenoid-inductance-model}.</li>
 </ul>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
@@ -497,6 +536,18 @@ Gambar <a name='fig1'>1</a> Pembandingan data eksperimen dan prediksi teori untu
   
    target="_blank" rel="noreferrer noopener" 
 ><code>PDF</code></a></li>
+<li><a name='r26'></a>Rod Pierce, &ldquo;Least Squares Regression&rdquo;, Math Is Fun, 2 Oct 2021, url <a href="https://www.mathsisfun.com/data/least-squares-regression.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.mathsisfun.com/data/least-squares-regression.html</a> [20220424].</li>
+<li><a name='r27'></a>Cara Batema, &ldquo;How to Write Conclusions for Science Projects&rdquo;, Sciencing, 25 Jun 2018, url <a href="https://sciencing.com/how-to-write-conclusions-for-science-projects-12742066.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://sciencing.com/how-to-write-conclusions-for-science-projects-12742066.html</a> [20220424].</li>
+<li><a name='r28'></a>-, &ldquo;Scientific Method: Step 6: CONCLUSION&rdquo;, Harford Community College Library, 28 Jan 2022, url <a href="https://harford.libguides.com/c.php?g=321391&amp;p=2150654" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://harford.libguides.com/c.php?g=321391&p=2150654</a> [20220424].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
