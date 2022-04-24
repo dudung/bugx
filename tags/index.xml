@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 24 Apr 2022 11:11:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 15:44:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>draft</title>
+      <link>https://dudung.github.io/bugx/tags/draft/</link>
+      <pubDate>Sun, 24 Apr 2022 15:44:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physics</title>
+      <link>https://dudung.github.io/bugx/tags/physics/</link>
+      <pubDate>Sun, 24 Apr 2022 15:44:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rbl</title>
+      <link>https://dudung.github.io/bugx/tags/rbl/</link>
+      <pubDate>Sun, 24 Apr 2022 15:44:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/rbl/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://dudung.github.io/bugx/tags/hugo/</link>
@@ -45,29 +72,11 @@
     </item>
     
     <item>
-      <title>draft</title>
-      <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Thu, 21 Apr 2022 22:56:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>photon</title>
       <link>https://dudung.github.io/bugx/tags/photon/</link>
       <pubDate>Thu, 21 Apr 2022 22:56:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/photon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>physics</title>
-      <link>https://dudung.github.io/bugx/tags/physics/</link>
-      <pubDate>Thu, 21 Apr 2022 22:56:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/physics/</guid>
       <description></description>
     </item>
     
@@ -491,15 +500,6 @@
       <pubDate>Thu, 07 Apr 2022 10:47:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/velocity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rbl</title>
-      <link>https://dudung.github.io/bugx/tags/rbl/</link>
-      <pubDate>Wed, 06 Apr 2022 07:10:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/rbl/</guid>
       <description></description>
     </item>
     

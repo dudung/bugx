@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 24 Apr 2022 11:11:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 15:44:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rbl 2021-2 fi1201-01</title>
+      <link>https://dudung.github.io/bugx/0044/</link>
+      <pubDate>Sun, 24 Apr 2022 15:44:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0044/</guid>
+      <description>RBL (research based learning) FI1201 dan FI1202 Semester 2 Tahun Ajaran 2021/2021 mengenai pembuatan induktor solenoida [1]. Telah disediakan fnformasi bagaimana membuat penurun tegangan AC [2] dan template laporan/makalah RBL serta template catatan kemajuan [3].
+concepts Beberapa konsep berikut perlu disinggung dalam membahas RBL induktor solenoida seperti pada tabel berikut ini, akan tetapi tidak terbatas hanya konsep-konsep tersebut.
+Tabel 1. Konsep-konsep fisika yang diperlukan untuk RBL induktor solenoida.
+   No Konsep Rujukan*     1 Induksi [4]   2 Induktansi solenoida [5, 6, 7, 8]   3 Rangkaian Seri RLC [9, 10]    *Hanya merupakan contoh dan dapat menggunakan rujukan lainnya.</description>
+    </item>
+    
     <item>
       <title>update hugo windows 10</title>
       <link>https://dudung.github.io/bugx/0066/</link>
@@ -221,17 +233,6 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0045/</guid>
       <description>Dalam kehidupan sehari-hari peristiwa terkait kecepatan relatif sering ditemui dan kadang membuat tertegun saat tidak menyadarinya. Beberapa peristiwa yang dimaksud adalah seperti merasa gerbong kereta yang ditempati bergerak mundur hanya karena gerbong di sebelahnya bergerak maju saat berada di stasiun [1], mobil yang dikendarai tersusul oleh mobil lain yang terlihat seperti bergerak lambat [2], perahu bergerak tegak lurus sisi meyeberangi sungai tidak sampai ke titik yang dituju [3], dan bumi bergerak mengelilingi matahari dengan laju cukup besar tanpa disadari penghuninya [4].</description>
-    </item>
-    
-    <item>
-      <title>rbl 2021-2 fi1201-01</title>
-      <link>https://dudung.github.io/bugx/0044/</link>
-      <pubDate>Wed, 06 Apr 2022 07:10:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0044/</guid>
-      <description>RBL (research based learning) FI1201 dan FI1202 Semester 2 Tahun Ajaran 2021/2021 mengenai pembuatan induktor solenoida [1]. Telah disediakan fnformasi bagaimana membuat penurun tegangan AC [2] dan template laporan/makalah RBL serta template catatan kemajuan [3].
-concepts Beberapa konsep berikut perlu disinggung dalam membahas RBL induktor solenoida
- induktansi induktor ..  notes  Tim RBL FI1201/FI1201, &amp;ldquo;Desain Induktor Solenoid&amp;rdquo;, Research Based Learning FI 1201/1202 Fisika Dasar IIA/IIB, Semester II / 2021-2022, Abdul Muizz Tri Pradipto (ed.</description>
     </item>
     
     <item>
