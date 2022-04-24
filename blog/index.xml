@@ -7,23 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 24 Apr 2022 15:44:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 17:52:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>rbl 2021-2 fi1201-01</title>
       <link>https://dudung.github.io/bugx/0044/</link>
-      <pubDate>Sun, 24 Apr 2022 15:44:00 +0700</pubDate>
+      <pubDate>Sun, 24 Apr 2022 17:52:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0044/</guid>
       <description>RBL (research based learning) FI1201 dan FI1202 Semester 2 Tahun Ajaran 2021/2021 mengenai pembuatan induktor solenoida [1]. Telah disediakan fnformasi bagaimana membuat penurun tegangan AC [2] dan template laporan/makalah RBL serta template catatan kemajuan [3].
 concepts Beberapa konsep berikut perlu disinggung dalam membahas RBL induktor solenoida seperti pada tabel berikut ini, akan tetapi tidak terbatas hanya konsep-konsep tersebut.
-Tabel 1. Konsep-konsep fisika yang diperlukan untuk RBL induktor solenoida.
-   No Konsep Rujukan*     1 Induksi [4]   2 Induktansi solenoida [5, 6, 7, 8]   3 Rangkaian Seri RLC [9, 10]    *Hanya merupakan contoh dan dapat menggunakan rujukan lainnya.</description>
+Tabel 1. Konsep-konsep fisika yang mungkin diperlukan untuk RBL induktor solenoida.
+   No Konsep Rujukan*     1 Induksi [4]   2 Induktansi solenoida [5, 6, 7, 8]   3 Rangkaian Seri RLC [9, 10]   4 Fasor [11]   5 Kesalahan pengukuran [12, 13]   6 Akurasi dan Presisi [14, 15]    *Hanya merupakan contoh dan dapat menggunakan rujukan lainnya, serta tidak semua konsep yang disajikan harus digunakan.</description>
     </item>
     
     <item>
       <title>update hugo windows 10</title>
       <link>https://dudung.github.io/bugx/0066/</link>
-      <pubDate>Sun, 24 Apr 2022 11:11:00 +0700</pubDate>
+      <pubDate>Sun, 24 Apr 2022 17:00:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0066/</guid>
       <description>Tulisan ini dibuat berbarengan dengan update Hugo dari versi 0.95.0 ke 0.97.3 mengikuti suatu informasi [1]. Untuk menjalan Hugo digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.

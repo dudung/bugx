@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-24 11:11:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-24 11:11:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-24 17:00:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-24 17:00:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0066\/",
-      "wordCount" : "332",
+      "wordCount" : "427",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">update hugo windows 10</h1>
-            <time datetime="2022-04-24 11:11:00 &#43;0700 &#43;0700" class="post__date">Sun, 24 Apr  2022</time> 
+            <time datetime="2022-04-24 17:00:00 &#43;0700 &#43;0700" class="post__date">Sun, 24 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -198,6 +198,40 @@ hugo v0.97.3-078053a43d746a26aa3d48cf1ec7122ae78a9bb4+extended windows/amd64 Bui
 VendorInfo=gohugoio
 </code></pre>
 <p>yang telah berganti menjadi versi 0.97.3 dan telah dapat dijalankan seperti semula.</p>
+<h3 id="errors">errors<a class="anchor" href="#errors">#</a></h3>
+<p>Pesan kesalahan</p>
+<pre><code>panic: BUG: parent not set for &quot;/blog/&quot;
+
+goroutine 1098 [running]:
+github.com/gohugoio/hugo/hugolib.(*pageMap).assembleSections.func1({0xc000ac0100, 0x6}, {0x1f8a4a0?, 0xc007176870})
+        /root/project/hugo/hugolib/content_map_page.go:465 +0x6ba
+github.com/armon/go-radix.recursiveWalk(0xc0071768a0, 0xc000d3ddb0)
+        /go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:519 +0x45
+github.com/armon/go-radix.recursiveWalk(0xc0041cf200?, 0xc000d3ddb0)
+        /go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0xb3
+github.com/armon/go-radix.recursiveWalk(0x6101e0?, 0xc000d3ddb0)
+        /go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0xb3
+github.com/armon/go-radix.(*Tree).Walk(...)
+        /go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:447
+github.com/gohugoio/hugo/hugolib.(*pageMap).assembleSections(0xc002ac2890?)
+        /root/project/hugo/hugolib/content_map_page.go:435 +0x85
+github.com/gohugoio/hugo/hugolib.(*pageMap).assemblePages(0xc002ac2890)
+        /root/project/hugo/hugolib/content_map_page.go:330 +0x4f
+github.com/gohugoio/hugo/hugolib.(*pageMaps).AssemblePages.func1(0xc002ac2890)
+        /root/project/hugo/hugolib/content_map_page.go:719 +0x56
+github.com/gohugoio/hugo/hugolib.(*pageMaps).withMaps.func1()
+        /root/project/hugo/hugolib/content_map_page.go:787 +0x22
+github.com/gohugoio/hugo/common/para.(*errGroupRunner).Run.func1()
+        /root/project/hugo/common/para/para.go:52 +0x26
+golang.org/x/sync/errgroup.(*Group).Go.func1()
+        /go/pkg/mod/golang.org/x/sync@v0.0.0-20210220032951-036812b2e83c/errgroup/errgroup.go:57 +0x67
+created by golang.org/x/sync/errgroup.(*Group).Go
+        /go/pkg/mod/golang.org/x/sync@v0.0.0-20210220032951-036812b2e83c/errgroup/errgroup.go:54 +0x8d
+</code></pre>
+<p>masih muncul dan belum ada solusinya. Akan tetapi terdapat petunjuk terkait, seperti <code>panic: BUG: parent not set for &quot;/categories&quot;</code> yang terjadi saat situs dibangun dengan homepage dalam keadaan drafted [<a href="#r06" 
+  
+  
+>6</a>]. Penelusuran lebih lanjut dapat dilakukan dan akan dilaporkan kemudian.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Vladimir Likhanov, &ldquo;Installing and updating Hugo on Windows&rdquo;, DocsMatter, 3 Aug 2021, url <a href="https://www.docsmatter.org/post/hugo-installing-on-windows/" 
