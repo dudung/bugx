@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 24 Apr 2022 22:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 03:15:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rbl 2021-2 fi1201-01 check</title>
+      <link>https://dudung.github.io/bugx/0067/</link>
+      <pubDate>Mon, 25 Apr 2022 03:15:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0067/</guid>
+      <description>Pembuatan induktor solenoida merupakan topik kegiatan RBL (research based learning) dalam matakuliah FI1201 dan FI1202 pada Semester 2 Tahun Ajaran 2021/2021 [1].
+notes  Tim RBL FI1201/FI1201, &amp;ldquo;Desain Induktor Solenoid&amp;rdquo;, Research Based Learning FI 1201/1202 Fisika Dasar IIA/IIB, Semester II / 2021-2022, Abdul Muizz Tri Pradipto (ed.), Program Studi Fisika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Institut Teknologi Bandung, 24 Mar 2022, url https://doi.org/10.17605/osf.io/vkhdw.  Cite as: viridi, &#34;rbl 2021-2 fi1201-01 check&#34;</description>
+    </item>
+    
     <item>
       <title>rbl 2021-2 fi1201-01</title>
       <link>https://dudung.github.io/bugx/0044/</link>
       <pubDate>Sun, 24 Apr 2022 22:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0044/</guid>
-      <description>RBL (research based learning) FI1201 dan FI1202 Semester 2 Tahun Ajaran 2021/2021 mengenai pembuatan induktor solenoida [1]. Telah disediakan fnformasi bagaimana membuat penurun tegangan AC [2] dan template laporan/makalah RBL serta template catatan kemajuan [3].
+      <description>RBL (research based learning) FI1201 dan FI1202 Semester 2 Tahun Ajaran 2021/2021 mengenai pembuatan induktor solenoida [1]. Telah disediakan informasi bagaimana membuat penurun tegangan AC [2] dan template laporan/makalah RBL serta template catatan kemajuan [3].
 concepts Beberapa konsep berikut perlu disinggung dalam membahas RBL induktor solenoida seperti pada tabel berikut ini, akan tetapi tidak terbatas hanya konsep-konsep tersebut.
 Tabel 1. Konsep-konsep fisika yang mungkin diperlukan untuk RBL induktor solenoida.
    No Konsep Rujukan*     1 Induksi [4]   2 Induktansi solenoida [5, 6, 7, 8]   3 Trafo penurun tegangan [9]   4 Rangkaian Seri RLC [10, 11]   5 Fasor [12]   6 Multimeter [13, 14, 15]   7 LCR Meter [16]   8 Impedansi RLC Seri [17]   9 Akurasi dan Presisi [18, 19]   10 Kesalahan pengukuran [20, 21]   11 Variasikan Hanya Satu Variabel [22]   12 Penyandingan Data Eksperimen</description>
