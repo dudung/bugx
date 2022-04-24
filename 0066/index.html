@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-04-24 17:00:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-04-24 17:00:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-04-24 22:19:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-04-24 22:19:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0066\/",
-      "wordCount" : "427",
+      "wordCount" : "470",
       "keywords" : ["Blog"]
     }
   
@@ -130,7 +130,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">update hugo windows 10</h1>
-            <time datetime="2022-04-24 17:00:00 &#43;0700 &#43;0700" class="post__date">Sun, 24 Apr  2022</time> 
+            <time datetime="2022-04-24 22:19:00 &#43;0700 &#43;0700" class="post__date">Sun, 24 Apr  2022</time> 
           </header>
           <article class="post__content">
               
@@ -232,6 +232,19 @@ created by golang.org/x/sync/errgroup.(*Group).Go
   
   
 >6</a>]. Penelusuran lebih lanjut dapat dilakukan dan akan dilaporkan kemudian.</p>
+<p>Selain itu terdapat pula</p>
+<pre><code>panic: runtime error: invalid memory address or nil pointer dereference
+[signal 0xc0000005 code=0x0 addr=0x20 pc=0x1977021]
+
+goroutine 183 [running]:
+github.com/gohugoio/hugo/commands.(*commandeer).handleEvents(0xc000746300, 0xc003d9b4d0, 0xc003d28148, {0xc000008600?, 0x2f, 0x40}, 0xc00397c0c0?)
+        /root/project/hugo/commands/hugo.go:1101 +0x721
+github.com/gohugoio/hugo/commands.(*commandeer).newWatcher.func1()
+        /root/project/hugo/commands/hugo.go:882 +0x26c
+created by github.com/gohugoio/hugo/commands.(*commandeer).newWatcher
+        /root/project/hugo/commands/hugo.go:873 +0x38d
+</code></pre>
+<p>yang belum dilacak informasinya.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Vladimir Likhanov, &ldquo;Installing and updating Hugo on Windows&rdquo;, DocsMatter, 3 Aug 2021, url <a href="https://www.docsmatter.org/post/hugo-installing-on-windows/" 
