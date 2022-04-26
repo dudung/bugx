@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 25 Apr 2022 09:10:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 10:49:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>be enthusiast at stack overflow</title>
+      <link>https://dudung.github.io/bugx/0031/</link>
+      <pubDate>Tue, 26 Apr 2022 10:49:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0031/</guid>
+      <description>Menjadi pengguna antusias di Stack Overflow (SO) memerlukan konsistensi kunjungan tak terputuskan 30 hari, terlebih bila ingin menjadi pengguna fanatik memerlukan 100 hari [1]. Di sini akan dicoba merekam kunjungan yang dilakukan berikut aktivitas yang dilakukan, setidaknya pertanyaan dan atau jawaban yang dibaca.
+visits Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel di bawah ini. Reputasi sebelumnya adalah 5 dengan 5 badge (Popular Question, Tumbleweed, Announcer, Scholar, Editor).</description>
+    </item>
+    
     <item>
       <title>rbl 2021-2 fi1201-01 check</title>
       <link>https://dudung.github.io/bugx/0067/</link>
@@ -62,16 +72,6 @@ probability of compton effect Saat foton masuk ke dalam bahan tidak selalu dapat
       
       <guid>https://dudung.github.io/bugx/0063/</guid>
       <description>Tumbukan (en: collision) merupakan peristiwa kontak langsung dua buah benda yang datang secara tiba-tiba dan kuat, seperti dua bola biliard, pemukul golf dan bolanya, palu dan kepala paku, atau obyek yang jatuh dan lantai [1]. Antara kedua benda yang berinteraksi muncul gaya yang berlangsung dalam waktu yang relatif singkat [2]. Untuk tumbukan 1-d terdapat beberapa kasus yang bergantung pada massa proyektil dan targetnya [3], di mana proyektil adalah benda yang menumbuk dan target adalah benda yang ditumbuk.</description>
-    </item>
-    
-    <item>
-      <title>be enthusiast at stack overflow</title>
-      <link>https://dudung.github.io/bugx/0031/</link>
-      <pubDate>Tue, 19 Apr 2022 22:34:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0031/</guid>
-      <description>Menjadi pengguna antusias di Stack Overflow (SO) memerlukan konsistensi kunjungan tak terputuskan 30 hari, terlebih bila ingin menjadi pengguna fanatik memerlukan 100 hari [1]. Di sini akan dicoba merekam kunjungan yang dilakukan berikut aktivitas yang dilakukan, setidaknya pertanyaan dan atau jawaban yang dibaca.
-visits Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel di bawah ini. Reputasi sebelumnya adalah 5 dengan 5 badge (Popular Question, Tumbleweed, Announcer, Scholar, Editor).</description>
     </item>
     
     <item>
@@ -255,7 +255,7 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220425].  </description>
+notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220426].  </description>
     </item>
     
     <item>

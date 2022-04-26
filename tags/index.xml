@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 25 Apr 2022 09:10:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 10:49:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>draft</title>
       <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Mon, 25 Apr 2022 09:10:00 +0700</pubDate>
+      <pubDate>Tue, 26 Apr 2022 10:49:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enthusiast</title>
+      <link>https://dudung.github.io/bugx/tags/enthusiast/</link>
+      <pubDate>Tue, 26 Apr 2022 10:49:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/enthusiast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stack-overflow</title>
+      <link>https://dudung.github.io/bugx/tags/stack-overflow/</link>
+      <pubDate>Tue, 26 Apr 2022 10:49:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/stack-overflow/</guid>
       <description></description>
     </item>
     
@@ -113,24 +131,6 @@
       <pubDate>Wed, 20 Apr 2022 04:54:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/momentum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>enthusiast</title>
-      <link>https://dudung.github.io/bugx/tags/enthusiast/</link>
-      <pubDate>Tue, 19 Apr 2022 22:34:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/enthusiast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stack-overflow</title>
-      <link>https://dudung.github.io/bugx/tags/stack-overflow/</link>
-      <pubDate>Tue, 19 Apr 2022 22:34:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/stack-overflow/</guid>
       <description></description>
     </item>
     
