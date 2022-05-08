@@ -7,16 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 08 May 2022 17:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 May 2022 19:12:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>github fi3201 exam 2</title>
       <link>https://dudung.github.io/bugx/0068/</link>
-      <pubDate>Sun, 08 May 2022 17:32:00 +0700</pubDate>
+      <pubDate>Sun, 08 May 2022 19:12:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0068/</guid>
       <description>Matakuliah Fisika Komputasi [1] yang diberikan pada Semester 2 Tahun Akademik 2021/2022 diakhir dengan suatu bentuk tugas yang akan diunggah ke GitHub [2].
 stages Terdapat empat tahap dalam mengerjakan ujian FI3201 ini.
- Menyiapkan folder kerja. Menjawab pertanyaan. Mengunggah jawaban. Memfinalkan ujian.  notes   User, &amp;ldquo;FI3201 Computational Physics&amp;rdquo;, Physics Department, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, Indonesia, 8 Oct 2020, url https://multisite.itb.ac.id/fisika/wp-content/uploads/sites/298/2021/06/FI3201-Computational-Physics.pdf [20220508].</description>
+ Menyiapkan folder kerja. Menjawab pertanyaan. Mengunggah jawaban. Memfinalkan ujian.  Keempat langkah tersebut akan diberikan pada bagian di bawah ini atau dapat diakses dalam empat halaman terpisah di Cookbook [3].
+preparing working folder Menyiapkan folder kerja dilakukan dengan langkah-langkah berikut ini.</description>
     </item>
     
     <item>
