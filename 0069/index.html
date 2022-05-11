@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-05-11 19:18:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-05-11 19:18:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-05-11 23:23:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-05-11 23:23:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0069\/",
-      "wordCount" : "15",
+      "wordCount" : "555",
       "keywords" : ["Blog"]
     }
   
@@ -139,17 +139,171 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">start learn node.js</h1>
-            <time datetime="2022-05-11 19:18:00 &#43;0700 &#43;0700" class="post__date">Wed, 11 May  2022</time> 
+            <time datetime="2022-05-11 23:23:00 &#43;0700 &#43;0700" class="post__date">Wed, 11 May  2022</time> 
           </header>
           <article class="post__content">
               
-<p>[<a href="#r01" 
+<p>Node.js merupakan suatu platform untuk pengembangan program JavaScript mandiri (standalone) yang berjalan tanpa kebergantungan pada aplikasi di host, sebagaimana suatu piranti lunak penjelajah web (web browser) bekerja [<a href="#r01" 
   
   
->1</a>]</p>
+>1</a>]. Platform ini dibangun di atas mesin JavaScript V8 Google Chrome untuk mengembangkan aplikasi oneline chat, situs video streaming, aplikasi single-page, dan lainnya, serta digunakan oleh berbagai perusahaan besar dan startup seperti Netflix, PayPal NASA, Walmart sebagai contohnya [<a href="#r02" 
+  
+  
+>2</a>]. Node.js yang bukan merupakan framework ataupun bahasa pemrograman sebagaimana kebanyakan orang salah mengerti dan memahaminya, sering digunakan untuk membuat layanan back-end dan karena menggunakan JavaScript memudahkan programmer yang sudah terbiasa menggembangkan aplikasi front-end dengan JavaScript untuk beralih ke mengembangkan aplikasi dengan platform ini [<a href="#r03" 
+  
+  
+>3</a>]. Disamping terdapat keuntungan menggunakan Node.js terdapat pula kekurangannya yang perlu diperhatikan dalam pengembangan aplikasi [<a href="#r04" 
+  
+  
+>4</a>]. Setelah melakukan instalasi Node.js suatu web server dapat dengan mudah dibangun [<a href="#r05" 
+  
+  
+>5</a>], yang akan disinggung dengan singkat di sini.</p>
+<h2 id="version">version<a class="anchor" href="#version">#</a></h2>
+<p>Saat sini digunakan</p>
+<pre><code class="language-powershell">PS L:\home\cookbook&gt; node --version
+v16.14.2
+</code></pre>
+<p>Node.js versi 16.14.2 yang dirilis pada 17 Maret 2022 [<a href="#r06" 
+  
+  
+>6</a>].</p>
+<h2 id="web-server">web server<a class="anchor" href="#web-server">#</a></h2>
+<p>Web server dapat dibuat dengan menggunakan kode berikut [<a href="#r05" 
+  
+  
+>5</a>].</p>
+<pre><code class="language-js">/*
+  app.js
+  First web server
+  
+  url https://nodejs.org/en/docs/guides/getting-started-guide/
+  [20220511].
+*/
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) =&gt; {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World');
+});
+
+server.listen(port, hostname, () =&gt; {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+</code></pre>
+<p>yang kemudian dijalankan dengan</p>
+<pre><code class="language-ps">PS L:\home\cookbook\node.js\hello&gt; node app.js
+Server running at http://127.0.0.1:3000/
+</code></pre>
+<p>dan dapat dilihat pada penjelajah web, e.g. Google Chrome.</p>
+<p><img src="/bugx/img/nodejs/nodejs-hello-world.png" alt=""></p>
+<p>Gambar <a name='fig1'>1</a>. Web server sederhana dengan Node.js dengan Google Chrome pada <a href="http://localhost:3000" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://localhost:3000</a>.</p>
+<p>Hasil menjalankan program <code>app.js</code> diberikan pada Gambar <a href="#fig1" 
+  
+  
+>1</a>.</p>
+<h2 id="express">express<a class="anchor" href="#express">#</a></h2>
+<p>Untuk dapat menggunakan framework Express [<a href="#r07" 
+  
+  
+>7</a>] perlu dilakukan instalasi</p>
+<pre><code class="language-powershell">PS L:\home\cookbook\node.js\hello&gt; npm install express
+
+added 57 packages, and audited 58 packages in 18s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New minor version of npm available! 8.5.0 -&gt; 8.9.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.9.0
+npm notice Run npm install -g npm@8.9.0 to update!
+npm notice
+</code></pre>
+<p>sehingga dapat dijalankan</p>
+<pre><code class="language-powershell">PS L:\home\cookbook\node.js\hello&gt; node app-express
+Server ready
+</code></pre>
+<p>dengan hasilnya diberikan pada Gambar <a href="#fig2" 
+  
+  
+>2</a>.</p>
+<p><img src="/bugx/img/nodejs/nodejs-express-hello-world.png" alt=""></p>
+<p>Gambar <a name='fig2'>2</a>. Web server sederhana Node.js dengan framework Express dilihat menggunakan Google Chrome pada <a href="http://localhost:3000" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>http://localhost:3000</a>.</p>
+<p>Bila pada konsole ditekan Ctrl-C dan Google Chrome dilakukan refresh akan diperoleh hasil seperti Gambar <a href="#fig3" 
+  
+  
+>3</a>.</p>
+<p><img src="/bugx/img/nodejs/nodejs-express-hello-world-ctrl-c.png" alt=""></p>
+<p>Gambar <a name='fig3'>3</a>. Tampilan Google Chrome saat web server dimatikan dengan Ctrl-C pada konsol.</p>
+<pre><code class="language-js">/*
+  app-express.js
+  First web server with Express
+  
+  url https://nodejs.dev/learn/how-to-exit-from-a-nodejs-program
+  [20220511].
+*/
+const express = require('express');
+
+const app = express();
+
+app.get('/', (req, res) =&gt; {
+  res.send('Hi!');
+});
+
+const server = app.listen(3000, () =&gt; console.log('Server ready'));
+
+process.on('SIGTERM', () =&gt; {
+  server.close(() =&gt; {
+    console.log('Process terminated');
+  });
+});
+</code></pre>
+<p>Gambar <a href="#fig2" 
+  
+  
+>2</a> diperoleh dengan menjalan program <code>app-express.js</code>.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a></li>
+<li><a name='r01'></a>Stephan Augsten, &ldquo;Stephan Augsten&rdquo;, Dev Insider, 8 Des 2020, url <a href="https://www.dev-insider.de/was-ist-nodejs-a-972703/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.dev-insider.de/was-ist-nodejs-a-972703/</a> [20220511].</li>
+<li><a name='r02'></a>Taha Sufiyan, &ldquo;What is Node.js: A Comprehensive Guide&rdquo;, Simplilearn, 3 Jun 2021, url <a href="https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-nodejs" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-nodejs</a> [20220511].</li>
+<li><a name='r03'></a>anuupadhyay, &ldquo;Introduction to Node.js&rdquo;, GeeksforGeeks, 10 Nov 2021, url <a href="https://www.geeksforgeeks.org/introduction-to-node-js/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.geeksforgeeks.org/introduction-to-node-js/</a> [20220511].</li>
+<li><a name='r04'></a>altexsoft, &ldquo;The Good and the Bad of Node.js Web App Development&rdquo;, AltexSoft, 21 Oct 2019, url <a href="https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-node-js-web-app-development/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-node-js-web-app-development/</a> [20220511].</li>
+<li><a name='r05'></a>Node.js, &ldquo;How do I start with Node.js after I installed it?&rdquo;, Node.js API reference documentation, OpenJS Foundation, url <a href="https://nodejs.org/en/docs/guides/getting-started-guide/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://nodejs.org/en/docs/guides/getting-started-guide/</a> [20220511].</li>
+<li><a name='r06'></a>&ldquo;Node.js&rdquo;, v16.14.2, OpenJS Foundation, 17 Mar 2022, url <a href="https://nodejs.org/download/release/v16.14.2/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://nodejs.org/download/release/v16.14.2/</a> [20220511]</li>
+<li><a name='r07'></a>TJ Holowaychuk, Douglas Christopher Wilson, Other Contributors, &ldquo;express&rdquo;, version 4.18.1,  NPM, 29 Apr 2022, url <a href="https://www.npmjs.com/package/express" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.npmjs.com/package/express</a> [20220511].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
