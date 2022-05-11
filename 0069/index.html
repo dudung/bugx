@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-05-12 05:45:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-05-12 05:45:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-05-12 05:58:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-05-12 05:58:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0069\/",
-      "wordCount" : "576",
+      "wordCount" : "724",
       "keywords" : ["Blog"]
     }
   
@@ -139,7 +139,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">start learn node.js</h1>
-            <time datetime="2022-05-12 05:45:00 &#43;0700 &#43;0700" class="post__date">Thu, 12 May  2022</time> 
+            <time datetime="2022-05-12 05:58:00 &#43;0700 &#43;0700" class="post__date">Thu, 12 May  2022</time> 
           </header>
           <article class="post__content">
               
@@ -275,9 +275,47 @@ process.on('SIGTERM', () =&gt; {
   
 >2</a> diperoleh dengan menjalan program <code>app-express.js</code>.</p>
 <h2 id="query-and-cmd-args">query and cmd args<a class="anchor" href="#query-and-cmd-args">#</a></h2>
-<p>Arugmen dapat diberikan pada command line saat web server dipanggil, misalnya melalui Windows PowerShell.</p>
+<p>Argument dapat diberikan pada command line saat web server dipanggil, misalnya melalui Windows PowerShell.</p>
 <p><img src="/bugx/img/nodejs/hello/demo-http-url-query-cmd-arg-0.png" alt=""></p>
-<p>Gambar &lt;a name=&lsquo;fig3&gt;</p>
+<p>Gambar <a name='fig4'>4</a>. Web server dibuat dengan Node.js dipanggil melalui Windows PowerShell command line.</p>
+<p>Dan saat suatu penjelajah internet dibuka, e.g. Google Chrome, dapat diberikan query pada address bar yang juga dapat ditangkap oleh program web server.</p>
+<p><img src="/bugx/img/nodejs/hello/demo-http-url-query-cmd-arg-1a.png" alt=""><br>
+<img src="/bugx/img/nodejs/hello/demo-http-url-query-cmd-arg-1b.png" alt=""><br>
+<img src="/bugx/img/nodejs/hello/demo-http-url-query-cmd-arg-1c.png" alt=""><br>
+<img src="/bugx/img/nodejs/hello/demo-http-url-query-cmd-arg-1d.png" alt=""><br>
+<img src="/bugx/img/nodejs/hello/demo-http-url-query-cmd-arg-1e.png" alt=""><br>
+<img src="/bugx/img/nodejs/hello/demo-http-url-query-cmd-arg-1f.png" alt=""><br>
+<img src="/bugx/img/nodejs/hello/demo-http-url-query-cmd-arg-1g.png" alt=""></p>
+<p>Gambar <a name='fig5'>5</a>. Web server dibuat dengan Node.js yang ditampilkan dengan Google Chrome dan query terkait yang diberikan.</p>
+<p>Dua contoh terakhir menggambarkan bahwa untuk spasi <code> </code>   akan digantikan dengan <code>%20</code> dan karakter caret <code>^</code> dengan <code>%5E</code>.</p>
+<pre><code class="language-js">/*
+  demo_http_url_query_cmd_arg.js
+  Read query string and command line arguments
+  
+  url https://www.w3schools.com/nodejs/nodejs_http
+  .asp [20220511].
+  url https://nodejs.dev/learn/nodejs-accept-arguments
+  -from-the-command-line [20220512].
+*/
+
+process.argv.forEach((val, index) =&gt; {
+  console.log(`${index}: ${val}`);
+});
+
+var http = require('http');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.write(req.url);
+  res.end();
+}).listen(8080);
+</code></pre>
+<p>Selanjutnya dapat ditelusuri lebih lanjut informasi lebih lanjut mengenai command line argument [<a href="#r08" 
+  
+  
+>8</a>] dan query [<a href="#r09" 
+  
+  
+>9</a>].</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Stephan Augsten, &ldquo;Stephan Augsten&rdquo;, Dev Insider, 8 Des 2020, url <a href="https://www.dev-insider.de/was-ist-nodejs-a-972703/" 
@@ -304,10 +342,18 @@ process.on('SIGTERM', () =&gt; {
   
    target="_blank" rel="noreferrer noopener" 
 >https://nodejs.org/download/release/v16.14.2/</a> [20220511]</li>
-<li><a name='r07'></a>TJ Holowaychuk, Douglas Christopher Wilson, Other Contributors, &ldquo;express&rdquo;, version 4.18.1,  NPM, 29 Apr 2022, url <a href="https://www.npmjs.com/package/express" 
+<li><a name='r07'></a>T. J. Holowaychuk, Douglas Christopher Wilson, Other Contributors, &ldquo;express&rdquo;, version 4.18.1,  NPM, 29 Apr 2022, url <a href="https://www.npmjs.com/package/express" 
   
    target="_blank" rel="noreferrer noopener" 
 >https://www.npmjs.com/package/express</a> [20220511].</li>
+<li><a name='r08'></a>Node.js, &ldquo;Node.js, accept arguments from the command line&rdquo;, OpenJS Foundation, url <a href="https://nodejs.dev/learn/nodejs-accept-arguments-from-the-command-line" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://nodejs.dev/learn/nodejs-accept-arguments-from-the-command-line</a> [20220512].</li>
+<li><a name='r09'></a>-, &ldquo;Node.js HTTP Module&rdquo;, W3 Schools, Refsnes Data, 2022, url <a href="https://www.w3schools.com/nodejs/nodejs_http.asp" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.w3schools.com/nodejs/nodejs_http.asp</a> [20220512].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
@@ -327,9 +373,6 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "sta
     </li>
     <li class="tag__item">
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/start/">start</a>
-    </li>
-    <li class="tag__item">
-        <a class="tag__link" href="https://dudung.github.io/bugx/tags/draft/">draft</a>
     </li></ul>
 
  <div class="pagination">

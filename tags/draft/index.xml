@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 12 May 2022 05:45:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>start learn node.js</title>
-      <link>https://dudung.github.io/bugx/0069/</link>
-      <pubDate>Thu, 12 May 2022 05:45:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0069/</guid>
-      <description>Node.js merupakan suatu platform untuk pengembangan program JavaScript mandiri (standalone) yang berjalan tanpa kebergantungan pada aplikasi di host, sebagaimana suatu piranti lunak penjelajah web (web browser) bekerja [1]. Platform ini dibangun di atas mesin JavaScript V8 Google Chrome untuk mengembangkan aplikasi oneline chat, situs video streaming, aplikasi single-page, dan lainnya, serta digunakan oleh berbagai perusahaan besar dan startup seperti Netflix, PayPal NASA, Walmart sebagai contohnya [2]. Node.js yang bukan merupakan framework ataupun bahasa pemrograman sebagaimana kebanyakan orang salah mengerti dan memahaminya, sering digunakan untuk membuat layanan back-end dan karena menggunakan JavaScript memudahkan programmer yang sudah terbiasa menggembangkan aplikasi front-end dengan JavaScript untuk beralih ke mengembangkan aplikasi dengan platform ini [3].</description>
-    </item>
-    
+    <lastBuildDate>Sun, 08 May 2022 19:14:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/draft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>github fi3201 exam 2</title>
       <link>https://dudung.github.io/bugx/0068/</link>
