@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 12 May 2022 06:03:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2022 09:19:44 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>clone repo hugo other computer</title>
+      <link>https://dudung.github.io/bugx/0070/</link>
+      <pubDate>Thu, 12 May 2022 09:19:44 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0070/</guid>
+      <description>Setelah secara umum Bandung Raya menjadi PPKM Level 2 [1] dan terdapat SE dari institusi [2] yang terimplementasi salah satunya dengan U2 FI120X secara luring kemarin, hari ini mulai setting kembali komputer di ruang kerja.
+update chrome Google Chrome sudah terlalu tua sehingga perlu diperbarui.
+Settings &amp;gt; About Google Chrome  yang akan menjadi
+Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offizieller Build) (32-Bit)  setelah proses update dilakukan.</description>
+    </item>
+    
     <item>
       <title>start learn node.js</title>
       <link>https://dudung.github.io/bugx/0069/</link>
@@ -276,7 +288,7 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220511].  </description>
+notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220512].  </description>
     </item>
     
     <item>
