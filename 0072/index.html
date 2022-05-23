@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-05-23 11:17:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-05-23 11:17:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-05-23 11:30:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-05-23 11:30:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0072\/",
-      "wordCount" : "158",
+      "wordCount" : "264",
       "keywords" : ["Blog"]
     }
   
@@ -134,7 +134,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">hugo github workflow error</h1>
-            <time datetime="2022-05-23 11:17:00 &#43;0700 &#43;0700" class="post__date">Mon, 23 May  2022</time> 
+            <time datetime="2022-05-23 11:30:00 &#43;0700 &#43;0700" class="post__date">Mon, 23 May  2022</time> 
           </header>
           <article class="post__content">
               
@@ -189,14 +189,33 @@ jobs:
   
   
 >2</a>].</p>
-<p><img src="/bugx/img/bugx/repo-secrets.png" alt=""></p>
-<p><img src="/bugx/img/bugx/repo-secrets-personal-token.png" alt=""></p>
-<p><a href="https://github.com/settings/tokens" 
+<h2 id="tokens">tokens<a class="anchor" href="#tokens">#</a></h2>
+<p>Suatu token dapat dibuat dengan mengunjungi <a href="https://github.com/settings/tokens" 
   
    target="_blank" rel="noreferrer noopener" 
->https://github.com/settings/tokens</a>
-ghp_0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx</p>
+>https://github.com/settings/tokens</a> dan membuatnya dengan nilai seperti</p>
+<pre><code>ghp_0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx0Xx
+</code></pre>
+<p>yang merupakan kombinasi dari sembarang angka <code>0</code>, huruf besar <code>X</code> dan huruf kecil <code>x</code> membentuk 36 karakter. Di awalnya terdapat empat karakter <code>ghp_</code>.</p>
+<h2 id="secrets">secrets<a class="anchor" href="#secrets">#</a></h2>
+<p>Kunjungi <a href="https://github.com/dudung/bugx/settings/secrets/actions" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/bugx/settings/secrets/actions</a> untuk membuat secret</p>
+<p><img src="/bugx/img/bugx/repo-secrets.png" alt=""></p>
+<p>Gambar <a name="fig2">2</a>. Daftar action secrets yang tersedia.</p>
+<p>yang dalam hal ini adalah <code>PERSONAL_TOKEN</code></p>
+<p><img src="/bugx/img/bugx/repo-secrets-personal-token.png" alt=""></p>
+<p>Gambar <a name="fig3">3</a>. Memperbaharui <code>PERSONAL_TOKEN</code> dengan nilai token yang telah dibuat.</p>
+<p>dengan isi token sebelumnya.</p>
+<h2 id="result">result<a class="anchor" href="#result">#</a></h2>
+<p>GitHub Workflow akhirnya dapat berjalan kembali seperti pada gambar berikut ini.</p>
 <p><img src="/bugx/img/bugx/bugx-hugo-src-workflow-ok.png" alt=""></p>
+<p>Gambar <a name="fig4">4</a>. Workflow <code>bugx-hugo-ci</code> di GitHub yang telah berfungsi kembali.</p>
+<p>Contoh hasilnya adalah <code>bugx</code> ini yang dapat dilihat pada <a href="https://dudung.github.io/bugx/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://dudung.github.io/bugx/</a> dengan salah satunya adalah tulisan ini.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Tim Ujian, &ldquo;Panduan Ujian 3 FI1201 (Fisika Dasar IIA)&rdquo;, FMIPA, ITB, 20 Mei 2022.</li>
