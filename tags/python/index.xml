@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Apr 2022 13:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 May 2022 13:21:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>notebook python bubble plot</title>
+      <link>https://dudung.github.io/bugx/0071/</link>
+      <pubDate>Sat, 14 May 2022 13:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0071/</guid>
+      <description>Untuk menggambarkan Bubble plot dalam Python diperlukan Pandas dataframe yang dapat dibuat dari data berbentuk ndarray [1] ataupun langsung dari membaca berkas [2]. Untuk itu perlu diinstal lebih dulu paket Pandas [3]. Selanjutnya berkas ipynb lain yang berisi suatu dictionary akan diimpor oleh berkas ipynb yang disinggung di sini [4]. Juga digunakan label pada data [5] agar lebih jelas, yang perlu ditampilkan dalam dua baris [6].
+code Modul dan paket yang digunakan perlu dipanggil terlebih dahulu</description>
+    </item>
+    
     <item>
       <title>pip install music fail</title>
       <link>https://dudung.github.io/bugx/0058/</link>

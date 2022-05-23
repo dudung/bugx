@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 12 May 2022 09:19:44 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 May 2022 11:00:06 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>clone</title>
       <link>https://dudung.github.io/bugx/tags/clone/</link>
-      <pubDate>Thu, 12 May 2022 09:19:44 +0700</pubDate>
+      <pubDate>Mon, 23 May 2022 11:00:06 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/clone/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>github</title>
       <link>https://dudung.github.io/bugx/tags/github/</link>
-      <pubDate>Thu, 12 May 2022 09:19:44 +0700</pubDate>
+      <pubDate>Mon, 23 May 2022 11:00:06 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/github/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>hugo</title>
       <link>https://dudung.github.io/bugx/tags/hugo/</link>
-      <pubDate>Thu, 12 May 2022 09:19:44 +0700</pubDate>
+      <pubDate>Mon, 23 May 2022 11:00:06 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/hugo/</guid>
       <description></description>
@@ -38,9 +38,72 @@
     <item>
       <title>windows</title>
       <link>https://dudung.github.io/bugx/tags/windows/</link>
-      <pubDate>Thu, 12 May 2022 09:19:44 +0700</pubDate>
+      <pubDate>Mon, 23 May 2022 11:00:06 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>error</title>
+      <link>https://dudung.github.io/bugx/tags/error/</link>
+      <pubDate>Mon, 23 May 2022 10:58:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/error/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workflow</title>
+      <link>https://dudung.github.io/bugx/tags/workflow/</link>
+      <pubDate>Mon, 23 May 2022 10:58:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animation</title>
+      <link>https://dudung.github.io/bugx/tags/animation/</link>
+      <pubDate>Sat, 14 May 2022 13:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>draft</title>
+      <link>https://dudung.github.io/bugx/tags/draft/</link>
+      <pubDate>Sat, 14 May 2022 13:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>matplotlib</title>
+      <link>https://dudung.github.io/bugx/tags/matplotlib/</link>
+      <pubDate>Sat, 14 May 2022 13:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/matplotlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numpy</title>
+      <link>https://dudung.github.io/bugx/tags/numpy/</link>
+      <pubDate>Sat, 14 May 2022 13:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/numpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://dudung.github.io/bugx/tags/python/</link>
+      <pubDate>Sat, 14 May 2022 13:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/python/</guid>
       <description></description>
     </item>
     
@@ -59,15 +122,6 @@
       <pubDate>Thu, 12 May 2022 06:03:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/start/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>draft</title>
-      <link>https://dudung.github.io/bugx/tags/draft/</link>
-      <pubDate>Sun, 08 May 2022 19:14:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/draft/</guid>
       <description></description>
     </item>
     
@@ -320,15 +374,6 @@
       <pubDate>Fri, 15 Apr 2022 13:59:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/pip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://dudung.github.io/bugx/tags/python/</link>
-      <pubDate>Fri, 15 Apr 2022 13:59:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/python/</guid>
       <description></description>
     </item>
     
@@ -792,33 +837,6 @@
     </item>
     
     <item>
-      <title>animation</title>
-      <link>https://dudung.github.io/bugx/tags/animation/</link>
-      <pubDate>Thu, 31 Mar 2022 22:17:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/animation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>matplotlib</title>
-      <link>https://dudung.github.io/bugx/tags/matplotlib/</link>
-      <pubDate>Thu, 31 Mar 2022 22:17:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/matplotlib/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>numpy</title>
-      <link>https://dudung.github.io/bugx/tags/numpy/</link>
-      <pubDate>Thu, 31 Mar 2022 22:17:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/numpy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>double-slit</title>
       <link>https://dudung.github.io/bugx/tags/double-slit/</link>
       <pubDate>Thu, 31 Mar 2022 17:24:00 +0700</pubDate>
@@ -1058,15 +1076,6 @@
       <pubDate>Sun, 20 Mar 2022 17:29:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/actions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>workflow</title>
-      <link>https://dudung.github.io/bugx/tags/workflow/</link>
-      <pubDate>Sun, 20 Mar 2022 17:29:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/workflow/</guid>
       <description></description>
     </item>
     
