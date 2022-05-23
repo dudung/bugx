@@ -7,18 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 23 May 2022 12:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 May 2022 17:39:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo github workflow error</title>
       <link>https://dudung.github.io/bugx/0072/</link>
-      <pubDate>Mon, 23 May 2022 12:32:00 +0700</pubDate>
+      <pubDate>Mon, 23 May 2022 17:39:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0072/</guid>
       <description>Sembari membantu U3 FI1201 [1] berupaya untuk meregistrasi permasalan workflow dari bugx ini yang belum terpecahkan. Sebelumnya sempat berfungsi dengan baik.
-current state Keadaan saat ini pada suatu repo adalah seperti diberikan pada Gambar 1 berikut.
-Gambar 1. Build error dari workflow bugx-hugo-ci.
-Isi dari berkas main.yml yang digunakan adalah sebagai berikut ini
-name: bugx-hugo-ci on: push: branches: [ master ] jobs: build: runs-on: ubuntu-latest steps: - uses: actions/checkout@v2 with: submodules: true fetch-depth: 1 - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: &#39;latest&#39; - name: Build run: hugo - name: Deploy uses: peaceiris/actions-gh-pages@v3 with: personal_token: ${{ secrets.</description>
+solution The example is for a private repository (user: dudung, repo: bugx-hugo-src), but you can adapt it to yours.
+steps  Explore the page listing commits of a branch https://github.com/dudung/bugx-hugo-src/commits/master Look for the last failed check indicated with $\color{#f00}{\times}$ https://github.com/dudung/bugx-hugo-src/commit/22c32b416cc22cb81f4c61985bd95931feb5658f Visit build page showing the failed action by clicking $\color{#f00}{\times}$ indicator https://github.</description>
     </item>
     
     <item>

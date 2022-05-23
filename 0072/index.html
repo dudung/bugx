@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-05-23 12:32:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-05-23 12:32:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-05-23 17:39:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-05-23 17:39:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0072\/",
-      "wordCount" : "264",
+      "wordCount" : "430",
       "keywords" : ["Blog"]
     }
   
@@ -126,6 +126,78 @@
     
 
 	
+		
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+			tags: 'ams',
+    },
+    options: {
+      skipHtmlTags: [
+				'script',
+				'noscript',
+				'style',
+				'textarea',
+				'pre'
+			]
+    }
+  };
+</script>
+
+<script
+	type="text/javascript"
+	id="MathJax-script"
+	async 
+	src="https://cdn.jsdelivr.net/npm/\
+	mathjax@3/es5/tex-mml-chtml.js"
+	>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	
 	
 
@@ -134,7 +206,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">hugo github workflow error</h1>
-            <time datetime="2022-05-23 12:32:00 &#43;0700 &#43;0700" class="post__date">Mon, 23 May  2022</time> 
+            <time datetime="2022-05-23 17:39:00 &#43;0700 &#43;0700" class="post__date">Mon, 23 May  2022</time> 
           </header>
           <article class="post__content">
               
@@ -142,6 +214,71 @@
   
   
 >1</a>] berupaya untuk meregistrasi permasalan workflow dari <code>bugx</code> ini yang belum terpecahkan. Sebelumnya sempat berfungsi dengan baik.</p>
+<h2 id="solution">solution<a class="anchor" href="#solution">#</a></h2>
+<p>The example is for a private repository (user: <a href="https://github.com/dudung" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>dudung</a>, repo: <a href="https://github.com/dudung/bugx-hugo-src" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>bugx-hugo-src</a>), but you can adapt it to yours.</p>
+<h3 id="steps">steps<a class="anchor" href="#steps">#</a></h3>
+<ol>
+<li>Explore the page listing commits of a branch <br>
+<a href="https://github.com/dudung/bugx-hugo-src/commits/master" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/bugx-hugo-src/commits/master</a></li>
+<li>Look for the last failed check indicated with $\color{#f00}{\times}$ <br>
+<a href="https://github.com/dudung/bugx-hugo-src/commit/22c32b416cc22cb81f4c61985bd95931feb5658f" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/bugx-hugo-src/commit/22c32b416cc22cb81f4c61985bd95931feb5658f</a></li>
+<li>Visit build page showing the failed action by clicking $\color{#f00}{\times}$ indicator <br>
+<a href="https://github.com/dudung/bugx-hugo-src/runs/6548801081?check_suite_focus=true" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/bugx-hugo-src/runs/6548801081?check_suite_focus=true</a></li>
+</ol>
+<pre><code>(×) Deploy
+... 
+590 remote: Invalid username or password.
+591 fatal: Authentication failed for 
+    'https://github.com/dudung/bugx.git/'
+592 Error: Action failed with &quot;The process 
+    '/usr/bin/git' failed with exit code 128&quot;
+</code></pre>
+<ol start="4">
+<li>Go to Actions tab <br>
+<a href="https://github.com/dudung/bugx-hugo-src/actions" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/bugx-hugo-src/actions</a></li>
+<li>Select the failed workflow and open the yml file <br>
+<a href="https://github.com/dudung/bugx-hugo-src/actions/workflows/main.yml" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/bugx-hugo-src/actions/workflows/main.yml</a></li>
+<li>Find <code>Deploy</code> and <code>personal_token</code>, which gives <code>secrets.PERSONAL_TOKEN</code></li>
+<li>Generate new token and copy the value <br>
+<a href="https://github.com/settings/tokens" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/settings/tokens</a></li>
+<li>Open page for action secrets <br>
+<a href="https://github.com/dudung/bugx-hugo-src/settings/secrets/actions" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/bugx-hugo-src/settings/secrets/actions</a></li>
+<li>Create new repository secret <br>
+<a href="https://github.com/dudung/bugx-hugo-src/settings/secrets/actions/new" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://github.com/dudung/bugx-hugo-src/settings/secrets/actions/new</a></li>
+<li>Name it as <code>PERSONAL_TOKEN</code>, paste the value from previously new token, and Add secret</li>
+</ol>
+<p>Perhatikan keterkaitan antara Langkah 6 &ndash;&gt; 10 dan 7 &ndash;&gt; 10.</p>
+<p>Pembahasan pada bagian-bagian di bawah ini adalah sebelum solusi yang dimaksud dan dipertahankan demikian hanya untuk catatan bagaimana solusi dapat diperoleh.</p>
 <h2 id="current-state">current state<a class="anchor" href="#current-state">#</a></h2>
 <p>Keadaan saat ini pada suatu repo adalah seperti diberikan pada Gambar <a href="#fig1" 
   
