@@ -7,19 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 23 May 2022 11:11:53 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>clone repo hugo other computer</title>
-      <link>https://dudung.github.io/bugx/0070/</link>
-      <pubDate>Mon, 23 May 2022 11:11:53 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0070/</guid>
-      <description>Setelah secara umum Bandung Raya menjadi PPKM Level 2 [1] dan terdapat SE dari institusi [2] yang terimplementasi salah satunya dengan U2 FI120X secara luring kemarin, hari ini mulai setting kembali komputer di ruang kerja.
-update chrome Google Chrome sudah terlalu tua sehingga perlu diperbarui.
-Settings &amp;gt; About Google Chrome  yang akan menjadi
-Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offizieller Build) (32-Bit)  setelah proses update dilakukan.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 23 May 2022 10:58:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo github workflow error</title>
       <link>https://dudung.github.io/bugx/0072/</link>
@@ -41,6 +29,18 @@ name: bugx-hugo-ci on: push: branches: [ master ] jobs: build: runs-on: ubuntu-l
       <guid>https://dudung.github.io/bugx/0071/</guid>
       <description>Untuk menggambarkan Bubble plot dalam Python diperlukan Pandas dataframe yang dapat dibuat dari data berbentuk ndarray [1] ataupun langsung dari membaca berkas [2]. Untuk itu perlu diinstal lebih dulu paket Pandas [3]. Selanjutnya berkas ipynb lain yang berisi suatu dictionary akan diimpor oleh berkas ipynb yang disinggung di sini [4]. Juga digunakan label pada data [5] agar lebih jelas, yang perlu ditampilkan dalam dua baris [6].
 code Modul dan paket yang digunakan perlu dipanggil terlebih dahulu</description>
+    </item>
+    
+    <item>
+      <title>clone repo hugo other computer</title>
+      <link>https://dudung.github.io/bugx/0070/</link>
+      <pubDate>Thu, 12 May 2022 19:06:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0070/</guid>
+      <description>Setelah secara umum Bandung Raya menjadi PPKM Level 2 [1] dan terdapat SE dari institusi [2] yang terimplementasi salah satunya dengan U2 FI120X secara luring kemarin, hari ini mulai setting kembali komputer di ruang kerja.
+update chrome Google Chrome sudah terlalu tua sehingga perlu diperbarui.
+Settings &amp;gt; About Google Chrome  yang akan menjadi
+Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offizieller Build) (32-Bit)  setelah proses update dilakukan.</description>
     </item>
     
     <item>
