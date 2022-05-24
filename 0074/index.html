@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-05-25 05:46:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-05-25 05:46:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-05-25 06:03:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-05-25 06:03:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0074\/",
-      "wordCount" : "253",
+      "wordCount" : "322",
       "keywords" : ["Blog"]
     }
   
@@ -213,7 +213,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">u3 2021-2 fi3201-01</h1>
-            <time datetime="2022-05-25 05:46:00 &#43;0700 &#43;0700" class="post__date">Wed, 25 May  2022</time> 
+            <time datetime="2022-05-25 06:03:00 &#43;0700 &#43;0700" class="post__date">Wed, 25 May  2022</time> 
           </header>
           <article class="post__content">
               
@@ -228,13 +228,14 @@ FI3201 Fisika Komputasi [<a href="#r02"
 <h2 id="scopes">scopes<a class="anchor" href="#scopes">#</a></h2>
 <p>Diagram alir, akar persamaan, curve fitting, interpolasi, integrasi numerik, jaringan saraf tiruan, algoritma genetik.</p>
 <h3 id="flow-chart">flow chart<a class="anchor" href="#flow-chart">#</a></h3>
-<p>Terdapat parameter masukan $x$ dan $y$ yang akan diolah menggunakan fungsi $f(x, y)$ atau $g(x, y)$, bergantung kondisi $a$, untuk menghasilkan parameter keluaran $z$. Diagram alir yang dimaksud dapat digambarkan sebagai berikut ini.</p>
+<p>Terdapat variabel masukan $x$ dan $y$ yang akan diolah menggunakan fungsi $f(x, y)$ atau $g(x, y)$, bergantung kondisi $b$, untuk menghasilkan variabel keluaran $z$. Diagram alir yang dimaksud dapat digambarkan sebagai berikut ini.</p>
 <div class="mermaid">
   flowchart TD
     %% element use
 		A --> B --> C --> D
-		D -- Ya --> E --> F --> G --> H
-		D -- Tidak --> H
+		D -- Ya --> E --> G 
+		D -- Tidak --> F --> G
+    G --> H
     %% class use
   	class A start
   	class B input
@@ -243,14 +244,14 @@ FI3201 Fisika Komputasi [<a href="#r02"
     class G output
     class H stop
     %% element definition
-		A([Mulai])
-		B[/a, b, c/]
-		C[D = bxb - 4ac]
-		D{D >= 0}
-		E[x1]
-		F[x2]
-		G[/x1, x2/]
-		H([Selesai])
+		A([ Mulai ])
+		B[/x, y/]
+		C[" a = (x-y)/(x+y) "]
+		D{ a >= b }
+		E[" z = f(x, y) "]
+		F[" z = g(x, y) "]
+		G[/ z /]
+		H([ Selesai ])
     %% class style definition
 		classDef start fill:#afa,stroke:#3a3,stroke-width:2px
 		classDef input fill:#ffa,stroke:#aa3,stroke-width:2px
@@ -259,6 +260,8 @@ FI3201 Fisika Komputasi [<a href="#r02"
 		classDef output fill:#faf,stroke:#a3a,stroke-width:2px
 		classDef stop fill:#faa,stroke:#a33,stroke-width:2px
 </div>
+<p>Gambar<a name='fig1'>1</a>. Diagram alir perhitungan $z$ dengan masukan $x$ dan $y$ melalui dua pilihan fungsi $f(x, y)$ dan $g(x, y)$.</p>
+<p>Perhatikan bahwa terdapat variabel $a$ yang dibandingkan dengan kondisi $b$ untuk menentukan proses mana yang dipilih, $f(x, y)$ atau $g(x, y)$, dalam menghasilkan variabel keluaran $z$ dari kedua variabel masukan $x$ dan $y$</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Piet L. Lijnse, Koos Kortland, Harrie M. C. Eijkelhof, Dik Van Genderen, Herman P. Hooymayers, &ldquo;&rdquo;, Science Education [Sci Ed], vol 74, no 1, p 95-103, Jan 1990, url <a href="https://doi.org/10.1002/sce.3730740108" 
