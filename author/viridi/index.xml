@@ -11,11 +11,12 @@
     <item>
       <title>u3 2021-2 fi3201-01</title>
       <link>https://dudung.github.io/bugx/0074/</link>
-      <pubDate>Tue, 24 May 2022 05:30:00 +0700</pubDate>
+      <pubDate>Tue, 24 May 2022 05:48:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0074/</guid>
-      <description>[1].
-notes    Cite as: viridi, &#34;u3 2021-2 fi3201-01&#34;, bugx, 24 May 2022, url https://dudung.github.io/bugx/0074 [20220523].  </description>
+      <description>Selain menggunakan struktur kurikulum yang telah umum digunakan, fisika dapat pula diajarkan melalui kurikulum berstruktur tematik, seperti yang telah dikembangkan di Belanda [1]. Di sini suatu tema akan diangkat untuk diterapkan pada mata kuliah FI3201 Fisika Komputasi [2] sebagai ujian perbaikan atau U3.
+scope Diagram alir, akar persamaan, curve fitting, interpolasi, integrasi numerik, jaringan saraf tiruan, algoritma genetik.
+notes  Piet L. Lijnse, Koos Kortland, Harrie M. C. Eijkelhof, Dik Van Genderen, Herman P.</description>
     </item>
     
     <item>
@@ -341,7 +342,7 @@ posts  Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-pe
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220523].  </description>
+notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220524].  </description>
     </item>
     
     <item>
@@ -676,7 +677,7 @@ version 21-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220523].  </description>
+posts  Metode Runge-Kutta  notes  Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322].  Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220524].  </description>
     </item>
     
     <item>
