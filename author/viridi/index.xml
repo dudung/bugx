@@ -11,11 +11,11 @@
     <item>
       <title>u3 2021-2 fi3201-01</title>
       <link>https://dudung.github.io/bugx/0074/</link>
-      <pubDate>Wed, 25 May 2022 06:03:00 +0700</pubDate>
+      <pubDate>Wed, 25 May 2022 06:10:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0074/</guid>
       <description>Selain menggunakan struktur kurikulum yang telah umum digunakan, fisika dapat pula diajarkan melalui kurikulum berstruktur tematik, seperti yang telah dikembangkan di Belanda [1]. Di sini suatu tema akan diangkat untuk diterapkan pada mata kuliah FI3201 Fisika Komputasi [2] sebagai ujian perbaikan atau U3.
-scopes Diagram alir, akar persamaan, curve fitting, interpolasi, integrasi numerik, jaringan saraf tiruan, algoritma genetik.
+scopes Diagram alir, akar persamaan, regresi linier, interpolasi, integrasi numerik, jaringan saraf tiruan, algoritma genetik.
 flow chart Terdapat variabel masukan $x$ dan $y$ yang akan diolah menggunakan fungsi $f(x, y)$ atau $g(x, y)$, bergantung kondisi $b$, untuk menghasilkan variabel keluaran $z$.</description>
     </item>
     
