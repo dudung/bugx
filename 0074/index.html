@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-05-25 06:10:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-05-25 06:10:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-05-25 17:20:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-05-25 17:20:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0074\/",
-      "wordCount" : "457",
+      "wordCount" : "669",
       "keywords" : ["Blog"]
     }
   
@@ -213,7 +213,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">u3 2021-2 fi3201-01</h1>
-            <time datetime="2022-05-25 06:10:00 &#43;0700 &#43;0700" class="post__date">Wed, 25 May  2022</time> 
+            <time datetime="2022-05-25 17:20:00 &#43;0700 &#43;0700" class="post__date">Wed, 25 May  2022</time> 
           </header>
           <article class="post__content">
               
@@ -260,7 +260,7 @@ FI3201 Fisika Komputasi [<a href="#r02"
 		classDef output fill:#faf,stroke:#a3a,stroke-width:2px
 		classDef stop fill:#faa,stroke:#a33,stroke-width:2px
 </div>
-<p>Gambar<a name='fig1'>1</a>. Diagram alir perhitungan $z$ dengan masukan $x$ dan $y$ melalui dua pilihan fungsi $f(x, y)$ dan $g(x, y)$.</p>
+<p>Gambar <a name='fig1'>1</a>. Diagram alir perhitungan $z$ dengan masukan $x$ dan $y$ melalui dua pilihan fungsi $f(x, y)$ dan $g(x, y)$.</p>
 <p>Perhatikan bahwa terdapat variabel $a$ yang dibandingkan dengan kondisi $b$ untuk menentukan proses mana yang dipilih, $f(x, y)$ atau $g(x, y)$, dalam menghasilkan variabel keluaran $z$ dari kedua variabel masukan $x$ dan $y$.</p>
 <pre><code class="language-batch">flowchart TD
   %% element use
@@ -297,7 +297,58 @@ FI3201 Fisika Komputasi [<a href="#r02"
   
 >1</a>.</p>
 <h3 id="root-of-equation">root of equation<a class="anchor" href="#root-of-equation">#</a></h3>
-<p>..</p>
+<p>Untuk persamaan kuadrat dalam bentuk</p>
+<p>\begin{equation}\label{eqn1}
+y = ax^2 + bx + c
+\end{equation}</p>
+<p>akar-akarnya dapat dicari dengan formula berikut</p>
+<p>\begin{equation}\label{eqn2}
+x_{1,2}  = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a},
+\end{equation}</p>
+<p>yang dikenal secara umum sebagai formula kuadrat [<a href="#r03" 
+  
+  
+>3</a>] atau juga rumus ABC [<a href="#r04" 
+  
+  
+>4</a>], yang juga disebut sebagai formula tengah malam karena guru sering menuntut siswanya untuk tahu formula ini setiap saat, bahkan saat terbangun tengah malam [<a href="#r05" 
+  
+  
+>5</a>].</p>
+<p>Kode Python berikut</p>
+<pre><code class="language-python">import math
+
+print(&quot;Quadratic equation:&quot;)
+print(&quot;ax^2 + bx + c&quot;)
+print()
+
+a = 1
+print(&quot;a =&quot;, a)
+b = 5
+print(&quot;b =&quot;, b)
+c = 6
+print(&quot;c =&quot;, c)
+
+x1 = (b + math.sqrt(b * b - 4 * a * c)) / (2*a)
+x2 = (b - math.sqrt(b * b - 4 * a * c)) / (2*a)
+
+print(&quot;x1 =&quot;, x1)
+print(&quot;x2 =&quot;, x2)
+</code></pre>
+<p>akan menghasilkan</p>
+<pre><code>Quadratic equation:
+ax^2 + bx + c
+
+a = 1
+b = 5
+c = 6
+x1 = 3.0
+x2 = 2.0
+</code></pre>
+<p>yang dapat dicoba di OneCompiler <a href="https://onecompiler.com/python/3y53wp58f" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>3y53wp58f</a>.</p>
 <h3 id="linear-regression">linear regression<a class="anchor" href="#linear-regression">#</a></h3>
 <p>..</p>
 <h3 id="interpolation">interpolation<a class="anchor" href="#interpolation">#</a></h3>
@@ -321,10 +372,22 @@ FI3201 Fisika Komputasi [<a href="#r02"
   
    target="_blank" rel="noreferrer noopener" 
 >https://fi.itb.ac.id/curriculum-and-syllabus-of-undergraduate-program-in-physics/#:~:text=FI3201,Computational%20Physics</a> [20220524].</li>
+<li><a name='r03'></a>Peter Dockrill, &ldquo;Math Genius Has Come Up With a Wildly Simple New Way to Solve Quadratic Equations&rdquo;, ScienceAlert, 4 Jul 2020, url <a href="https://www.sciencealert.com/math-genius-has-come-up-with-a-wildly-simple-new-way-to-solve-quadratic-equations" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.sciencealert.com/math-genius-has-come-up-with-a-wildly-simple-new-way-to-solve-quadratic-equations</a> [20220525].</li>
+<li><a name='r04'></a>Rizka Zakiya, &ldquo;Rumus ABC: Pengertian, Soal dan Pembahasan&rdquo;, Saintif, 14 Jul 2020, url <a href="https://saintif.com/rumus-abc/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://saintif.com/rumus-abc/</a> [20220525].</li>
+<li><a name='r05'></a>Michael Konczer, &ldquo;Quadratic Equation Solver (Quadratic Formula)&rdquo;, url <a href="https://www.michael-konczer.com/tech/en/mathematics/quadratic-equation-solver" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.michael-konczer.com/tech/en/mathematics/quadratic-equation-solver</a> [20220525].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "u3 2021-2 fi3201-01", bugx, 25 May 2022, url <a href= "https://dudung.github.io/bugx/0074">https://dudung.github.io/bugx/0074</a> [20220524].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "u3 2021-2 fi3201-01", bugx, 25 May 2022, url <a href= "https://dudung.github.io/bugx/0074">https://dudung.github.io/bugx/0074</a> [20220525].
 </div>
 
 
