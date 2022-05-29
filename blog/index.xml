@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 29 May 2022 06:20:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 17:40:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>floating on sinusoidal wave</title>
       <link>https://dudung.github.io/bugx/0076/</link>
-      <pubDate>Sun, 29 May 2022 06:20:00 +0700</pubDate>
+      <pubDate>Sun, 29 May 2022 17:40:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0076/</guid>
-      <description>Kunjungan pada 12 Mei 2022 ke Lab Teknik Kelautan ITB [1] memberikan inspirasi untuk melakukan kolaborasi, dengan salah satunya adalah melakukan kunjungan kedua pada 27 Mei 2022 sekitar 0830.
-previous works Terkait dengan benda berbentuk bola yang terapung pada permukaan air yang bergelombang mengikuti gelombang sinusoida, telah diamati dalam simulasi bahwa frekuensi gelombang dapat membuat obyek bergerak searah atau bahkan berlawanan dengan arah perambatan gelombang [2]. Lebih jauh teramati pula bahwa dengan gelombang yang sama akan tetapi benda berbentuk bola dengan karakter yang berbeda akan bergerak dengan laju yang berbeda sehingga terjadi proses segregasi yang diduga dapat dimanfaatkan untuk memisahkan polutan padat yang mengapung [3].</description>
+      <description>Kunjungan pada 12 Mei 2022 ke Lab Teknik Kelautan ITB [1] memberikan inspirasi untuk melakukan kolaborasi, dengan salah satu tindak lanjutnya adalah melakukan kunjungan kedua pada 27 Mei 2022 sekitar 0830, dan kemudian diikuti dengan membentuk suatu grup WhatsApp [2] setelahnya.
+previous works Terkait dengan benda berbentuk bola yang terapung pada permukaan air yang bergelombang mengikuti gelombang sinusoida, telah diamati dalam simulasi bahwa frekuensi gelombang dapat membuat obyek bergerak searah atau bahkan berlawanan dengan arah perambatan gelombang [3].</description>
     </item>
     
     <item>
@@ -351,7 +351,7 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220528].  </description>
+notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220529].  </description>
     </item>
     
     <item>
