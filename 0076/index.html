@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-05-29 17:40:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-05-29 17:40:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-05-29 18:53:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-05-29 18:53:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0076\/",
-      "wordCount" : "823",
+      "wordCount" : "938",
       "keywords" : ["Blog"]
     }
   
@@ -126,6 +126,78 @@
     
 
 	
+		
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+			tags: 'ams',
+    },
+    options: {
+      skipHtmlTags: [
+				'script',
+				'noscript',
+				'style',
+				'textarea',
+				'pre'
+			]
+    }
+  };
+</script>
+
+<script
+	type="text/javascript"
+	id="MathJax-script"
+	async 
+	src="https://cdn.jsdelivr.net/npm/\
+	mathjax@3/es5/tex-mml-chtml.js"
+	>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	
 		
 
@@ -141,7 +213,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">floating on sinusoidal wave</h1>
-            <time datetime="2022-05-29 17:40:00 &#43;0700 &#43;0700" class="post__date">Sun, 29 May  2022</time> 
+            <time datetime="2022-05-29 18:53:00 &#43;0700 &#43;0700" class="post__date">Sun, 29 May  2022</time> 
           </header>
           <article class="post__content">
               
@@ -189,7 +261,7 @@
   
 >11</a>].</p>
 <p>Selain itu dapat pula dikembangkan pemanfaatan lebih lanjut dari fenomena ini sebagaimana diilustrasikan berikut ini.</p>
-<div class="mermaid">
+<div class="mermaid" style="position: relative; top: -160px; height: 850px;">
   flowchart TD
     %% element use
 		A --> C
@@ -199,24 +271,50 @@
     D <--> E
     E --> F
     D --> F
-    B --> G --> F
+    B --> L
+    B --> M
     F --> H --> I --> J --> K
+    K --> L --> G
+    K --> M --> G
+    G --> F
+    L --> N
+    M --> N
+    O --> C
+    O --> D
+    O --> E
+    O --> P --> A
     %% element definition
 		A([ wave maker ])
 		B([ boundary condition ])
-		C([ wave ])
+		C[/ wave /]
 		D([ floating<br>body ])
 		E([ other<br>floating<br>body ])
-    F([ segregation ])
+    F[/segregation /]
     G([ coastal engineering ])
-    H([ pollutan harvesting])
+    H([ pollutan harvesting ])
     I([ polymer pyrolysis])
-    J([ fuel oil ])
-    K([ fuel<br>distribution<br>among<br>inslands ])
-    L([ x ])
-    M([ y ])
-    N([ z ])
+    J[/ fuel oil /]
+    K([ fuel<br>distribution ])
+    L([ island i ])
+    M([ island j ])
+    N[/ economic<br>improvement /]
+    O[/ monitoring<br>system /]
+    P([ control<br>system ])
+    %% class use
+    class N econ
+    class J chem
+    class O inst
+    class F comp
+    class C math
+    %%class H stop
+    %% class style definition
+    classDef inst fill:#aaf,stroke:#33a,stroke-width:2px
+    classDef chem fill:#afa,stroke:#3a3,stroke-width:2px
+    classDef econ fill:#ffa,stroke:#aa3,stroke-width:2px
+    classDef comp fill:#aff,stroke:#3aa,stroke-width:2px
+    classDef math fill:#faa,stroke:#a33,stroke-width:2px
 </div>
+<p>Gambar <a name='fig2'>2</a>. Topik-topik terkait benda terapung pada gelombang permukaan air dan perkiraan keluarannya dalam bidang instrumentasi (biru. $\color{#aaf}{\blacksquare}$), pemodelan matematika (merah), komputasi granular (cyan), produk reaksi kimia (hijau), dan dampak ekonomi (kuning).</p>
 <h2 id="apparatus">apparatus<a class="anchor" href="#apparatus">#</a></h2>
 <p>Secara sederhana suatu gelombang berdiri dapat dibuat dengan memanfaatkan alat pembangkit gelombang untuk akuariaum seperti Jebao RW-4 [<a href="#r12" 
   
