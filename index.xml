@@ -7,25 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 03 Jun 2022 10:20:19 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jun 2022 19:41:47 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Fri, 03 Jun 2022 10:20:19 +0700</pubDate>
+      <pubDate>Fri, 03 Jun 2022 19:41:47 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
     </item>
     
     <item>
+      <title>list of html entities</title>
+      <link>https://dudung.github.io/bugx/0078/</link>
+      <pubDate>Fri, 03 Jun 2022 19:41:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0078/</guid>
+      <description>While creating posts for this bugx, a static site generated with Hugo [1], the images are created in SVG format using Inkscape, which is not so easy dealing with symbols, e.g greek letters [2], or other HTML entities [3]. That is the only reason why this post is created, so the symbols can be copied from this post and then pasted to a text in Inkscape.
+greek symbols ..
+notes Sherlene Von Drehnen, &amp;ldquo;What Is Hugo and How Does It Work?</description>
+    </item>
+    
+    <item>
       <title>rising bubble</title>
       <link>https://dudung.github.io/bugx/0077/</link>
-      <pubDate>Fri, 03 Jun 2022 10:19:00 +0700</pubDate>
+      <pubDate>Fri, 03 Jun 2022 18:34:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0077/</guid>
       <description>Dalam suatu presentasi pengenalan terkait alat untuk menghasilkan aliran udara dengan suhu dan kelembaban tertentu [1], muncul gagasan untuk mendalami perihal peran gelembung dalam mengantarkan panas pada air dan membawa uap air sehingga temperatur dan humiditas yang diingankan.
 info Proses pembelajaran mengenai topik ini dimulai dengan mencari informasi yang dapat diakses dan mencatatnya untuk dibaca lebih dalam kemudian.
-rising ball Telah dilakukan pengamatan dan pembuatan model sederhana untuk bola yang bergerak ke atas dalam fluida karena $\rho_b &amp;lt; \rho_f$ dengan menempuh lintasan zigzag sehingga dapat diperoleh hasil yang hanya dapat dibandingkan secara kualitatif [2].</description>
+rising ball Telah dilakukan pengamatan dan pembuatan model sederhana untuk bola yang bergerak ke atas dalam fluida karena $\rho_b &amp;lt; \rho_f$ dengan menempuh lintasan zigzag sehingga dapat diperoleh hasil yang hanya dapat dibandingkan secara kualitatif [2], seperti diberikan pada gambar berikut ini.</description>
     </item>
     
     <item>
