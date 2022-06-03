@@ -25,7 +25,7 @@ previous works Terkait dengan benda berbentuk bola yang terapung pada permukaan 
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220529].  </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220603]. </description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes  Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406].  Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.</description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220603]. </description>
     </item>
     
     <item>
@@ -49,8 +49,8 @@ notes  Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffra
       <guid>https://dudung.github.io/bugx/0041/</guid>
       <description>Dengan melihat penampang lintang gelombang silinder akan dapat terhubung fenomena riak dengan solusi persamaan gelombang. Pada tangki riak fenomena gelombang merambat dapat terlihat dalam bentuk riak-riak yang menyebar dan juga dapat menjelaskan berbagai peristiwa terkait gelombang seperti interferensi dan difraksi [1].
 ripple Sebuah gelombang yang berupa riak yang menyebar diilustrasikan untuk waktu-waktu $0$, $\tfrac14 T$, $\tfrac12 T$, dan $\tfrac34 T$ pada gambar-gambar berikut ini.
- &amp;nbsp;
-          image/svg+xml       x y z z  t = T 0 4                Gambar 1.</description>
+&amp;nbsp;
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;no&#34;?&gt; image/svg+xml x y z z t = T 0 4 Gambar 1.</description>
     </item>
     
     <item>

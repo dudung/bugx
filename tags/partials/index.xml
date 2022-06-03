@@ -15,8 +15,7 @@
       
       <guid>https://dudung.github.io/bugx/0005/</guid>
       <description>[1].
-
- var xyValues1 = [ {x:50, y:7}, {x:60, y:8}, {x:70, y:8}, {x:80, y:9}, {x:90, y:9}, {x:100, y:9}, {x:110, y:10}, {x:120, y:11}, {x:130, y:14}, {x:140, y:14}, {x:150, y:15} ]; var xyValues2 = [ {x:50, y:17}, {x:60, y:18}, {x:70, y:18}, {x:80, y:19}, {x:90, y:19}, {x:100, y:19}, {x:110, y:20}, {x:120, y:21}, {x:130, y:24}, {x:140, y:24}, {x:150, y:25} ]; new Chart(&#34;myChart&#34;, { type: &#34;scatter&#34;, data: { datasets: [ { pointStyle: &#39;triangle&#39;, pointRadius: 4, pointBackgroundColor: &#34;</description>
+notes </description>
     </item>
     
     <item>
@@ -26,7 +25,7 @@
       
       <guid>https://dudung.github.io/bugx/0004/</guid>
       <description>[1].
-flowchart TD A([Mulai]) B[/a, b, c/] C[D = bxb - 4ac] D{D = 0} E[x1] F[x2] G[/x1, x2/] H([Selesai]) A -- B -- C -- D D -- Ya -- E -- F -- G -- H D -- Tidak -- H style A fill:#f9f,stroke:#333,stroke-width:4px classDef decision stroke:#f88 class D decision  notes    </description>
+flowchart TD A([Mulai]) B[/a, b, c/] C[D = bxb - 4ac] D{D &gt;= 0} E[x1] F[x2] G[/x1, x2/] H([Selesai]) A --&gt; B --&gt; C --&gt; D D -- Ya --&gt; E --&gt; F --&gt; G --&gt; H D -- Tidak --&gt; H style A fill:#f9f,stroke:#333,stroke-width:4px classDef decision stroke:#f88 class D decision notes </description>
     </item>
     
     <item>

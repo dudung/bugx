@@ -17,7 +17,7 @@
       <description>Sabagai salah satu dari ikon-ikon tersembunyi, Windows Security dapat memberikan notifikasi, yang salah satunya mengenai adalah &amp;lsquo;Actions recommended&amp;rsquo;.
 condition Dengan aplikasi Chrome (2 window luring, dan 2 window dengan 7 tab saat daring), Windows Explorer (2 window), PowerShell, Hugo, Git Bash, Task Manager.
 Tabel 1. Penggunaan resource pada keadaan luring dan daring.
-   Hal Luring Daring     CPU 29-60% 29-100%   Memori 70-71% 77-79%   Disk 3-16% 4-100%   Network 0% 0-2%   GPU 0-4% 0-6%    Pembuatan Tabel 1 terkait dengan notifikasi dari Windows Security.</description>
+Hal Luring Daring CPU 29-60% 29-100% Memori 70-71% 77-79% Disk 3-16% 4-100% Network 0% 0-2% GPU 0-4% 0-6% Pembuatan Tabel 1 terkait dengan notifikasi dari Windows Security.</description>
     </item>
     
   </channel>

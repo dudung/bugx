@@ -16,8 +16,8 @@
       <guid>https://dudung.github.io/bugx/0070/</guid>
       <description>Setelah secara umum Bandung Raya menjadi PPKM Level 2 [1] dan terdapat SE dari institusi [2] yang terimplementasi salah satunya dengan U2 FI120X secara luring kemarin, hari ini mulai setting kembali komputer di ruang kerja.
 update chrome Google Chrome sudah terlalu tua sehingga perlu diperbarui.
-Settings &amp;gt; About Google Chrome  yang akan menjadi
-Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offizieller Build) (32-Bit)  setelah proses update dilakukan.</description>
+Settings &amp;gt; About Google Chrome yang akan menjadi
+Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offizieller Build) (32-Bit) setelah proses update dilakukan. Atau dapat pula dilakukan dengan mengunduh installernya [3].</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offiziell
       <guid>https://dudung.github.io/bugx/0066/</guid>
       <description>Tulisan ini dibuat berbarengan dengan update Hugo dari versi 0.95.0 ke 0.97.3 mengikuti suatu informasi [1]. Untuk menjalan Hugo digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.
 current version Versi Hugo yang terinstal saat ini dapat diperoleh dengan
-L:\home\bugx&amp;gt;hugo version hugo v0.95.0-9F2E76AF+extended windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio  yang memberikakan versi 0.95.0 dengan tanggal built pada 16 Mar 2022. Kemudian, terinformasikan dalam email kemarin [2] bahwa telah terdapat Hugo rilis 0.</description>
+L:\home\bugx&amp;gt;hugo version hugo v0.95.0-9F2E76AF+extended windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio yang memberikakan versi 0.95.0 dengan tanggal built pada 16 Mar 2022. Kemudian, terinformasikan dalam email kemarin [2] bahwa telah terdapat Hugo rilis 0.</description>
     </item>
     
     <item>

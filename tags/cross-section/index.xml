@@ -16,8 +16,8 @@
       <guid>https://dudung.github.io/bugx/0041/</guid>
       <description>Dengan melihat penampang lintang gelombang silinder akan dapat terhubung fenomena riak dengan solusi persamaan gelombang. Pada tangki riak fenomena gelombang merambat dapat terlihat dalam bentuk riak-riak yang menyebar dan juga dapat menjelaskan berbagai peristiwa terkait gelombang seperti interferensi dan difraksi [1].
 ripple Sebuah gelombang yang berupa riak yang menyebar diilustrasikan untuk waktu-waktu $0$, $\tfrac14 T$, $\tfrac12 T$, dan $\tfrac34 T$ pada gambar-gambar berikut ini.
- &amp;nbsp;
-          image/svg+xml       x y z z  t = T 0 4                Gambar 1.</description>
+&amp;nbsp;
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;no&#34;?&gt; image/svg+xml x y z z t = T 0 4 Gambar 1.</description>
     </item>
     
   </channel>

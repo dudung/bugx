@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 29 May 2022 21:54:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jun 2022 06:59:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rising bubble</title>
+      <link>https://dudung.github.io/bugx/0077/</link>
+      <pubDate>Fri, 03 Jun 2022 06:59:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0077/</guid>
+      <description>[1]
+notes Cite as: viridi, &#34;rising bubble&#34;, bugx, 3 Jun 2022, url https://dudung.github.io/bugx/0077 [20220603]. </description>
+    </item>
+    
     <item>
       <title>floating on sinusoidal wave</title>
       <link>https://dudung.github.io/bugx/0076/</link>
@@ -46,7 +56,6 @@ flow chart Terdapat variabel masukan $x$ dan $y$ yang akan diolah menggunakan fu
       <guid>https://dudung.github.io/bugx/0073/</guid>
       <description>Ujian perbaikan atau U3 mata kuliah FI1201 Fisika Dasar IIA dilaksanakan secara luring [1] sebagaimana telah direncanakan sebelumnya [2].
 room Ujian dilaksanakan menggunakan berbagai ruang di kampus Ganesha dan Jatinangor, Institut Teknologi Bandung. Terdapat dua pengawas untuk ruang yang kecil dengan kapasitas kira-kira di bawah 40 peserta dan empat pengawas untuk ruang besar dengan kapasitas kira-kira di atas 60 orang.
-
 Gambar 1. Ruang 9301 yang ditempati peserta FI1201-01 dengan dua pengawas ujian.</description>
     </item>
     
@@ -58,7 +67,7 @@ Gambar 1. Ruang 9301 yang ditempati peserta FI1201-01 dengan dua pengawas ujian.
       <guid>https://dudung.github.io/bugx/0072/</guid>
       <description>Sembari membantu U3 FI1201 [1] berupaya untuk meregistrasi permasalan workflow dari bugx ini yang belum terpecahkan. Sebelumnya sempat berfungsi dengan baik.
 solution The example is for a private repository (user: dudung, repo: bugx-hugo-src), but you can adapt it to yours.
-steps  Explore the page listing commits of a branch https://github.com/dudung/bugx-hugo-src/commits/master Look for the last failed check indicated with $\color{#f00}{\times}$ https://github.com/dudung/bugx-hugo-src/commit/22c32b416cc22cb81f4c61985bd95931feb5658f Visit build page showing the failed action by clicking $\color{#f00}{\times}$ indicator https://github.</description>
+steps Explore the page listing commits of a branch https://github.com/dudung/bugx-hugo-src/commits/master Look for the last failed check indicated with $\color{#f00}{\times}$ https://github.com/dudung/bugx-hugo-src/commit/22c32b416cc22cb81f4c61985bd95931feb5658f Visit build page showing the failed action by clicking $\color{#f00}{\times}$ indicator https://github.</description>
     </item>
     
     <item>
@@ -79,8 +88,8 @@ code Modul dan paket yang digunakan perlu dipanggil terlebih dahulu</description
       <guid>https://dudung.github.io/bugx/0070/</guid>
       <description>Setelah secara umum Bandung Raya menjadi PPKM Level 2 [1] dan terdapat SE dari institusi [2] yang terimplementasi salah satunya dengan U2 FI120X secara luring kemarin, hari ini mulai setting kembali komputer di ruang kerja.
 update chrome Google Chrome sudah terlalu tua sehingga perlu diperbarui.
-Settings &amp;gt; About Google Chrome  yang akan menjadi
-Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offizieller Build) (32-Bit)  setelah proses update dilakukan.</description>
+Settings &amp;gt; About Google Chrome yang akan menjadi
+Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offizieller Build) (32-Bit) setelah proses update dilakukan. Atau dapat pula dilakukan dengan mengunduh installernya [3].</description>
     </item>
     
     <item>
@@ -100,7 +109,7 @@ Google Chrome Chrome ist auf dem neuesten Stand Version 101.0.4951.64 (Offiziell
       <guid>https://dudung.github.io/bugx/0068/</guid>
       <description>Matakuliah Fisika Komputasi [1] yang diberikan pada Semester 2 Tahun Akademik 2021/2022 diakhir dengan suatu bentuk tugas yang akan diunggah ke GitHub [2].
 stages Terdapat empat tahap dalam mengerjakan ujian FI3201 ini.
- Menyiapkan folder kerja. Menjawab pertanyaan. Mengunggah jawaban. Memfinalkan ujian.  Keempat langkah tersebut akan diberikan pada bagian di bawah ini atau dapat diakses dalam empat halaman terpisah di Cookbook [3].
+Menyiapkan folder kerja. Menjawab pertanyaan. Mengunggah jawaban. Memfinalkan ujian. Keempat langkah tersebut akan diberikan pada bagian di bawah ini atau dapat diakses dalam empat halaman terpisah di Cookbook [3].
 preparing working folder Menyiapkan folder kerja dilakukan dengan langkah-langkah berikut ini.</description>
     </item>
     
@@ -123,8 +132,8 @@ visits Kunjungan sejak 1 April 2022 ke SO diupayakan tercatat pada tabel-tabel d
       <description>Pembuatan induktor solenoida merupakan topik kegiatan RBL (research based learning) dalam matakuliah FI1201 dan FI1202 pada Semester 2 Tahun Ajaran 2021/2021 [1] dan untuk laporannya akan diunggah ke OSF [2].
 groups Terdapat delapan kelompok RBL sebagaimana diberikan pada tabel berikut ini.
 Tabel 1. Kelompok $G$, jumlah anggota $N$, dan tautan pengguna OSF-nya $U$.
-   $G$ $N$ $U$     1 8 823th, z3qxm, bu4f2, bdxg6,
-r3b95, f5kum, 8ckpf, a7489   2 8 a86wr, eq9kr, tzm8c, d248e,</description>
+$G$ $N$ $U$ 1 8 823th, z3qxm, bu4f2, bdxg6,
+r3b95, f5kum, 8ckpf, a7489 2 8 a86wr, eq9kr, tzm8c, d248e,</description>
     </item>
     
     <item>
@@ -136,7 +145,7 @@ r3b95, f5kum, 8ckpf, a7489   2 8 a86wr, eq9kr, tzm8c, d248e,</description>
       <description>RBL (research based learning) FI1201 dan FI1202 Semester 2 Tahun Ajaran 2021/2021 mengenai pembuatan induktor solenoida [1]. Telah disediakan informasi bagaimana membuat penurun tegangan AC [2] dan template laporan/makalah RBL serta template catatan kemajuan [3].
 concepts Beberapa konsep berikut perlu disinggung dalam membahas RBL induktor solenoida seperti pada tabel berikut ini, akan tetapi tidak terbatas hanya konsep-konsep tersebut.
 Tabel 1. Konsep-konsep fisika yang mungkin diperlukan untuk RBL induktor solenoida.
-   No Konsep Rujukan*     1 Induksi [4]   2 Induktansi solenoida [5, 6, 7, 8]   3 Trafo penurun tegangan [9]   4 Rangkaian Seri RLC [10, 11]   5 Fasor [12]   6 Multimeter [13, 14, 15]   7 LCR Meter [16]   8 Impedansi RLC Seri [17]   9 Akurasi dan Presisi [18, 19]   10 Kesalahan pengukuran [20, 21]   11 Variasikan Hanya Satu Variabel [22]   12 Penyandingan Data Eksperimen</description>
+No Konsep Rujukan* 1 Induksi [4] 2 Induktansi solenoida [5, 6, 7, 8] 3 Trafo penurun tegangan [9] 4 Rangkaian Seri RLC [10, 11] 5 Fasor [12] 6 Multimeter [13, 14, 15] 7 LCR Meter [16] 8 Impedansi RLC Seri [17] 9 Akurasi dan Presisi [18, 19] 10 Kesalahan pengukuran [20, 21] 11 Variasikan Hanya Satu Variabel [22] 12 Penyandingan Data Eksperimen</description>
     </item>
     
     <item>
@@ -147,7 +156,7 @@ Tabel 1. Konsep-konsep fisika yang mungkin diperlukan untuk RBL induktor solenoi
       <guid>https://dudung.github.io/bugx/0066/</guid>
       <description>Tulisan ini dibuat berbarengan dengan update Hugo dari versi 0.95.0 ke 0.97.3 mengikuti suatu informasi [1]. Untuk menjalan Hugo digunakan sistem operasi Microsoft Windows 10 Home versi 10.0.19042 Build 19042.
 current version Versi Hugo yang terinstal saat ini dapat diperoleh dengan
-L:\home\bugx&amp;gt;hugo version hugo v0.95.0-9F2E76AF+extended windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio  yang memberikakan versi 0.95.0 dengan tanggal built pada 16 Mar 2022. Kemudian, terinformasikan dalam email kemarin [2] bahwa telah terdapat Hugo rilis 0.</description>
+L:\home\bugx&amp;gt;hugo version hugo v0.95.0-9F2E76AF+extended windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio yang memberikakan versi 0.95.0 dengan tanggal built pada 16 Mar 2022. Kemudian, terinformasikan dalam email kemarin [2] bahwa telah terdapat Hugo rilis 0.</description>
     </item>
     
     <item>
@@ -158,7 +167,7 @@ L:\home\bugx&amp;gt;hugo version hugo v0.95.0-9F2E76AF+extended windows/amd64 Bu
       <guid>https://dudung.github.io/bugx/0064/</guid>
       <description>Hamburan Compton terjadi saat sinar-x terdefleksi dari jalurnya semula akibat interaksi dengan sebuah elektron [1] dalam target karbon. Untuk menjelaskan pengamatannya ini Compton berasumsi bahwa cahaya bersifat sebagai partikel atau foton [2].
 probability of compton effect Saat foton masuk ke dalam bahan tidak selalu dapat terjadi efek Compton. Probabilitas terjadinya efek ini [3]
- berbanding lurus dengan jumlah elektron pada kulit terluar, i.e. kerapatan elektron dan rapat fisis bahan, bergantung lemah pada energi foton (secara relatif tetap untuk rentang energi $10 - 600 \ {\rm keV}$), tidak bergantung pada nomor atom (tidak seperti efek fotolistrik dn produksi pasangan).</description>
+berbanding lurus dengan jumlah elektron pada kulit terluar, i.e. kerapatan elektron dan rapat fisis bahan, bergantung lemah pada energi foton (secara relatif tetap untuk rentang energi $10 - 600 \ {\rm keV}$), tidak bergantung pada nomor atom (tidak seperti efek fotolistrik dn produksi pasangan).</description>
     </item>
     
     <item>
@@ -351,7 +360,7 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406].  Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220529].  </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220603]. </description>
     </item>
     
     <item>
@@ -364,7 +373,7 @@ notes  Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes  Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406].  Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.</description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220603]. </description>
     </item>
     
     <item>
@@ -375,8 +384,8 @@ notes  Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffra
       <guid>https://dudung.github.io/bugx/0041/</guid>
       <description>Dengan melihat penampang lintang gelombang silinder akan dapat terhubung fenomena riak dengan solusi persamaan gelombang. Pada tangki riak fenomena gelombang merambat dapat terlihat dalam bentuk riak-riak yang menyebar dan juga dapat menjelaskan berbagai peristiwa terkait gelombang seperti interferensi dan difraksi [1].
 ripple Sebuah gelombang yang berupa riak yang menyebar diilustrasikan untuk waktu-waktu $0$, $\tfrac14 T$, $\tfrac12 T$, dan $\tfrac34 T$ pada gambar-gambar berikut ini.
- &amp;nbsp;
-          image/svg+xml       x y z z  t = T 0 4                Gambar 1.</description>
+&amp;nbsp;
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;no&#34;?&gt; image/svg+xml x y z z t = T 0 4 Gambar 1.</description>
     </item>
     
     <item>
@@ -429,8 +438,8 @@ wave Gelombang sinusoidal dapat direprentasikan dalam suatu fungsi matematika be
       <guid>https://dudung.github.io/bugx/0036/</guid>
       <description>Intensitas interferensi oleh dua, tiga, empat, dan banyak celah memiliki keteraturan [1]. Di sini hanya disajikan intensitas interferensi sampai delapan celah tanpa penjelasan bagaimana memperolehnya.
 intensity Intensitas interferensi oleh dua sampai delapan celah diberikan pada gambar-gambar berikut ini.
- &amp;nbsp;
-Gnuplot Produced by GNUPLOT 5.4 patchlevel 1           0       1       2       3       4       -4       -3       -2       -1       0       1       2       3       4     I / Io   f/p    gnuplot_plot_1          Gambar 1.</description>
+&amp;nbsp;
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34; standalone=&#34;no&#34;?&gt; Gnuplot Produced by GNUPLOT 5.4 patchlevel 1 0 1 2 3 4 -4 -3 -2 -1 0 1 2 3 4 I / Io f/p gnuplot_plot_1 Gambar 1.</description>
     </item>
     
     <item>
@@ -504,7 +513,7 @@ closed and deleted question Terdapat suatu pertanyaan dari A100D dengan judul Ex
       <description>Sabagai salah satu dari ikon-ikon tersembunyi, Windows Security dapat memberikan notifikasi, yang salah satunya mengenai adalah &amp;lsquo;Actions recommended&amp;rsquo;.
 condition Dengan aplikasi Chrome (2 window luring, dan 2 window dengan 7 tab saat daring), Windows Explorer (2 window), PowerShell, Hugo, Git Bash, Task Manager.
 Tabel 1. Penggunaan resource pada keadaan luring dan daring.
-   Hal Luring Daring     CPU 29-60% 29-100%   Memori 70-71% 77-79%   Disk 3-16% 4-100%   Network 0% 0-2%   GPU 0-4% 0-6%    Pembuatan Tabel 1 terkait dengan notifikasi dari Windows Security.</description>
+Hal Luring Daring CPU 29-60% 29-100% Memori 70-71% 77-79% Disk 3-16% 4-100% Network 0% 0-2% GPU 0-4% 0-6% Pembuatan Tabel 1 terkait dengan notifikasi dari Windows Security.</description>
     </item>
     
     <item>
@@ -524,7 +533,7 @@ Tabel 1. Penggunaan resource pada keadaan luring dan daring.
       <guid>https://dudung.github.io/bugx/0024/</guid>
       <description>Interferensi dua celah [1] memerlukan konsep fasor untuk menjelaskan nilai intesitas pola-pola terang gelapnya, di mana konsep fasor ini lebih dikenal pada analisis rangkaian listrik [2]. Di sini akan diberikan resultan dari fungsi masing-masing medan listrik untuk mendapatkan intensitas interferensi dua celah sempit.
 double slit system Sistem celah ganda atau dua celah diberikan pada gambar berikut ini, yang terdiri dari dua buah celah dan layar untuk menangkap pola-pola interferensi.
- &amp;nbsp;</description>
+&amp;nbsp;</description>
     </item>
     
     <item>
@@ -586,7 +595,7 @@ Gambar 1. Kurva dengan font Times New Roman 11, zoom 100%, lebar 3.</description
       
       <guid>https://dudung.github.io/bugx/0020/</guid>
       <description>Walaupun telah terdapat informasi bagaimana folder lokal dapat disimpan pada suatu repo di GitHub [1], akan tetapi kadang masih membingunkan bila belum terbiasa. Tulisan ini mencoba merekam langkah-langkah yang dilakukan untuk mencapai hal tersebut dengan menggunakan Windows PowerShell (PS) dan Git Bash, serta akses ke situs GitHub. Selain itu terdapat pula langkah tambahan untuk menambahkan submodule [2] dan menghapusnya [3], yang belum tentu diperlukan.
-local folder  Pada ujung kiri taskbar Windows 10 atau ujung kanan bawah layar, pilihlah ikon Start.</description>
+local folder Pada ujung kiri taskbar Windows 10 atau ujung kanan bawah layar, pilihlah ikon Start.</description>
     </item>
     
     <item>
@@ -652,9 +661,9 @@ nabla Operator nabla dalam koordinat kartesian memiliki bentuk [4]
       <guid>https://dudung.github.io/bugx/0013/</guid>
       <description>Dengan mengikuti bagaimana menyisipkan berkas svg dalam suatu berkas html [1], dicoba untuk membuat shortcode agar berkas svg dapat disisipkan ke dalam post dengan bentuk seperti untuk youtube [2], dengan mengikuti tutoial singkat membuat shortcode [3].
 version 22-mar-2022 Dengan menggunakan
-{{&amp;lt; svg &amp;quot;/static/img/bugx/packed-no-fill-color-grains.svg&amp;quot; &amp;quot;#fig1&amp;quot; &amp;quot;1&amp;quot; &amp;quot;Beberapa butiran berbeda ukuran dan tak berwarna yang saling bersentuhan.&amp;quot; &amp;gt;}}  akan diperoleh hasil berikut ini
- &amp;nbsp;
- image/svg+xml       Gambar 1.</description>
+{{&amp;lt; svg &amp;quot;/static/img/bugx/packed-no-fill-color-grains.svg&amp;quot; &amp;quot;#fig1&amp;quot; &amp;quot;1&amp;quot; &amp;quot;Beberapa butiran berbeda ukuran dan tak berwarna yang saling bersentuhan.&amp;quot; &amp;gt;}} akan diperoleh hasil berikut ini
+&amp;nbsp;
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;no&#34;?&gt; image/svg+xml Gambar 1. Beberapa butiran berbeda ukuran dan tak berwarna yang saling bersentuhan.</description>
     </item>
     
     <item>
@@ -674,8 +683,8 @@ version 22-mar-2022 Dengan menggunakan
       <guid>https://dudung.github.io/bugx/0010/</guid>
       <description>Suatu shortcode bernama citeas telah berhasil dibuat mengikuti petunjuk pembuatan shortcode [1], yang lebih dimengerti setelah menonton videonya [2].
 version 21-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
- Cite as: viridi, &amp;ldquo;shortcode citeas&amp;rdquo;, bugx, 21 Mar 2022, url http://localhost:1313/bugx/0010 [20220321].
- yang dilengkapi tautan pada author dan artikelnya.
+Cite as: viridi, &amp;ldquo;shortcode citeas&amp;rdquo;, bugx, 21 Mar 2022, url http://localhost:1313/bugx/0010 [20220321].
+yang dilengkapi tautan pada author dan artikelnya.
 &amp;lt;!-- citeas a Hugo shortcode to put how-to-cite at the bottom of a post Sparisoma Viridi https://github.com/dudung 20220321 It can only read one author, link to author nickname and page, border and background.</description>
     </item>
     
@@ -695,7 +704,7 @@ version 21-mar-2022 Hanya satu penulis yang dapat dirujuk. Hasilnya adalah
       
       <guid>https://dudung.github.io/bugx/0006/</guid>
       <description>[1].
-notes    </description>
+notes </description>
     </item>
     
     <item>
@@ -705,8 +714,7 @@ notes    </description>
       
       <guid>https://dudung.github.io/bugx/0005/</guid>
       <description>[1].
-
- var xyValues1 = [ {x:50, y:7}, {x:60, y:8}, {x:70, y:8}, {x:80, y:9}, {x:90, y:9}, {x:100, y:9}, {x:110, y:10}, {x:120, y:11}, {x:130, y:14}, {x:140, y:14}, {x:150, y:15} ]; var xyValues2 = [ {x:50, y:17}, {x:60, y:18}, {x:70, y:18}, {x:80, y:19}, {x:90, y:19}, {x:100, y:19}, {x:110, y:20}, {x:120, y:21}, {x:130, y:24}, {x:140, y:24}, {x:150, y:25} ]; new Chart(&#34;myChart&#34;, { type: &#34;scatter&#34;, data: { datasets: [ { pointStyle: &#39;triangle&#39;, pointRadius: 4, pointBackgroundColor: &#34;</description>
+notes </description>
     </item>
     
     <item>
@@ -716,7 +724,7 @@ notes    </description>
       
       <guid>https://dudung.github.io/bugx/0004/</guid>
       <description>[1].
-flowchart TD A([Mulai]) B[/a, b, c/] C[D = bxb - 4ac] D{D = 0} E[x1] F[x2] G[/x1, x2/] H([Selesai]) A -- B -- C -- D D -- Ya -- E -- F -- G -- H D -- Tidak -- H style A fill:#f9f,stroke:#333,stroke-width:4px classDef decision stroke:#f88 class D decision  notes    </description>
+flowchart TD A([Mulai]) B[/a, b, c/] C[D = bxb - 4ac] D{D &gt;= 0} E[x1] F[x2] G[/x1, x2/] H([Selesai]) A --&gt; B --&gt; C --&gt; D D -- Ya --&gt; E --&gt; F --&gt; G --&gt; H D -- Tidak --&gt; H style A fill:#f9f,stroke:#333,stroke-width:4px classDef decision stroke:#f88 class D decision notes </description>
     </item>
     
     <item>
@@ -747,7 +755,7 @@ mathjax.html Suatu berkas mathjax.html berisikan
       <guid>https://dudung.github.io/bugx/0001/</guid>
       <description>Tulisan ini dibuat setelah instalasi Hugo [1] berhasil dilakukan. Proses membuat situs baru mengikuti informasi yang ada [2].
 version Versi Hugo yang terinstal dapat diperoleh dengan cara berikut ini,
-L:\home&amp;gt;hugo version hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio  yang memberikan informasi v0.95.0.
+L:\home&amp;gt;hugo version hugo v0.95.0-9F2E76AF windows/amd64 BuildDate=2022-03-16T14:20:19Z VendorInfo=gohugoio yang memberikan informasi v0.95.0.
 create a new site Suatu situs baru dibuat dengan cara berikut ini.
 L:\home&amp;gt;hugo new site new-hugo-site Congratulations! Your new Hugo site is created in L:\home\new-hugo-site. Just a few more steps and you&#39;re ready to go: 1.</description>
     </item>

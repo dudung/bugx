@@ -49,8 +49,8 @@ wave Gelombang sinusoidal dapat direprentasikan dalam suatu fungsi matematika be
       <guid>https://dudung.github.io/bugx/0036/</guid>
       <description>Intensitas interferensi oleh dua, tiga, empat, dan banyak celah memiliki keteraturan [1]. Di sini hanya disajikan intensitas interferensi sampai delapan celah tanpa penjelasan bagaimana memperolehnya.
 intensity Intensitas interferensi oleh dua sampai delapan celah diberikan pada gambar-gambar berikut ini.
- &amp;nbsp;
-Gnuplot Produced by GNUPLOT 5.4 patchlevel 1           0       1       2       3       4       -4       -3       -2       -1       0       1       2       3       4     I / Io   f/p    gnuplot_plot_1          Gambar 1.</description>
+&amp;nbsp;
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34; standalone=&#34;no&#34;?&gt; Gnuplot Produced by GNUPLOT 5.4 patchlevel 1 0 1 2 3 4 -4 -3 -2 -1 0 1 2 3 4 I / Io f/p gnuplot_plot_1 Gambar 1.</description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@ phasor Fasor (phasor) atau vektor fasa (phase vektor) adalah vektor yang arahnya
       <guid>https://dudung.github.io/bugx/0024/</guid>
       <description>Interferensi dua celah [1] memerlukan konsep fasor untuk menjelaskan nilai intesitas pola-pola terang gelapnya, di mana konsep fasor ini lebih dikenal pada analisis rangkaian listrik [2]. Di sini akan diberikan resultan dari fungsi masing-masing medan listrik untuk mendapatkan intensitas interferensi dua celah sempit.
 double slit system Sistem celah ganda atau dua celah diberikan pada gambar berikut ini, yang terdiri dari dua buah celah dan layar untuk menangkap pola-pola interferensi.
- &amp;nbsp;</description>
+&amp;nbsp;</description>
     </item>
     
     <item>

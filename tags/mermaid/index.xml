@@ -47,7 +47,7 @@ PS L:\home\cookbook\notebook&amp;gt; pip show nb-mermaid WARNING: Package(s) not
       
       <guid>https://dudung.github.io/bugx/0004/</guid>
       <description>[1].
-flowchart TD A([Mulai]) B[/a, b, c/] C[D = bxb - 4ac] D{D = 0} E[x1] F[x2] G[/x1, x2/] H([Selesai]) A -- B -- C -- D D -- Ya -- E -- F -- G -- H D -- Tidak -- H style A fill:#f9f,stroke:#333,stroke-width:4px classDef decision stroke:#f88 class D decision  notes    </description>
+flowchart TD A([Mulai]) B[/a, b, c/] C[D = bxb - 4ac] D{D &gt;= 0} E[x1] F[x2] G[/x1, x2/] H([Selesai]) A --&gt; B --&gt; C --&gt; D D -- Ya --&gt; E --&gt; F --&gt; G --&gt; H D -- Tidak --&gt; H style A fill:#f9f,stroke:#333,stroke-width:4px classDef decision stroke:#f88 class D decision notes </description>
     </item>
     
   </channel>
