@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 04 Jun 2022 06:26:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jun 2022 06:35:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>list of html entities</title>
       <link>https://dudung.github.io/bugx/0078/</link>
-      <pubDate>Sat, 04 Jun 2022 06:26:00 +0700</pubDate>
+      <pubDate>Sat, 04 Jun 2022 06:35:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0078/</guid>
       <description>While creating posts for this bugx, a static site generated with Hugo [1], the images are created in SVG format using Inkscape, which is not so easy dealing with symbols, e.g greek letters [2], or other HTML entities [3]. That is the only reason why this post is created, so the symbols can be copied from this post and then pasted to a text in Inkscape.
