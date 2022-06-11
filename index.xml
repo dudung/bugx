@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 04:23:28 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 04:33:09 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Sun, 12 Jun 2022 04:23:28 +0700</pubDate>
+      <pubDate>Sun, 12 Jun 2022 04:33:09 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
@@ -20,11 +20,12 @@
     <item>
       <title>github repo site markdown</title>
       <link>https://dudung.github.io/bugx/0082/</link>
-      <pubDate>Sun, 12 Jun 2022 04:21:00 +0700</pubDate>
+      <pubDate>Sun, 12 Jun 2022 04:32:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0082/</guid>
-      <description>Telah terdapat banyak informasi bagaimana membuat situs web di GitHub dengan memanfaatkan fitur GitHub Pages. Di sini akan disajikan informasi pembuatan situs web di GitHub tanpa menggunakan aplikasi GitHub Desktop [1], aplikasi pembuat situs web secara daring [2], aplikasi command line Git [3], ataupun tidak dengan melakukan clone repositori terkait [4]. Kegiatan dilakukan secara daring, hanya pada situs web GitHub, dan cukup berbekal penjelajah web seperti Google Chrome.
-Selain itu di sini juga tidak memberikan informasi untuk membuat situs web pengguna GitHub dengan alamat web https://username.</description>
+      <description>Tulisan ini mungkin dapat disebut sebagai tutorial untuk membuat situs web dari suatu repositori di GitHub dan merupakan kelanjutan dari tulisan lain [1]. Terkait dengan real repo.
+prerequisite Pembaca tulisan ini diasumsikan telah membuat situs web suatu repositori dan mengaktifkannya dengan alamat seperti https://username.github.io/repository, seperti pada https://dudung.github.io/simple-website-md.
+notes viridi, &amp;ldquo;new github repo site markdown&amp;rdquo;, bugx, 11 Jun 2022, url https://dudung.github.io/bugx/0080/ [20220612]. Cite as: viridi, &#34;github repo site markdown&#34;, bugx, 12 Jun 2022, url https://dudung.</description>
     </item>
     
     <item>
