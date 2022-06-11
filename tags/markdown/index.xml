@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/markdown/</link>
+    <description>Recent content in markdown on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sun, 12 Jun 2022 04:21:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>github repo site markdown</title>
+      <link>https://dudung.github.io/bugx/0082/</link>
+      <pubDate>Sun, 12 Jun 2022 04:21:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0082/</guid>
+      <description>Telah terdapat banyak informasi bagaimana membuat situs web di GitHub dengan memanfaatkan fitur GitHub Pages. Di sini akan disajikan informasi pembuatan situs web di GitHub tanpa menggunakan aplikasi GitHub Desktop [1], aplikasi pembuat situs web secara daring [2], aplikasi command line Git [3], ataupun tidak dengan melakukan clone repositori terkait [4]. Kegiatan dilakukan secara daring, hanya pada situs web GitHub, dan cukup berbekal penjelajah web seperti Google Chrome.
+Selain itu di sini juga tidak memberikan informasi untuk membuat situs web pengguna GitHub dengan alamat web https://username.</description>
+    </item>
+    
+  </channel>
+</rss>
