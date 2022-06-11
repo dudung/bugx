@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 11 Jun 2022 17:51:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jun 2022 20:49:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>new github repo site markdown</title>
       <link>https://dudung.github.io/bugx/0080/</link>
-      <pubDate>Sat, 11 Jun 2022 17:51:00 +0700</pubDate>
+      <pubDate>Sat, 11 Jun 2022 20:49:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0080/</guid>
       <description>Telah terdapat banyak informasi bagaimana membuat situs web di GitHub dengan memanfaatkan fitur GitHub Pages. Di sini akan disajikan informasi pembuatan situs web di GitHub tanpa menggunakan aplikasi GitHub Desktop [1], aplikasi pembuat situs web secara daring [2], aplikasi command line Git [3], ataupun tidak dengan melakukan clone repositori terkait [4]. Kegiatan dilakukan secara daring, hanya pada situs web GitHub, dan cukup berbekal penjelajah web seperti Google Chrome.
