@@ -9,6 +9,16 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>new github repo site markdown</title>
+      <link>https://dudung.github.io/bugx/0080/</link>
+      <pubDate>Sat, 11 Jun 2022 17:51:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0080/</guid>
+      <description>Telah terdapat banyak informasi bagaimana membuat situs web di GitHub dengan memanfaatkan fitur GitHub Pages. Di sini akan disajikan informasi pembuatan situs web di GitHub tanpa menggunakan aplikasi GitHub Desktop [1], aplikasi pembuat situs web secara daring [2], aplikasi command line Git [3], ataupun tidak dengan melakukan clone repositori terkait [4]. Kegiatan dilakukan secara daring, hanya pada situs web GitHub, dan cukup berbekal penjelajah web seperti Google Chrome.
+Selain itu di sini juga tidak memberikan informasi untuk membuat situs web pengguna GitHub dengan alamat web https://username.</description>
+    </item>
+    
+    <item>
       <title>initial observation of bubble</title>
       <link>https://dudung.github.io/bugx/0081/</link>
       <pubDate>Sat, 11 Jun 2022 05:54:00 +0700</pubDate>
@@ -18,16 +28,6 @@
 observation Observasi awal telah dilakukan dengan hasil diberikan seperti pada gambar berikut ini.
 (a) (b) (c) (d) (e) (f) Gambar 1. Observasi gelembung nitrogen dengan laju aliran: (a) 0.5 l/min, (b) 1 l/min, (c) 2 l/min, (d) 3 l/min, (e) 4 l/min, dan (f) 5 l/min.
 Terlihat sekilas bahwa latar belakang hitam dengan pencahayaan dari samping memberikan hasil terbaik, Gambar 1(a).</description>
-    </item>
-    
-    <item>
-      <title>new github repo site markdown</title>
-      <link>https://dudung.github.io/bugx/0080/</link>
-      <pubDate>Thu, 09 Jun 2022 05:24:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0080/</guid>
-      <description>Telah terdapat banyak informasi bagaimana membuat situs web di GitHub dengan memanfaatkan fitur GitHub Pages. Di sini akan disajikan informasi pembuatan situs web di GitHub tanpa menggunakan aplikasi GitHub Desktop [1], aplikasi pembuat situs web secara daring [2], aplikasi command line Git [3], ataupun tidak dengan melakukan clone repositori terkait [4]. Kegiatan dilakukan secara daring, hanya pada situs web GitHub, dan cukup berbekal penjelajah web seperti Google Chrome.
-Selain itu di sini juga tidak memberikan informasi untuk membuat situs web pengguna GitHub dengan alamat web https://username.</description>
     </item>
     
     <item>
@@ -413,7 +413,7 @@ posts Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-per
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220610]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220611]. </description>
     </item>
     
     <item>
@@ -426,7 +426,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220610]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220611]. </description>
     </item>
     
     <item>
@@ -748,7 +748,7 @@ yang dilengkapi tautan pada author dan artikelnya.
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220610]. </description>
+posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220611]. </description>
     </item>
     
     <item>
