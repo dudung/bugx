@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-06-14 07:33:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-06-14 07:33:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-06-14 08:03:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-06-14 08:03:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0085\/",
-      "wordCount" : "706",
+      "wordCount" : "922",
       "keywords" : ["Blog"]
     }
   
@@ -141,7 +141,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">product view competitive forces</h1>
-            <time datetime="2022-06-14 07:33:00 &#43;0700 &#43;0700" class="post__date">Tue, 14 Jun  2022</time> 
+            <time datetime="2022-06-14 08:03:00 &#43;0700 &#43;0700" class="post__date">Tue, 14 Jun  2022</time> 
           </header>
           <article class="post__content">
               
@@ -281,6 +281,73 @@
 >3</a>, di mana kelima gaya Porter mempengaruhi suatu produk.</p>
 <h2 id="mulitple-products">mulitple products<a class="anchor" href="#mulitple-products">#</a></h2>
 <p>Akan lebih menarik bila dapat dibuat ilustrasi dari berbagai produk yang saling berkompetisi yang salah satu ilustrasinya seperti diberikan di bawah ini.</p>
+<div class="mermaid" style="position: relative; top: auto; height: 800px;">
+  flowchart TB
+    %% element use
+    Sup1 ---> Pro1
+    Sup2 ---> Pro2
+    Sup2 ---> Pro3
+    Sup3 ---> Ent1
+    Sup4 ---> Sub1
+    Sup5 ---> Sub2
+    Sup1 ---> Ent2
+    Pro1 --> Cus1
+    Pro1 --> Cus2
+    Pro2 --> Cus3
+    Pro3 --> Cus2
+    Ent1 ----> Cus5
+    Ent2 ----> Cus6
+    Pro2 -..- Sub1
+    Pro2 -..- Sub2
+    Sub1 --> Cus3
+    Sub1 --> Cus4
+    Sub2 --> Cus5
+    Ent1 <== Com ==> Pro2
+    Sub2 <== Com ==> Pro1
+    %% element definition
+		Sup1[ Sup 1 ]
+		Sup2[ Sup 2 ]
+		Sup3[ Sup 3 ]
+		Cus1[/ Cus 1 /]
+		Cus2[/ Cus 2 /]
+		Cus3[/ Cus 3 /]
+		Cus4[/ Cus 4 /]
+		Cus5[/ Cus 5 /]
+		Cus6[/ Cus 6 /]
+		Ent1(( Ent 1 ))
+		Ent2(( Ent 2 ))
+		Sub1(( Sub 1 ))
+		Sub2(( Sub 2 ))
+    Pro1(( Pro 1))
+    Pro2(( Pro 2))
+    Pro3(( Pro 3))
+    %% class use
+    class Sup1 sup
+    class Sup2 sup
+    class Sup3 sup
+    class Sup4 sup
+    class Sup5 sup
+    class Cus1 cus
+    class Cus2 cus
+    class Cus3 cus
+    class Cus4 cus
+    class Cus5 cus
+    class Cus6 cus
+    class Ent1 ent
+    class Ent2 ent
+    class Sub1 sub
+    class Sub2 sub
+    class Com1 com
+    class Com2 com
+    %% class style definition
+    classDef sup fill:#ffa,stroke:#aa3,stroke-width:2px
+    classDef cus fill:#afa,stroke:#3a3,stroke-width:2px
+    classDef ent fill:#faf,stroke:#a3a,stroke-width:2px
+    classDef sub fill:#faa,stroke:#a33,stroke-width:2px
+    classDef com fill:#aaf,stroke:#33a,stroke-width:2px
+</div>
+<p>Gambar <a name='fig4'>4</a>. Kelima gaya kompetitif Porter dan multiple produk.</p>
+<p>..</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Michael E. Porter, &ldquo;How Competitive Forces Shape Strategy&rdquo;, Harvard Business Review, Mar-Apr 1979, url <a href="https://hbr.org/1979/03/how-competitive-forces-shape-strategy" 
