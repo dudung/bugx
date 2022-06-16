@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 16 Jun 2022 07:24:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jun 2022 08:03:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>idea</title>
+      <link>https://dudung.github.io/bugx/tags/idea/</link>
+      <pubDate>Thu, 16 Jun 2022 08:03:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iscs</title>
+      <link>https://dudung.github.io/bugx/tags/iscs/</link>
+      <pubDate>Thu, 16 Jun 2022 08:03:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/iscs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meeting</title>
+      <link>https://dudung.github.io/bugx/tags/meeting/</link>
+      <pubDate>Thu, 16 Jun 2022 08:03:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/meeting/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>darkness</title>
       <link>https://dudung.github.io/bugx/tags/darkness/</link>
@@ -23,33 +50,6 @@
       <pubDate>Thu, 16 Jun 2022 07:24:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>idea</title>
-      <link>https://dudung.github.io/bugx/tags/idea/</link>
-      <pubDate>Thu, 16 Jun 2022 07:24:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/idea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iscs</title>
-      <link>https://dudung.github.io/bugx/tags/iscs/</link>
-      <pubDate>Thu, 16 Jun 2022 06:09:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/iscs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>meeting</title>
-      <link>https://dudung.github.io/bugx/tags/meeting/</link>
-      <pubDate>Thu, 16 Jun 2022 06:09:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/meeting/</guid>
       <description></description>
     </item>
     
