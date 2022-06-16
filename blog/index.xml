@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 16 Jun 2022 06:09:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jun 2022 07:24:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>deutlich dunkel</title>
+      <link>https://dudung.github.io/bugx/0087/</link>
+      <pubDate>Thu, 16 Jun 2022 07:24:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0087/</guid>
+      <description>Today a repository [1] is archived using GitHub feature [2]. And the creepy story will be documented here, since it is too much to handle that as a separate repository.
+phase 3 16-jun-2022 Terdengar jauh dan lirih kecil berdecak-decak di atas gedung klinik fisika dekat taman pagi hari.
+15-jun-2022 Cicak di kejauhan saat setelah ashar. Lalu mendekat dan malamnya tokek di atap belakang setelah isya.
+14-jun-2022 Dilakukan pembentengan malamnya bertiga dan dua bermimpi.</description>
+    </item>
+    
     <item>
       <title>com-sci-iscs-pre</title>
       <link>https://dudung.github.io/bugx/0089/</link>
@@ -19,17 +31,6 @@ study hall ..
 Gambar 1. A modern and convenient lecture room in Department of Mathematics, 5th floor, CAS Building.
 ..
 notes Rinovia M. G. Simanjuntak, &amp;ldquo;Rapat AkreditasiLAMSAMA dan ISCSProgram Studi Magister Sains Komputas&amp;rdquo;, Program Studi Magister Sains Komputasi, 13 Jun 2022, url https://osf.io/n7qhd/ [20220615] url https://csx.itb.ac.id/ [20220616]. url https://csx.itb.ac.id/international/ [20220616]. url https://lamsama.or.id/ [20220616]. Cite as: viridi, &#34;com-sci-iscs-pre&#34;, bugx, 16 Jun 2022, url https://dudung.</description>
-    </item>
-    
-    <item>
-      <title>deutlich dunkel</title>
-      <link>https://dudung.github.io/bugx/0087/</link>
-      <pubDate>Wed, 15 Jun 2022 21:21:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0087/</guid>
-      <description>Today a repository [1] is archived using GitHub feature [2]. And the creepy story will be documented here, since it is too much to handle that as a separate repository.
-phase 3 15-jun-2022 Cicak di kejauhan saat setelah ashar. Lalu mendekat dan malamnya tokek di atap belakang setelah isya.
-14-jun-2022 Dilakukan pembentengan malamnya bertiga dan dua bermimpi. Pertama mengejar cecak besar dan memenggalnya yang masih dapat berpindah, kedua bertemu ular kepala dua dan juga berhasil mematikannya.</description>
     </item>
     
     <item>
@@ -479,7 +480,7 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220615]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220616]. </description>
     </item>
     
     <item>
@@ -492,7 +493,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220615]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220616]. </description>
     </item>
     
     <item>
