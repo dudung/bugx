@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 21:31:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jun 2022 11:34:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bubble two settings</title>
+      <link>https://dudung.github.io/bugx/0090/</link>
+      <pubDate>Thu, 16 Jun 2022 11:34:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0090/</guid>
+      <description>Diskusi dari dilakukan dua sesi mengingat yang pertama [1] luput karena kedatangan tamu, sehingga diselenggarakan sebagai tambahan yang kedua [2].
+observation Untuk pengamatan digunakan dua kamera berbeda dengan parameter aliran yang sama akan tetapi kedalaman yang berbeda, seperti diberikan pada gambar berikut ini.
+Gambar 1. Pengamatan gelembung untuk laju alir 0.4 l/min dengan perangkat keras yang berbeda.
+Perbedaan kedua hasil rekaman pada Gambar 1 dapat dimanfaatkan untuk tujuan berbeda, misalnya gelembung lebih bulat untuk konfirmasi ukuran dan gelembung lebih jarang untuk memudahkan tracking dalam mendapatkan jarak tempuh, waktu, lalu laju rata-rata.</description>
+    </item>
+    
     <item>
       <title>rising bubble photo</title>
       <link>https://dudung.github.io/bugx/0084/</link>
