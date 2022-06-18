@@ -9,6 +9,16 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>planning short tutorial</title>
+      <link>https://dudung.github.io/bugx/0092/</link>
+      <pubDate>Sat, 18 Jun 2022 18:50:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0092/</guid>
+      <description>[1].
+notes -, &amp;ldquo;Orasi Guru Besar Institut Teknologi Bandung Prof. Mohammad Zaki Mubarok dan Prof. Sri Legowo Wignyodarsono&amp;rdquo;, Forum Guru Besar Institut Teknologi Bandung, Aula Barat, 18 Jun 2022, 0900-1100 GMT+7, url https://osf.io/cfvpw/ [20220618]. Cite as: viridi, &#34;planning short tutorial&#34;, bugx, 18 Jun 2022, url https://dudung.github.io/bugx/0092 [20220618]. </description>
+    </item>
+    
+    <item>
       <title>bubble two settings</title>
       <link>https://dudung.github.io/bugx/0090/</link>
       <pubDate>Fri, 17 Jun 2022 19:26:00 +0700</pubDate>
@@ -48,9 +58,8 @@ study hall Terdapat mikrofon speker omnidirectional yang wireless, proyektor inf
       
       <guid>https://dudung.github.io/bugx/0087/</guid>
       <description>Today a repository [1] is archived using GitHub feature [2]. And the creepy story will be documented here, since it is too much to handle that as a separate repository.
-phase 3 16-jun-2022 Terdengar jauh dan lirih kecil berdecak-decak di atas gedung klinik fisika dekat taman pagi hari.
-15-jun-2022 Cicak di kejauhan saat setelah ashar. Lalu mendekat dan malamnya tokek di atap belakang setelah isya.
-14-jun-2022 Dilakukan pembentengan malamnya bertiga dan dua bermimpi.</description>
+phase 3 18-jun-2022 Orasi GB TA-ZM dan belum terdengar baik di kampus maupun di dekat rumah sampai setelah mahgrib. Then der kleine zwitschert.
+17-jun-2022 Setelah subuh di pohon seberang masjid tokek berkicau. Lalu cicak di rumah. Saat mahgrib cicak dan tokek di masjid.</description>
     </item>
     
     <item>
@@ -522,7 +531,7 @@ posts Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-per
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220617]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220618]. </description>
     </item>
     
     <item>
@@ -535,7 +544,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220617]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220618]. </description>
     </item>
     
     <item>
@@ -857,7 +866,7 @@ yang dilengkapi tautan pada author dan artikelnya.
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220617]. </description>
+posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220618]. </description>
     </item>
     
     <item>
