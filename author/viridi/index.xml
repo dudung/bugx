@@ -9,6 +9,16 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>inhomogenous agarose hydrogel</title>
+      <link>https://dudung.github.io/bugx/0094/</link>
+      <pubDate>Mon, 20 Jun 2022 17:45:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0094/</guid>
+      <description>Diskusi dengan seorang kolega [1] perihal kelanjutan pekerjaannya [2] yang ingin ditingkatkan untuk bahan tidak homogen.
+analysis Bila dengan FEA (Finite Element Analysis) dapat menggunakan SfePy [3] yang lebih bebas dibandingkan dengan Abaqus [4]. Alternatif pertama perlu memrogram sedangkan yang kedua dapat langsung digunakan akan tetapi terbatas pada fiturnya untuk edisi pelajar. Atau dapat pula dengan model pegas dan massa yang telah dibandingkan dengan prediksi isostrain [5] dan rules of mixture [6].</description>
+    </item>
+    
+    <item>
       <title>halal-center-program</title>
       <link>https://dudung.github.io/bugx/0093/</link>
       <pubDate>Sun, 19 Jun 2022 19:40:00 +0700</pubDate>
@@ -79,10 +89,9 @@ phase 3 18-jun-2022 Orasi GB TA-ZM dan belum terdengar baik di kampus maupun di 
       
       <guid>https://dudung.github.io/bugx/0083/</guid>
       <description>Terdapat tips agar lebih produktif dengan memanfaatkan Daftar-yang-harus-dikerjakan [1]. Di sini belum diterapkan benar-benar dan hanya menuliskan tanggal pelaksanaan suatu kegiatan atau tenggat suatu pekerjaan. Tanggal post terakhir adalah sore di hari pembuatannya dan yang berikutnya diubah hanya isinya. Diubah agar terdistribusi tanggalnya. Inkonsisten.
-https://www.google.com/maps/dir/Taman+Hutan+Raya+Ir.+H.+Djuanda,+Kompleks+Tahura,+Jalan+Ir.+H.+Juanda,+Ciburial,+Bandung,+Jawa+Barat/Selasar+Sunaryo+Art+Space,+Jalan+Bukit+Pakar+Timur,+Ciburial,+Bandung,+Jawa+Barat/KEBUN+POT+GERABAH+BANDUNG,+Jalan+Ciburial,+Ciburial,+Bandung+City,+Jawa+Barat/Sosis+Kraton,+Jalan+Cibengang,+Ciburial,+Bandung,+Jawa+Barat/Utara+Cafe,+Ciburial,+Bandung,+Jawa+Barat/Taman+Hutan+Raya+Ir.+H.+Djuanda,+Kompleks+Tahura,+Jalan+Ir.+H.+Juanda,+Ciburial,+Bandung,+Jawa+Barat/@-6.85776,107.6347145,20.78z/data=!4m38!4m37!1m5!1m1!1s0x2e68e0b82dc93d87:0xf664c059175258b1!2m2!1d107.6306089!2d-6.8585841!1m5!1m1!1s0x2e68e72224945083:0xe8defc82b1622f5a!2m2!1d107.6366131!2d-6.8586807!1m5!1m1!1s0x2e68e7cf04853681:0x9c7d7ad6352e91f8!2m2!1d107.6424768!2d-6.855394!1m5!1m1!1s0x2e68e748043e349b:0x3e806158175ea21c!2m2!1d107.6457837!2d-6.854397!1m5!1m1!1s0x2e68e749faafbf85:0xfd50eefe3591eb0f!2m2!1d107.6459081!2d-6.8502714!1m5!1m1!1s0x2e68e0b82dc93d87:0xf664c059175258b1!2m2!1d107.6306089!2d-6.8585841!3e2
 Jun 2022 22-Wed-1300 Sidang TA2 S1 bimbingan Alexander Iskandar .
-18-Sat-0900 Orasi GB Mubarok dan Wignyodarsono, Aula Barat. ✔ 0092
-16-Wed-1200 Diskusi dan makan siang dengan MA-IM, FA-SD.</description>
+20-Sat-1130 Diskusi modulus geser bahan gel tidak homogen. ✔ 0094
+18-Sat-0900 Orasi GB Mubarok dan Wignyodarsono, Aula Barat.</description>
     </item>
     
     <item>
@@ -542,7 +551,7 @@ posts Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-per
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220619]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220620]. </description>
     </item>
     
     <item>
@@ -555,7 +564,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220619]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220620]. </description>
     </item>
     
     <item>
@@ -877,7 +886,7 @@ yang dilengkapi tautan pada author dan artikelnya.
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220619]. </description>
+posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220620]. </description>
     </item>
     
     <item>

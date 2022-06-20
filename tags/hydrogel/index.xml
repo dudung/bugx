@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hydrogel on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/hydrogel/</link>
+    <description>Recent content in hydrogel on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Mon, 20 Jun 2022 17:45:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/hydrogel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>inhomogenous agarose hydrogel</title>
+      <link>https://dudung.github.io/bugx/0094/</link>
+      <pubDate>Mon, 20 Jun 2022 17:45:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0094/</guid>
+      <description>Diskusi dengan seorang kolega [1] perihal kelanjutan pekerjaannya [2] yang ingin ditingkatkan untuk bahan tidak homogen.
+analysis Bila dengan FEA (Finite Element Analysis) dapat menggunakan SfePy [3] yang lebih bebas dibandingkan dengan Abaqus [4]. Alternatif pertama perlu memrogram sedangkan yang kedua dapat langsung digunakan akan tetapi terbatas pada fiturnya untuk edisi pelajar. Atau dapat pula dengan model pegas dan massa yang telah dibandingkan dengan prediksi isostrain [5] dan rules of mixture [6].</description>
+    </item>
+    
+  </channel>
+</rss>
