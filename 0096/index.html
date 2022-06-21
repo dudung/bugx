@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-06-21 05:46:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-06-21 05:46:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-06-21 07:16:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-06-21 07:16:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0096\/",
-      "wordCount" : "18",
+      "wordCount" : "327",
       "keywords" : ["Blog"]
     }
   
@@ -134,21 +134,126 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">install tracker 6 for win 10</h1>
-            <time datetime="2022-06-21 05:46:00 &#43;0700 &#43;0700" class="post__date">Tue, 21 Jun  2022</time> 
+            <time datetime="2022-06-21 07:16:00 &#43;0700 &#43;0700" class="post__date">Tue, 21 Jun  2022</time> 
           </header>
           <article class="post__content">
               
-<p>[<a href="#r01" 
+<p>Sebagai persiapan untuk mempelajari bagaimana melakukan tracking pada suatu obyek, akan diinstal aplikasi Tracker, suatu alat bantu analisis video dan pemodelan, yang merupakan piranti lunak bebas dibangun pada framework Java Open Source Physics [<a href="#r01" 
   
   
 >1</a>].</p>
+<h2 id="steps">steps<a class="anchor" href="#steps">#</a></h2>
+<ol>
+<li>
+<p>Buka situs Tracker dan carilah versi terinstal terbarunya, yang dalam hal ini adalah versi 6.0.8, rilis April 2022. <br>
+<a href="https://physlets.org/tracker/#:~:text=Recent%20Tracker%20Versions" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://physlets.org/tracker/#:~:text=Recent%20Tracker%20Versions</a></p>
+</li>
+<li>
+<p>Unduh versi yang sesuai dengan spesifikasi komputer yang digunakan, di mana untuk saat ini adalah executable untuk Win64. <br>
+<a href="https://physlets.org/tracker/installers/download.php?file=Tracker-6.0.8-windows-x64-installer.exe" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://physlets.org/tracker/installers/download.php?file=Tracker-6.0.8-windows-x64-installer.exe</a></p>
+</li>
+<li>
+<p>Pindahkan ke folder tertentu untuk penggunaan lebih lanjut.
+<img src="/bugx/img/install/tracker/open-folder.png" alt=""></p>
+</li>
+<li>
+<p>Tunjuk ikon aplikasi <code>Tracker-6.0.8-windows-x64-installer.exe</code> dan klik dengan tetikus.</p>
+</li>
+<li>
+<p>Setelah suatu jendela terbuka, tekan tombol Next. <br>
+<img src="/bugx/img/install/tracker/choose-next.png" alt=""></p>
+</li>
+<li>
+<p>Terima persetujuannya (I accept the agreement) dan pilih tombol Next. <br>
+<img src="/bugx/img/install/tracker/accept-aggreement-and-next.png" alt=""></p>
+</li>
+<li>
+<p>Ubah home directory untuk instalasi Tracker bila diperlukan dan tekan tombol Next. <br>
+<img src="/bugx/img/install/tracker/change-tracker-home-directory-and-next.png" alt=""></p>
+</li>
+<li>
+<p>Pilih komponen yang diperlukan dan klik tombol Next. <br>
+<img src="/bugx/img/install/tracker/select-components-and-next.png" alt=""></p>
+</li>
+<li>
+<p>Piranti lunak telah siap diinstal, tekan tombol Next. <br>
+<img src="/bugx/img/install/tracker/ready-to-install-and-next.png" alt=""></p>
+</li>
+<li>
+<p>Tunggu proses instalasi selesai. <br>
+<img src="/bugx/img/install/tracker/wait-for-installing-process.png" alt=""></p>
+</li>
+<li>
+<p>Proses instalasi telah selesai, tutup jendela yang terbuka dengan menekan tombol Finish. <br>
+<img src="/bugx/img/install/tracker/finish-installing-process.png" alt=""></p>
+</li>
+<li>
+<p>Akses menu Start pada Windows 10 untuk melihat bahwa aplikasi Tracker telah terinstal dan dapat diakses. <br>
+<img src="/bugx/img/install/tracker/access-start-menu.png" style="width:324px;" /></p>
+</li>
+</ol>
+<h2 id="todo">todo<a class="anchor" href="#todo">#</a></h2>
+<ul>
+<li>Pelajari Tracker [<a href="#r01" 
+  
+  
+>1</a>] dengan video yang telah direkam dan digunakan untuk aplikasi ini [<a href="#r02" 
+  
+  
+>2</a>].</li>
+<li>Pelajari pemrograman untuk tracking obyek dengan OpenCV [<a href="#r03" 
+  
+  
+>3</a>].</li>
+<li>Pilih bahasa pemrograman Python dan kaji perbedaan paket <code>opencv-contrib-python</code> [<a href="#r04" 
+  
+  
+>4</a>] dan <code>opencv-python</code> [<a href="#r05" 
+  
+  
+>5</a>].</li>
+<li>Reproduksi ulang hasil tracking yang telah ditambahkan pada video [<a href="#r06" 
+  
+  
+>6</a>].</li>
+<li>Tuangkah perkembangannya dalam tulisan lain.</li>
+</ul>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a></li>
+<li><a name='r01'></a>Douglas Brown, Wolfgang Christian, Robert M. Hanson, “Tracker: Video Analysis and Modeling Tool”, 2022, url <a href="https://physlets.org/tracker/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://physlets.org/tracker/</a> [20220621].</li>
+<li><a name='r02'></a>Septian Ulan Dini, “Experimental Video: Floating Object”, YouTube, 20.06.2022, url <a href="https://www.youtube.com/watch?v=0CHuIlqJSOE" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.youtube.com/watch?v=0CHuIlqJSOE</a> [20220621].</li>
+<li><a name='r03'></a>Satya Mallick, &ldquo;Object Tracking using OpenCV (C++/Python)&rdquo;, LearnOpenCV, 13 Feb 2017, url <a href="https://learnopencv.com/object-tracking-using-opencv-cpp-python/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://learnopencv.com/object-tracking-using-opencv-cpp-python/</a> [20220621].</li>
+<li><a name='r04'></a>Gaurav Maindola, &ldquo;Learn Object Tracking in OpenCV Python with Code Examples&rdquo;, Machine Learning Knowledge, 3 Sep 2021, url <a href="https://machinelearningknowledge.ai/learn-object-tracking-in-opencv-python-with-code-examples/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://machinelearningknowledge.ai/learn-object-tracking-in-opencv-python-with-code-examples/</a> [20220621].</li>
+<li><a name='r05'></a>Simon Kiruri, &ldquo;Creating a Hand Tracking Module using Python, OpenCv, and MediaPipe&rdquo;, Section, 11 Feb 2022, url <a href="https://www.section.io/engineering-education/creating-a-hand-tracking-module/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.section.io/engineering-education/creating-a-hand-tracking-module/</a> [20220621].</li>
+<li><a name='r06'></a>Avima Haamesha, “tracking-floating-object | recording 001”, YouTube, 18.06.2022, url <a href="https://www.youtube.com/watch?v=jNsK3Ofi1i8" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.youtube.com/watch?v=jNsK3Ofi1i8</a> [20220621].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "install tracker 6 for win 10", bugx, 21 Jun 2022, url <a href= "https://dudung.github.io/bugx/0096">https://dudung.github.io/bugx/0096</a> [20220620].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "install tracker 6 for win 10", bugx, 21 Jun 2022, url <a href= "https://dudung.github.io/bugx/0096">https://dudung.github.io/bugx/0096</a> [20220621].
 </div>
 
 

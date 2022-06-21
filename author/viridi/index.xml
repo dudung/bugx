@@ -11,11 +11,12 @@
     <item>
       <title>install tracker 6 for win 10</title>
       <link>https://dudung.github.io/bugx/0096/</link>
-      <pubDate>Tue, 21 Jun 2022 05:46:00 +0700</pubDate>
+      <pubDate>Tue, 21 Jun 2022 07:16:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0096/</guid>
-      <description>[1].
-notes Cite as: viridi, &#34;install tracker 6 for win 10&#34;, bugx, 21 Jun 2022, url https://dudung.github.io/bugx/0096 [20220620]. </description>
+      <description>Sebagai persiapan untuk mempelajari bagaimana melakukan tracking pada suatu obyek, akan diinstal aplikasi Tracker, suatu alat bantu analisis video dan pemodelan, yang merupakan piranti lunak bebas dibangun pada framework Java Open Source Physics [1].
+steps Buka situs Tracker dan carilah versi terinstal terbarunya, yang dalam hal ini adalah versi 6.0.8, rilis April 2022. https://physlets.org/tracker/#:~:text=Recent%20Tracker%20Versions
+Unduh versi yang sesuai dengan spesifikasi komputer yang digunakan, di mana untuk saat ini adalah executable untuk Win64.</description>
     </item>
     
     <item>
@@ -571,7 +572,7 @@ posts Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-per
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220620]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220621]. </description>
     </item>
     
     <item>
@@ -584,7 +585,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220620]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220621]. </description>
     </item>
     
     <item>
@@ -906,7 +907,7 @@ yang dilengkapi tautan pada author dan artikelnya.
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220620]. </description>
+posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220621]. </description>
     </item>
     
     <item>
