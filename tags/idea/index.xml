@@ -7,17 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 21 Jun 2022 22:11:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/idea/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jun 2022 18:56:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/idea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>plasmon of sphere on planar surface</title>
+      <link>https://dudung.github.io/bugx/0098/</link>
+      <pubDate>Wed, 22 Jun 2022 18:56:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0098/</guid>
+      <description>Presentasi akhir yang beralih dari b4 ke m1 dalam trek cepat berlangsung siang ini di labnya. Draft makalah telah dikirimkan seminggu sebelumnya lewat email [1] akan tetapi luput terpantau. Hal yang dilakukan adalah eksperimen numerik terkait fenomena plasmon pada larik butiran bola di atas sistem planar dua lapis [[12(#r02)].
+notes Cite as: viridi, &#34;plasmon of sphere on planar surface&#34;, bugx, 22 Jun 2022, url https://dudung.github.io/bugx/0098 [20220622]. </description>
+    </item>
+    
     <item>
       <title>random rectangles</title>
       <link>https://dudung.github.io/bugx/0097/</link>
-      <pubDate>Tue, 21 Jun 2022 22:11:00 +0700</pubDate>
+      <pubDate>Wed, 22 Jun 2022 18:48:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0097/</guid>
-      <description>[1] [2] [3] [4] [5] [6] [7] [8]
-scenarios Terdapat beberapa skenario yang terpikirkan sebagai langkah awal pemanfaatan bilangan acak untuk membuat grid bujursangkar dengan ukuran berbeda-beda.
-(a) (b) (c) (d) Gambar 1. Beberapa skenario: (a) produk tunggal mendominasi, (b) produk tunggal tak mendominasi, (c) dua produk tak mendominasi, (d) dua produk dengan satu produk mendominasi.
-notes Jason Brownlee, &amp;ldquo;How to Generate Random Numbers in Python&amp;rdquo;, Machine Learning Mastery, 4 Jul 2018, url https://machinelearningmastery.</description>
+      <description>Diskusi makan siang dengan katimport di karsa dan tercetuskan keleluasaan untuk berkreasi mengingat kurang terlalu paham bentuk yang kualitatif dikarenakan terbiasa dengan yang kuantitataif. Kata kunci sementara adalah bilangan acak.
+random number Bilangan acak, baik berupa bilangan riil ataupun bulat dapat dibangkitkan dalam Python berbentuk bilangan tunggal ataupun telah bebentuk suatu array [1].
+count Untuk menjamin bahwa bilangan-bilangan bulat acak yang dibangkitkan memenuhi jumlah tertentu untuk masing-masing nilai, terutama bila telah dalam bentuk list, perlu dihitung jumlah masing-masing bilangan yang harus sama dengan pemesanan awal.</description>
     </item>
     
     <item>

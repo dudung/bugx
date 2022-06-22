@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-06-21 22:11:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-06-21 22:11:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-06-22 18:48:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-06-22 18:48:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0097\/",
-      "wordCount" : "203",
+      "wordCount" : "647",
       "keywords" : ["Blog"]
     }
   
@@ -134,44 +134,49 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">random rectangles</h1>
-            <time datetime="2022-06-21 22:11:00 &#43;0700 &#43;0700" class="post__date">Tue, 21 Jun  2022</time> 
+            <time datetime="2022-06-22 18:48:00 &#43;0700 &#43;0700" class="post__date">Wed, 22 Jun  2022</time> 
           </header>
           <article class="post__content">
               
-<p>[<a href="#r01" 
+<p>Diskusi makan siang dengan katimport di karsa dan tercetuskan keleluasaan untuk berkreasi mengingat kurang terlalu paham bentuk yang kualitatif dikarenakan terbiasa dengan yang kuantitataif. Kata kunci sementara adalah bilangan acak.</p>
+<h2 id="random-number">random number<a class="anchor" href="#random-number">#</a></h2>
+<p>Bilangan acak, baik berupa bilangan riil ataupun bulat dapat dibangkitkan dalam Python berbentuk bilangan tunggal ataupun telah bebentuk suatu array [<a href="#r01" 
   
   
->1</a>]
-[<a href="#r02" 
+>1</a>].</p>
+<h2 id="count">count<a class="anchor" href="#count">#</a></h2>
+<p>Untuk menjamin bahwa bilangan-bilangan bulat acak yang dibangkitkan memenuhi jumlah tertentu untuk masing-masing nilai, terutama bila telah dalam bentuk list, perlu dihitung jumlah masing-masing bilangan yang harus sama dengan pemesanan awal. Untuk menghitungnya perlu dibuat list bernilai nol [<a href="#r02" 
   
   
->2</a>]
-[<a href="#r03" 
+>2</a>] dengan ukuran sejumlah macam bilangan bulat yang akan dibangkitkan.</p>
+<h2 id="list">list<a class="anchor" href="#list">#</a></h2>
+<p>Tergantung penggunaanya, terkadang lebih sederhana menggunakan list ketimbang array, sehingga perlu dilakuan konversi dari array ke list [<a href="#r03" 
   
   
->3</a>]
-[<a href="#r04" 
+>3</a>], yang merupakan hasil pembangkitan bilangan acaknya.</p>
+<h2 id="rectangle">rectangle<a class="anchor" href="#rectangle">#</a></h2>
+<p>Dengan paket Matplotlib dapat digambarkan segiempat menggunakan fungsi Rectangle [<a href="#r04" 
   
   
->4</a>]
-[<a href="#r05" 
+>4</a>], yang mewakili kemungkin suatu produk terpilih oleh pengguna. Untuk penggambaran segiempat yang banyak, proses pembuatan dan penggambarannya dapat dipisahkan dengan terlebih dahulu membuat list kosong dan kemudian ditambahkan obyek hasil dari fungsi Rectangle pada list penyimpanan dengan fungsi append [<a href="#r05" 
   
   
->5</a>]
-[<a href="#r06" 
+>5</a>].</p>
+<h2 id="chart-size">chart size<a class="anchor" href="#chart-size">#</a></h2>
+<p>Grafik pada Matplotlib dapat diubah ukurannya [<a href="#r06" 
   
   
->6</a>]
-[<a href="#r07" 
+>6</a>] dan serta dapat pula dimodifikasi style defaultnya [<a href="#r07" 
   
   
->7</a>]
-[<a href="#r08" 
+>7</a>].</p>
+<h2 id="initial-example">initial example<a class="anchor" href="#initial-example">#</a></h2>
+<p>Kotak-kotak, lebih tepatnya bujursangkar, berukuran acak dibangkitkan dan digambarkan dengan memanfaatkan paket Matplotlib dan fungsi Rectangle, dengan satu dan dua warna [<a href="#r08" 
   
   
->8</a>]</p>
+>8</a>], yang kelak akan dimanfaatkan sebagai model kemungkin suatu produk dipilih oleh penggunanya. Lebih jauh ingin mencoba membuat model kuantitataif dari kelima gaya Porter.</p>
 <h2 id="scenarios">scenarios<a class="anchor" href="#scenarios">#</a></h2>
-<p>Terdapat beberapa skenario yang terpikirkan sebagai langkah awal pemanfaatan bilangan acak untuk membuat grid bujursangkar dengan ukuran berbeda-beda.</p>
+<p>Terdapat beberapa skenario yang terpikirkan sebagai langkah awal pemanfaatan bilangan acak untuk membuat grid bujursangkar dengan ukuran berbeda-beda. Bujursangkar-bujursangkar tersebut akan menjadi seperti sasaran panah atau dart, di mana bila terkenal lemparan panah, maka suatu produk berarti dipilih dan dibeli oleh pengguna.</p>
 <table>
 <thead>
 <tr>
@@ -199,6 +204,27 @@
 </tbody>
 </table>
 <p>Gambar <a name='fig1'>1</a>. Beberapa skenario: (a) produk tunggal mendominasi, (b) produk tunggal tak mendominasi, (c) dua produk tak mendominasi, (d) dua produk dengan satu produk mendominasi.</p>
+<p>Bila hanya terdapat satu produk dan produk itu mendominasi, maka lemparan panah pasti akan mengenai produk tersebut. Skenario ini diberikan pada Gambar <a href="#fig1" 
+  
+  
+>1</a> (a). Selanjutnya Gambar <a href="#fig1" 
+  
+  
+>1</a> (b) masih menggambarkan bila hanya terdapat satu produk, akan tetapi tidak mendominasi, sehingga pengguna masih ada kemungkinan tidak membeli produk tersebut. Dua produk yang masing-masing tidak mendominasi diberikan pada Gambar <a href="#fig1" 
+  
+  
+>1</a> (c), di mana kemungkin yang muncul adalah pembelian produk pertama atau kedua oleh pengguna atau tidak membeli produk sama sekali. Selanjutnya, seperti diilustrasikan pada Gambar <a href="#fig1" 
+  
+  
+>1</a> (d), dapat saja salah satu produk mendominasi sedangkan produk yang lain tidak sehingga kemungkin produk dominator lebih besar untuk dibeli, produk lain lebih kecil kemungkinannya terbeli, dan masih terdapat kemungkin pengguna tidak membeli produk apapun.</p>
+<h2 id="todo">todo<a class="anchor" href="#todo">#</a></h2>
+<ol>
+<li>Memastikan terdapatnya jumlah semua kemungkinan adalah satu.</li>
+<li>Mematangkan istilah mendominasi dan tidak, serta kaitannya denngan terdapatnya kemungkin untuk tidak membeli apa-apa.</li>
+<li>Mengaitkan antara distribusi bujursangkar dengan market share.</li>
+<li>Merancang mekanisme suatu produk baru memasuki pasar dan bagaimana ukuran bujursngkar yang telah ada perlu dimodifkasi terkait dengan karakter dari pemain baru.</li>
+<li>Mempertimbangkan bagaimana representasi dari pemain alternatif atau substitusi yang sebelumnya tidak / belum dianggap sebagai kompetitor.</li>
+</ol>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Jason Brownlee, &ldquo;How to Generate Random Numbers in Python&rdquo;, Machine Learning Mastery, 4 Jul 2018, url <a href="https://machinelearningmastery.com/how-to-generate-random-numbers-in-python/" 
@@ -236,7 +262,7 @@
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "random rectangles", bugx, 21 Jun 2022, url <a href= "https://dudung.github.io/bugx/0097">https://dudung.github.io/bugx/0097</a> [20220621].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "random rectangles", bugx, 22 Jun 2022, url <a href= "https://dudung.github.io/bugx/0097">https://dudung.github.io/bugx/0097</a> [20220622].
 </div>
 
 
@@ -266,6 +292,11 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "ran
     </a>
   
 
+  
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0098/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >plasmon of sphere on planar surface</span>
+    </a>
   
 </div>
 
