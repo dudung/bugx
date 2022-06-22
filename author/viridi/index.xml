@@ -11,11 +11,10 @@
     <item>
       <title>python-draw-svg</title>
       <link>https://dudung.github.io/bugx/0099/</link>
-      <pubDate>Thu, 23 Jun 2022 04:30:00 +0700</pubDate>
+      <pubDate>Thu, 23 Jun 2022 06:19:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0099/</guid>
-      <description>[1].
-notes Cite as: viridi, &#34;python-draw-svg&#34;, bugx, 23 Jun 2022, url https://dudung.github.io/bugx/0099 [20220622]. </description>
+      <description>Berawal dari adanya fitur untuk menampilkan diagram Mermaid dalam IPython Notebook yang sayangnya hasilnya belum dapat dilihat saat berkas diunggah ke GitHub akan tetapi dapat dilihat di nbviewer [1]. Mermaid menggambarkan diagram alir dan grafik berbasis SVG menggunakan bentuk Markdown [2]. Menggambar di IPython Notebook agar hasilnya dapat dilihat saat berkasnya diunggah ke GitHub salah satunya adalah dengan menggunakan Matplotlib, di mana gambar dengan Matplotlib ini juga dapat disimpan juga dalam format SVG [3].</description>
     </item>
     
     <item>
@@ -130,8 +129,8 @@ study hall Terdapat mikrofon speker omnidirectional yang wireless, proyektor inf
       
       <guid>https://dudung.github.io/bugx/0087/</guid>
       <description>Today a repository [1] is archived using GitHub feature [2]. And the creepy story will be documented here, since it is too much to handle that as a separate repository.
-phase 3 23-jun-2022 Dua kaki seribu di mushola sebelum tahajud dan dilanjukan dengan cicak meringkik saat kedua rekannya telah masuk ke tong sampah.
-22-jun-2022 Saat depan komputer setelah isya. Tokek mengejek dengan suara jeleknya. Abaikan saja, berikan no emotion saran TS saat di KS siangnya.</description>
+phase 3 23-jun-2022 Dua kaki seribu di mushola sebelum tahajud dan dilanjukan dengan cicak meringkik saat kedua rekannya telah masuk ke tong sampah. Meringkik lagi sesaat sebelum selesai morning programming bersiap ke mesjid.
+22-jun-2022 Saat depan komputer setelah isya. Tokek mengejek dengan suara jeleknya.</description>
     </item>
     
     <item>

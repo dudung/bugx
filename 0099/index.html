@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-06-23 04:30:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-06-23 04:30:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-06-23 06:19:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-06-23 06:19:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0099\/",
-      "wordCount" : "13",
+      "wordCount" : "275",
       "keywords" : ["Blog"]
     }
   
@@ -134,17 +134,63 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">python-draw-svg</h1>
-            <time datetime="2022-06-23 04:30:00 &#43;0700 &#43;0700" class="post__date">Thu, 23 Jun  2022</time> 
+            <time datetime="2022-06-23 06:19:00 &#43;0700 &#43;0700" class="post__date">Thu, 23 Jun  2022</time> 
           </header>
           <article class="post__content">
               
-<p>[<a href="#r01" 
+<p>Berawal dari adanya fitur untuk menampilkan diagram Mermaid dalam IPython Notebook yang sayangnya hasilnya belum dapat dilihat saat berkas diunggah ke GitHub akan tetapi dapat dilihat di nbviewer [<a href="#r01" 
   
   
->1</a>].</p>
+>1</a>]. Mermaid menggambarkan diagram alir dan grafik berbasis SVG menggunakan bentuk Markdown [<a href="#r02" 
+  
+  
+>2</a>]. Menggambar di IPython Notebook agar hasilnya dapat dilihat saat berkasnya diunggah ke GitHub salah satunya adalah dengan menggunakan Matplotlib, di mana gambar dengan Matplotlib ini juga dapat disimpan juga dalam format SVG [<a href="#r03" 
+  
+  
+>3</a>]. Untuk menggambar bentuk-bentuk yang lebih bebas dengan SVG dengan Python dapat digunakan paket PyCairo [<a href="#r04" 
+  
+  
+>4</a>], yang saat digunakan dalam IPython Notebook menghasilkan berkas dalam format PNG agar dapat terlihat hasilnya di nbviewer [<a href="#r05" 
+  
+  
+>5</a>], atau dapat pula dengan menyimpan hasilnya dalam format PNG dan SVG menggunakan inline display, yang sayangnya masih terdapat catatan bahwa hasil render SVG tidak didukung pada tempat yang sama [<a href="#r06" 
+  
+  
+>6</a>], suatu informasi yang belum dipahami. Ada juga cara lain dengan menggunakan fungsi BytesIO [<a href="#r07" 
+  
+  
+>7</a>].</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a></li>
+<li><a name='r01'></a>Nicholas Bollweg, &ldquo;Embedded Mermaid diagrams in the IPython Notebook&rdquo;, GitHub Gist, 10 Mar 2015, url <a href="https://gist.github.com/bollwyvl/e51b4e724f0b82669c84" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://gist.github.com/bollwyvl/e51b4e724f0b82669c84</a> [20220623].</li>
+<li><a name='r02'></a>Pat Godfrey, &ldquo;Mermaid,
+Graph Building with Markdown&rdquo;, Learning Too, 1 Nov 2019, url <a href="https://www.learningtoo.eu/articles/mermaid.htm" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.learningtoo.eu/articles/mermaid.htm</a> [20220623].</li>
+<li><a name='r03'></a>Maxim Maeder, &ldquo;Save Plot as SVG File in Matplotlib&rdquo;, Delf Stack, 12 Apr 2022, url <a href="https://www.delftstack.com/howto/matplotlib/save-plot-as-svg-file-in-matplotlib/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.delftstack.com/howto/matplotlib/save-plot-as-svg-file-in-matplotlib/</a> [20220623].</li>
+<li><a name='r04'></a>ayush12arora, &ldquo;PyCairo – Drawing the outline&rdquo;, GeeksforGeeks, 12 Nov 2020, url <a href="https://www.geeksforgeeks.org/pycairo-drawing-the-outline/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.geeksforgeeks.org/pycairo-drawing-the-outline/</a> [20220623].</li>
+<li><a name='r05'></a>Synthetik, &ldquo;Working with Cairo in your Jupyter Notebook&rdquo;, Haiku Tech Center, 28 Apr 2020, url <a href="https://www.haikutechcenter.com/2020/04/working-with-cairo-in-your-jupyter.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.haikutechcenter.com/2020/04/working-with-cairo-in-your-jupyter.html</a> [20220623].</li>
+<li><a name='r06'></a>Nick Wan, &ldquo;Make a simple inline display for your outputs&rdquo;, GitHub, 19 Sep 2018, url <a href="https://nickwan.github.io/inline-display/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://nickwan.github.io/inline-display/</a> [20220623].</li>
+<li><a name='r07'></a>Ned Batchelder, &ldquo;Drawing Cairo SVG in a Jupyter notebook&rdquo;, nedbatchelder, 27 Jan 2019, url <a href="https://nedbatchelder.com/blog/201901/drawing_cairo_svg_in_a_jupyter_notebook.html" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://nedbatchelder.com/blog/201901/drawing_cairo_svg_in_a_jupyter_notebook.html</a> [20220623].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
