@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 23 Jun 2022 06:19:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jun 2022 06:21:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>python-draw-svg</title>
       <link>https://dudung.github.io/bugx/0099/</link>
-      <pubDate>Thu, 23 Jun 2022 06:19:00 +0700</pubDate>
+      <pubDate>Thu, 23 Jun 2022 06:21:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0099/</guid>
       <description>Berawal dari adanya fitur untuk menampilkan diagram Mermaid dalam IPython Notebook yang sayangnya hasilnya belum dapat dilihat saat berkas diunggah ke GitHub akan tetapi dapat dilihat di nbviewer [1]. Mermaid menggambarkan diagram alir dan grafik berbasis SVG menggunakan bentuk Markdown [2]. Menggambar di IPython Notebook agar hasilnya dapat dilihat saat berkasnya diunggah ke GitHub salah satunya adalah dengan menggunakan Matplotlib, di mana gambar dengan Matplotlib ini juga dapat disimpan juga dalam format SVG [3].</description>
