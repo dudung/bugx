@@ -9,6 +9,15 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>introduced to panopto</title>
+      <link>https://dudung.github.io/bugx/0100/</link>
+      <pubDate>Fri, 24 Jun 2022 05:36:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0100/</guid>
+      <description>Panopto merupakan suatu Video Content Management System (VCMS) yang memimpin dalam portal video daring untuk institusi bisnis dan edukasi [1], yang sebagai alat bantu merekam, mengorganisasi, dan membagi video, dirancang khusus untuk tujuan pendidikan sehingga amat tepat digunakan dalam kelas dan juga dalam pembelajaran jarak jauh [2]. Sebagai suatu piranti lunak penangkap kuliah, Panopto menginjinkan pengguna untuk menyisipkan video, audio, tangkapan layar, dan slide ke dalam rekaman, sehingga semua tingkatan pengguna, fakultas, staf, mahasiswa, dari institusi pelanggan dapat membuat dan membagi rekaman pada Panopto [3].</description>
+    </item>
+    
+    <item>
       <title>python-draw-svg</title>
       <link>https://dudung.github.io/bugx/0099/</link>
       <pubDate>Thu, 23 Jun 2022 06:21:00 +0700</pubDate>
@@ -129,7 +138,8 @@ study hall Terdapat mikrofon speker omnidirectional yang wireless, proyektor inf
       
       <guid>https://dudung.github.io/bugx/0087/</guid>
       <description>Today a repository [1] is archived using GitHub feature [2]. And the creepy story will be documented here, since it is too much to handle that as a separate repository.
-phase 3 23-jun-2022 Dua kaki seribu di mushola sebelum tahajud dan dilanjukan dengan cicak meringkik saat kedua rekannya telah masuk ke tong sampah. Meringkik lagi sesaat sebelum selesai morning programming bersiap ke mesjid. Satul lirih jauh saat lewat jam 6 waktu masih nge-bugx.</description>
+phase 3 24-jun-2022 Lirih setelah subuh, pagi saat masih depan komputer. Der kleine.
+23-jun-2022 Dua kaki seribu di mushola sebelum tahajud dan dilanjukan dengan cicak meringkik saat kedua rekannya telah masuk ke tong sampah. Meringkik lagi sesaat sebelum selesai morning programming bersiap ke mesjid.</description>
     </item>
     
     <item>
@@ -139,8 +149,9 @@ phase 3 23-jun-2022 Dua kaki seribu di mushola sebelum tahajud dan dilanjukan de
       
       <guid>https://dudung.github.io/bugx/0083/</guid>
       <description>Terdapat tips agar lebih produktif dengan memanfaatkan Daftar-yang-harus-dikerjakan [1]. Di sini belum diterapkan benar-benar dan hanya menuliskan tanggal pelaksanaan suatu kegiatan atau tenggat suatu pekerjaan. Tanggal post terakhir adalah sore di hari pembuatannya dan yang berikutnya diubah hanya isinya. Diubah agar terdistribusi tanggalnya. Inkonsisten.
-Jun 2022 25-Sat-1400 Lecture in CTS2022-5 from Prof Eiichi Bannai. 23-Wed-1300 Presentasi Floating Body secara hibrida. 22-Wed-1300 Sidang TA2 S1 bimbingan Alexander Iskandar. ✔ 0098
-22-Wed-1100 Rapat ISCS dan persiapan akreditasi MSK di MA.</description>
+Jun 2022 25-Sat-1400 Lecture in CTS2022-5 from Prof Eiichi Bannai. 23-Thu-1030 Presentasi Panopto dan diskusi pemanfaatannya. 0100✔
+23-Thu-0900 Presentasi Floating Body secara hibrida. ✔
+22-Wed-1300 Sidang TA2 S1 bimbingan Alexander Iskandar.</description>
     </item>
     
     <item>
@@ -600,7 +611,7 @@ posts Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-per
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220622]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220623]. </description>
     </item>
     
     <item>
@@ -613,7 +624,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220622]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220623]. </description>
     </item>
     
     <item>
@@ -935,7 +946,7 @@ yang dilengkapi tautan pada author dan artikelnya.
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220622]. </description>
+posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220623]. </description>
     </item>
     
     <item>
