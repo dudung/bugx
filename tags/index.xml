@@ -7,22 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 24 Jun 2022 21:51:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jun 2022 03:31:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>google-scholar</title>
-      <link>https://dudung.github.io/bugx/tags/google-scholar/</link>
-      <pubDate>Fri, 24 Jun 2022 21:51:00 +0700</pubDate>
+      <title>china</title>
+      <link>https://dudung.github.io/bugx/tags/china/</link>
+      <pubDate>Sun, 26 Jun 2022 03:31:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/tags/google-scholar/</guid>
+      <guid>https://dudung.github.io/bugx/tags/china/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>https://dudung.github.io/bugx/tags/course/</link>
+      <pubDate>Sun, 26 Jun 2022 03:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>food</title>
+      <link>https://dudung.github.io/bugx/tags/food/</link>
+      <pubDate>Sun, 26 Jun 2022 03:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/food/</guid>
       <description></description>
     </item>
     
     <item>
       <title>idea</title>
       <link>https://dudung.github.io/bugx/tags/idea/</link>
-      <pubDate>Fri, 24 Jun 2022 21:51:00 +0700</pubDate>
+      <pubDate>Sun, 26 Jun 2022 03:31:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pharmaceutical</title>
+      <link>https://dudung.github.io/bugx/tags/pharmaceutical/</link>
+      <pubDate>Sun, 26 Jun 2022 03:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/pharmaceutical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google-scholar</title>
+      <link>https://dudung.github.io/bugx/tags/google-scholar/</link>
+      <pubDate>Fri, 24 Jun 2022 21:51:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/google-scholar/</guid>
       <description></description>
     </item>
     
@@ -50,42 +86,6 @@
       <pubDate>Fri, 24 Jun 2022 21:51:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/sinta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>china</title>
-      <link>https://dudung.github.io/bugx/tags/china/</link>
-      <pubDate>Fri, 24 Jun 2022 19:25:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/china/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>course</title>
-      <link>https://dudung.github.io/bugx/tags/course/</link>
-      <pubDate>Fri, 24 Jun 2022 19:25:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>food</title>
-      <link>https://dudung.github.io/bugx/tags/food/</link>
-      <pubDate>Fri, 24 Jun 2022 19:25:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/food/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pharmaceutical</title>
-      <link>https://dudung.github.io/bugx/tags/pharmaceutical/</link>
-      <pubDate>Fri, 24 Jun 2022 19:25:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/pharmaceutical/</guid>
       <description></description>
     </item>
     
