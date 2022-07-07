@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-07 17:23:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-07 17:23:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-07 19:18:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-07 19:18:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0106\/",
-      "wordCount" : "179",
+      "wordCount" : "602",
       "keywords" : ["Blog"]
     }
   
@@ -134,7 +134,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">dsti-visit-fix-lan</h1>
-            <time datetime="2022-07-07 17:23:00 &#43;0700 &#43;0700" class="post__date">Thu, 7 Jul  2022</time> 
+            <time datetime="2022-07-07 19:18:00 &#43;0700 &#43;0700" class="post__date">Thu, 7 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -153,6 +153,19 @@
   
   
 >3</a>], misalnya peneliti, dosen, mahasiswa tamu internasional.</li>
+<li>Adalah baik terdapat beberapa alternatif koneksi, yaitu jaringan kampus dan titik-titik hotspotnya serta hotspot Eduroam, sehingga memastikan bahwa koneksi internet tetap diperoleh oleh sivitas akademika, akan tetapi perlu dicari optimasinya karena merawat lebih dari dua jaringan (jaringan kampus perlu dirawat lokal, sedangkan Eduroam langsung dari DSTI) memerlukan upaya lebih ketimbang hanya satu.</li>
+<li>Pelabelan perlu dilanjutkan sehingga mudah untuk melacak bila terdapat masalah di kemudian hari, yang dapat dilakukan dengan mencabut kabel lalu memeriksa target komputer yang tidak terkoneksi, di mana kegiatan perlu disosialisasikan sehingga tim jaringan perlu berkoordinasi dengan K3G sehingga mendapatkan akses ke ruang-ruang pengajar setelah sebelumnya mendapatkan ijin.</li>
+<li>Penarikan kabel dari router / switch setelah FO ke komputer sivitas akademika dianjurkan bila masih terdapat port kosong untuk memudahkan telusur masalah ketimbang terdapat hirarki jaringan yang membuat semakin kompleks dengan adanya layer-layer core, distribution dan access [<a href="#r04" 
+  
+  
+>4</a>].</li>
+<li>Terdapat server lab yang memiliki IP statis dan komputer lain untuk keperluan akses dari luar kampus atau LN untuk tunneling tanpa menggunakan VPN kampus, di mana hal ini sebaiknya terdapat dengan baik sehingga bila suatu saat terdapat kebocoran keamanan atau serangan ke jaringan, pengelola DSTI dapat diminta bantuannya. Juga disarakan agar komputer-komputer dengan IP statis tersebut dimintakan melaluti tiket DSTI agar dikeluarkan dari daftar IP yang disuguhkan ke suatu komputer saat menyala dengan konfigurasi DHCP (konfigurasi yang disarankan oleh kampus).</li>
+<li>Perawatan jaringan mungkin dapat dibedakan dalam setidaknya tiga bagian: (i) kampus sampai FO ke unit, (ii) di dalam unit sampai ke komputer sivitas akademika, (iii) lab-lab khusus yang memiliki server, komputer penelitian, dengan konfigurasi sendiri dan IP statis. Tanggung jawab (i) ada di DSTI, (ii) admin unit, dan (iii) pada admin lab yang berkoordinasi dengan admin unit. Dengan ini diharapkan admin unit tidak terbebani perawatan khusus lab yang cenderung tidak umum, kompleks, dan amat customized.</li>
+<li>Terdapat tawaran layanan dari DSTI mulai colocation server, private cloud, dan virtual private server [<a href="#r05" 
+  
+  
+>5</a>] yang memiliki kelebihan dan kekurangan dibandingkan dengan merawat sendiri server dalam lingkungan unit atau lab penelitian. Mungkin perlu dilakukan pencarian informasi lebih lanjut mengenai hal ini untuk mencari solusi yang lebih optimal bila dirasakan merawat server secara lokal unit memberatkan.</li>
+<li>Terdapat pembicaraan bahwa admin jaringan merupakan pegawai DSTI yang diperbantukan di unit akan tetapi hal ini belum ditindaklanjuti. Bila sampai terjadi maka koordinasi pengelolaan jaringan akan menjadi lebih seragam dan terstruktur karena admin unit memiliki pemahaman yang stara dan sinergis dengan kebijakan DSTI yang mewakili kebijakan kampus.</li>
 </ul>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
@@ -168,6 +181,14 @@
   
    target="_blank" rel="noreferrer noopener" 
 >https://eduroam.org/what-is-eduroam/</a> [20220707].</li>
+<li><a name='r04'></a>Cisco Networking Academy, &ldquo;Hierarchical Network Design&rdquo;, in Connecting Networks Companion Guide, Pearson Education, Cisco Press, 9 May 2019, url <a href="https://www.ciscopress.com/articles/article.asp?p=2202410" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.ciscopress.com/articles/article.asp?p=2202410</a> [20220707].</li>
+<li><a name='r05'>-, &ldquo;Layanan&rdquo;, DSTI ITB, url <a href="https://dsti.itb.ac.id/layanan/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://dsti.itb.ac.id/layanan/</a> [20220707].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">

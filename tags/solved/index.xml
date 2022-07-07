@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 07 Jul 2022 17:23:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/solved/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 19:18:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/solved/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dsti-visit-fix-lan</title>
       <link>https://dudung.github.io/bugx/0106/</link>
-      <pubDate>Thu, 07 Jul 2022 17:23:00 +0700</pubDate>
+      <pubDate>Thu, 07 Jul 2022 19:18:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0106/</guid>
       <description>Permasalahan jaringan telah terpecahkan, yang diduga semacam switching loop [1], di mana network loop ini dapat terjadi karena beberapa hal [2].
