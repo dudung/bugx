@@ -7,34 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 07 Jul 2022 19:18:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>dsti</title>
-      <link>https://dudung.github.io/bugx/tags/dsti/</link>
-      <pubDate>Thu, 07 Jul 2022 19:18:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/dsti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lan</title>
-      <link>https://dudung.github.io/bugx/tags/lan/</link>
-      <pubDate>Thu, 07 Jul 2022 19:18:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/lan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>solved</title>
-      <link>https://dudung.github.io/bugx/tags/solved/</link>
-      <pubDate>Thu, 07 Jul 2022 19:18:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/solved/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Thu, 07 Jul 2022 05:20:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>idea</title>
       <link>https://dudung.github.io/bugx/tags/idea/</link>
@@ -59,6 +32,33 @@
       <pubDate>Thu, 07 Jul 2022 05:20:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/pso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dsti</title>
+      <link>https://dudung.github.io/bugx/tags/dsti/</link>
+      <pubDate>Thu, 07 Jul 2022 01:32:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/dsti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lan</title>
+      <link>https://dudung.github.io/bugx/tags/lan/</link>
+      <pubDate>Thu, 07 Jul 2022 01:32:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/lan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>solved</title>
+      <link>https://dudung.github.io/bugx/tags/solved/</link>
+      <pubDate>Thu, 07 Jul 2022 01:32:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/solved/</guid>
       <description></description>
     </item>
     

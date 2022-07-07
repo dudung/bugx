@@ -7,14 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 07 Jul 2022 19:18:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/solved/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 01:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/solved/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dsti-visit-fix-lan</title>
       <link>https://dudung.github.io/bugx/0106/</link>
-      <pubDate>Thu, 07 Jul 2022 19:18:00 +0700</pubDate>
+      <pubDate>Thu, 07 Jul 2022 01:32:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0106/</guid>
-      <description>Permasalahan jaringan telah terpecahkan, yang diduga semacam switching loop [1], di mana network loop ini dapat terjadi karena beberapa hal [2].
+      <description>Permasalahan jaringan telah terpecahkan, yang diduga semacam switching loop [1], di mana network loop ini dapat terjadi karena beberapa hal [2]. Saat setelah reparasi selesai sempat datang ketua UKA dari lab yang dikunjungi dan diberikan pengarahan agar melakukan perencanaan dengan baik ke depannya.
 summaries Permasalahan jaringan yang diduga berubah network loop telah dapat terselesaikan setelah didapati ada dua kabel DSTI masuk ke router yang sama. Kecepatan jaringan kampus telah mencapai 8 Gpbs yang tidak terdukung oleh beberapa router dan switch di unit yang masih hanya sampai 100 Mbps, penggantian dapat dilaksanakan tahap per tahap dengan merencanakan, mengganggarkan, dan sampai memantau proses pengajuan sampai penerapannya.</description>
     </item>
     
