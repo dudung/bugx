@@ -11,10 +11,22 @@
     <item>
       <title>to-read-liste</title>
       <link>https://dudung.github.io/bugx/0109/</link>
-      <pubDate>Sat, 09 Jul 2022 11:37:00 +0700</pubDate>
+      <pubDate>Sat, 09 Jul 2022 17:00:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0109/</guid>
       <description>Tidak ada habis-habisnya keajaiban buku, media yang dapat menghilangkan stres, menyebabkan merasa lebih bahagia, dan meningkatkan kecerdasan [1]. Sayangnya terlalu banyak buku, akan tetapi terlalu sedikit waktu untuk dapat membacanya [2]. Untuk itulah terdapat bebagai daftar buku-buku yang perlu dibaca, dan salah satunya disusun berdasarkan suasana hati dan minat [3]. Seorang tokoh, Elon Musk, merekomendasikan sebuah daftar bacaan yang mungkin dapat mengubah hidup seseorang [4]. Untuk itulah halaman berisikan daftar buku, yang informasinya diperoleh dari media soal, dibuat untuk mengingatkan terdapatnya buku-buku atau media cetak lainnya yang mungkin menarik untuk dibaca.</description>
+    </item>
+    
+    <item>
+      <title>csx-interview-batch-5</title>
+      <link>https://dudung.github.io/bugx/0108/</link>
+      <pubDate>Fri, 08 Jul 2022 16:19:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0108/</guid>
+      <description>Wawancara untuk bergabung dengan CSX [1] dilakukan secara daring [2] dan ringkas [3].
+applications Terdapat lima aplikasi pada batch lima yang semuanya telah lulus semacam tes Turing [4] atau lainnya, dan sebagian informasi tentangnya diberikan pada tabel berikut ini.
+Tabel 1. Informasi singkat aplikasi yang diuji dan hasilnya.
+Serial Number Time Type I/O FS FT AC 0-22215-1253-1 1400 MBTK I MA ✔ ✔ 0-22215-1203-2 1415 AIWx I IF ✖ ✔ 0-22215-1170-3 1430 PJGJ I BA ✖ ✔ 0-22215-0960-4 1445 NAWx I MA ✔ ✔ 0-22215-0484-5 1500 HHPx O FA ✖ ✔ MBTK dan NAWx merupakan bagian dari Program FT sehingga disarankan untuk dilanjukan oleh PIC sebelumnya.</description>
     </item>
     
     <item>
@@ -26,18 +38,6 @@
       <description>Dilakukan diskusi sembari makan siang di Warung Pasta [1] untuk mengingatkan kembali perihal tugas akhir [2], yang belum sempat dijadikan jurnal [3].
 recall Cairan yang diletakkan pada wadah dengan volume tertentu ditumpahkan dengan memiringkan wadah sehingga tidak membasahi wadah seperti diberikan pada gambar berikut.
 Gambar 1. Penumpahan fluida: posisi awal (kiri), cairan mulai tumpah dengan membahasi dinding luar wadah (tengah), dan sudut kritis di mana tumpahan cairan tidak lagi membasahi dinding luar wadah (kanan).</description>
-    </item>
-    
-    <item>
-      <title>csx-interview-batch-5</title>
-      <link>https://dudung.github.io/bugx/0108/</link>
-      <pubDate>Fri, 08 Jul 2022 12:07:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0108/</guid>
-      <description>Wawancara untuk bergabung dengan CSX [1] dilakukan secara daring [2] dan ringkas [3].
-applications Terdapat lima aplikasi pada batch lima yang semuanya telah lulus semacam tes Turing [4] dengan sabagian informasi diberikan pada tabel berikut ini.
-Tabel 1. Informasi singkat aplikasi yang diuji dan hasilnya.
-Serial Number Time Type I/O FS FT AC 0-22215-1253-1 1400 MBTK I MA ✔ ✔ 0-22215-1203-2 1415 AIWx I IF ✖ ✔ 0-22215-1170-3 1430 PJGJ I BA ✖ ✔ 0-22215-0960-4 1445 NAWx I MA ✔ ✔ 0-22215-0484-5 1500 HHPx O FA ✖ ✔ MBTK dan NAWx merupakan bagian dari Program FT sehingga disarankan untuk dilanjukan oleh PIC sebelumnya.</description>
     </item>
     
     <item>

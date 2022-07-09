@@ -7,20 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 09 Jul 2022 11:37:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 17:00:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>liste</title>
       <link>https://dudung.github.io/bugx/tags/liste/</link>
-      <pubDate>Sat, 09 Jul 2022 11:37:00 +0700</pubDate>
+      <pubDate>Sat, 09 Jul 2022 17:00:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/liste/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>debt</title>
+      <link>https://dudung.github.io/bugx/tags/debt/</link>
+      <pubDate>Fri, 08 Jul 2022 16:19:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/debt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>discussion</title>
       <link>https://dudung.github.io/bugx/tags/discussion/</link>
-      <pubDate>Fri, 08 Jul 2022 13:54:00 +0700</pubDate>
+      <pubDate>Fri, 08 Jul 2022 16:19:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/discussion/</guid>
       <description></description>
@@ -32,15 +41,6 @@
       <pubDate>Fri, 08 Jul 2022 13:54:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/idea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>debt</title>
-      <link>https://dudung.github.io/bugx/tags/debt/</link>
-      <pubDate>Fri, 08 Jul 2022 12:07:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/debt/</guid>
       <description></description>
     </item>
     
