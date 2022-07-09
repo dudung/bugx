@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-09 17:44:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-09 17:44:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-09 22:05:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-09 22:05:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0110\/",
-      "wordCount" : "49",
+      "wordCount" : "614",
       "keywords" : ["Blog"]
     }
   
@@ -126,6 +126,78 @@
     
 
 	
+		
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+			tags: 'ams',
+    },
+    options: {
+      skipHtmlTags: [
+				'script',
+				'noscript',
+				'style',
+				'textarea',
+				'pre'
+			]
+    }
+  };
+</script>
+
+<script
+	type="text/javascript"
+	id="MathJax-script"
+	async 
+	src="https://cdn.jsdelivr.net/npm/\
+	mathjax@3/es5/tex-mml-chtml.js"
+	>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	
 	
 
@@ -134,7 +206,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">random-numbers-4-digits</h1>
-            <time datetime="2022-07-09 17:44:00 &#43;0700 &#43;0700" class="post__date">Sat, 9 Jul  2022</time> 
+            <time datetime="2022-07-09 22:05:00 &#43;0700 &#43;0700" class="post__date">Sat, 9 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -147,12 +219,141 @@
 >2</a>] ataupun JavaScript [<a href="#r03" 
   
   
->3</a>].</p>
+>3</a>]. Dengan demikian terdapat antara 9000 dan 10000 kombinasi yang mungkin. Di sin akan didiskusikan hanya bilangan yang bernilai antara 1000 dan 9999.</p>
+<h2 id="python">python<a class="anchor" href="#python">#</a></h2>
+<p>Dalam bahasa pemrograman Python bilangan bulat dapat dibuat menggunakan fungsi <code>randint()</code>, yang dengan menggunakan metode list comprehension dengan pengulangan <code>for</code> sehingga tersimpan dalam suatu list [<a href="#r04" 
+  
+  
+>4</a>].</p>
+<p>Berikut adalah contoh sepuluh bilangan bulat acak yang terdiri dari empat angka mulai dari 1000 sampai 1010.</p>
+<pre><code class="language-python">import random
+
+x = [random.randint(1000, 1010) for p in range(0, 20)]
+
+j = 0
+for i in x:
+  j += 1
+  print(i, end=' ')
+  if j == 4:
+    j = 0
+    print()
+
+pass
+</code></pre>
+<p>dengan salah satu hasilnya adalah</p>
+<pre><code>1004 1005 1010 1000 
+1000 1001 1003 1008 
+1008 1004 1000 1008 
+1001 1010 1001 1008 
+1008 1010 1001 1000 
+</code></pre>
+<p>yang dapat diakses di OneCompiler <a href="https://onecompiler.com/python/3y9fwfuut" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>3y9fwfuut</a>.</p>
+<h2 id="9000-possibilities">9000 possibilities<a class="anchor" href="#9000-possibilities">#</a></h2>
+<p>Bila ingin dibangkitkan semua bilangan yang terdiri dari empat angka antara 1000 sampai 9999 maka akan terdapat 9000 bilangan.</p>
+<pre><code class="language-python">import random
+
+x = [p for p in range(1000, 9999 + 1)]
+
+print(&quot;N = &quot;, len(x))
+print(&quot;sum x = &quot;, sum(x))
+</code></pre>
+<p>dengan hasilnya</p>
+<pre><code>N =  9000
+sum x =  49495500
+</code></pre>
+<p>yang dapat diakses pada OneCompiler <a href="https://onecompiler.com/python/3y9fxdvgb" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>3y9fxdvgb</a>. Dengan menggunakan</p>
+<p>\begin{equation}\label{eqn1}
+\sum_i x_i = \tfrac12 \cdot 9000 \cdot (1000 + 9999) = 49495500
+\end{equation}</p>
+<p>diperoleh hasil yang sama dengan yang diberikan oleh kode sebelumnya.</p>
+<h2 id="some-rules">some rules<a class="anchor" href="#some-rules">#</a></h2>
+<p>Untuk menghasilkan bilangan-bilangan yang spesifik dapat ditambahkan aturan-aturan tertentu seperti</p>
+<ul>
+<li>angka kedua adalah dua kali angka keempat,</li>
+<li>angka ketiga adalah tiga kali angka pertama,</li>
+<li>jumlah angka pertama dan kedua adalah sama dengan jumlah angka ketiga dan keempat,</li>
+<li>keempat angka tidak boleh sama, dan</li>
+<li>aturan-aturan lainnya.</li>
+</ul>
+<p>Langkah yang paling sederhana adalah melakukan 9000 iterasi dengan menggunakan aturan-aturan yang diberikan di atas.</p>
+<h3 id="2nd--2-x-4th">2nd = 2 x 4th<a class="anchor" href="#2nd--2-x-4th">#</a></h3>
+<p>Aturan pertama akan memberikan bilangan-bilangan seperti</p>
+<pre><code>A2C1 A4C2 A6C3 A8C4
+</code></pre>
+<h3 id="3rd--3-x-1st">3rd = 3 x 1st<a class="anchor" href="#3rd--3-x-1st">#</a></h3>
+<p>Aturan kedua akan menghasilkan bilanga-bilangan seperti</p>
+<pre><code>1B3D 2B6D 3B9D 
+</code></pre>
+<h3 id="1st--2nd--3rd--4th">1st + 2nd = 3rd + 4th<a class="anchor" href="#1st--2nd--3rd--4th">#</a></h3>
+<p>Aturan ketiga akan menghasilkan bilanga-bilangan seperti</p>
+<pre><code>1432 6244 3782 9155 5445 .. 
+</code></pre>
+<h3 id="1st-ne-2nd-ne-3rd-ne-4th">1st ≠ 2nd ≠ 3rd ≠ 4th<a class="anchor" href="#1st-ne-2nd-ne-3rd-ne-4th">#</a></h3>
+<p>Aturan keempat akan menghasilkan bilanga-bilangan seperti</p>
+<pre><code>1432 3782 .. 
+</code></pre>
+<h3 id="result">result<a class="anchor" href="#result">#</a></h3>
+<p>Setelah hasil-hasil sebelumnya dicari irisannya, dapat diperoleh</p>
+<pre><code>1432
+</code></pre>
+<p>sebagai hasil yang diinginkan.</p>
+<h3 id="implementation">implementation<a class="anchor" href="#implementation">#</a></h3>
+<p>Contoh yang diilustrasikan sebelumnya dapat diperoleh menggunakan kode berikut</p>
+<pre><code class="language-python">N1 = 10
+N2 = 10
+N3 = 10
+N4 = 10
+
+x = []
+for d1 in range(1, N1):
+  for d2 in range (0, N2):
+    for d3 in range (0, N3):
+      for d4 in range (0, N4):
+        
+        ru1 = d2 == 2 * d4
+        ru2 = d3 == 3 * d1
+        ru3 = (d1 + d2) == (d3 + d4)
+        ru4 = (d1 != d2 != d3 != d4)
+        
+        if ru1 and ru2 and ru3 and ru4:
+          xx = str(d1) + str(d2) + str(d3) + str(d4)
+          x.append(xx)
+
+print(x)
+</code></pre>
+<p>dengan hasilnya</p>
+<pre><code>['1432', '2864']
+</code></pre>
+<p>yang dapat diakses pada OneCompiler <a href="https://onecompiler.com/python/3y9gaqbs8" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>3y9gaqbs8</a>. Perhatikan bahwa terdapat solusi lain yang tidak diperhitungkan dan tetap memenuhi keempat aturan yang dipersyaratkan.</p>
+<h2 id="limitation">limitation<a class="anchor" href="#limitation">#</a></h2>
+<p>Terdapat hal yang perlu diperhatikan bahwa bisa tidak ada bilangan yang dihasilkan dengan mematuhi aturan-aturan yang diberikan, di mana suatu program akan amat membantu untuk memastikannya dengan cepat.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a>-, &ldquo;&rdquo;, Cue Math,</li>
-<li><a name='r02'></a></li>
-<li><a name='r03'></a></li>
+<li><a name='r01'></a>null, &ldquo;Numbers up to 4 Digits&rdquo;, Cue Math, 2022, url <a href="https://www.cuemath.com/numbers/numbers-up-to-4-digits/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.cuemath.com/numbers/numbers-up-to-4-digits/</a> [20220709]</li>
+<li><a name='r02'></a>author, &ldquo;What is every possible 4 digit code?&rdquo;, TechShift, 19 Mar 2022, url <a href="https://techshift.net/what-is-every-possible-4-digit-code/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://techshift.net/what-is-every-possible-4-digit-code/</a> [20220709].</li>
+<li><a name='r03'></a>John Au-Yeung, &ldquo;How to Generate a 4 Digit Random Number with JavaScript?&rdquo;, The Web Dev, 29 Aug 2021, url <a href="https://thewebdev.info/2021/08/29/how-to-generate-a-4-digit-random-number-with-javascript/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://thewebdev.info/2021/08/29/how-to-generate-a-4-digit-random-number-with-javascript/</a> [20220709].</li>
+<li><a name='r04'></a>Manav Narula, &ldquo;Generate Random Integers in Range in Python&rdquo;, DelfStack, 18 Jul 2021, url <a href="https://www.delftstack.com/howto/python/random-integers-between-range-python/" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://www.delftstack.com/howto/python/random-integers-between-range-python/</a> [20220709].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
