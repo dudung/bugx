@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 22 Jun 2022 18:48:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/random/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 17:44:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/random/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>random-numbers-4-digits</title>
+      <link>https://dudung.github.io/bugx/0110/</link>
+      <pubDate>Sat, 09 Jul 2022 17:44:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0110/</guid>
+      <description>Bilangan acak yang terdiri dari empat angka dapat memiliki nilai 1000 sampai 9999 [1] atau ada pula yang mulai dari 0000 sampai 9999, yang dapat dibuat dengan Microsoft Excel [2] ataupun JavaScript [3].
+notes -, &amp;ldquo;&amp;rdquo;, Cue Math, Cite as: viridi, &#34;random-numbers-4-digits&#34;, bugx, 9 Jul 2022, url https://dudung.github.io/bugx/0110 [20220709]. </description>
+    </item>
+    
     <item>
       <title>random rectangles</title>
       <link>https://dudung.github.io/bugx/0097/</link>
