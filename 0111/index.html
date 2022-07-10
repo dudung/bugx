@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-10 07:57:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-10 07:57:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-10 19:02:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-10 19:02:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0111\/",
-      "wordCount" : "185",
+      "wordCount" : "418",
       "keywords" : ["Blog"]
     }
   
@@ -206,7 +206,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">birth-year-age-riddle</h1>
-            <time datetime="2022-07-10 07:57:00 &#43;0700 &#43;0700" class="post__date">Sun, 10 Jul  2022</time> 
+            <time datetime="2022-07-10 19:02:00 &#43;0700 &#43;0700" class="post__date">Sun, 10 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -225,7 +225,48 @@
 >4</a>], dan jumlah kantung semen, umur, serta suatu angka saling terkait [<a href="#r05" 
   
   
->5</a>].</p>
+>5</a>]. Di sini akan coba disinggung penyelesaiannya secara matematika disertai dengan penjelasan.</p>
+<h2 id="age---quadrat-of-year">age - quadrat of year<a class="anchor" href="#age---quadrat-of-year">#</a></h2>
+<p>Terdapat suatu kutipan [<a href="#r06" 
+  
+  
+>6</a>]</p>
+<blockquote>
+<p>When Augustus de Morgan (a mathematician who was born and died in the 19th century) was asked about his age, he replied: “I was x years old in the year x².” What year was he born in?</p>
+</blockquote>
+<p>yang belum tentu berlaku pada abad yang sama. Terdapat kode berikut</p>
+<pre><code class="language-python">import math
+
+print(&quot;age  year   born&quot;)
+for i in range(40, 50):
+  age = i
+  year = i * i
+  born = year - age
+  print(age, &quot; &quot;,year, &quot; &quot;, born, end='')
+  cent1 = math.floor(year / 100)
+  cent2 = math.floor(born / 100)
+  if cent1 == cent2:
+    print(&quot;  &lt;-- same century&quot;)
+  else:
+    print()
+</code></pre>
+<p>yang memberikan hasil</p>
+<pre><code>age  year   born
+40   1600   1560
+41   1681   1640  &lt;-- same century
+42   1764   1722  &lt;-- same century
+43   1849   1806  &lt;-- same century
+44   1936   1892
+45   2025   1980
+46   2116   2070
+47   2209   2162
+48   2304   2256
+49   2401   2352
+</code></pre>
+<p>dan dapat dicoba secara langsung di OneCompiler <a href="https://onecompiler.com/python/3y9jvy27w" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>3y9jvy27w</a>. Hasil di atas masih menggunakan batasan bahwa umur, yang merupakan akar dari tahun, merupakan bilangan bulat. Bila umur boleh menggunakan bilangan real, dengan menghitung umur berupa pecahan karena melibatkan pula bulan dan harinya, dapat diperoleh hasil lebih banyak, yang untuk saat ini belum dibahas.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Apep, &ldquo;Answer to &lsquo;Riddle Man`s age&rsquo;&rdquo;, Puzzling Stack Exchange, 19 Nov 2017, url <a href="https://puzzling.stackexchange.com/a/57110/80525" 
@@ -248,6 +289,10 @@
   
    target="_blank" rel="noreferrer noopener" 
 >https://www.cantorsparadise.com/this-math-trick-only-works-for-everyone-at-the-end-of-the-year-7fc32c477dcb</a> [20220710].</li>
+<li><a name='r06'></a>prog_SAHIL, Rand al&rsquo;Thor, &ldquo;Riddle Man&rsquo;s age&rdquo;, Puzzling Stack Exchange, 19 Nov 2017, 10 Mar 2022, url <a href="https://puzzling.stackexchange.com/q/57108/80525" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://puzzling.stackexchange.com/q/57108/80525</a> [20220710].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
