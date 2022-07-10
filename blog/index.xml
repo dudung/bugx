@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 10 Jul 2022 21:24:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 05:48:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>simple-accounting</title>
+      <link>https://dudung.github.io/bugx/0112/</link>
+      <pubDate>Mon, 11 Jul 2022 05:48:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0112/</guid>
+      <description>Laba atau profit merupakan bagian dari penghasilan bila jumlah pemasukan telah melampaui pengeluaran [1], yang berbeda dengan pemasukan atau revenue yang merupakan penghasilan total yang diperoleh dari suatu usaha tanpa memperhitungkan pengeluaran [2]. Sesuatu yang perlu dikeluarkan agar usaya dapat berjalan dapat dibedakan menjadi biaya dan pengeluaran, yang agak berbeda penggunaannya pada bisnis dan akutansi [3]. Laba, yang dapat disebut juga keuntungan dalam batas-batas tertentu [4], diperoleh dengan mengurangkan total penghasilan dengan total pengeluaran.</description>
+    </item>
+    
     <item>
       <title>birth-year-age-riddle</title>
       <link>https://dudung.github.io/bugx/0111/</link>
