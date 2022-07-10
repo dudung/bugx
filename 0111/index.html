@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-10 19:07:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-10 19:07:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-10 19:27:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-10 19:27:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0111\/",
-      "wordCount" : "473",
+      "wordCount" : "568",
       "keywords" : ["Blog"]
     }
   
@@ -206,7 +206,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">birth-year-age-riddle</h1>
-            <time datetime="2022-07-10 19:07:00 &#43;0700 &#43;0700" class="post__date">Sun, 10 Jul  2022</time> 
+            <time datetime="2022-07-10 19:27:00 &#43;0700 &#43;0700" class="post__date">Sun, 10 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -232,7 +232,7 @@
   
 >6</a>]</p>
 <blockquote>
-<p>When Augustus de Morgan (a mathematician who was born and died in the 19th century) was asked about his age, he replied: “I was x years old in the year x².” What year was he born in?</p>
+<p>When Augustus de Morgan (a mathematician who was born and died in the 19th century) was asked about his age, he replied: &ldquo;I was x years old in the year x².&rdquo; What year was he born in?</p>
 </blockquote>
 <p>yang belum tentu berlaku pada abad yang sama. Terdapat kode berikut</p>
 <pre><code class="language-python">import math
@@ -275,7 +275,33 @@ for i in range(40, 50):
 <blockquote>
 <p>Dua angka terakhir dari tahun kelahiranku sama dengan umur saya hari ini. Dapatkan Anda menyatakan dengan keyakinan 100 persen berapa umur saya?</p>
 </blockquote>
-<p>di mana perlu diperhatikan pada tahun berapa pertanyaan ini diajukan, misalnya pada abad 20 atau pada abad 21.</p>
+<p>di mana perlu diperhatikan pada tahun berapa pertanyaan ini diajukan, misalnya pada abad 20 atau pada abad 21. Perhatikan kode berikut</p>
+<pre><code class="language-python">print(&quot;year  born  age&quot;)
+for born in range(2001, 2023):
+  for year in range(2001, 2023):
+    age = year - born
+    born2 = born - 2000
+    if born2 == age:
+      print(year, born, age, sep=&quot;  &quot;)
+</code></pre>
+<p>yang akan menghasilkan</p>
+<pre><code>year  born  age
+2002  2001  1
+2004  2002  2
+2006  2003  3
+2008  2004  4
+2010  2005  5
+2012  2006  6
+2014  2007  7
+2016  2008  8
+2018  2009  9
+2020  2010  10
+2022  2011  11
+</code></pre>
+<p>dan dapat dicoba di OneCompiler <a href="https://onecompiler.com/python/3y9jz7k5c" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>3y9jz7k5c</a>. Contoh di atas diperuntukkan bagi abad 21. Untuk abad 20 perlu dilakukan modifikasi terlebih dahulu.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Apep, &ldquo;Answer to &lsquo;Riddle Man`s age&rsquo;&rdquo;, Puzzling Stack Exchange, 19 Nov 2017, url <a href="https://puzzling.stackexchange.com/a/57110/80525" 
