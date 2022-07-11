@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-11 08:02:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-11 08:02:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-11 09:22:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-11 09:22:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0113\/",
-      "wordCount" : "196",
+      "wordCount" : "681",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">simple-weather-forecasting</h1>
-            <time datetime="2022-07-11 08:02:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Jul  2022</time> 
+            <time datetime="2022-07-11 09:22:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -215,7 +215,301 @@
 >2</a>]. Walaupun para fisikawan mendefisikan iklim sebagai suatu sistem kompleks, yang tidak dapat diselesaikan secara analitik, akan tetapi dengan perkembangan komputasi pada tahun-tahun belakangan ini, terdapat sejumlah algoritma numerik untuk menyelesaikan, dengan algoritma pembelajaran mesin (Machine Learning algorithms) merupakan bagian dari algoritma-algoritma tersebut [<a href="#r03" 
   
   
->3</a>]. Di sini hanya akan disajikan analisis sederhana untuk memperkirakan cuaca di kemudian waktu.</p>
+>3</a>]. Di sini hanya akan disajikan analisis sederhana yang belum memperkirakan cuaca di kemudian waktu.</p>
+<h2 id="data">data<a class="anchor" href="#data">#</a></h2>
+<p>Temperatur kota Bandung diberikan pada tabel berikut ini.</p>
+<p>Tabel <a name='tab1'>1</a> Temperatur terendah, rata-rata, tertinggi umumnya kota Bandung selama satu tahun [<a href="#r04" 
+  
+  
+>4</a>].<br><br></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Rata-rata<br>&mdash;&mdash;<br>Bulan</th>
+<th style="text-align:center">Rendah</th>
+<th style="text-align:center">Suhu</th>
+<th style="text-align:center">Tinggi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Jan</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">27</td>
+</tr>
+<tr>
+<td style="text-align:left">Feb</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">27</td>
+</tr>
+<tr>
+<td style="text-align:left">Mar</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">28</td>
+</tr>
+<tr>
+<td style="text-align:left">Apr</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">28</td>
+</tr>
+<tr>
+<td style="text-align:left">May</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">29</td>
+</tr>
+<tr>
+<td style="text-align:left">Jun</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">28</td>
+</tr>
+<tr>
+<td style="text-align:left">Jul</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">22</td>
+<td style="text-align:center">28</td>
+</tr>
+<tr>
+<td style="text-align:left">Aug</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">22</td>
+<td style="text-align:center">29</td>
+</tr>
+<tr>
+<td style="text-align:left">Sep</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">29</td>
+</tr>
+<tr>
+<td style="text-align:left">Oct</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">29</td>
+</tr>
+<tr>
+<td style="text-align:left">Nov</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">29</td>
+</tr>
+<tr>
+<td style="text-align:left">Dec</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">28</td>
+</tr>
+</tbody>
+</table>
+<p>Dan untuk kota Jakarta diberikan pada tabel di bawah ini.</p>
+<p>Tabel <a name='tab2'>2</a> Temperatur terendah, rata-rata, tertinggi umumnya kota Jakarta selama satu tahun [<a href="#r05" 
+  
+  
+>5</a>].<br><br></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Rata-rata<br>&mdash;&mdash;<br>Bulan</th>
+<th style="text-align:center">Rendah</th>
+<th style="text-align:center">Suhu</th>
+<th style="text-align:center">Tinggi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Jan</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">27</td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td style="text-align:left">Feb</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">27</td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td style="text-align:left">Mar</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">27</td>
+<td style="text-align:center">31</td>
+</tr>
+<tr>
+<td style="text-align:left">Apr</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">28</td>
+<td style="text-align:center">32</td>
+</tr>
+<tr>
+<td style="text-align:left">May</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">28</td>
+<td style="text-align:center">32</td>
+</tr>
+<tr>
+<td style="text-align:left">Jun</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">27</td>
+<td style="text-align:center">32</td>
+</tr>
+<tr>
+<td style="text-align:left">Jul</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">27</td>
+<td style="text-align:center">32</td>
+</tr>
+<tr>
+<td style="text-align:left">Aug</td>
+<td style="text-align:center">23</td>
+<td style="text-align:center">27</td>
+<td style="text-align:center">32</td>
+</tr>
+<tr>
+<td style="text-align:left">Sep</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">28</td>
+<td style="text-align:center">32</td>
+</tr>
+<tr>
+<td style="text-align:left">Oct</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">28</td>
+<td style="text-align:center">32</td>
+</tr>
+<tr>
+<td style="text-align:left">Nov</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">28</td>
+<td style="text-align:center">32</td>
+</tr>
+<tr>
+<td style="text-align:left">Dec</td>
+<td style="text-align:center">24</td>
+<td style="text-align:center">27</td>
+<td style="text-align:center">31</td>
+</tr>
+</tbody>
+</table>
+<p>Data-data pada Tabel <a href="#tab1" 
+  
+  
+>1</a> dan <a href="#tab2" 
+  
+  
+>2</a> dapat diolah lebih lanjut untuk mencari nilai rata-rata dari rata-rata terendah bulan, rata-rata bulanan, dan rata-rata tertinggi bulanan.</p>
+<h2 id="code">code<a class="anchor" href="#code">#</a></h2>
+<p>Sebuah program dapat dibuat seperti berikut ini</p>
+<pre><code class="language-python">month = [
+  'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+  'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+]
+
+city = ['Bandung', 'Jakarta']
+
+TBAN = [
+  [20, 23, 27],
+  [19, 23, 27],
+  [20, 23, 28],
+  [20, 23, 28],
+  [19, 23, 29],
+  [19, 23, 28],
+  [18, 22, 28],
+  [18, 22, 29],
+  [18, 23, 29],
+  [19, 23, 29],
+  [20, 23, 29],
+  [20, 23, 28]
+]
+
+TJAK = [
+  [24, 27, 30],
+  [24, 27, 30],
+  [24, 27, 31],
+  [25, 28, 32],
+  [25, 28, 32],
+  [24, 27, 32],
+  [24, 27, 32],
+  [23, 27, 32],
+  [24, 28, 32],
+  [24, 28, 32],
+  [24, 28, 32],
+  [24, 27, 31]
+]
+
+Temp = [TBAN, TJAK]
+
+i = 0
+for c in Temp:
+  print(&quot;City&quot;, city[i])
+  
+  t1 = 0
+  t2 = 0
+  t3 = 0
+  
+  print(&quot;  Tlow Tmid Thig&quot;)
+  for m in c:
+    print(&quot;  &quot;, end='')
+    for t in m:
+      print(t, end='   ')
+    print()
+    
+    t1 += m[0]
+    t2 += m[1]
+    t3 += m[2]
+
+  print(&quot;  ------------&quot;)
+  s1 = f'{(t1/12):0.1f}'
+  s2 = f'{(t2/12):0.1f}'
+  s3 = f'{(t3/12):0.1f}'
+  print(&quot; &quot;, s1, s2, s3)
+    
+  print()
+  i += 1
+</code></pre>
+<p>yang akan menghasilkan informasi</p>
+<pre><code>City Bandung
+  Tlow Tmid Thig
+  20   23   27   
+  19   23   27   
+  20   23   28   
+  20   23   28   
+  19   23   29   
+  19   23   28   
+  18   22   28   
+  18   22   29   
+  18   23   29   
+  19   23   29   
+  20   23   29   
+  20   23   28   
+  ------------
+  19.2 22.8 28.2
+
+City Jakarta
+  Tlow Tmid Thig
+  24   27   30   
+  24   27   30   
+  24   27   31   
+  25   28   32   
+  25   28   32   
+  24   27   32   
+  24   27   32   
+  23   27   32   
+  24   28   32   
+  24   28   32   
+  24   28   32   
+  24   27   31   
+  ------------
+  24.1 27.4 31.5
+</code></pre>
+<p>dan dapat dimodifikasi di OneCompier <a href="https://onecompiler.com/python/3y9mpzvjw" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>3y9mpzvjw</a>.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Jesse Weber, &ldquo;Weather Forecasting 101: How to Predict the Weather On the Go&rdquo;, Outdoor Project, 7 Jun 2018, url <a href="https://www.outdoorproject.com/articles/weather-forecasting-101-how-predict-weather-go" 
@@ -230,6 +524,14 @@
   
    target="_blank" rel="noreferrer noopener" 
 >https://towardsdatascience.com/weather-forecasting-with-machine-learning-using-python-55e90c346647</a> [20220711].</li>
+<li><a name='r04'></a>&ldquo;Iklim dan Cuaca Rata-Rata Sepanjang Tahun di Kota Bandung, Indonesia&rdquo;, Weather Spark, url <a href="https://id.weatherspark.com/y/118121/x" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://id.weatherspark.com/y/118121/x</a> [20220711].</li>
+<li><a name='r05'></a>&ldquo;Iklim dan Cuaca Rata-Rata Sepanjang Tahun di Jakarta, Indonesia&rdquo;, Weather Spark, url <a href="https://id.weatherspark.com/y/116847/x" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://id.weatherspark.com/y/116847/x</a> [20220711].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">

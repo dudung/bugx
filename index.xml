@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 11 Jul 2022 08:02:53 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 09:22:28 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://dudung.github.io/bugx/about/</link>
-      <pubDate>Mon, 11 Jul 2022 08:02:53 +0700</pubDate>
+      <pubDate>Mon, 11 Jul 2022 09:22:28 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
       <description>0000 • 0001 • 0002 • 0003 • 0004 • 0005 • 0006 • 0007 • 0008 • 0009 • 0010 • 0011 • 0012 • 0013 • 0014 •</description>
@@ -20,7 +20,7 @@
     <item>
       <title>simple-weather-forecasting</title>
       <link>https://dudung.github.io/bugx/0113/</link>
-      <pubDate>Mon, 11 Jul 2022 08:02:00 +0700</pubDate>
+      <pubDate>Mon, 11 Jul 2022 09:22:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0113/</guid>
       <description>Aturan mendasar dari cuaca adalah bahwa apan yang terjadi kemarin, akan secara umum terjadi juga hari ini dan ini merupakan cara praktis (rule of thumb) yang bermanfaat dalam memperkirakan cuaca, di mana perilaku standarnya adalah melanjutkan pola harian [1]. Dalam rentang waktu yang lebih lebar parameter cuaca seperti temperatur memiliki pola berulang dalam satu tahun sehingga secara umum dapat diprediksi [2]. Walaupun para fisikawan mendefisikan iklim sebagai suatu sistem kompleks, yang tidak dapat diselesaikan secara analitik, akan tetapi dengan perkembangan komputasi pada tahun-tahun belakangan ini, terdapat sejumlah algoritma numerik untuk menyelesaikan, dengan algoritma pembelajaran mesin (Machine Learning algorithms) merupakan bagian dari algoritma-algoritma tersebut [3].</description>
