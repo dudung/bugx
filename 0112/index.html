@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-11 05:48:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-11 05:48:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-11 07:05:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-11 07:05:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0112\/",
-      "wordCount" : "193",
+      "wordCount" : "557",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">simple-accounting</h1>
-            <time datetime="2022-07-11 05:48:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Jul  2022</time> 
+            <time datetime="2022-07-11 07:05:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -220,9 +220,173 @@
   
 >4</a>], diperoleh dengan mengurangkan total penghasilan dengan total pengeluaran. Pada contoh-contoh sederhana di sini hanya digunakan istilah penghasilan, pengeluaran, dan keuntungan.</p>
 <h2 id="revenue-example">revenue example<a class="anchor" href="#revenue-example">#</a></h2>
-<p>Terdapat empat buah toko yang menghasilkan empat buah produk seperti pada tabel berikut ini.</p>
-<p>Tabel <a name='tab1'>1</a> Informasi jumlah berbagai produk yang dijual sejumlah toko.</p>
-<p>Toko |</p>
+<p>Terdapat lima buah toko yang menjual empat buah produk seperti pada tabel berikut ini.</p>
+<p>Tabel <a name='tab1'>1</a> Informasi jumlah berbagai produk topi yang dijual sejumlah toko. <br><br></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Topi<br>&mdash;&mdash;<br>Toko</th>
+<th style="text-align:center">BA</th>
+<th style="text-align:center">KU</th>
+<th style="text-align:center">PE</th>
+<th style="text-align:center">RI</th>
+<th style="text-align:center">SO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">20</td>
+</tr>
+<tr>
+<td style="text-align:center">B</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">40</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">30</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td style="text-align:center">C</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">40</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td style="text-align:center">D</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">50</td>
+<td style="text-align:center">30</td>
+<td style="text-align:center">20</td>
+</tr>
+<tr>
+<td style="text-align:center">E</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">25</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">10</td>
+</tr>
+</tbody>
+</table>
+<p>Dengan harga masing-masing jenis topi diberikan pada tabel di bawah ini.</p>
+<p>Tabel <a name='tab2'>2</a> Kode topi dan harga jualnya. <br><br></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Kode</th>
+<th style="text-align:left"><center>Nama</center></th>
+<th style="text-align:center">Harga<br>jual (Rp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">BA</td>
+<td style="text-align:left">Baseball</td>
+<td style="text-align:center">40.000,-</td>
+</tr>
+<tr>
+<td style="text-align:center">KU</td>
+<td style="text-align:left">Kupluk</td>
+<td style="text-align:center">20.000,-</td>
+</tr>
+<tr>
+<td style="text-align:center">PE</td>
+<td style="text-align:left">Peci</td>
+<td style="text-align:center">30.000,-</td>
+</tr>
+<tr>
+<td style="text-align:center">RI</td>
+<td style="text-align:left">Rimba</td>
+<td style="text-align:center">50.000,-</td>
+</tr>
+<tr>
+<td style="text-align:center">SO</td>
+<td style="text-align:left">Songkok</td>
+<td style="text-align:center">60.000,-</td>
+</tr>
+</tbody>
+</table>
+<p>Terdapat kode berikut</p>
+<pre><code class="language-python">product_code = ['BA', 'KU', 'PE', 'RI', 'SO']
+product_name = ['Baseball', 'Kupluk', 'Peci', 'Rimba', 'Songkok']
+sell_price = [40, 20, 30, 50, 60]
+shop_name = ['A', 'B', 'C', 'D', 'E']
+
+shop_selling = [
+  [10, 10, 20, 10, 20],
+  [20, 40, 20, 30, 10],
+  [20, 40, 20, 10, 10],
+  [10, 20, 50, 30, 20],
+  [15, 25, 20, 20, 10]
+]
+
+for s in range(len(shop_selling)):
+  print(&quot;Shop&quot;, shop_name[s])
+  items = shop_selling[s]
+  rev = 0
+  for i in range(len(items)):
+    print(&quot; &quot;, product_code[i], &quot;=&quot;, items[i], end='')
+    revi = sell_price[i] * items[i]
+    print(&quot;, revenue =&quot;, revi)
+    rev += revi
+    
+  print(&quot;Total revenue =&quot;, rev)
+  
+  print()
+</code></pre>
+<p>yang akan memberikan hasil</p>
+<pre><code>Shop A
+  BA = 10, revenue = 400
+  KU = 10, revenue = 200
+  PE = 20, revenue = 600
+  RI = 10, revenue = 500
+  SO = 20, revenue = 1200
+Total revenue = 2900
+
+Shop B
+  BA = 20, revenue = 800
+  KU = 40, revenue = 800
+  PE = 20, revenue = 600
+  RI = 30, revenue = 1500
+  SO = 10, revenue = 600
+Total revenue = 4300
+
+Shop C
+  BA = 20, revenue = 800
+  KU = 40, revenue = 800
+  PE = 20, revenue = 600
+  RI = 10, revenue = 500
+  SO = 10, revenue = 600
+Total revenue = 3300
+
+Shop D
+  BA = 10, revenue = 400
+  KU = 20, revenue = 400
+  PE = 50, revenue = 1500
+  RI = 30, revenue = 1500
+  SO = 20, revenue = 1200
+Total revenue = 5000
+
+Shop E
+  BA = 15, revenue = 600
+  KU = 25, revenue = 500
+  PE = 20, revenue = 600
+  RI = 20, revenue = 1000
+  SO = 10, revenue = 600
+Total revenue = 3300
+</code></pre>
+<p>dan dapat ditelusuri di OneCompiler <a href="https://onecompiler.com/python/3y9mekebz" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>3y9mekebz</a>.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>True Tamplin, &ldquo;Profit Definition&rdquo;, Finance Strategists, 14 Jun 2022, url <a href="https://learn.financestrategists.com/finance-terms/profit/" 
@@ -244,7 +408,7 @@
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "simple-accounting", bugx, 11 Jul 2022, url <a href= "https://dudung.github.io/bugx/0112">https://dudung.github.io/bugx/0112</a> [20220710].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "simple-accounting", bugx, 11 Jul 2022, url <a href= "https://dudung.github.io/bugx/0112">https://dudung.github.io/bugx/0112</a> [20220711].
 </div>
 
 
