@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-11 09:22:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-11 09:22:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-11 10:01:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-11 10:01:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0113\/",
-      "wordCount" : "681",
+      "wordCount" : "746",
       "keywords" : ["Blog"]
     }
   
@@ -202,7 +202,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">simple-weather-forecasting</h1>
-            <time datetime="2022-07-11 09:22:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Jul  2022</time> 
+            <time datetime="2022-07-11 10:01:00 &#43;0700 &#43;0700" class="post__date">Mon, 11 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -451,18 +451,20 @@ for c in Temp:
   t2 = 0
   t3 = 0
   
-  print(&quot;  Tlow Tmid Thig&quot;)
+  print(&quot;  Tlow Tmid Thig c&quot;)
   for m in c:
     print(&quot;  &quot;, end='')
     for t in m:
       print(t, end='   ')
-    print()
+    
+    c = (m[1] - m[0]) / (m[2] - m[0])
+    print(f'{c:0.2f}')
     
     t1 += m[0]
     t2 += m[1]
     t3 += m[2]
 
-  print(&quot;  ------------&quot;)
+  print(&quot;  --------------&quot;)
   s1 = f'{(t1/12):0.1f}'
   s2 = f'{(t2/12):0.1f}'
   s3 = f'{(t3/12):0.1f}'
@@ -473,43 +475,47 @@ for c in Temp:
 </code></pre>
 <p>yang akan menghasilkan informasi</p>
 <pre><code>City Bandung
-  Tlow Tmid Thig
-  20   23   27   
-  19   23   27   
-  20   23   28   
-  20   23   28   
-  19   23   29   
-  19   23   28   
-  18   22   28   
-  18   22   29   
-  18   23   29   
-  19   23   29   
-  20   23   29   
-  20   23   28   
-  ------------
+  Tlow Tmid Thig c
+  20   23   27   0.43
+  19   23   27   0.50
+  20   23   28   0.38
+  20   23   28   0.38
+  19   23   29   0.40
+  19   23   28   0.44
+  18   22   28   0.40
+  18   22   29   0.36
+  18   23   29   0.45
+  19   23   29   0.40
+  20   23   29   0.33
+  20   23   28   0.38
+  --------------
   19.2 22.8 28.2
 
 City Jakarta
-  Tlow Tmid Thig
-  24   27   30   
-  24   27   30   
-  24   27   31   
-  25   28   32   
-  25   28   32   
-  24   27   32   
-  24   27   32   
-  23   27   32   
-  24   28   32   
-  24   28   32   
-  24   28   32   
-  24   27   31   
-  ------------
+  Tlow Tmid Thig c
+  24   27   30   0.50
+  24   27   30   0.50
+  24   27   31   0.43
+  25   28   32   0.43
+  25   28   32   0.43
+  24   27   32   0.38
+  24   27   32   0.38
+  23   27   32   0.44
+  24   28   32   0.50
+  24   28   32   0.50
+  24   28   32   0.50
+  24   27   31   0.43
+  --------------
   24.1 27.4 31.5
 </code></pre>
 <p>dan dapat dimodifikasi di OneCompier <a href="https://onecompiler.com/python/3y9mpzvjw" 
   
    target="_blank" rel="noreferrer noopener" 
->3y9mpzvjw</a>.</p>
+>3y9mpzvjw</a>. Didefinisikan pula suatu besaran</p>
+<p>\begin{equation}\label{eqn1}
+c = \frac{T - T_{\rm low}}{T_{\rm hig} - T_{\rm low}}
+\end{equation}</p>
+<p>untuk mencari apakah $T$ benar-benar berada di antara  $T_{\rm low}$ dan $T_{\rm hig}$.</p>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
 <li><a name='r01'></a>Jesse Weber, &ldquo;Weather Forecasting 101: How to Predict the Weather On the Go&rdquo;, Outdoor Project, 7 Jun 2018, url <a href="https://www.outdoorproject.com/articles/weather-forecasting-101-how-predict-weather-go" 
