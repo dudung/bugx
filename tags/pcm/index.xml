@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pcm on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/pcm/</link>
+    <description>Recent content in pcm on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Thu, 14 Jul 2022 18:31:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/pcm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>presentation-flowchart-data</title>
+      <link>https://dudung.github.io/bugx/0116/</link>
+      <pubDate>Thu, 14 Jul 2022 18:31:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0116/</guid>
+      <description>Presetentasi kemajuan pengerjaan desertasi seorang PMDSU dilaksanakan secara daring [1], walaupun sempat salah baca dan sudah hadir di kampus. Topik yang digusung adalah mengenai konduktivitas termal pada fluida yang merupakan bahan PCM [2].
+attending problem Saat akan menghadiri presentasi daring, terkendala dengan komputer yang digunakan. Sempat dua kali restart baru akhirnya komputer dapat bekerja, mendeteksi WiFi, kamera web, dan bergabung dengan tautan Zoom yang diberikan.
+Gambar 1. ..
+..
+Gambar 2.</description>
+    </item>
+    
+  </channel>
+</rss>
