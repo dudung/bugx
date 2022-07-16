@@ -7,13 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 15 Jul 2022 06:31:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Jul 2022 05:30:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aunp</title>
+      <link>https://dudung.github.io/bugx/tags/aunp/</link>
+      <pubDate>Sat, 16 Jul 2022 05:30:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/aunp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>defense</title>
+      <link>https://dudung.github.io/bugx/tags/defense/</link>
+      <pubDate>Sat, 16 Jul 2022 05:30:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/defense/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>idea</title>
       <link>https://dudung.github.io/bugx/tags/idea/</link>
-      <pubDate>Fri, 15 Jul 2022 06:31:00 +0700</pubDate>
+      <pubDate>Sat, 16 Jul 2022 05:30:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>t2</title>
+      <link>https://dudung.github.io/bugx/tags/t2/</link>
+      <pubDate>Sat, 16 Jul 2022 05:30:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/t2/</guid>
       <description></description>
     </item>
     
@@ -365,15 +392,6 @@
       <pubDate>Thu, 23 Jun 2022 06:21:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/svg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>defense</title>
-      <link>https://dudung.github.io/bugx/tags/defense/</link>
-      <pubDate>Wed, 22 Jun 2022 20:46:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/defense/</guid>
       <description></description>
     </item>
     
