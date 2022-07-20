@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <title>return to kms | bugx</title>
+  <title>pcm-progress-21jul2022 | bugx</title>
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
@@ -15,7 +15,7 @@
   
   
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="return to kms" />
+  <meta name="twitter:title" content="pcm-progress-21jul2022" />
   <meta name="twitter:description" content=""/>
   <meta name="twitter:site" content="https://twitter.com/6unpnp" />
   <meta name="twitter:creator" content="https://twitter.com/6unpnp" />
@@ -55,8 +55,8 @@
             "@id": "https:\/\/dudung.github.io\/bugx\/"
       },
       "articleSection" : "blog",
-      "name" : "return to kms",
-      "headline" : "return to kms",
+      "name" : "pcm-progress-21jul2022",
+      "headline" : "pcm-progress-21jul2022",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "",
@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-20 20:38:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-20 20:38:00 \u002b0700 \u002b0700",
-      "url" : "https:\/\/dudung.github.io\/bugx\/0121\/",
-      "wordCount" : "274",
+      "datePublished": "2022-07-21 05:09:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-21 05:09:00 \u002b0700 \u002b0700",
+      "url" : "https:\/\/dudung.github.io\/bugx\/0122\/",
+      "wordCount" : "364",
       "keywords" : ["Blog"]
     }
   
@@ -129,50 +129,85 @@
       <div class="post__container">
         <div class="post">
           <header class="post__header">
-            <h1 id="post__title">return to kms</h1>
-            <time datetime="2022-07-20 20:38:00 &#43;0700 &#43;0700" class="post__date">Wed, 20 Jul  2022</time> 
+            <h1 id="post__title">pcm-progress-21jul2022</h1>
+            <time datetime="2022-07-21 05:09:00 &#43;0700 &#43;0700" class="post__date">Thu, 21 Jul  2022</time> 
           </header>
           <article class="post__content">
               
-<p>Setelah sekitar sebelas bulan vakum, tiga hari yang lalu satu pertanyaan, dan hari ini kembali mengajukan tiga belas pertanyaan di KMS ITB [<a href="#r01" 
+<p>Kembali presetentasi kemajuan pengerjaan desertasi seorang PMDSU dilaksanakan secara daring [<a href="#r01" 
   
   
->1</a>], sebagai stimulasi dan jumlah minimum aktivitas agar suatu KMS dapat berjalan. Satu pertanyaan telah dijawab hari ini dan pertanyaan tiga hari yang lalu juga telah dijawab, akan tetapi disambung dengan pertanyaan lain [<a href="#r02" 
+>1</a>] beririsan dengan dua kegiatan lainnya. Dapat menjadi tiga bila sampai setelah break siang.</p>
+<h2 id="measurement-flowchart">measurement flowchart<a class="anchor" href="#measurement-flowchart">#</a></h2>
+<p>Dari pertemuan sebelumnya</p>
+<blockquote>
+<p>Terdapat beberpa variasi parameter seperti konsentrasi dopan, temperatur pengukuran, dan medan magnetik eksternal yang diberikan. Alur pengukuran yang telah mengakomodasi ketiga macam variasi tersebut diberikan di bawah ini. Di dalamnya juga telah disertakan jumlah pengulangan untuk setiap variasi parameter.</p>
+</blockquote>
+<p><img src="/bugx/img/idea/pcm/flowchart-to-be-fixed.jpg" alt=""></p>
+<p>Gambar <a name='fig1'>1</a>. Diagram alir proses pengukuran bahan PCM</p>
+<p>Kemudian saat mengolah data untuk mementukan titik-titik penting, masih terdapat penentuan garis dan sebagainya yang dilakukan secara manual sehingga faktor subyektif penganalis masih besar dan ini perlu diperbaiki agar hasilnya konsisten. Terutama untuk memastikan bahwa kondisi crossover benar-benar terjadi dan bukan hanya karena proses analisis ataupun pra-processing. Data rata-rata terlibat baik akan tetapi data smoothing cukup membingungkan. Belum ditanyakan apakah smoothing berdasarkan model atau sekedar mencari titik tengahnya untuk sekian titik di sekitarnya.</p>
+<!--
+style="position: relative; top: -140px; height: 890px;"
+-->
+<div class="mermaid">
+  flowchart TD
+    %% element use
+    subgraph Region
+      direction LR
+      R1 -.- R2
+    end
+    subgraph &nbsp;
+      direction LR
+      subgraph Skill
+        direction TB
+        S1 -.- S2 -.- S3 -.- S4
+      end
+      subgraph Course
+        direction TB
+        C1 -.- C2 -.- C3
+      end
+    end
+    Region -.- Course
+    %% element definition
+		S1([ Modelling ])
+		S2([ Computation ])
+		S3([ Simulation ])
+		S4([ Granular ])
+    C1[/ Food Science /]
+    C2[/ Pharmaceutical Science /]
+    C3[/ Food Technology /]
+    R1(( World ))
+    R2(( China ))
+    %% class use
+    class Skill green
+    class Course red
+    class Region blue
+    %% class style definition
+    classDef green fill:#cfc,stroke:#3a3,stroke-width:2px
+    classDef red fill:#fcc,stroke:#a33,stroke-width:2px
+    classDef blue fill:#ccf,stroke:#33a,stroke-width:2px
+</div>
+<p>Gambar <a name='fig2'>2</a>. Usulan perbaikan diagram alir dengan memanfaatkan Mermaid.</p>
+<p>..</p>
+<h2 id="previous-todo">previous todo<a class="anchor" href="#previous-todo">#</a></h2>
+<ul>
+<li>Memberbaiki diagram alir pengukuran pada Gambar <a href="#fig2" 
   
   
->2</a>].</p>
-<h2 id="colleagues">colleagues<a class="anchor" href="#colleagues">#</a></h2>
-<p>Kolega yang diminta bantuan untuk menjawab pertanyaan, dengan dihubungi personal lewat WA, adalah Teuku Abdullah Sanny (TG), Irwan Meilano (GD), Agus Mochamad Ramdhan (GL), Delik Hudalah (PL), Ridwan Sutriadi (PL), Dasapta Erwin Irawan (GL), Agus Jatnika Effendi (TL), Agus Suharjono Ekomadyo (AR), Sandy Vantika (MA), dan Luthfita (alumni S2 SK) lewat Kurnia Novita Sari (MA).</p>
-<p>Dan terdapat empat kolega yang baru dikonfirmasi bahwa akan diminta tolong, yaitu Chatief Kunjaya (AS), Zadrach Dupe (OS), Ikha Magdalena (MA), dan Ahmad Ridwan (SITH).</p>
-<p><a href="/bugx/img/kms/kms-itb-20jul2022.png" 
-  
-  
-><img src="/bugx/img/kms/kms-itb-20jul2022.png" alt=""></a></p>
-<p>Gambar <a name='fig1'>1</a>. Pertanyaan-pertanyaan baru yang tercantum pda halaman depan Knowledge kampus.</p>
-<p>Pada halaman muka KMS ITB ditampilkan dua puluh aktivitas terakhir dan di bawahnya terdapat tombol untuk menampilkan selebihnya (more) untuk melihat keseluruh aktivitas yang bermula pada 21 Juni 2021 dan sistem diinstal pada 2 Juni 2021. Dua hari yang bersejarah untuk KMS ITB [<a href="#r03" 
-  
-  
->3</a>].</p>
-<h2 id="alumni">alumni<a class="anchor" href="#alumni">#</a></h2>
-<p>Mengingat adanya alumni dan juga purnabakti yang akan berkontribusi, coba kontak Asep Setiawan (PTPB) mengenai aksesnya. Sementara ini menggunakan SSO, yang dimilik oleh civitas akademika kampus yang masih aktif. Untuk yang sudah purnabakti ataupun alumni belum mendapatkan informasi. Mungkin perlu menghubungi kantro kealumnian?</p>
+>2</a> agar lebih sesuai dengan aturan baku di bidang komputasi.</li>
+<li>Meminta data-data mentah untuk diperiksa proses pengerjaannya sehingga yakin sebelum melakukan analisis lebih dalam.</li>
+<li>Mencoba untuk menstrukturkan data mentah yang ada dan disimpan sehingga bisa digunakan lebih lanjut.</li>
+<li>Merancang proses analisis yang lebih konsisten, otomatis, dan menggunakan parameter yang sama, sehingga dapat meminimumkan subyektivitas penganalis.</li>
+<li>Mencari alternatif membuka berkas OPJ dengan tanpa Origin, misalnya menggunakan piranti lunak sumber terbuka.</li>
+</ul>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a>Sparisoma Viridi, &ldquo;Knowledge ITB&rdquo;, Institut Teknologi Bandung, 2022, url <a href="https://knowledge.itb.ac.id/u/dudung/activity" 
-  
-   target="_blank" rel="noreferrer noopener" 
->https://knowledge.itb.ac.id/u/dudung/activity</a> [20220720].</li>
-<li><a name='r02'></a>dudung, &ldquo;&rdquo;, Knowledge ITB, 20 Jul 2022, url <a href="https://knowledge.itb.ac.id/t/arti-rerata-rata-rata-rataan-purata/352/3" 
-  
-   target="_blank" rel="noreferrer noopener" 
->https://knowledge.itb.ac.id/t/arti-rerata-rata-rata-rataan-purata/352/3</a> [20220720].</li>
-<li><a name='r03'></a>url <a href="https://knowledge.itb.ac.id/latest" 
-  
-   target="_blank" rel="noreferrer noopener" 
->https://knowledge.itb.ac.id/latest</a> [20220720].</li>
+<li><a name='r01'></a>Yunita Anggraini, &ldquo;Grup meeting PCM-HTF &ndash;?&rdquo;, Zoom, 21 Jul 2022, 0900, url &lt;https://itb-ac-id.zoom.us/j/96553048602 ?&gt; [20220721].</li>
+<li><a name='r02'></a></li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "return to kms", bugx, 20 Jul 2022, url <a href= "https://dudung.github.io/bugx/0121">https://dudung.github.io/bugx/0121</a> [20220720].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pcm-progress-21jul2022", bugx, 21 Jul 2022, url <a href= "https://dudung.github.io/bugx/0122">https://dudung.github.io/bugx/0122</a> [20220720].
 </div>
 
 
@@ -185,25 +220,29 @@ Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "ret
 <ul class="tags__list">
     
     <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/idea/">idea</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/pcm/">pcm</a>
+    </li>
+    <li class="tag__item">
         <a class="tag__link" href="https://dudung.github.io/bugx/tags/progress/">progress</a>
     </li>
     <li class="tag__item">
-        <a class="tag__link" href="https://dudung.github.io/bugx/tags/kms/">kms</a>
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/supervision/">supervision</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://dudung.github.io/bugx/tags/flowchart/">flowchart</a>
     </li></ul>
 
  <div class="pagination">
   
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0120/">
+    <a class="pagination__item" href="https://dudung.github.io/bugx/0121/">
         <span class="pagination__label">Previous Post</span>
-        <span class="pagination__title">debt-of-discussion</span>
+        <span class="pagination__title">return to kms</span>
     </a>
   
 
-  
-    <a class="pagination__item" href="https://dudung.github.io/bugx/0122/">
-      <span class="pagination__label">Next Post</span>
-      <span class="pagination__title" >pcm-progress-21jul2022</span>
-    </a>
   
 </div>
 

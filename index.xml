@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 20 Jul 2022 20:39:01 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jul 2022 05:10:13 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pcm-progress-21jul2022</title>
+      <link>https://dudung.github.io/bugx/0122/</link>
+      <pubDate>Thu, 21 Jul 2022 05:09:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0122/</guid>
+      <description>Kembali presetentasi kemajuan pengerjaan desertasi seorang PMDSU dilaksanakan secara daring [1] beririsan dengan dua kegiatan lainnya. Dapat menjadi tiga bila sampai setelah break siang.
+measurement flowchart Dari pertemuan sebelumnya
+Terdapat beberpa variasi parameter seperti konsentrasi dopan, temperatur pengukuran, dan medan magnetik eksternal yang diberikan. Alur pengukuran yang telah mengakomodasi ketiga macam variasi tersebut diberikan di bawah ini. Di dalamnya juga telah disertakan jumlah pengulangan untuk setiap variasi parameter.
+Gambar 1. Diagram alir proses pengukuran bahan PCM</description>
+    </item>
+    
     <item>
       <title>return to kms</title>
       <link>https://dudung.github.io/bugx/0121/</link>
@@ -44,7 +56,7 @@ syllabus FI1101 (4 SKS): Kinematika Benda Titik, Gerak Relatif, Dinamika Benda T
       <pubDate>Sun, 17 Jul 2022 16:18:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/about/</guid>
-      <description>Last entry is 0121.</description>
+      <description>Last entry is 0122.</description>
     </item>
     
     <item>

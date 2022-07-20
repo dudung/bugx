@@ -7,22 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 20 Jul 2022 20:38:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jul 2022 05:09:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>kms</title>
-      <link>https://dudung.github.io/bugx/tags/kms/</link>
-      <pubDate>Wed, 20 Jul 2022 20:38:00 +0700</pubDate>
+      <title>flowchart</title>
+      <link>https://dudung.github.io/bugx/tags/flowchart/</link>
+      <pubDate>Thu, 21 Jul 2022 05:09:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/tags/kms/</guid>
+      <guid>https://dudung.github.io/bugx/tags/flowchart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>idea</title>
+      <link>https://dudung.github.io/bugx/tags/idea/</link>
+      <pubDate>Thu, 21 Jul 2022 05:09:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pcm</title>
+      <link>https://dudung.github.io/bugx/tags/pcm/</link>
+      <pubDate>Thu, 21 Jul 2022 05:09:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/pcm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>progress</title>
       <link>https://dudung.github.io/bugx/tags/progress/</link>
-      <pubDate>Wed, 20 Jul 2022 20:38:00 +0700</pubDate>
+      <pubDate>Thu, 21 Jul 2022 05:09:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/progress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>supervision</title>
+      <link>https://dudung.github.io/bugx/tags/supervision/</link>
+      <pubDate>Thu, 21 Jul 2022 05:09:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/supervision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kms</title>
+      <link>https://dudung.github.io/bugx/tags/kms/</link>
+      <pubDate>Wed, 20 Jul 2022 20:38:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/kms/</guid>
       <description></description>
     </item>
     
@@ -41,15 +77,6 @@
       <pubDate>Wed, 20 Jul 2022 15:19:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/discussion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>idea</title>
-      <link>https://dudung.github.io/bugx/tags/idea/</link>
-      <pubDate>Wed, 20 Jul 2022 15:19:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/idea/</guid>
       <description></description>
     </item>
     
@@ -122,24 +149,6 @@
       <pubDate>Sat, 16 Jul 2022 08:46:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/t2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pcm</title>
-      <link>https://dudung.github.io/bugx/tags/pcm/</link>
-      <pubDate>Fri, 15 Jul 2022 06:31:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/pcm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>supervision</title>
-      <link>https://dudung.github.io/bugx/tags/supervision/</link>
-      <pubDate>Fri, 15 Jul 2022 06:31:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/supervision/</guid>
       <description></description>
     </item>
     
