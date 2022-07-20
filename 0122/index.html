@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-21 05:09:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-21 05:09:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-21 06:04:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-21 06:04:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0122\/",
-      "wordCount" : "364",
+      "wordCount" : "509",
       "keywords" : ["Blog"]
     }
   
@@ -137,7 +137,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">pcm-progress-21jul2022</h1>
-            <time datetime="2022-07-21 05:09:00 &#43;0700 &#43;0700" class="post__date">Thu, 21 Jul  2022</time> 
+            <time datetime="2022-07-21 06:04:00 &#43;0700 &#43;0700" class="post__date">Thu, 21 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -153,6 +153,47 @@
 <p><img src="/bugx/img/idea/pcm/flowchart-to-be-fixed.jpg" alt=""></p>
 <p>Gambar <a name='fig1'>1</a>. Diagram alir proses pengukuran bahan PCM</p>
 <p>Kemudian saat mengolah data untuk mementukan titik-titik penting, masih terdapat penentuan garis dan sebagainya yang dilakukan secara manual sehingga faktor subyektif penganalis masih besar dan ini perlu diperbaiki agar hasilnya konsisten. Terutama untuk memastikan bahwa kondisi crossover benar-benar terjadi dan bukan hanya karena proses analisis ataupun pra-processing. Data rata-rata terlibat baik akan tetapi data smoothing cukup membingungkan. Belum ditanyakan apakah smoothing berdasarkan model atau sekedar mencari titik tengahnya untuk sekian titik di sekitarnya.</p>
+<!--
+style="position: relative; top: -140px; height: 890px;"
+-->
+<div class="mermaid">
+  flowchart TD
+    %% element use
+    Beg --> In1
+    %%Beg --> In1 --> In2 --> In3 --> In4
+    subgraph Hasil
+      direction TB
+      Out --> End
+    end
+    subgraph Pengukuran
+      direction LR
+      Meas1 --> Meas2 --> Meas3
+    end
+    subgraph Inisialisasi
+      direction TB
+      Count0 --> Count1 --> Count2 --> Count3 --> Count4
+    end
+    subgraph Preparasi
+      direction TB
+      In1 --> In2 --> In3 --> In4
+    end
+    In4 --> Count0
+    %% element definition
+    Beg([ Mulai ])
+    End([ Selesai ])
+    In1[/ Dopan<br>D = 0, 1, 2, 5<br>% massa /]
+    In2[/ Temperatur<br>T = 55, 67, 75<br>degC /]
+    In3[/ Medan Magnetik<br>B = 0, 142, 234<br>mT /]
+    In4[/ Repetisi<br>N = 3 /]
+    Count0[ o = 1 ]
+    Count1[ d = 1 ]
+    Count2[ t = 1 ]
+    Count3[ b = 1 ]
+    Count4[ n= 1 ]
+    %% Out[/ R /]
+    %% Proc1[ 5 ]
+    %% Dec1{ 6 }
+</div>
 <!--
 style="position: relative; top: -140px; height: 890px;"
 -->
