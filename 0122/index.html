@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-21 08:22:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-21 08:22:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-21 17:38:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-21 17:38:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0122\/",
-      "wordCount" : "550",
+      "wordCount" : "448",
       "keywords" : ["Blog"]
     }
   
@@ -209,23 +209,23 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">pcm-progress-21jul2022</h1>
-            <time datetime="2022-07-21 08:22:00 &#43;0700 &#43;0700" class="post__date">Thu, 21 Jul  2022</time> 
+            <time datetime="2022-07-21 17:38:00 &#43;0700 &#43;0700" class="post__date">Thu, 21 Jul  2022</time> 
           </header>
           <article class="post__content">
               
-<p>Kembali presetentasi kemajuan pengerjaan desertasi seorang PMDSU dilaksanakan secara daring [<a href="#r01" 
+<p>Kembali presetentasi kemajuan pengerjaan desertasi seorang PMDSU dilaksanakan secara daring, diasumsikan dengan tautan yang sama [<a href="#r01" 
   
   
->1</a>] beririsan dengan dua kegiatan lainnya. Dapat menjadi tiga bila sampai setelah break siang.</p>
+>1</a>] beririsan dengan <s>dua</s> kegiatan lainnya (sempat terlupa satu). Dapat menjadi <s>tiga</s> empat bila sampai setelah break siang.</p>
 <h2 id="measurement-flowchart">measurement flowchart<a class="anchor" href="#measurement-flowchart">#</a></h2>
-<p>Dari pertemuan sebelumnya</p>
-<blockquote>
-<p>Terdapat beberpa variasi parameter seperti konsentrasi dopan, temperatur pengukuran, dan medan magnetik eksternal yang diberikan. Alur pengukuran yang telah mengakomodasi ketiga macam variasi tersebut diberikan di bawah ini. Di dalamnya juga telah disertakan jumlah pengulangan untuk setiap variasi parameter.</p>
-</blockquote>
+<p>Dari pertemuan sebelumnya disampaikan diagram alir seperti pada gambar berikut, yang belum memenuhi standar suatu diagram alir.</p>
 <p><img src="/bugx/img/idea/pcm/flowchart-to-be-fixed.jpg" alt=""></p>
 <p>Gambar <a name='fig1'>1</a>. Diagram alir proses pengukuran bahan PCM</p>
-<p>Kemudian saat mengolah data untuk mementukan titik-titik penting, masih terdapat penentuan garis dan sebagainya yang dilakukan secara manual sehingga faktor subyektif penganalis masih besar dan ini perlu diperbaiki agar hasilnya konsisten. Terutama untuk memastikan bahwa kondisi crossover benar-benar terjadi dan bukan hanya karena proses analisis ataupun pra-processing. Data rata-rata terlibat baik akan tetapi data smoothing cukup membingungkan. Belum ditanyakan apakah smoothing berdasarkan model atau sekedar mencari titik tengahnya untuk sekian titik di sekitarnya.</p>
-<div class="mermaid" style="position: relative; top: -220px; height: 1700px;">
+<p>Koreksi dari Gambar <a href="#fig1" 
+  
+  
+>1</a> diberikan pada gambar di bawah ini.</p>
+<div class="mermaid" style="position: relative; top: -230px; height: 1690px;">
   flowchart TB
     %% element use
     Beg --> Prep
@@ -278,25 +278,31 @@
     %% Dec1{ 6 }
 </div>
 <p>Gambar <a name='fig2'>2</a>. Usulan perbaikan diagram alir dengan memanfaatkan Mermaid.</p>
-<p>Nilai-nilai variabel iterasi pada Gambar <a href="#fig2" 
+<p>Rentang nilai-nilai variabel iterasi pada Gambar <a href="#fig2" 
   
   
 >2</a> adalah $d = 1, .., N_D$, $t = 1, .., N_T$, $b = 1, .., N_B$, dan $s = 1, .., N_S$, di mana jumlah variasi dopan $N_D = 4$, temperatur $N_T = 3$, medan magnetik $N_B = 3$, dan pengulangan $N_S$ untuk ketiga parameter bernilai tetap.</p>
-<h2 id="previous-todo">previous todo<a class="anchor" href="#previous-todo">#</a></h2>
+<p>Dalam setiap sub-bagian pada Gambar <a href="#fig2" 
+  
+  
+>2</a> terdapat titik sambungan bernomor, di mana proses berarah dari nomor lebih kecil ke nomor lebih besar.</p>
+<h2 id="todo">todo<a class="anchor" href="#todo">#</a></h2>
 <ul>
-<li>Memberbaiki diagram alir pengukuran pada Gambar <a href="#fig2" 
+<li>Mendiskusikan apakah Gambar <a href="#fig2" 
   
   
->2</a> agar lebih sesuai dengan aturan baku di bidang komputasi.</li>
-<li>Meminta data-data mentah untuk diperiksa proses pengerjaannya sehingga yakin sebelum melakukan analisis lebih dalam.</li>
-<li>Mencoba untuk menstrukturkan data mentah yang ada dan disimpan sehingga bisa digunakan lebih lanjut.</li>
-<li>Merancang proses analisis yang lebih konsisten, otomatis, dan menggunakan parameter yang sama, sehingga dapat meminimumkan subyektivitas penganalis.</li>
-<li>Mencari alternatif membuka berkas OPJ dengan tanpa Origin, misalnya menggunakan piranti lunak sumber terbuka.</li>
+>2</a> perlu diadaptasi lebih jauh mengingat telah menjadi lebih kompleks, walau lebih tepat, dibandingkan dengan Gambar <a href="#fig1" 
+  
+  
+>1</a>.</li>
+<li>Menanyakan hasil diskusi karena tidak sempat mengikutinya dikarenakan adanya acara yang bersamaan.</li>
 </ul>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a>Yunita Anggraini, &ldquo;Grup meeting PCM-HTF &ndash;?&rdquo;, Zoom, 21 Jul 2022, 0900, url &lt;https://itb-ac-id.zoom.us/j/96553048602 ?&gt; [20220721].</li>
-<li><a name='r02'></a></li>
+<li><a name='r01'></a>Yunita Anggraini, &ldquo;Grup meeting PCM-HTF&rdquo;, Zoom, 21 Jul 2022, 0900, url <a href="https://itb-ac-id.zoom.us/j/96553048602" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://itb-ac-id.zoom.us/j/96553048602</a> [20220721].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
