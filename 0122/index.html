@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-07-21 06:04:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-07-21 06:04:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-07-21 08:22:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-07-21 08:22:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0122\/",
-      "wordCount" : "509",
+      "wordCount" : "550",
       "keywords" : ["Blog"]
     }
   
@@ -122,6 +122,78 @@
     
 
 	
+		
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+			tags: 'ams',
+    },
+    options: {
+      skipHtmlTags: [
+				'script',
+				'noscript',
+				'style',
+				'textarea',
+				'pre'
+			]
+    }
+  };
+</script>
+
+<script
+	type="text/javascript"
+	id="MathJax-script"
+	async 
+	src="https://cdn.jsdelivr.net/npm/\
+	mathjax@3/es5/tex-mml-chtml.js"
+	>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	
 		
 
@@ -137,7 +209,7 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">pcm-progress-21jul2022</h1>
-            <time datetime="2022-07-21 06:04:00 &#43;0700 &#43;0700" class="post__date">Thu, 21 Jul  2022</time> 
+            <time datetime="2022-07-21 08:22:00 &#43;0700 &#43;0700" class="post__date">Thu, 21 Jul  2022</time> 
           </header>
           <article class="post__content">
               
@@ -153,90 +225,63 @@
 <p><img src="/bugx/img/idea/pcm/flowchart-to-be-fixed.jpg" alt=""></p>
 <p>Gambar <a name='fig1'>1</a>. Diagram alir proses pengukuran bahan PCM</p>
 <p>Kemudian saat mengolah data untuk mementukan titik-titik penting, masih terdapat penentuan garis dan sebagainya yang dilakukan secara manual sehingga faktor subyektif penganalis masih besar dan ini perlu diperbaiki agar hasilnya konsisten. Terutama untuk memastikan bahwa kondisi crossover benar-benar terjadi dan bukan hanya karena proses analisis ataupun pra-processing. Data rata-rata terlibat baik akan tetapi data smoothing cukup membingungkan. Belum ditanyakan apakah smoothing berdasarkan model atau sekedar mencari titik tengahnya untuk sekian titik di sekitarnya.</p>
-<!--
-style="position: relative; top: -140px; height: 890px;"
--->
-<div class="mermaid">
-  flowchart TD
+<div class="mermaid" style="position: relative; top: -220px; height: 1700px;">
+  flowchart TB
     %% element use
-    Beg --> In1
-    %%Beg --> In1 --> In2 --> In3 --> In4
-    subgraph Hasil
+    Beg --> Prep
+    Prep --> Meas
+    Meas --> End
+    subgraph Meas[ Pengukuran ]
       direction TB
-      Out --> End
+      o3 --> Meas1 --> Dec1
+      Dec1 --Ya--> Inc1 --> o4
+      Dec1 --Tidak--> Res1 --> Dec2
+      Dec2 --Ya--> Inc2 --> o4
+      Dec2 --Tidak--> Res2 --> Dec3
+      Dec3 --Ya--> Inc3 --> o4
+      Dec3 --Tidak--> Res3 --> Dec4
+      Dec4 --Ya--> Inc4 --> o4
+      Dec4 --Tidak--> o5
     end
-    subgraph Pengukuran
-      direction LR
-      Meas1 --> Meas2 --> Meas3
-    end
-    subgraph Inisialisasi
+    subgraph Prep[ Preparasi ]
       direction TB
-      Count0 --> Count1 --> Count2 --> Count3 --> Count4
+      o1 --> Par1
+      Par1 --> Par2 --> Par3 --> Init
+      Init --> o2
     end
-    subgraph Preparasi
-      direction TB
-      In1 --> In2 --> In3 --> In4
-    end
-    In4 --> Count0
     %% element definition
     Beg([ Mulai ])
+    Par1[ Dopan<br>D = 0, 1, 2, 5<br>% massa ]
+    Par2[ Temperatur<br>T = 55, 67, 75<br>degC ]
+    Par3[ Medan Magnetik<br>B = 0, 142, 234<br>mT ]
+    Init[ d = 1, t = 1,<br>b = 1, s = 1 ]
+    o1(( 1 ))
+    o2(( 2 ))
+    o3(( 2 ))
+    o4(( 2 ))
+    o5(( 3 ))
+    Meas1[/ Ukur dengan<br>parameter<br> D_d, T_t, B_b /]
     End([ Selesai ])
-    In1[/ Dopan<br>D = 0, 1, 2, 5<br>% massa /]
-    In2[/ Temperatur<br>T = 55, 67, 75<br>degC /]
-    In3[/ Medan Magnetik<br>B = 0, 142, 234<br>mT /]
-    In4[/ Repetisi<br>N = 3 /]
-    Count0[ o = 1 ]
-    Count1[ d = 1 ]
-    Count2[ t = 1 ]
-    Count3[ b = 1 ]
-    Count4[ n= 1 ]
+    Dec1{ d < N_d }
+    Res1[ d = 1 ]
+    Inc1[ d = d + 1 ]
+    Dec2{ t < N_T }
+    Res2[ t = 1 ]
+    Inc2[ t = t + 1 ]
+    Dec3{ b < N_B }
+    Res3[ b = 1 ]
+    Inc3[ b = b + 1 ]
+    Dec4{ s < N_s }
+    Inc4[ s = s + 1 ]
     %% Out[/ R /]
     %% Proc1[ 5 ]
     %% Dec1{ 6 }
 </div>
-<!--
-style="position: relative; top: -140px; height: 890px;"
--->
-<div class="mermaid">
-  flowchart TD
-    %% element use
-    subgraph Region
-      direction LR
-      R1 -.- R2
-    end
-    subgraph &nbsp;
-      direction LR
-      subgraph Skill
-        direction TB
-        S1 -.- S2 -.- S3 -.- S4
-      end
-      subgraph Course
-        direction TB
-        C1 -.- C2 -.- C3
-      end
-    end
-    Region -.- Course
-    %% element definition
-		S1([ Modelling ])
-		S2([ Computation ])
-		S3([ Simulation ])
-		S4([ Granular ])
-    C1[/ Food Science /]
-    C2[/ Pharmaceutical Science /]
-    C3[/ Food Technology /]
-    R1(( World ))
-    R2(( China ))
-    %% class use
-    class Skill green
-    class Course red
-    class Region blue
-    %% class style definition
-    classDef green fill:#cfc,stroke:#3a3,stroke-width:2px
-    classDef red fill:#fcc,stroke:#a33,stroke-width:2px
-    classDef blue fill:#ccf,stroke:#33a,stroke-width:2px
-</div>
 <p>Gambar <a name='fig2'>2</a>. Usulan perbaikan diagram alir dengan memanfaatkan Mermaid.</p>
-<p>..</p>
+<p>Nilai-nilai variabel iterasi pada Gambar <a href="#fig2" 
+  
+  
+>2</a> adalah $d = 1, .., N_D$, $t = 1, .., N_T$, $b = 1, .., N_B$, dan $s = 1, .., N_S$, di mana jumlah variasi dopan $N_D = 4$, temperatur $N_T = 3$, medan magnetik $N_B = 3$, dan pengulangan $N_S$ untuk ketiga parameter bernilai tetap.</p>
 <h2 id="previous-todo">previous todo<a class="anchor" href="#previous-todo">#</a></h2>
 <ul>
 <li>Memberbaiki diagram alir pengukuran pada Gambar <a href="#fig2" 
@@ -255,7 +300,7 @@ style="position: relative; top: -140px; height: 890px;"
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
-Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pcm-progress-21jul2022", bugx, 21 Jul 2022, url <a href= "https://dudung.github.io/bugx/0122">https://dudung.github.io/bugx/0122</a> [20220720].
+Cite as: <a href= "https://dudung.github.io/bugx/author/viridi">viridi</a>, "pcm-progress-21jul2022", bugx, 21 Jul 2022, url <a href= "https://dudung.github.io/bugx/0122">https://dudung.github.io/bugx/0122</a> [20220721].
 </div>
 
 
