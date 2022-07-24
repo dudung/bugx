@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 21 Jul 2022 17:38:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/progress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jul 2022 10:13:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/progress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>draft p1 v1 for floating body</title>
+      <link>https://dudung.github.io/bugx/0123/</link>
+      <pubDate>Sun, 24 Jul 2022 10:13:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0123/</guid>
+      <description>Diskusi bimbingan tesis sudah dilakukan secara luring dan telah dibuat suatu draft awal untuk publikasi [1]. Mind map dapat digunakan mulai dari mencari ide, mengumpulkan fakta dari literatur, sampai membuat struktur dari makalah [2]. Sayangnya Mermaid belum mendukung fitur pembuatan mind map akan tetapi perkembangan terakhir teramati pada 2020 awal [3, 4].
+mind map Untuk memudahkan pemantauan pembuatan draft artikel, dibuat suatu peta pikiran atau mind map seagai berikut.
+flowchart LR %% element use L --&gt; O P --&gt; O O --&gt; E O --&gt; T E --&gt; R T --&gt; R P -.</description>
+    </item>
+    
     <item>
       <title>pcm-progress-21jul2022</title>
       <link>https://dudung.github.io/bugx/0122/</link>

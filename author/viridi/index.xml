@@ -9,6 +9,39 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 21 Mar 2022 21:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/author/viridi/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>missed meeting</title>
+      <link>https://dudung.github.io/bugx/0125/</link>
+      <pubDate>Sun, 24 Jul 2022 14:32:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0125/</guid>
+      <description>[1]
+notes Cite as: viridi, &#34;missed meeting&#34;, bugx, 24 Jul 2022, url https://dudung.github.io/bugx/0125 [20220724]. </description>
+    </item>
+    
+    <item>
+      <title>refs growth rate model</title>
+      <link>https://dudung.github.io/bugx/0124/</link>
+      <pubDate>Sun, 24 Jul 2022 13:35:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0124/</guid>
+      <description>Kabar dari kolega [1] yang memberikan empat screenshot suatu webinar memberikan informasi pemodelan laju pertumbuhan mikroorganisme, suatu kerja sama yang belum lagi berlanjut sejak kolaborasi terakhir tiga tahun yang lalu [2].
+webinar Suatu webinar berlangsung dengan beberapa screenshotnya adalah sebagai berikut.
+(a) (b) (c) (d) Gambar 1. Screenshot suatu webinar: (a) model laju pertumbuhan, (b) data dan hasil fittingnya, (c) sensitivitas, dan (d) catatan.
+Dari keempat gambar dalam Gambar 1 dapat diperoleh informasi</description>
+    </item>
+    
+    <item>
+      <title>draft p1 v1 for floating body</title>
+      <link>https://dudung.github.io/bugx/0123/</link>
+      <pubDate>Sun, 24 Jul 2022 10:13:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0123/</guid>
+      <description>Diskusi bimbingan tesis sudah dilakukan secara luring dan telah dibuat suatu draft awal untuk publikasi [1]. Mind map dapat digunakan mulai dari mencari ide, mengumpulkan fakta dari literatur, sampai membuat struktur dari makalah [2]. Sayangnya Mermaid belum mendukung fitur pembuatan mind map akan tetapi perkembangan terakhir teramati pada 2020 awal [3, 4].
+mind map Untuk memudahkan pemantauan pembuatan draft artikel, dibuat suatu peta pikiran atau mind map seagai berikut.
+flowchart LR %% element use L --&gt; O P --&gt; O O --&gt; E O --&gt; T E --&gt; R T --&gt; R P -.</description>
+    </item>
+    
+    <item>
       <title>pcm-progress-21jul2022</title>
       <link>https://dudung.github.io/bugx/0122/</link>
       <pubDate>Thu, 21 Jul 2022 17:38:00 +0700</pubDate>
@@ -831,7 +864,7 @@ posts Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-per
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220721]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220724]. </description>
     </item>
     
     <item>
@@ -844,7 +877,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220721]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220724]. </description>
     </item>
     
     <item>
@@ -1166,7 +1199,7 @@ yang dilengkapi tautan pada author dan artikelnya.
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220721]. </description>
+posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220724]. </description>
     </item>
     
     <item>

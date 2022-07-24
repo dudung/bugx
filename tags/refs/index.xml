@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>refs on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/refs/</link>
+    <description>Recent content in refs on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sun, 24 Jul 2022 14:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/refs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>missed meeting</title>
+      <link>https://dudung.github.io/bugx/0125/</link>
+      <pubDate>Sun, 24 Jul 2022 14:32:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0125/</guid>
+      <description>[1]
+notes Cite as: viridi, &#34;missed meeting&#34;, bugx, 24 Jul 2022, url https://dudung.github.io/bugx/0125 [20220724]. </description>
+    </item>
+    
+    <item>
+      <title>refs growth rate model</title>
+      <link>https://dudung.github.io/bugx/0124/</link>
+      <pubDate>Sun, 24 Jul 2022 13:35:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0124/</guid>
+      <description>Kabar dari kolega [1] yang memberikan empat screenshot suatu webinar memberikan informasi pemodelan laju pertumbuhan mikroorganisme, suatu kerja sama yang belum lagi berlanjut sejak kolaborasi terakhir tiga tahun yang lalu [2].
+webinar Suatu webinar berlangsung dengan beberapa screenshotnya adalah sebagai berikut.
+(a) (b) (c) (d) Gambar 1. Screenshot suatu webinar: (a) model laju pertumbuhan, (b) data dan hasil fittingnya, (c) sensitivitas, dan (d) catatan.
+Dari keempat gambar dalam Gambar 1 dapat diperoleh informasi</description>
+    </item>
+    
+  </channel>
+</rss>

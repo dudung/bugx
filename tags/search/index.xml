@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>search on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/search/</link>
+    <description>Recent content in search on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sun, 24 Jul 2022 13:35:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>refs growth rate model</title>
+      <link>https://dudung.github.io/bugx/0124/</link>
+      <pubDate>Sun, 24 Jul 2022 13:35:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0124/</guid>
+      <description>Kabar dari kolega [1] yang memberikan empat screenshot suatu webinar memberikan informasi pemodelan laju pertumbuhan mikroorganisme, suatu kerja sama yang belum lagi berlanjut sejak kolaborasi terakhir tiga tahun yang lalu [2].
+webinar Suatu webinar berlangsung dengan beberapa screenshotnya adalah sebagai berikut.
+(a) (b) (c) (d) Gambar 1. Screenshot suatu webinar: (a) model laju pertumbuhan, (b) data dan hasil fittingnya, (c) sensitivitas, dan (d) catatan.
+Dari keempat gambar dalam Gambar 1 dapat diperoleh informasi</description>
+    </item>
+    
+  </channel>
+</rss>
