@@ -7,16 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 03 Aug 2022 11:25:02 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Aug 2022 11:44:41 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>discussion-and-pdsk</title>
       <link>https://dudung.github.io/bugx/0133/</link>
-      <pubDate>Wed, 03 Aug 2022 11:24:00 +0700</pubDate>
+      <pubDate>Wed, 03 Aug 2022 11:44:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0133/</guid>
-      <description>[1]
-next plan Untuk membuat simulasi terbentuknya gelembung pada pembuat gelembung, naiknya gelembung dalam air, dan lepasnya gelembung setelah mencapai permukan air, akan digunakan molecular dynamics (MD) dan agent-based model (ABM) yang digabungkan untuk mengakomodasi lompatan mekanisme yang tidak fisis seperti pada pekerjaan sebelumnya
-Gambar 1. Coretan diskusi di ruang kerja untuk Terdapat setidaknya tidak tahap yang ditentukan dengan syarat berbeda antar setiap tahapnya. Antara tahap pertama dan kedua ditentukan oleh kekuatan gaya tegangan permukaan gelembung melawan gaya apung gelembung, sedangkan anara tahap kedua dan ketiga ditentukan oleh posisi titik tengah gelembung relatif terhadap permukaan air.</description>
+      <description>Diskusi dilakukan pagi hari untuk membahas rencana lanjut sekaligus persiapan untuk PDSK saat sore harinya, bila ditanyakan rencana mengenai simulasi sistem yang dimaksud.
+next plan Untuk membuat simulasi terbentuknya gelembung pada pembuat gelembung, naiknya gelembung dalam air, dan lepasnya gelembung setelah mencapai permukan air, akan digunakan molecular dynamics (MD) dan agent-based model (ABM) yang digabungkan untuk mengakomodasi lompatan mekanisme yang tidak fisis seperti pada pekerjaan sebelumnya [1].
+Gambar 1. Coretan diskusi di ruang kerja untuk Terdapat setidaknya tidak tahap yang ditentukan dengan syarat berbeda antar setiap tahapnya.</description>
     </item>
     
     <item>
