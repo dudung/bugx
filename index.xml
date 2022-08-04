@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 04 Aug 2022 12:00:29 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Aug 2022 13:00:32 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>a-cmd-state-senri</title>
       <link>https://dudung.github.io/bugx/0134/</link>
@@ -16,7 +16,8 @@
       <guid>https://dudung.github.io/bugx/0134/</guid>
       <description>Dalam kegiatan Asia Computational Material Design (A-CMD) Workshop yang diadakan secara bauran [1], Prof. Yoshitada Morikawa memberikan materi mengenai STATE - Senri [2], dengan petunjuk teknis dapat dipelajari sebelumnya yang telah disiapkan oleh Dr. Ikutaro Hamada [3].
 [4] [5]
-notes Fahdzi Muttaqien, &amp;ldquo;Asia Computational Material Design (A-CMD) Workshop&amp;rdquo;, Master Program in Computational Science, Institut Teknologi Bandung, 3-5 Aug 2022, url https://iscs2022.site/event/5/ [20220804]. Yoshitada Morikawa, &amp;ldquo;Basic theory of STATE - Senri&amp;rdquo;, Asia Computational Material Design (A-CMD) Workshop, 4 Aug 2022, url https://iscs2022.</description>
+hands on i Pada sesi hands on yang pertama diberikan cara-cara menjalankan STATE - Senri pada peserta oleh pembicara dan dipandu oleh tutor dan moderator.
+setting problem Saat jeda istrahat siang dan makan siang terjadi diskusi daring antara Fahdzi Muttaqien dan Yuji Hamamoto mengenai konfigurasi yang kurang tepat.</description>
     </item>
     
     <item>
@@ -509,7 +510,7 @@ phase 3 24-jun-2022 Lirih setelah subuh, pagi saat masih depan komputer.</descri
       
       <guid>https://dudung.github.io/bugx/0083/</guid>
       <description>Terdapat tips agar lebih produktif dengan memanfaatkan Daftar-yang-harus-dikerjakan [1]. Di sini belum diterapkan benar-benar dan hanya menuliskan tanggal pelaksanaan suatu kegiatan atau tenggat suatu pekerjaan. Tanggal post terakhir adalah sore di hari pembuatannya dan yang berikutnya diubah hanya isinya. Diubah agar terdistribusi tanggalnya. Inkonsisten. Terdapat pula tanggal-tanggal kegiatan di masa depan agar tidak terlupa.
-Aug 2022 29-Mon-1300 Summer Course Online Food Sci Technol. 12-Fri-0930 Sidang FI-AI S1 Adrio. 12-Fri-0815 Sidang FI-AI S1 Mulia.</description>
+Aug 2022 29-Mon-1300 Summer Course Online Food Sci Technol. 15-Mon-0000 Sidang FI-HD, FI-ID S2 Fajar. 15-Mon-0900 Sidang FI-SV S2 Dini.</description>
     </item>
     
     <item>
