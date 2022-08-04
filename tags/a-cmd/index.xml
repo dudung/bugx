@@ -7,17 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 04 Aug 2022 12:00:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/a-cmd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Aug 2022 06:27:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/a-cmd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>a-cmd-state-senri</title>
       <link>https://dudung.github.io/bugx/0134/</link>
-      <pubDate>Thu, 04 Aug 2022 12:00:00 +0700</pubDate>
+      <pubDate>Fri, 05 Aug 2022 06:27:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0134/</guid>
-      <description>Dalam kegiatan Asia Computational Material Design (A-CMD) Workshop yang diadakan secara bauran [1], Prof. Yoshitada Morikawa memberikan materi mengenai STATE - Senri [2], dengan petunjuk teknis dapat dipelajari sebelumnya yang telah disiapkan oleh Dr. Ikutaro Hamada [3].
-[4] [5]
-hands on i Pada sesi hands on yang pertama diberikan cara-cara menjalankan STATE - Senri pada peserta oleh pembicara dan dipandu oleh tutor dan moderator.
-setting problem Saat jeda istrahat siang dan makan siang terjadi diskusi daring antara Fahdzi Muttaqien dan Yuji Hamamoto mengenai konfigurasi yang kurang tepat.</description>
+      <description>Dalam kegiatan Asia Computational Material Design (A-CMD) Workshop yang diadakan secara bauran [1], Prof. Yoshitada Morikawa memberikan materi mengenai STATE - Senri [2], dengan petunjuk teknis dapat dipelajari sebelumnya yang telah disiapkan oleh Dr. Ikutaro Hamada [3]. Platform vicon yang digunakan adalah Zoom [4]. Terdapat informasi, bila tidak salah dengar karena tidak mengikuti dari awal kegiatan pada hari kedua, bahwa koneksi harus menggunakan VPN kampus [5].
+hands on i Pada sesi hands on yang pertama diberikan cara-cara menjalankan STATE - Senri pada peserta oleh pembicara dan dipandu oleh tutor dan moderator.</description>
     </item>
     
   </channel>
