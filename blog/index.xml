@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 05 Aug 2022 06:27:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Aug 2022 22:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>short-intro-to-dem</title>
+      <link>https://dudung.github.io/bugx/0135/</link>
+      <pubDate>Fri, 05 Aug 2022 22:32:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0135/</guid>
+      <description>Lab Granular dan Fluida mengadakan seminar internal secara daring [1] mengenai Discrete Element Method (DEM) yang dibawakan oleh alumni yang sedang memulai program S3 di Todai [2].
+suggested reading Coupled CFD-DEM Modeling: Formulation, Imple-mentation and Application to Multiphase Flows [3] adalah suatu buku rujukan yang disarankan. Dapat dikatakan bahwa buku ini mirip seperti sebuah ensi-klopedia, di mana tidak untuk dibaca secara berurutan bab per bab.
+presentation Presentasi dilakukan terlebih dahulu baru kemudian diikuti diskusi, walaupun demikian pembicara telah menyatakan bahwa dapat dapat saja pertanyaan diajukan saat presentasi berlangsung.</description>
+    </item>
+    
     <item>
       <title>a-cmd-state-senri</title>
       <link>https://dudung.github.io/bugx/0134/</link>
