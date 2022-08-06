@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 05 Aug 2022 22:32:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Aug 2022 08:49:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gnuplot out svg for figs</title>
+      <link>https://dudung.github.io/bugx/0136/</link>
+      <pubDate>Sat, 06 Aug 2022 08:49:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0136/</guid>
+      <description>Citra yang disematkan pada suatu situs web dapat berjenis citra raster atau vektor [1], di mana SVG (Scalable Vector Graphics) merupakan salah satu jenis format citra yang menggunakan data vektor dan tidak bergantung pada data piksel [2]. Selain terdapat berbagai kelebihan format citra SVG seperti scalability dan ukuran yang kompak [3], terdapat juga beberapa kekurangannya seperti ukuran berkas akan bertambah dengan cepat bila obyek terdiri dari banyak elemen kecil [4]. Secara umum citra berformat SVG merupakan kode sehingga ideal untuk animasi dan dapat dimanipulasi dengan CSS atau JS, yang sayangnya perlu terdapat upaya lebih untuk mempelajari makna dibalik kode tersebut [5].</description>
+    </item>
+    
     <item>
       <title>short-intro-to-dem</title>
       <link>https://dudung.github.io/bugx/0135/</link>
@@ -931,7 +940,7 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220805]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220806]. </description>
     </item>
     
     <item>
@@ -944,7 +953,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220805]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220806]. </description>
     </item>
     
     <item>
