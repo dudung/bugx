@@ -11,7 +11,7 @@
     <item>
       <title>gnuplot out svg for figs</title>
       <link>https://dudung.github.io/bugx/0136/</link>
-      <pubDate>Sat, 06 Aug 2022 10:28:00 +0700</pubDate>
+      <pubDate>Sat, 06 Aug 2022 10:30:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0136/</guid>
       <description>Citra yang disematkan pada suatu situs web dapat berjenis citra raster atau vektor [1], di mana SVG (Scalable Vector Graphics) merupakan salah satu jenis format citra yang menggunakan data vektor dan tidak bergantung pada data piksel [2]. Selain terdapat berbagai kelebihan format citra SVG seperti scalability dan ukuran yang kompak [3], terdapat juga beberapa kekurangannya seperti ukuran berkas akan bertambah dengan cepat bila obyek terdiri dari banyak elemen kecil [4]. Secara umum citra berformat SVG merupakan kode sehingga ideal untuk animasi dan dapat dimanipulasi dengan CSS atau JS, yang sayangnya perlu terdapat upaya lebih untuk mempelajari makna dibalik kode tersebut [5].</description>
