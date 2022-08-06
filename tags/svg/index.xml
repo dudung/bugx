@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 06 Aug 2022 10:30:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/svg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Aug 2022 18:47:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/svg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gnuplot svg quadratic curve</title>
+      <link>https://dudung.github.io/bugx/0137/</link>
+      <pubDate>Sat, 06 Aug 2022 18:47:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0137/</guid>
+      <description>[1] [2] [3]
+&amp;nbsp;
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34; standalone=&#34;no&#34;?&gt; Gnuplot Produced by GNUPLOT 5.4 patchlevel 1 0 1 2 3 4 0 1 2 3 4 Hello, World! y x gnuplot_plot_1 Gambar 1. Menampilkan pesan &amp;#34;Hello, World!&amp;#34; dengan gnuplot. Hasil pada Gambar 1 diperoleh dengan kode berikut ini
+notes Cite as: viridi, &#34;gnuplot svg quadratic curve&#34;, bugx, 6 Aug 2022, url https://dudung.github.io/bugx/0137 [20220806]. </description>
+    </item>
+    
     <item>
       <title>gnuplot out svg for figs</title>
       <link>https://dudung.github.io/bugx/0136/</link>
