@@ -65,10 +65,10 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-08-08 21:01:00 \u002b0700 \u002b0700",
-      "dateModified" : "2022-08-08 21:01:00 \u002b0700 \u002b0700",
+      "datePublished": "2022-08-08 22:11:00 \u002b0700 \u002b0700",
+      "dateModified" : "2022-08-08 22:11:00 \u002b0700 \u002b0700",
       "url" : "https:\/\/dudung.github.io\/bugx\/0139\/",
-      "wordCount" : "341",
+      "wordCount" : "659",
       "keywords" : ["Blog"]
     }
   
@@ -137,15 +137,16 @@
         <div class="post">
           <header class="post__header">
             <h1 id="post__title">field of interest</h1>
-            <time datetime="2022-08-08 21:01:00 &#43;0700 &#43;0700" class="post__date">Mon, 8 Aug  2022</time> 
+            <time datetime="2022-08-08 22:11:00 &#43;0700 &#43;0700" class="post__date">Mon, 8 Aug  2022</time> 
           </header>
           <article class="post__content">
               
-<p>[<a href="#r01" 
+<p>Dengan menggunakan Mermaid [<a href="#r01" 
   
   
->1</a>]</p>
-<div class="mermaid" style="position: relative; left: -300px; height: 1200px; width: 1100px; border: 1px solid black; transform: scale(1.0);">
+>1</a>] dapat dibuat capaian penelitian yang telah diperoleh selama ini.</p>
+<h2 id="research-road-map">research road map<a class="anchor" href="#research-road-map">#</a></h2>
+<div class="mermaid" style="position: relative; top: -100px; left: -300px; height: 1300px; width: 1100px; border: 0px solid black; transform: scale(1.0);">
 flowchart LR
   %% element use
   %%
@@ -155,16 +156,26 @@ flowchart LR
   A1 --> T01 --> M01 --> M01a --> P01
   A2 --> T02
   A2 ---> T03
-  A3 --> T04 --> T02 --> M02 --> M02a --> P02
+  A3 --> T04 --> T02 --> M02 --> M02a ---> P02
   T04 --> T03 --> M02
-  T01 --> M02
+  T01 ---> M02
   A2 --> T05 ----> P01
-  T01 --> M03 --> M03a --> P03 & P04
-  M03 --> M03b --> P05 & P06
+  T01 ---> M03
+  M03 ---> M03a --> P03 & P04
+  M03 ---> M03b --> P05 & P06
+  M03 ---> M03c --> P11
   T05 --> M04 --> M04a --> P07
-  T01 ---> M04
-  A2 --> T06 --> M05 --> M05a --> P08
-  M05 --> M05b --> P09 & P10
+  T01 ----> M04
+  A2 --> T06 ---> M05 --> M05a --> P08
+  M05 ----> M05b --> P09 & P10 & P14 & P21
+  M05 --> M05c --> P12
+  M05 --> M05d --> P13
+  A2 --> T07 --> M06
+  M06 ----> M06a ---> P15 & P16
+  M06 --> M06b --> P17 & P18
+  A2 ----> T08 ----> P19
+  M05 --> M05e --> P20
+  M05b --> P20
   %% element definition
   %% approach
   A1(( exp ))
@@ -179,6 +190,8 @@ flowchart LR
         M03b( disk )
           P05[ Brazil Nut<br>Effect ]
           P06[ Compaction ]
+        M03c( cement<br>raw meal )
+          P11[ Semi-Autogenous<br>Grinding Mill ]
   A2(( com ))
     T02([ MNDO ])
     T03([ CI ])
@@ -196,6 +209,24 @@ flowchart LR
         M05b( spring )
           P09[ Magnetic<br>Granular<br>Chain]
           P10[ Tree<br>Model]
+          P14[ Microorganism<br>Locomotive<br>Organ]
+          P21[ Red Blood Cell<br>Model ]
+        M05c( water<br>wave )
+          P12[HCP Structure]
+        M05d(classical strong<br>force model)
+          P13[Hydrogen Isotopes<br>Collision]
+        M05e(bounce<br>in coil)
+          P20[ Simulation<br>of Measurement ]
+    T07([ ABM ])
+      M06([ agent ])
+        M06a( vehicle )
+          P15[ City Visiting<br>Probability ]
+          P16[ Origin-Destination<br> Matrix ]
+        M06b( particle )
+          P17[ Model for<br>Spread of Disease ]
+          P18[ Materials Phases ]
+    T08([ SD ])
+          P19[ Green Sea Port<br>Simulation]
   A3(( the ))
     T04([ QM ])
   %%
@@ -209,6 +240,8 @@ flowchart LR
   class T04 field
   class T05 field
   class T06 field
+  class T07 field
+  class T08 field
   class M01 material
   class M02 material
   class M03 material
@@ -219,9 +252,15 @@ flowchart LR
   class M02a molecule
   class M03a molecule
   class M03b molecule
+  class M03c molecule
   class M04a molecule
   class M05a molecule
   class M05b molecule
+  class M05c molecule
+  class M05d molecule
+  class M05e molecule
+  class M06a molecule
+  class M06b molecule
   class P01 phenomenon
   class P02 phenomenon
   class P03 phenomenon
@@ -232,7 +271,17 @@ flowchart LR
   class P08 phenomenon
   class P09 phenomenon
   class P10 phenomenon
-  %%class H stop
+  class P11 phenomenon
+  class P12 phenomenon
+  class P13 phenomenon
+  class P14 phenomenon
+  class P15 phenomenon
+  class P16 phenomenon
+  class P17 phenomenon
+  class P18 phenomenon
+  class P19 phenomenon
+  class P20 phenomenon
+  class P21 phenomenon
   %% class style definition
   classDef approach fill:#fdd,stroke:#a33,stroke-width:1px
   classDef field fill:#ffd,stroke:#aa3,stroke-width:1px
@@ -240,9 +289,34 @@ flowchart LR
   classDef molecule fill:#dff,stroke:#3aa,stroke-width:1px
   classDef phenomenon fill:#bfb,stroke:#3a3,stroke-width:1px
 </div>
+<p>Gambar <a name='fig1'>1</a>. Peta jalan penelitian yang telah dilakukan selama ini.</p>
+<p>Untuk mendapatkan tampilan yang baik, Gambar <a href="#fig1" 
+  
+  
+>1</a> dilihat dengan menggunakan Google Chrome pada layar berresolusi 900px ×1440px dengan zoom 75% atau 1336px ×768px zoom 100% (perlu scroll up and down).</p>
+<h2 id="terms">terms<a class="anchor" href="#terms">#</a></h2>
+<ul>
+<li>PANI: Polyaniline.</li>
+<li>FD: Finite Difference.</li>
+<li>DR1: Disperse Red 1.</li>
+<li>MNDO: Modified Neglect of Diatomic Overlap.</li>
+<li>CI: Configuration Interaction</li>
+<li>QM: Quantum Mechanics.</li>
+<li>MD: Molecular Dynamics.</li>
+<li>ABM: Agent-Based Model.</li>
+<li>SD: System Dynamics.</li>
+</ul>
+<h2 id="to-do">to-do<a class="anchor" href="#to-do">#</a></h2>
+<ul>
+<li>Menetapkan fokus pada pemodelan dan eksperimen sistem berbasis partikel sferis.</li>
+<li>Membuat program serba guna berdasarkan berbagai interaksi (kontak, rentang jauh, pengaruh medium) antar dan pada partikel sferis.</li>
+</ul>
 <h2 id="notes">notes<a class="anchor" href="#notes">#</a></h2>
 <ol>
-<li><a name='r01'></a></li>
+<li><a name='r01'></a>Alexandra Souly, &ldquo;Mermaid: Create diagrams quickly and effortlessly&rdquo;, Towards Data Science, 1 Jun 2021, url <a href="https://towardsdatascience.com/x-d236e23d6d58" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>https://towardsdatascience.com/x-d236e23d6d58</a> [20220808].</li>
 </ol>
 
 <div style="border-radius: 8px; border:1px #f0f0f0 solid; padding:6px 10px; background: #fcfcfc;">
