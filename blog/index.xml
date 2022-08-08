@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 08 Aug 2022 05:51:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Aug 2022 21:01:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>field of interest</title>
+      <link>https://dudung.github.io/bugx/0139/</link>
+      <pubDate>Mon, 08 Aug 2022 21:01:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0139/</guid>
+      <description>[1]
+flowchart LR %% element use %% subgraph approach A1 &amp; A2 &amp; A3 end A1 --&gt; T01 --&gt; M01 --&gt; M01a --&gt; P01 A2 --&gt; T02 A2 ---&gt; T03 A3 --&gt; T04 --&gt; T02 --&gt; M02 --&gt; M02a --&gt; P02 T04 --&gt; T03 --&gt; M02 T01 --&gt; M02 A2 --&gt; T05 ----&gt; P01 T01 --&gt; M03 --&gt; M03a --&gt; P03 &amp; P04 M03 --&gt; M03b --&gt; P05 &amp; P06 T05 --&gt; M04 --&gt; M04a --&gt; P07 T01 ---&gt; M04 A2 --&gt; T06 --&gt; M05 --&gt; M05a --&gt; P08 M05 --&gt; M05b --&gt; P09 &amp; P10 %% element definition %% approach A1(( exp )) T01([ material ]) M01([ polymer ]) M01a( PANI ) P01[ Electro-</description>
+    </item>
+    
     <item>
       <title>workshop eval prep lecture</title>
       <link>https://dudung.github.io/bugx/0138/</link>
