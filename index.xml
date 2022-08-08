@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 08 Aug 2022 22:44:03 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Aug 2022 06:16:42 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>workshop eval prep lecture</title>
+      <link>https://dudung.github.io/bugx/0138/</link>
+      <pubDate>Tue, 09 Aug 2022 06:03:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0138/</guid>
+      <description>Diawali dengan suatu pemberitahuan [1] yang dilanjutkan juga keesokan harinya untuk mengingatkan [2] konfirmasi suatu kegiatan yang bertenggat keesokan harinya. Sekitar seminggu kemudian surat undangan resmi pun disampaikan [3]. Kemudian disusul oleh permintaan data kendaraan terkait free parking oleh penyedia tempat kegiatan [4]. Kegiatan dilaksanakan di Trans Luxury Hotel [5].
+presentation Terdapat beberapa hal menarik yang dapat disarikan dari halaman slide presentasi yang disajikan, termasuk di dalamnya adalah kaitan antara masukan IP dan pilihan ke berapa TPB FMIPA ke FI, kelulusan pada beberapa matakuliah tertentu, dan lain-lainnya.</description>
+    </item>
+    
     <item>
       <title>field of interest</title>
       <link>https://dudung.github.io/bugx/0139/</link>
@@ -16,17 +26,6 @@
       <guid>https://dudung.github.io/bugx/0139/</guid>
       <description>Dengan menggunakan Mermaid [1] dapat dibuat capaian penelitian yang telah diperoleh selama ini.
 research road map flowchart LR %% element use %% subgraph approach A1 &amp; A2 &amp; A3 end A1 --&gt; T01 --&gt; M01 --&gt; M01a --&gt; P01 A2 --&gt; T02 A2 ---&gt; T03 A3 --&gt; T04 --&gt; T02 --&gt; M02 --&gt; M02a ---&gt; P02 T04 --&gt; T03 --&gt; M02 T01 ---&gt; M02 A2 --&gt; T05 ----&gt; P01 T01 ---&gt; M03 M03 ---&gt; M03a --&gt; P03 &amp; P04 M03 ---&gt; M03b --&gt; P05 &amp; P06 M03 ---&gt; M03c --&gt; P11 T05 --&gt; M04 --&gt; M04a --&gt; P07 T01 ----&gt; M04 A2 --&gt; T06 ---&gt; M05 --&gt; M05a --&gt; P08 M05 ----&gt; M05b --&gt; P09 &amp; P10 &amp; P14 &amp; P21 M05 --&gt; M05c --&gt; P12 M05 --&gt; M05d --&gt; P13 A2 --&gt; T07 --&gt; M06 M06 ----&gt; M06a ---&gt; P15 &amp; P16 M06 --&gt; M06b --&gt; P17 &amp; P18 A2 ----&gt; T08 ----&gt; P19 M05 --&gt; M05e --&gt; P20 M05b --&gt; P20 %% element definition %% approach A1(( exp )) T01([ material ]) M01([ polymer ]) M01a( PANI ) P01[ Electro-</description>
-    </item>
-    
-    <item>
-      <title>workshop eval prep lecture</title>
-      <link>https://dudung.github.io/bugx/0138/</link>
-      <pubDate>Mon, 08 Aug 2022 05:51:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/0138/</guid>
-      <description>Diawali dengan suatu pemberitahuan [1] yang dilanjutkan juga keesokan harinya untuk mengingatkan [2] konfirmasi suatu kegiatan yang bertenggat keesokan harinya. Sekitar seminggu kemudian surat undangan resmi pun disampaikan [3]. Kemudian disusul oleh permintaan data kendaraan terkait free parking oleh penyedia tempat kegiatan [4]. Kegiatan dilaksanakan di Trans Luxury Hotel [5].
-presentation ..
-notes Abdul Muizz Pradipto, &amp;ldquo;Konfirmasi kehadiran luring/offline Workshop Staf Prodi Fisika&amp;rdquo;, WAG MWA, 27 Jul 2022 16:07, url https://forms.</description>
     </item>
     
     <item>
