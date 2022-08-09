@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Tue, 09 Aug 2022 19:00:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/fi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Aug 2022 20:31:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/fi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>course prerequisite</title>
-      <link>https://dudung.github.io/bugx/0139/</link>
-      <pubDate>Tue, 09 Aug 2022 19:00:00 +0700</pubDate>
+      <link>https://dudung.github.io/bugx/0140/</link>
+      <pubDate>Tue, 09 Aug 2022 20:31:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/0139/</guid>
-      <description>Perlu terdapat perencanaan untuk berhasil menyelesaikan suatu perkuliahan dengan baik, yang salah satunya adalah telah mengambil kuliah lain yang merupakan persyaratannya, di mana dapat saja terdapat lebih dari satu kuliah yang harus sudah diambil [1].
-notes Raja, &amp;ldquo;Configuring And/Or Prerequisites in SuccessFactors Learning&amp;rdquo;, SAP, 13 Sep 2013, url https://blogs.sap.com/2013/09/13/configuring-andor-prerequisites-in-success-factors-lms/ [20220809]. Cite as: viridi, &#34;course prerequisite&#34;, bugx, 9 Aug 2022, url https://dudung.github.io/bugx/0139 [20220809]. </description>
+      <guid>https://dudung.github.io/bugx/0140/</guid>
+      <description>Perlu terdapat perencanaan untuk berhasil menyelesaikan suatu perkuliahan dengan baik, yang salah satunya adalah telah mengambil kuliah lain yang merupakan pra-syaratnya, di mana dapat saja terdapat lebih dari satu kuliah yang harus sudah diambil [1]. Aturan pra-syarat kuliah ini dapat diatur dalam sistem LMS untuk satu kuliah atau rangkaian kuliah [2].
+fi4171-2019 Menurut kurikulum 2019 kuliah FI4171 Komputasi dan Sistem Instrumentasi Cerdas, yang dalamnya terdapat pemodelan granular, pada semester ganjil ini memerlukan pra-syarat FI3201 Fisika Komputasi dan FI2271 Sistem Instrumentasi yang dibukan pada semester genap sebelumnya.</description>
     </item>
     
     <item>
