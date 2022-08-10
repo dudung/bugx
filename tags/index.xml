@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 10 Aug 2022 20:50:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Aug 2022 06:08:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>defense</title>
       <link>https://dudung.github.io/bugx/tags/defense/</link>
-      <pubDate>Wed, 10 Aug 2022 20:50:00 +0700</pubDate>
+      <pubDate>Thu, 11 Aug 2022 06:08:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/defense/</guid>
       <description></description>
@@ -20,9 +20,27 @@
     <item>
       <title>idea</title>
       <link>https://dudung.github.io/bugx/tags/idea/</link>
-      <pubDate>Wed, 10 Aug 2022 20:50:00 +0700</pubDate>
+      <pubDate>Thu, 11 Aug 2022 06:08:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pcm</title>
+      <link>https://dudung.github.io/bugx/tags/pcm/</link>
+      <pubDate>Thu, 11 Aug 2022 06:08:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/pcm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>t2</title>
+      <link>https://dudung.github.io/bugx/tags/t2/</link>
+      <pubDate>Thu, 11 Aug 2022 06:08:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/t2/</guid>
       <description></description>
     </item>
     
@@ -36,11 +54,11 @@
     </item>
     
     <item>
-      <title>t2</title>
-      <link>https://dudung.github.io/bugx/tags/t2/</link>
+      <title>t1</title>
+      <link>https://dudung.github.io/bugx/tags/t1/</link>
       <pubDate>Wed, 10 Aug 2022 20:50:00 +0700</pubDate>
       
-      <guid>https://dudung.github.io/bugx/tags/t2/</guid>
+      <guid>https://dudung.github.io/bugx/tags/t1/</guid>
       <description></description>
     </item>
     
@@ -320,15 +338,6 @@
       <pubDate>Thu, 21 Jul 2022 17:38:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/flowchart/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pcm</title>
-      <link>https://dudung.github.io/bugx/tags/pcm/</link>
-      <pubDate>Thu, 21 Jul 2022 17:38:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/pcm/</guid>
       <description></description>
     </item>
     
@@ -689,15 +698,6 @@
       <pubDate>Wed, 22 Jun 2022 20:46:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/plasmon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>t1</title>
-      <link>https://dudung.github.io/bugx/tags/t1/</link>
-      <pubDate>Wed, 22 Jun 2022 20:46:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/t1/</guid>
       <description></description>
     </item>
     
