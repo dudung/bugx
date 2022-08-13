@@ -7,11 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sat, 13 Aug 2022 06:55:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Aug 2022 19:12:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fnb</title>
+      <link>https://dudung.github.io/bugx/tags/fnb/</link>
+      <pubDate>Sat, 13 Aug 2022 19:12:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/fnb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>road-map</title>
+      <link>https://dudung.github.io/bugx/tags/road-map/</link>
+      <pubDate>Sat, 13 Aug 2022 19:12:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/road-map/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>idea</title>
       <link>https://dudung.github.io/bugx/tags/idea/</link>
-      <pubDate>Sat, 13 Aug 2022 06:55:00 +0700</pubDate>
+      <pubDate>Sat, 13 Aug 2022 07:49:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/idea/</guid>
       <description></description>
@@ -20,25 +38,16 @@
     <item>
       <title>metasurface</title>
       <link>https://dudung.github.io/bugx/tags/metasurface/</link>
-      <pubDate>Sat, 13 Aug 2022 06:55:00 +0700</pubDate>
+      <pubDate>Sat, 13 Aug 2022 07:49:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/metasurface/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>nanoparticle</title>
-      <link>https://dudung.github.io/bugx/tags/nanoparticle/</link>
-      <pubDate>Sat, 13 Aug 2022 06:55:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/nanoparticle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>optics</title>
       <link>https://dudung.github.io/bugx/tags/optics/</link>
-      <pubDate>Sat, 13 Aug 2022 06:55:00 +0700</pubDate>
+      <pubDate>Sat, 13 Aug 2022 07:49:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/optics/</guid>
       <description></description>
@@ -47,9 +56,18 @@
     <item>
       <title>t1</title>
       <link>https://dudung.github.io/bugx/tags/t1/</link>
-      <pubDate>Sat, 13 Aug 2022 06:55:00 +0700</pubDate>
+      <pubDate>Sat, 13 Aug 2022 07:49:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/t1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nanoparticle</title>
+      <link>https://dudung.github.io/bugx/tags/nanoparticle/</link>
+      <pubDate>Sat, 13 Aug 2022 07:05:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/nanoparticle/</guid>
       <description></description>
     </item>
     
