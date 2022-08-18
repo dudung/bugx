@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 19 Aug 2022 04:19:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Aug 2022 05:37:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>stem cell sim supervision</title>
       <link>https://dudung.github.io/bugx/0155/</link>
-      <pubDate>Fri, 19 Aug 2022 04:19:00 +0700</pubDate>
+      <pubDate>Fri, 19 Aug 2022 05:37:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0155/</guid>
-      <description>Komunikasi lewat WA kemarin menyepakati untuk berdiskusi secara daring pagi ini di FI mengenai finalisasi simulasi sel punca yang telah dibuat [1].
-notes Zacky Fariruza, &amp;ldquo;Percakapan Pribadi&amp;rdquo;, WhatsApp, 12:34, 18.8.2022. Cite as: viridi, &#34;stem cell sim supervision&#34;, bugx, 19 Aug 2022, url https://dudung.github.io/bugx/0155 [20220818]. </description>
+      <description>Komunikasi lewat WA kemarin menyepakati untuk berdiskusi secara daring pagi ini di FI mengenai finalisasi simulasi sel punca yang telah dibuat [1]. Ini merupakan arahan setelah sidang dilaksanakan. Komunikasi selama ini dilakukan lewat WA untuk yang cepat dan lewat GitHub untuk yang lebih teknis, di mana kode diperbarui sebulan lalu dan diagram alir sembilan hari yang lalu [2].
+direction Membuat NP yang lebih standar, seperti persegi panjang dengan parameter sisi-sisinya a dan b yang dapat divariasikan.</description>
     </item>
     
     <item>
