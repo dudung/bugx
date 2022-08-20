@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 21 Aug 2022 05:21:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 06:44:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fgb</title>
       <link>https://dudung.github.io/bugx/tags/fgb/</link>
-      <pubDate>Sun, 21 Aug 2022 05:21:00 +0700</pubDate>
+      <pubDate>Sun, 21 Aug 2022 06:44:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/fgb/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>fi</title>
       <link>https://dudung.github.io/bugx/tags/fi/</link>
-      <pubDate>Sun, 21 Aug 2022 05:21:00 +0700</pubDate>
+      <pubDate>Sun, 21 Aug 2022 06:44:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/fi/</guid>
       <description></description>
@@ -29,9 +29,18 @@
     <item>
       <title>oration</title>
       <link>https://dudung.github.io/bugx/tags/oration/</link>
-      <pubDate>Sun, 21 Aug 2022 05:21:00 +0700</pubDate>
+      <pubDate>Sun, 21 Aug 2022 06:44:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/oration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>planning</title>
+      <link>https://dudung.github.io/bugx/tags/planning/</link>
+      <pubDate>Sun, 21 Aug 2022 06:44:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/planning/</guid>
       <description></description>
     </item>
     
@@ -986,15 +995,6 @@
       <pubDate>Sat, 18 Jun 2022 20:43:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/dicussion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>planning</title>
-      <link>https://dudung.github.io/bugx/tags/planning/</link>
-      <pubDate>Sat, 18 Jun 2022 20:43:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/planning/</guid>
       <description></description>
     </item>
     
