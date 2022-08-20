@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>circle on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/circle/</link>
+    <description>Recent content in circle on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sat, 20 Aug 2022 19:57:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/circle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>circle angles center circumference</title>
+      <link>https://dudung.github.io/bugx/0156/</link>
+      <pubDate>Sat, 20 Aug 2022 19:57:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0156/</guid>
+      <description>Terdapat problem matematika SMP perihal segitiga yang ketiga titik sudutnya terletak pada lingkaran, di mana salah satu sudut segitiga adalah setengah dari sudut yang dibentuk oleh dua jari-jari yang menghubungkan kedua titik lain segitiga dengan pusat lingkaran [1]. Inspirasi diperoleh dua hari yang yang lalu dan penjelasan telah disampaikan sore ini dengan coretan di keras. Di sini akan disarikan secara ringkas hal tersebut. Istilah tepatnya belum ditemukan dan akan ditambahkan kemudian [2], yang merupakan sebagai bagian dari teorema-teorema lingkaran [3].</description>
+    </item>
+    
+  </channel>
+</rss>
