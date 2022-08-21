@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 21 Aug 2022 06:44:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 11:15:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bugx</title>
+      <link>https://dudung.github.io/bugx/tags/bugx/</link>
+      <pubDate>Sun, 21 Aug 2022 11:15:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/bugx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>svg</title>
+      <link>https://dudung.github.io/bugx/tags/svg/</link>
+      <pubDate>Sun, 21 Aug 2022 11:15:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/svg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>width</title>
+      <link>https://dudung.github.io/bugx/tags/width/</link>
+      <pubDate>Sun, 21 Aug 2022 11:15:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/width/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>fgb</title>
       <link>https://dudung.github.io/bugx/tags/fgb/</link>
@@ -342,15 +369,6 @@
     </item>
     
     <item>
-      <title>bugx</title>
-      <link>https://dudung.github.io/bugx/tags/bugx/</link>
-      <pubDate>Sun, 07 Aug 2022 21:28:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/bugx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>gnuplot</title>
       <link>https://dudung.github.io/bugx/tags/gnuplot/</link>
       <pubDate>Sun, 07 Aug 2022 21:28:00 +0700</pubDate>
@@ -365,15 +383,6 @@
       <pubDate>Sun, 07 Aug 2022 21:28:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/quadratic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>svg</title>
-      <link>https://dudung.github.io/bugx/tags/svg/</link>
-      <pubDate>Sun, 07 Aug 2022 21:28:00 +0700</pubDate>
-      
-      <guid>https://dudung.github.io/bugx/tags/svg/</guid>
       <description></description>
     </item>
     
