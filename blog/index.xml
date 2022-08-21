@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 21 Aug 2022 18:34:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 18:51:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>svg image width</title>
       <link>https://dudung.github.io/bugx/0158/</link>
-      <pubDate>Sun, 21 Aug 2022 18:34:00 +0700</pubDate>
+      <pubDate>Sun, 21 Aug 2022 18:51:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0158/</guid>
       <description>Ukuran 320px telah cocok untuk smartphone Galaxy A12 sebagaimana telah dicoba sebelumnya [1]. Beberapa ukuran coba digambarkan kembali untuk melihat efeknya pada notebook atau desktop dan layar smartphone.
