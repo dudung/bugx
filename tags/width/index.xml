@@ -7,16 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 21 Aug 2022 17:47:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/width/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Aug 2022 18:34:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/width/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>svg image width</title>
       <link>https://dudung.github.io/bugx/0158/</link>
-      <pubDate>Sun, 21 Aug 2022 17:47:00 +0700</pubDate>
+      <pubDate>Sun, 21 Aug 2022 18:34:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0158/</guid>
       <description>Ukuran 320px telah cocok untuk smartphone Galaxy A12 sebagaimana telah dicoba sebelumnya [1]. Beberapa ukuran coba digambarkan kembali untuk melihat efeknya pada notebook atau desktop dan layar smartphone.
+test image Sebuah citra uji dengan format SVG dibuat untuk dilihat hasilnya.
 &amp;nbsp;
-&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;no&#34;?&gt; image/svg+xml x A 12pt 320px height 320px line 1-2px 60px 360px 400px 440px 160px 80px 40px Gambar 1. Berapa ukuran lingkaran dan persegi panjang untuk memeriksa tampilan pada berbagai devais. Pada layar monitor akan terlihat baik dan lebar 440px belum mencapai pinggir teks sehingga diperkirakan ukuran 520px pun masih dapat terakomodasi.</description>
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; standalone=&#34;no&#34;?&gt; image/svg+xml x A 12pt 320px height 320px line 1-2px 60px 360px 400px 440px 160px 80px 40px Gambar 1. Berapa ukuran lingkaran dan persegi panjang untuk memeriksa tampilan pada berbagai devais.</description>
     </item>
     
   </channel>
