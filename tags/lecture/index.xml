@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 10 Apr 2022 18:48:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Aug 2022 10:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>we-01 le-01 intro overview</title>
+      <link>https://dudung.github.io/bugx/0159/</link>
+      <pubDate>Mon, 22 Aug 2022 10:17:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0159/</guid>
+      <description>Kuliah FI1101-04 dimulai pagi ini pada pukul 0700 di 9022. Dua orang (274 dan 472) tidak hadir dari 79 orang, sehingga presensi sekitar 97,47% (SIX).
+files Terdapat lima berkas yang disampaikan pada materi hari ini di Edunex [1].
+Tabel 1. Judul berkas dan tautannya. Judul berkas Format Tautan Ucapan Selamat Awal Perkuliahan PDF [2] Peta Kampus Ganesha PDF [3] Daftar Ruang Kuliah Umum Kampus Ganesha PDF [4] Aturan Perkuliahan FI-1101 / FI-1102 PDF [5] Satuan Acara Perkulahan FI-1101 PDF [6] width=340px height=40px materials Beberapa materi yang disampaikan meliputi</description>
+    </item>
+    
     <item>
       <title>fi1202-01 2021-2</title>
       <link>https://dudung.github.io/bugx/0007/</link>
@@ -25,7 +36,7 @@ posts Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-per
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220821]. </description>
+posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220822]. </description>
     </item>
     
   </channel>
