@@ -9,13 +9,23 @@
     <copyright>© {year}</copyright>
     <lastBuildDate>Mon, 22 Aug 2022 17:50:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/lecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>we-01 intro first session</title>
+      <link>https://dudung.github.io/bugx/0162/</link>
+      <pubDate>Mon, 22 Aug 2022 17:50:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0162/</guid>
+      <description>Kuliah RN6086-01 dimulai pagi ini pada pukul 0700 di Ruang Rapat Kecil, BSC-A. Terdapat lima orang peserta menurut SIX. Kuliah ini merupakan penugasan dari serta dilakukan bersama dengan seorang kolega [1]. Kemarin diskusi awal membuahkan insight mengenai 3S (Safeguard, Safety, Security) yang dilakukan dengan seorang kolega lain [2].
+short info Informasi singkat yang diperoleh dari https://akademik.itb.ac.id/ adalah sebagai berikut. Item Value Kode RN6086 Nama Sistem Pengawasan Nuklir Silabus Ringkas Matakuliah ini Secara umum menjelaskan konsep sistem pengawasan nuklir baik dalam operasional reaktor, pengelolaan bahan bakar dari hulu sampai hilir.</description>
+    </item>
+    
+    <item>
       <title>we-01 intro reschedule</title>
       <link>https://dudung.github.io/bugx/0161/</link>
       <pubDate>Mon, 22 Aug 2022 17:50:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0161/</guid>
       <description>Kuliah NT6094-01 dimulai pagi ini pada pukul 1300 di 9533. Hanya dua orang yang hadir secara luring. Sempat salah lantai, lalu salah sisi gedung, dan kembali ke sisi pertama.
-notes Cite as: viridi, &#34;we-01 intro reschedule&#34;, bugx, 22 Aug 2022, url https://dudung.github.io/bugx/0161 [20220822]. </description>
+notes Cite as: viridi, &#34;we-01 intro reschedule&#34;, bugx, 22 Aug 2022, url https://dudung.github.io/bugx/0161 [20220824]. </description>
     </item>
     
     <item>
@@ -46,7 +56,7 @@ posts Gelombang Elektromagnetik: Teorema Divergensi, Teorema Curl, Persamaan-per
       
       <guid>https://dudung.github.io/bugx/0011/</guid>
       <description>Kuliah FI3201 Fisika Komputasi, Kelas 01, FMIPA, ITB, Semester 2, Tahun 2021/2022, dengan silabusnya terdapat pada Program Studi Sarjana Fisika [1].
-posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220822]. </description>
+posts Metode Runge-Kutta notes Admin, &amp;ldquo;Kurikulum dan Silabus Program Studi Sarjana Fisika&amp;rdquo;, Physics, Faculty of Mathematics and Natural Sciences, Institut Teknologi Bandung, 2021, url https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/ [20220322]. Cite as: viridi, &#34;fi3201-01 2021-2&#34;, bugx, 22 Mar 2022, url https://dudung.github.io/bugx/0011 [20220824]. </description>
     </item>
     
   </channel>
