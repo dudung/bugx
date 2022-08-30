@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collaboration on bugx</title>
+    <link>https://dudung.github.io/bugx/tags/collaboration/</link>
+    <description>Recent content in collaboration on bugx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Wed, 31 Aug 2022 05:37:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/collaboration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>seaweed simulation</title>
+      <link>https://dudung.github.io/bugx/0166/</link>
+      <pubDate>Wed, 31 Aug 2022 05:37:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0166/</guid>
+      <description>Terinsiprasi oleh seorang peneliti ahli rumput laut [1], menarik untuk membuat simulasi mengenai bidang tersebut. Telusur awal literatur memberikan telah adanya simulasi visual tentang kultivasi rumput laut [2], dinamika gerak rumput laut dengan piranti lunak berbayar [3], simulasi dengan dinamika fluida komputasi untuk perahu pemanen rumput laut [4], kebijakan pengembangbiakan rumput laut berbasis rumah tangga [5], dan perhitungan biomassanya [6,7].
+to-do Mengadakan diskusi lanjut secara daring untuk lebih memfokuskan bagian mana dari bidang rumput laut yang akan dikaji.</description>
+    </item>
+    
+  </channel>
+</rss>
