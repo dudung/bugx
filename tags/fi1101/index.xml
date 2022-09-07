@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 22 Aug 2022 10:17:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/fi1101/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 17:30:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/fi1101/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-1-fi1101-04-t01-q01</title>
+      <link>https://dudung.github.io/bugx/0167/</link>
+      <pubDate>Wed, 07 Sep 2022 17:30:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0167/</guid>
+      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_question1.
+Pada suatu gambar (kurva berupa garis lurus berwarna merah yang memo-tong sumbu mendatar di titik $t = t_0$ dengan $t_0 &amp;gt; 0$ dan memotong sumbu tegak $v$ di titik $v = v_0$ dengan $v_0 &amp;lt; 0$) diberikan kurva kecepatan $v$ terhadap waktu $t$ dari sebuah partikel yang bergerak sepanjang sumbu $x$. (a) Tentukan arah gerak awal ($t = 0$) partikel tersebut. (b) Tentukan gerak akhir ($t \rightarrow \infty$) partikel tersebut.</description>
+    </item>
+    
     <item>
       <title>we-01 le-01 intro overview</title>
       <link>https://dudung.github.io/bugx/0159/</link>

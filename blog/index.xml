@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 31 Aug 2022 05:37:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 17:30:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-1-fi1101-04-t01-q01</title>
+      <link>https://dudung.github.io/bugx/0167/</link>
+      <pubDate>Wed, 07 Sep 2022 17:30:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0167/</guid>
+      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_question1.
+Pada suatu gambar (kurva berupa garis lurus berwarna merah yang memo-tong sumbu mendatar di titik $t = t_0$ dengan $t_0 &amp;gt; 0$ dan memotong sumbu tegak $v$ di titik $v = v_0$ dengan $v_0 &amp;lt; 0$) diberikan kurva kecepatan $v$ terhadap waktu $t$ dari sebuah partikel yang bergerak sepanjang sumbu $x$. (a) Tentukan arah gerak awal ($t = 0$) partikel tersebut. (b) Tentukan gerak akhir ($t \rightarrow \infty$) partikel tersebut.</description>
+    </item>
+    
     <item>
       <title>seaweed simulation</title>
       <link>https://dudung.github.io/bugx/0166/</link>
@@ -69,7 +79,7 @@ short info Informasi singkat yang diperoleh dari https://akademik.itb.ac.id/ ada
       
       <guid>https://dudung.github.io/bugx/0161/</guid>
       <description>Kuliah NT6094-01 dimulai pagi ini pada pukul 1300 di 9533. Hanya dua orang yang hadir secara luring. Sempat salah lantai, lalu salah sisi gedung, dan kembali ke sisi pertama.
-notes Cite as: viridi, &#34;we-01 intro reschedule&#34;, bugx, 22 Aug 2022, url https://dudung.github.io/bugx/0161 [20220830]. </description>
+notes Cite as: viridi, &#34;we-01 intro reschedule&#34;, bugx, 22 Aug 2022, url https://dudung.github.io/bugx/0161 [20220907]. </description>
     </item>
     
     <item>
@@ -1244,7 +1254,7 @@ dengan $m$ adalah massa dan $v$ adalah kecepatan. Pada perumusannya, Persamaan \
       
       <guid>https://dudung.github.io/bugx/0043/</guid>
       <description>Konsep-konsep terkait difraksi [1].
-notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220830]. </description>
+notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/diffracon.html [20220406]. Cite as: viridi, &#34;diffraction&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0043 [20220907]. </description>
     </item>
     
     <item>
@@ -1257,7 +1267,7 @@ notes Carl Rod Nave, &amp;ldquo;Diffraction&amp;rdquo;, HyperPhysics, 2017, url 
 Pernyataan prinsip Huygens [1].
 Ilustrasi untuk celah tidak sempit [2].
 Animasi [3].
-notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220830]. </description>
+notes Andrew Zimmerman Jones, &amp;ldquo;Huygens&amp;rsquo; Principle of Diffraction&amp;rdquo;, ThoughtCo., 10 Nov 2019, url https://www.thoughtco.com/huygens-principle-2699047 [20220406]. Carl Rod Nave, &amp;ldquo;Huygens&amp;rsquo; Principle&amp;rdquo;, HyperPhysics, 2017, url http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/huygen.html [20220406]. Wikipedia contributors, &amp;ldquo;Huygens–Fresnel principle&amp;rdquo;, Wikipedia, The Free Encyclopedia, 4 April 2022, 03:59 UTC, url https://en.wikipedia.org/w/index.php?oldid=1080899215 [20220406]. Cite as: viridi, &#34;huygens&amp;#39; principle&#34;, bugx, 6 Apr 2022, url https://dudung.github.io/bugx/0042 [20220907]. </description>
     </item>
     
     <item>
