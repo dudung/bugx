@@ -7,14 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 07 Sep 2022 17:30:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/question/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Sep 2022 19:36:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/question/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-1-fi1101-04-t01-q04</title>
+      <link>https://dudung.github.io/bugx/0170/</link>
+      <pubDate>Wed, 07 Sep 2022 19:36:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0170/</guid>
+      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch4_question17 [1].
+Sebuah peluru dilontarkan dengan lintasan parabola. Selama bergerak (sebelum mencapai permukaan tanah), di manakah peluru mengalami kelajuan minimum?
+Petunjuk: Kelajuan adalah besar kecepatan yang terdiri dari komponen kecepatan arah mendatar $v_x$ dan vertikal $v_y$.
+Pada puncak lintasan parabola. notes dosen-fisika-dasar, &amp;ldquo;Modul Tutorial-1 Fidas 1A Semester I 2022-2023&amp;rdquo;, Program Studi Fisika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Institut Teknologi Bandung, Email, 4 Sep 2022, 0626, url https://cdn-edunex.</description>
+    </item>
+    
+    <item>
+      <title>2022-1-fi1101-04-t01-q03</title>
+      <link>https://dudung.github.io/bugx/0169/</link>
+      <pubDate>Wed, 07 Sep 2022 18:47:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0169/</guid>
+      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch4_question4 [1].
+Seseorang melemparkan sebuah bola dari ketinggian $h_0$ di atas permukaan tanah dengan pilihan kecepatan awal bola yang dinyatakan dalam bentuk vektor (1) $\vec{v}_0 = 20\hat{i} + 70\hat{j}$, (2) $\vec{v}_0 = -20\hat{i} + 70\hat{j}$, (3) $\vec{v}_0 = 20\hat{i} - 70\hat{j}$, (4) $\vec{v}_0 = -20\hat{i} - 70\hat{j}$ dengan sumbu $x$ berada di permukaan tanah, sumbu $y$ mengarah ke atas (menjauh dari permukaan tanah) dan titik $(0, 0)$ berada di permukaan tanah.</description>
+    </item>
+    
+    <item>
+      <title>2022-1-fi1101-04-t01-q02</title>
+      <link>https://dudung.github.io/bugx/0168/</link>
+      <pubDate>Wed, 07 Sep 2022 18:37:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0168/</guid>
+      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_question4 [1].
+Suatu gambar (kurva berwarna hitam parabola terbuka ke bawah yang memotong sumbu mendatar $t$ di $t = 1$ dan $t = 3$, dengan posisi puncaknya terdapat di $t = 2$ dengan tinggi satu kotak pada sumbu tegak $x$) memberikan kurva posisi terhadap waktu dari sebuah partikel yang bergerak di sepanjang sumbu $x$. (a) Saat $t = 0$, apakah posisi partikel memiliki tanda positif atau negatif?</description>
+    </item>
+    
     <item>
       <title>2022-1-fi1101-04-t01-q01</title>
       <link>https://dudung.github.io/bugx/0167/</link>
-      <pubDate>Wed, 07 Sep 2022 17:30:00 +0700</pubDate>
+      <pubDate>Wed, 07 Sep 2022 18:17:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0167/</guid>
-      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_question1.
+      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_question1 [1].
 Pada suatu gambar (kurva berupa garis lurus berwarna merah yang memo-tong sumbu mendatar di titik $t = t_0$ dengan $t_0 &amp;gt; 0$ dan memotong sumbu tegak $v$ di titik $v = v_0$ dengan $v_0 &amp;lt; 0$) diberikan kurva kecepatan $v$ terhadap waktu $t$ dari sebuah partikel yang bergerak sepanjang sumbu $x$. (a) Tentukan arah gerak awal ($t = 0$) partikel tersebut. (b) Tentukan gerak akhir ($t \rightarrow \infty$) partikel tersebut.</description>
     </item>
     
