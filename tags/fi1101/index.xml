@@ -7,14 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Thu, 08 Sep 2022 11:37:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/fi1101/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Sep 2022 11:53:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/fi1101/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-1-fi1101-04-t01-p04</title>
+      <link>https://dudung.github.io/bugx/0175/</link>
+      <pubDate>Thu, 08 Sep 2022 11:53:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0175/</guid>
+      <description>Tutorial Fisika Dasar IA Soal 04, kode HR_Ch4_prob20 [1].
+..
+Petunjuk: .
+notes dosen-fisika-dasar, &amp;ldquo;Modul Tutorial-1 Fidas 1A Semester I 2022-2023&amp;rdquo;, Program Studi Fisika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Institut Teknologi Bandung, Email, 4 Sep 2022, 0626, url https://cdn-edunex.itb.ac.id/39012-Elementary-Physics-IA/121107-Dinamika-Benda-Titik-1/1662542562001_SOAL-Modul-1-Fidas-IA_2021-2022.pdf, url https://osf.io/fbnjk [20220907]. Cite as: viridi, &#34;2022-1-fi1101-04-t01-p04&#34;, bugx, 8 Sep 2022, url https://dudung.github.io/bugx/0175 [20220908]. </description>
+    </item>
+    
     <item>
       <title>2022-1-fi1101-04-t01-p03</title>
       <link>https://dudung.github.io/bugx/0174/</link>
-      <pubDate>Thu, 08 Sep 2022 11:37:00 +0700</pubDate>
+      <pubDate>Thu, 08 Sep 2022 11:49:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0174/</guid>
-      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_prob104 [1].
+      <description>Tutorial Fisika Dasar IA Soal 03, kode HR_Ch2_prob104 [1].
 Sebuah partikel bergerak di sepanjang sumbu $x$. Posisi partikel tersebut sepanjang waktu diberikan oleh fungsi $x = 50t + 10t^2$, dengan $x$ adalah posisi dalam $\rm m$ dan $t$ adalah waktu dalam $\rm s$. (a) Tentukanlah kecepatan rata-rata partikel selama tiga detik pertama. (b) Tentukanlah kecepatan partikel saat $t = 3 \ \rm s$. (c) Tentukanlah percepatan partikel saat $t = 3 \ \rm s$.</description>
     </item>
     
@@ -24,7 +36,7 @@ Sebuah partikel bergerak di sepanjang sumbu $x$. Posisi partikel tersebut sepanj
       <pubDate>Wed, 07 Sep 2022 21:34:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0172/</guid>
-      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_prob35 [1].
+      <description>Tutorial Fisika Dasar IA Soal 01, kode HR_Ch2_prob35 [1].
 Terdapat dua buah mobil merah dan hijau yang berada pada jalur bersebelahan. Mobil hijau berada pada jalur sebelah atas dan bergerak dari kanan ke kiri, sedangkan mobil merah berada pada jalur sebelah bawah dan bergerak dari kiri ke kanan. Posisi mobil merah dinyatakan dengan $x_r$ dan mobil hijau dengan $x_g$. Kurva posisi setiap saat kedua mobil digambarkan dalam satu grafik dengan kurva $x_g(t)$ berupa garis lurus berwarna ungu yang memotong sumbu tegak $x$ di titik $x_{g0} &amp;gt; 0$ dan memotong sumbu mendatar $t$ pada $t &amp;gt; 12$, dan kurva $x_r(t)$ yang berwarna biru sian berbentuk kurva parabola terbuka ke atas yang memotong sumbu tegak $x$ pada $x_{r0} &amp;lt; 0$ dan sumbu mendatar $t$ pada $0 &amp;lt; t &amp;lt; 12$.</description>
     </item>
     
@@ -34,7 +46,7 @@ Terdapat dua buah mobil merah dan hijau yang berada pada jalur bersebelahan. Mob
       <pubDate>Wed, 07 Sep 2022 20:16:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0171/</guid>
-      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch4_question11 [1].
+      <description>Tutorial Fisika Dasar IA Pertanyaan 05, kode HR_Ch4_question11 [1].
 Terdapat gambar yang memperlihatkan lintasan suatu benda yang semula lurus mengarah ke atas kemudian berbelok mengikuti lintasan berbentuk busur lingkaran. Lintasan 1 (biru tua) partikel berbelok dengan radius $2R$ dan sudut $\frac12 \pi$ ke kanan, lintasan 2 (hijau) partikel berbelok dengan radius $R$ dan sudut $\frac12 \pi$ ke kanan, lintasan 3 (merah keunguan) partikel berbelok dengan radius $4R$ dan sudut $\pi$ ke kanan lalu ke bawah, dan lintasan 4 (jingga) partikel berbelok dengan radius $2R$ dan sudut $\pi$ ke kanan lalu ke bawah.</description>
     </item>
     
@@ -44,7 +56,7 @@ Terdapat gambar yang memperlihatkan lintasan suatu benda yang semula lurus menga
       <pubDate>Wed, 07 Sep 2022 19:36:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0170/</guid>
-      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch4_question17 [1].
+      <description>Tutorial Fisika Dasar IA Pertanyaan 04, kode HR_Ch4_question17 [1].
 Sebuah peluru dilontarkan dengan lintasan parabola. Selama bergerak (sebelum mencapai permukaan tanah), di manakah peluru mengalami kelajuan minimum?
 Petunjuk: Kelajuan adalah besar kecepatan yang terdiri dari komponen kecepatan arah mendatar $v_x$ dan vertikal $v_y$.
 Pada puncak lintasan parabola. notes dosen-fisika-dasar, &amp;ldquo;Modul Tutorial-1 Fidas 1A Semester I 2022-2023&amp;rdquo;, Program Studi Fisika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Institut Teknologi Bandung, Email, 4 Sep 2022, 0626, url https://cdn-edunex.</description>
@@ -56,7 +68,7 @@ Pada puncak lintasan parabola. notes dosen-fisika-dasar, &amp;ldquo;Modul Tutori
       <pubDate>Wed, 07 Sep 2022 18:47:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0169/</guid>
-      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch4_question4 [1].
+      <description>Tutorial Fisika Dasar IA Pertanyaan 03, kode HR_Ch4_question4 [1].
 Seseorang melemparkan sebuah bola dari ketinggian $h_0$ di atas permukaan tanah dengan pilihan kecepatan awal bola yang dinyatakan dalam bentuk vektor (1) $\vec{v}_0 = 20\hat{i} + 70\hat{j}$, (2) $\vec{v}_0 = -20\hat{i} + 70\hat{j}$, (3) $\vec{v}_0 = 20\hat{i} - 70\hat{j}$, (4) $\vec{v}_0 = -20\hat{i} - 70\hat{j}$ dengan sumbu $x$ berada di permukaan tanah, sumbu $y$ mengarah ke atas (menjauh dari permukaan tanah) dan titik $(0, 0)$ berada di permukaan tanah.</description>
     </item>
     
@@ -66,7 +78,7 @@ Seseorang melemparkan sebuah bola dari ketinggian $h_0$ di atas permukaan tanah 
       <pubDate>Wed, 07 Sep 2022 18:37:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0168/</guid>
-      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_question4 [1].
+      <description>Tutorial Fisika Dasar IA Pertanyaan 02, kode HR_Ch2_question4 [1].
 Suatu gambar (kurva berwarna hitam parabola terbuka ke bawah yang memotong sumbu mendatar $t$ di $t = 1$ dan $t = 3$, dengan posisi puncaknya terdapat di $t = 2$ dengan tinggi satu kotak pada sumbu tegak $x$) memberikan kurva posisi terhadap waktu dari sebuah partikel yang bergerak di sepanjang sumbu $x$. (a) Saat $t = 0$, apakah posisi partikel memiliki tanda positif atau negatif?</description>
     </item>
     
