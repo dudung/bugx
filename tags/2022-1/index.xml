@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Wed, 07 Sep 2022 21:34:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/2022-1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Sep 2022 11:37:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/2022-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-1-fi1101-04-t01-p03</title>
+      <link>https://dudung.github.io/bugx/0174/</link>
+      <pubDate>Thu, 08 Sep 2022 11:37:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/0174/</guid>
+      <description>Tutorial Fisika Dasar IA Pertanyaan 01, kode HR_Ch2_prob104 [1].
+Sebuah partikel bergerak di sepanjang sumbu $x$. Posisi partikel tersebut sepanjang waktu diberikan oleh fungsi $x = 50t + 10t^2$, dengan $x$ adalah posisi dalam $\rm m$ dan $t$ adalah waktu dalam $\rm s$. (a) Tentukanlah kecepatan rata-rata partikel selama tiga detik pertama. (b) Tentukanlah kecepatan partikel saat $t = 3 \ \rm s$. (c) Tentukanlah percepatan partikel saat $t = 3 \ \rm s$.</description>
+    </item>
+    
     <item>
       <title>2022-1-fi1101-04-t01-p01</title>
       <link>https://dudung.github.io/bugx/0172/</link>
