@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 12 Sep 2022 18:23:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Sep 2022 20:53:00 +0700</lastBuildDate><atom:link href="https://dudung.github.io/bugx/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>idea</title>
       <link>https://dudung.github.io/bugx/tags/idea/</link>
-      <pubDate>Mon, 12 Sep 2022 18:23:00 +0700</pubDate>
+      <pubDate>Mon, 12 Sep 2022 20:53:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/idea/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>share</title>
       <link>https://dudung.github.io/bugx/tags/share/</link>
-      <pubDate>Mon, 12 Sep 2022 18:23:00 +0700</pubDate>
+      <pubDate>Mon, 12 Sep 2022 20:53:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/share/</guid>
       <description></description>
@@ -29,7 +29,7 @@
     <item>
       <title>t1</title>
       <link>https://dudung.github.io/bugx/tags/t1/</link>
-      <pubDate>Mon, 12 Sep 2022 18:23:00 +0700</pubDate>
+      <pubDate>Mon, 12 Sep 2022 20:53:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/t1/</guid>
       <description></description>
@@ -38,9 +38,27 @@
     <item>
       <title>wnn</title>
       <link>https://dudung.github.io/bugx/tags/wnn/</link>
-      <pubDate>Mon, 12 Sep 2022 18:23:00 +0700</pubDate>
+      <pubDate>Mon, 12 Sep 2022 20:53:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/tags/wnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facies</title>
+      <link>https://dudung.github.io/bugx/tags/facies/</link>
+      <pubDate>Mon, 12 Sep 2022 18:40:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/facies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>knn</title>
+      <link>https://dudung.github.io/bugx/tags/knn/</link>
+      <pubDate>Mon, 12 Sep 2022 18:40:00 +0700</pubDate>
+      
+      <guid>https://dudung.github.io/bugx/tags/knn/</guid>
       <description></description>
     </item>
     
