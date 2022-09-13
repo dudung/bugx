@@ -11,11 +11,10 @@
     <item>
       <title>butiran py</title>
       <link>https://dudung.github.io/bugx/0179/</link>
-      <pubDate>Tue, 13 Sep 2022 18:04:00 +0700</pubDate>
+      <pubDate>Tue, 13 Sep 2022 18:35:00 +0700</pubDate>
       
       <guid>https://dudung.github.io/bugx/0179/</guid>
-      <description>[1] [2] [3]
-notes Mikio Sakai, &amp;ldquo;Sakai Lab.&amp;rdquo;, Computational Granular Dynamics Group, Resilience Engineering Research Center, The University of Tokyo, 2022, url https://dem.t.u-tokyo.ac.jp/ [20220913]. &amp;ldquo;Rocky DEM&amp;rdquo;, ESSS, 2022, url https://rocky.esss.co/ [20220913]. dudung, &amp;ldquo;butiran.js&amp;rdquo;, GitHub, 14 May 2020, url https://github.com/dudung/butiran.js/tree/15e46c311f [20220913]. dudung, &amp;ldquo;butiran&amp;rdquo;, GitHub, 20 May 2022, url https://github.com/dudung/butiran/tree/8e73b9ead7 [20220913]. Fenfen Fenda Florena, Ferry Faizal, Sparisoma Viridi, &amp;ldquo;Experimental and simulation study of solid flows in beads mill&amp;rdquo;, Advanced Powder Technology [Adv Powder Technol], vol 32, no 8, p 2703-2711, Aug 2021, url https://doi.</description>
+      <description>Setelah sebelumnya amat terinsiprasi, dan sampai agak frustasi, saat kunjungan ke suatu lab Tokyo University [1], Dua dari tiga bimbingan yang bergabung setelah kampus kembali dapat beraktivitas kembali dengan mode new normal, Jonathan Adriel dan Nawaf Alfarizki, amat tertarik menggunakan suatu piranti lunak DEM [2]. Sebelum mengenal DEM, simulasi dengan menggunakan MD telah dibuat dengan frontend JavaScript [3] dan mulai dikembangkan dengan Python [4]. Suatu karya Q1 telah berhasil dihasilkan oleh Fenfen Fenda Florena [5] dengan menggunakan DEM sumber terbuka Yade [6].</description>
     </item>
     
     <item>
